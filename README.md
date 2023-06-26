@@ -41,7 +41,7 @@ These commands launch a full workflow :
 
 ### Required :
 
-You have to put a / at the end of the paths you give as an argument of the function.
+You have to put a '/' at the end of the paths you give as an argument of the function.
 ex:
 
 ```bash
