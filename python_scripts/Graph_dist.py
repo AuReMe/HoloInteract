@@ -160,64 +160,65 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
             y_data = group_data["Complementarite"].to_numpy()
             print("ydata", y_data)
             # Fit de la droite de régression
-            slope, intercept, r_value, p_value, std_err = linregress(
-                x_data, y_data)
-            y_pred = slope * x_data + intercept
+            if x_data != [] and y_data != []:
+                slope, intercept, r_value, p_value, std_err = linregress(
+                    x_data, y_data)
+                y_pred = slope * x_data + intercept
 
-            # Coefficient de corrélation de Spearman et valeur p
-            spearman_coef, spearman_p = spearmanr(x_data, y_data)
+                # Coefficient de corrélation de Spearman et valeur p
+                spearman_coef, spearman_p = spearmanr(x_data, y_data)
 
-            # Verification par un test de Bonferoni
-            if correction == "bonferroni":
-                bonferroni = len(groups_data)
-                # Écriture des informations dans le fichier CSV
-                couple_name = " ".join(
-                    donnees["Couple"].iloc[i*spacing].split("_")[0:-3])
-                writer.writerow(
-                    [couple_name, slope, spearman_coef, spearman_p, spearman_p*bonferroni])
-                if spearman_p < (0.05/bonferroni) and slope < 0:
-                    counter += 1
-                # Plot de la droite de régression et des points correspondants
-                    fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
-                        color=colors[counter % len(colors)])))
-
-                    if show_points:
-                        fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
-                                      " points", marker=dict(color=colors[counter % len(colors)])))
-                """elif spearman_p < (0.05/bonferroni) and slope > 0:
-                    print(couple_name)"""
-
-            elif correction == "benjamini":
-                couple_name = " ".join(
-                    donnees["Couple"].iloc[i*spacing].split("_")[0:-3])
-                writer.writerow(
-                    [couple_name, slope, spearman_coef, spearman_p, corrected_pvalues[i]])
-                if rejected[i] == True:
-                    counter += 1
-                # Plot de la droite de régression et des points correspondants
-                    fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
-                        color=colors[counter % len(colors)])))
-
-                    if show_points:
-                        fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
-                                      " points", marker=dict(color=colors[counter % len(colors)])))
-                """elif corrected_pvalues[i] < (0.05) and slope > 0:
-                    print(couple_name)"""
-
-            elif correction == "":
-                couple_name = " ".join(
-                    donnees["Couple"].iloc[i*spacing].split("_")[0:-3])
-                writer.writerow(
-                    [couple_name, slope, spearman_coef, spearman_p])
-                counter += 1
-                if spearman_p < (0.05) and slope < 0:
+                # Verification par un test de Bonferoni
+                if correction == "bonferroni":
+                    bonferroni = len(groups_data)
+                    # Écriture des informations dans le fichier CSV
+                    couple_name = " ".join(
+                        donnees["Couple"].iloc[i*spacing].split("_")[0:-3])
+                    writer.writerow(
+                        [couple_name, slope, spearman_coef, spearman_p, spearman_p*bonferroni])
+                    if spearman_p < (0.05/bonferroni) and slope < 0:
+                        counter += 1
                     # Plot de la droite de régression et des points correspondants
-                    fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
-                        color=colors[counter % len(colors)])))
+                        fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
+                            color=colors[counter % len(colors)])))
 
-                    if show_points:
-                        fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
-                                      " points", marker=dict(color=colors[counter % len(colors)])))
+                        if show_points:
+                            fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
+                                                     " points", marker=dict(color=colors[counter % len(colors)])))
+                    """elif spearman_p < (0.05/bonferroni) and slope > 0:
+                        print(couple_name)"""
+
+                elif correction == "benjamini":
+                    couple_name = " ".join(
+                        donnees["Couple"].iloc[i*spacing].split("_")[0:-3])
+                    writer.writerow(
+                        [couple_name, slope, spearman_coef, spearman_p, corrected_pvalues[i]])
+                    if rejected[i] == True:
+                        counter += 1
+                    # Plot de la droite de régression et des points correspondants
+                        fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
+                            color=colors[counter % len(colors)])))
+
+                        if show_points:
+                            fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
+                                                     " points", marker=dict(color=colors[counter % len(colors)])))
+                    """elif corrected_pvalues[i] < (0.05) and slope > 0:
+                        print(couple_name)"""
+
+                elif correction == "":
+                    couple_name = " ".join(
+                        donnees["Couple"].iloc[i*spacing].split("_")[0:-3])
+                    writer.writerow(
+                        [couple_name, slope, spearman_coef, spearman_p])
+                    counter += 1
+                    if spearman_p < (0.05) and slope < 0:
+                        # Plot de la droite de régression et des points correspondants
+                        fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
+                            color=colors[counter % len(colors)])))
+
+                        if show_points:
+                            fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
+                                                     " points", marker=dict(color=colors[counter % len(colors)])))
 
     pio.write_html(fig, output+'.html', auto_open=True)
     print(spacing)
