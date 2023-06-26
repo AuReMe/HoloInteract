@@ -48,6 +48,24 @@ ex:
 holointeract get_alg_scopes -r /repository/to/host/networks/ --seeds /path/to/seeds.sbml -o /path/to/out/directory/
 ```
 
+The repository structure of the bacterias metabolic networks has to be :
+
+├── Bacteria_networks/
+│ ├── Host1/
+│ │ ├── sbml/
+│ │ │ ├── Bacteria1.sbml
+│ │ │ ├── Bacteria2.sbml
+│ ├── Host2/
+│ │ ├── sbml/
+│ │ │ ├── Bacteria3.sbml
+│ │ │ ├── Bacteria4.sbml
+
+The repository structure of the host metabolic networks has to be :
+
+├── Host_networks/
+│ ├── Host1.sbml
+│ ├── Host2.sbml
+
 ## Reconstruct metabolic networks :
 
 Need a singularity image with Pathway Tools installed and use the Genouest Bioinformatics Cluster.
