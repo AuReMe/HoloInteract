@@ -6,7 +6,8 @@ import seaborn as sns
 import sys
 import matplotlib.pyplot as plt
 
-def count_cat(table:str):
+
+def count_cat(table: str):
     """Count occurences of compounds for each type of production
 
     Args:
@@ -21,10 +22,9 @@ def count_cat(table:str):
         for line in fi:
             matrix.append(line.strip().split(";"))
 
-
     for line in range(len(matrix)):
         if matrix[line][0] != "":
-            dico[matrix[line][0]] = {"1" :0, "2":0, "3":0, "4":0,"5":0}  
+            dico[matrix[line][0]] = {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0}
             for col in range(len(matrix[line])):
                 if col > 0 and matrix[line][col] in dico[matrix[line][0]]:
                     dico[matrix[line][0]][matrix[line][col]] += 1
@@ -32,8 +32,7 @@ def count_cat(table:str):
     return dico
 
 
-
-def hist_global(dico:dict, output_fig_cpd):
+def hist_global(dico: dict, output_fig_cpd):
     """histogramme des molecules
 
     Args:
@@ -47,27 +46,30 @@ def hist_global(dico:dict, output_fig_cpd):
             valeur.append(dico[cpd]["3"])
 
     # trier les catégories par ordre décroissant
-    sorted_compounds, sorted_valeur = zip(*sorted(zip(compounds, valeur), key=lambda x: x[1], reverse=False))
-    
-    fig = go.Figure([go.Bar(x=sorted_valeur, y=sorted_compounds, orientation='h')])
+    sorted_compounds, sorted_valeur = zip(
+        *sorted(zip(compounds, valeur), key=lambda x: x[1], reverse=False))
+
+    fig = go.Figure(
+        [go.Bar(x=sorted_valeur, y=sorted_compounds, orientation='h')])
     fig.update_layout(
         title="Histogramme des molécules",
         xaxis_title="Fréquence",
         yaxis_title="Catégories"
     )
     fig.write_image(output_fig_cpd+".png")
-    
 
-def write_tab(dico:dict, output:str):
+
+def write_tab(dico: dict, output: str):
     with open(output+".csv", "w") as fo:
-            fo.write(f"Compound;Lien Metacyc;Nb holobiontes;Ontology\n")
+        fo.write(f"Compound;Lien Metacyc;Nb holobiontes;Ontology\n")
+    data = ""
     with open(output+".csv", "a") as fo:
         for cpd in dico:
             print(cpd)
-            if dico[cpd]["3"] >0:
-                fo.write(f'{cpd};https://metacyc.org/compound?orgid=META&id={cpd};{dico[cpd]["3"]};\
-                    {get_classes(cpd, "/scratch/clucas/HoloInteract/toy_example/metacyc_26.0.padmet")}\n')
-
+            if dico[cpd]["3"] > 0:
+                data += f'{cpd};https://metacyc.org/compound?orgid=META&id={cpd};{dico[cpd]["3"]};\
+                    {get_classes(cpd, "/scratch/clucas/HoloInteract/toy_example/metacyc_26.0.padmet")}\n'
+        fo.write(data)
 
 
 def classing_cpd(input_file, output_file):
@@ -89,35 +91,36 @@ def classing_cpd(input_file, output_file):
             proportions = {}
             for i in range(6):
                 if str(i) in category_counts:
-                    proportions[str(i)] = category_counts[str(i)] / total_categories * 100
+                    proportions[str(i)] = category_counts[str(i)
+                                                          ] / total_categories * 100
                 else:
                     proportions[str(i)] = 0
-            out.write(f"{values[0]};{proportions['0']:.2f};{proportions['1']:.2f};{proportions['2']:.2f};{proportions['3']:.2f};{proportions['4']:.2f};{proportions['5']:.2f}\n")
-
+            out.write(
+                f"{values[0]};{proportions['0']:.2f};{proportions['1']:.2f};{proportions['2']:.2f};{proportions['3']:.2f};{proportions['4']:.2f};{proportions['5']:.2f}\n")
 
 
 def mole_count(input_file):
     # Charger les données à partir d'un fichier CSV
     data = pd.read_csv(input_file, sep=";", header=0, index_col=0)
-    
+
     sns.violinplot(data=data, inner="box")
     plt.ylim(bottom=0)
     plt.title("Boxplot")
     plt.show()
     sns.boxplot(data=data)
     plt.show()
-    
 
-def get_category_production(categories:list, pourcentage:list, input_file:str):
+
+def get_category_production(categories: list, pourcentage: list, input_file: str):
     if len(categories) != len(pourcentage):
         raise TypeError
-    
+
     data = pd.read_csv(input_file, sep=",", header=0, index_col=0)
-    if len(categories)>1:
+    if len(categories) > 1:
         print(categories[0], pourcentage[0])
         print(categories[1], pourcentage[1])
         for index, row in data.iterrows():
-            if type(pourcentage[0]) == tuple and type(pourcentage[1]) == tuple :
+            if type(pourcentage[0]) == tuple and type(pourcentage[1]) == tuple:
                 if float(pourcentage[0][0]) <= float(row[categories[0]]) <= float(pourcentage[0][1]) and float(pourcentage[1][0]) <= float(row[categories[1]]) <= float(pourcentage[1][1]):
                     print(index)
 
@@ -130,14 +133,14 @@ def get_category_production(categories:list, pourcentage:list, input_file:str):
                     print(index, row[categories[0]])
 
             elif float(row[categories[0]]) == float(pourcentage[0]):
-                print(index, row[categories[0]] ,">", pourcentage[0])
-        
+                print(index, row[categories[0]], ">", pourcentage[0])
+
 
 def job(matrice, output_fig_cpd, output_file_cpd):
     dico = count_cat(matrice)
     hist_global(dico, output_fig_cpd)
     write_tab(dico, output_file_cpd)
 
+
 if __name__ == "__main__":
     job(sys.argv[1], sys.argv[2], sys.argv[3])
-
