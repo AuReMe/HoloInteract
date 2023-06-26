@@ -63,12 +63,12 @@ def write_tab(dico: dict, output: str):
     with open(output+".csv", "w") as fo:
         fo.write(f"Compound;Lien Metacyc;Nb holobiontes;Ontology\n")
     data = ""
+    for cpd in dico:
+        print(cpd)
+        if dico[cpd]["3"] > 0:
+            data += f'{cpd};https://metacyc.org/compound?orgid=META&id={cpd};{dico[cpd]["3"]};\
+                {get_classes(cpd, "/scratch/clucas/HoloInteract/toy_example/metacyc_26.0.padmet")}\n'
     with open(output+".csv", "a") as fo:
-        for cpd in dico:
-            print(cpd)
-            if dico[cpd]["3"] > 0:
-                data += f'{cpd};https://metacyc.org/compound?orgid=META&id={cpd};{dico[cpd]["3"]};\
-                    {get_classes(cpd, "/scratch/clucas/HoloInteract/toy_example/metacyc_26.0.padmet")}\n'
         fo.write(data)
 
 
