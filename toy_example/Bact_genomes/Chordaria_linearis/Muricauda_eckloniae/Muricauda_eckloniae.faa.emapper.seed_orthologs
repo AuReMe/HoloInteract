@@ -1,0 +1,9 @@
+## Mon Jun 19 15:52:03 2023
+## emapper-2.1.9
+## /local/miniconda3/envs/eggnog-mapper-2.1.9/bin/emapper.py --data_dir /db/eggnog/5.0.2 --cpu 30 -i /scratch/clucas/Test_method/Bact_genomes/Chordaria_linearis/Muricauda_eckloniae.faa --itype genome --genepred prodigal --output_dir /scratch/clucas/Test_method/Annot_genomes/Chordaria_linearis -o Muricauda_eckloniae.faa
+##
+##/local/miniconda3/envs/eggnog-mapper-2.1.9/bin/diamond blastp -d /db/eggnog/5.0.2/eggnog_proteins.dmnd -q /scratch/clucas/Test_method/Test_package/emappertmp_prod_igty33n9/output.faa --threads 30 -o /scratch/clucas/Test_method/Annot_genomes/Chordaria_linearis/Muricauda_eckloniae.faa.emapper.hits --tmpdir /scratch/clucas/Test_method/Test_package/emappertmp_dmdn_tjavge79 --sensitive --iterate -e 0.001 --top 3  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp
+#qseqid	sseqid	evalue	bitscore	qstart	qend	sstart	send	pident	qcov	scov
+## 0 queries scanned
+## Total time (seconds): 0.01346898078918457
+## Rate: 0.00 q/s

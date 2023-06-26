@@ -1,0 +1,8 @@
+## Mon Jun 19 12:36:50 2023
+## emapper-2.1.9
+## /local/miniconda3/envs/eggnog-mapper-2.1.9/bin/emapper.py --data_dir /db/eggnog/5.0.2 --cpu 30 -i /scratch/clucas/Test_method/Bact_genomes/Porterinema_fluviatile/Candidatus_Phaeomarinobacter_ectocarpi.faa --itype genome --genepred prodigal --output_dir /scratch/clucas/Test_method/Annot_genomes/Porterinema_fluviatile -o Candidatus_Phaeomarinobacter_ectocarpi.faa
+##
+#query	seed_ortholog	evalue	score	eggNOG_OGs	max_annot_lvl	COG_category	Description	Preferred_name	GOs	EC	KEGG_ko	KEGG_Pathway	KEGG_Module	KEGG_Reaction	KEGG_rclass	BRITE	KEGG_TC	CAZy	BiGG_Reaction	PFAMs
+## 0 queries scanned
+## Total time (seconds): 0.17270874977111816
+## Rate: 0.00 q/s

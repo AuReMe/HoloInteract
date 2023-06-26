@@ -1,0 +1,39 @@
+#
+#  candidatus_phaeomarinobacter_ectocarpicyc 1.0 Pathways link table generated on Sun Jun 25, 2023
+#
+NONOXIPENT-PWY	pentose phosphate pathway (non-oxidative branch) I	
+PWY-7221	guanosine ribonucleotides <i>de novo</i> biosynthesis	
+FASYN-ELONG-PWY	fatty acid elongation -- saturated	
+PWY-702	L-methionine biosynthesis II	L-methionine biosynthesis via <i>O</i>-phospho-homoserine
+PWY-7094	fatty acid salvage	&beta;-oxidation degradation - de novo fatty acid biosynthesis shunt
+DAPLYSINESYN-PWY	L-lysine biosynthesis I	L-lysine and L-diaminopimelate biosynthesis
+PWY-5189	tetrapyrrole biosynthesis II (from glycine)	
+PWY0-1507	biotin biosynthesis from 8-amino-7-oxononanoate I	biotin biosynthesis from 7-keto-8-aminopelargonate
+PWY-6387	UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)	
+PWY-7184	pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis I	
+TRPSYN-PWY	L-tryptophan biosynthesis	
+VALSYN-PWY	L-valine biosynthesis	
+PWY-6703	preQ<sub>0</sub> biosynthesis	deazapurine biosynthesis	7-cyano-7-deazaguanine biosynthesis	7-cyano-7-carbaguanine biosynthesis
+PPGPPMET-PWY	ppGpp metabolism	guanosine 3'-diphosphate 5'-diphosphate biosynthesis	ppGpp biosynthesis
+PWY-6700	queuosine biosynthesis I (<i>de novo</i>)	
+ILEUSYN-PWY	L-isoleucine biosynthesis I (from threonine)	
+PWY-6163	chorismate biosynthesis from 3-dehydroquinate	
+PWY0-1264	biotin-carboxyl carrier protein assembly	BCCP assembly
+PWY-7663	gondoate biosynthesis (anaerobic)	<i>cis</i>-11-icosenoate biosynthesis	(11<i>Z</i>)-icos-11-enoate biosynthesis	(11<i>Z</i>)-icosenoate biosynthesis	gondoic acid biosynthesis	11-eicosenoic acid biosynthesis
+PWY-7197	pyrimidine deoxyribonucleotide phosphorylation	
+GLUTORN-PWY	L-ornithine biosynthesis I	
+PWY-5907	homospermidine biosynthesis I	polyamine biosynthesis	triaminic polyamine biosynthesis
+PYRIDNUCSYN-PWY	NAD <i>de novo</i> biosynthesis I (from aspartate)	nicotinamide adenine dinucleotide biosynthesis
+PWY-5177	glutaryl-CoA degradation	
+PWY-6287	neurosporene biosynthesis	
+PWY-7664	oleate biosynthesis IV (anaerobic)	<i>cis</i>-7-hexadecenoate biosynthesis	<i>cis</i>-9-octadecenoate biosynthesis	(7<i>Z</i>)-hexadec-7-enoate biosynthesis	(9<i>Z</i>)-octadec-9-enoate biosynthesis	(7<i>Z</i>)-hexadecenoate biosynthesis	(9<i>Z</i>)-octadecenoate biosynthesis
+COA-PWY	coenzyme A biosynthesis I (bacteria)	CoA biosynthesis
+PWY-5194	siroheme biosynthesis	
+PWY-7388	octanoyl-[acyl-carrier protein] biosynthesis (mitochondria, yeast)	octanoyl-ACP biosynthesis (mitochondria, yeast)
+PWY0-1241	ADP-L-<i>glycero</i>-&beta;-D-<i>manno</i>-heptose biosynthesis	
+PWY-7761	NAD salvage pathway II (PNC IV cycle)	
+LEUSYN-PWY	L-leucine biosynthesis	
+PWY0-1319	CDP-diacylglycerol biosynthesis II	
+PWY-6268	adenosylcobalamin salvage from cobalamin	vitamin B<sub>12</sub> biosynthesis
+PWY-5667	CDP-diacylglycerol biosynthesis I	CDP-diacylglycerol biosynthesis
+PWY0-862	(5Z)-dodecenoate biosynthesis I	(5Z)-dodec-5-enoate biosynthesis I	<i>cis</i>-dodecenoate biosynthesis I

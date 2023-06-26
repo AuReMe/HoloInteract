@@ -1,0 +1,734 @@
+{
+ "M_2__45__ACETO__45__LACTATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_2__45__C__45__METHYL__45__D__45__ERYTHRITOL__45__4__45__PHOSPHATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_2__45__DEHYDROPANTOATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_2__45__DEHYDRO__45__3__45__DEOXY__45__D__45__GALACTONATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_2__45__KETO__45__ISOVALERATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_2__45__PG_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_3__45__DEHYDRO__45__SHIKIMATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_3__45__DEOXY__45__D__45__ARABINO__45__HEPTULOSONATE__45__7__45__P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_3__45__ENOLPYRUVYL__45__SHIKIMATE__45__5P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_3__45__P__45__HYDROXYPYRUVATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_4__45__OH__45__4__45__ACETYL__45__2__45__OXOGLUTARATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_4__45__OXALOMESACONATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_5__45__10__45__METHENYL__45__THF__45__GLU__45__N_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_ACP_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_ADENINE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_ADENOSINE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_ADENOSYLCOBALAMIN_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_ADP_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_ALPHA__45__GLC__45__6__45__P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_AMMONIA_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_AMMONIUM_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_AMP_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_APS_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_ARABINOSE__45__5P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_ATP_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Acceptor_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_BA__43__2_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_BETA__45__D__45__FRUCTOSE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_BORATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_BR__45___c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CARBON__45__DIOXIDE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CA__43__2_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CA__43__2_e": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CHORISMATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CL__45___c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CO3_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CO__43__2_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CO__45__A_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD0__45__1108_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD0__45__2461_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD0__45__2472_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD0__45__2474_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__10330_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__10353_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__10778_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__11281_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__11763_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__11855_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__12377_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__12610_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__12849_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__13357_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__13851_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__14133_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__1484_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__15317_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__15709_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__15818_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__15979_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__16459_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__18085_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__187_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__19584_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__227_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__24843_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__24844_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__24926_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__25381_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__255_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__346_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__3_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__653_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__7046_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__846_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__8886_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CPD__45__9016_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CU__43__2_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CU__43__2_e": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CU__43___c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_CU__43___e": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Cytochromes__45__C__45__Oxidized_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Cytochromes__45__C__45__Reduced_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_DADP_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_DAMP_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_DATP_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_DEHYDROQUINATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_DEHYDRO__45__DEOXY__45__GALACTONATE__45__PHOSPHATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_DEOXYXYLULOSE__45__5P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_DIACETYL_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_DIHYDROXY__45__ACETONE__45__PHOSPHATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_DIHYDROXY__45__BUTANONE__45__P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_DPG_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_D__45__GALACTONATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_D__45__LACTATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_D__45__RIBULOSE__45__15__45__P2_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_D__45__Ribofuranose_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_D__45__Ribopyranose_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_D__45__SEDOHEPTULOSE__45__1__45__7__45__P2_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_D__45__SEDOHEPTULOSE__45__7__45__P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_D__45__XYLULOSE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Donor__45__H2_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_ERYTHROSE__45__4P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_FE__43__2_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_FE__43__3_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_FORMATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_FORMYL__45__THF__45__GLU__45__N_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_FRUCTOSE__45__16__45__DIPHOSPHATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_FRUCTOSE__45__6P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_F__45___c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_G3P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_GAP_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_GLC__45__6__45__P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_GLT__45__tRNAs_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_GLUTATHIONE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_H2CO3_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_HCO3_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_HSO3_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_HS_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_HYDROGEN__45__PEROXIDE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_HYPOXANTHINE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_INOSINE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_K__43___c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_LI__43___c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_L__45__ALPHA__45__ALANINE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_L__45__LACTATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_L__45__PANTOATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_L__45__RIBULOSE__45__5__45__P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_L__45__RIBULOSE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Light_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_MANNOSE__45__1P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_METHYLENE__45__THF__45__GLU__45__N_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_METHYL__45__GLYOXAL_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_MG__43__2_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_MN__43__2_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_MO__43__2_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_NADH_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_NADPH_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_NADP_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_NAD_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_NA__43___c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_NICOTINAMIDE_NUCLEOTIDE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_NITRATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_NITRIC__45__OXIDE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_NITRITE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_NMNH_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_OH_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_OXALACETIC_ACID_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_OXIDIZED__45__GLUTATHIONE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_OXYGEN__45__MOLECULE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Ox__45__Thioredoxin_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Oxidized__45__ferredoxins_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Oxidized__45__flavodoxins_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_PHOSPHO__45__ENOL__45__PYRUVATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_PPI_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_PROTON_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_PROTON_e": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_PYRUVATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Pi_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_RB__43___c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_RIBOSE__45__1P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_RIBOSE__45__5P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_RIBULOSE__45__5P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Red__45__Thioredoxin_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Reduced__45__ferredoxins_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Reduced__45__flavodoxins_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_S2O3_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_SHIKIMATE__45__5P_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_SHIKIMATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_SO3_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_SULFATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_SUPER__45__OXIDE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_S__45__LACTOYL__45__GLUTATHIONE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_THF__45__GLU__45__N_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_URATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_UREA_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Ubiquinols_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_Ubiquinones_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_V__43__5_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_WATER_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_XANTHINE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_XANTHOSINE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_XYLULOSE__45__5__45__PHOSPHATE_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ],
+ "M_ZN__43__2_c": [
+  "Antarctobacter_heliothermus",
+  "Antarctobacter_heliothermus_1"
+ ]
+}

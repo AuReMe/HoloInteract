@@ -1,0 +1,2106 @@
+{
+    "alternative_symbionts": [
+        "Candidatus_Phaeomarinobacter_ectocarpi",
+        "Candidatus_Phaeomarinobacter_ectocarpi_1"
+    ],
+    "bacteria": [
+        "Candidatus_Phaeomarinobacter_ectocarpi"
+    ],
+    "essential_symbionts": [],
+    "exchanged": [],
+    "inter_bacteria": [],
+    "inter_exchanged": [],
+    "inter_targetsproducers": {
+        "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_1__45__KETO__45__2__45__METHYLVALERATE_c": [
+            "host_metab_mod"
+        ],
+        "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_2E__45__5Z__45__tetradeca__45__2__45__5__45__dienoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_2E__45__7Z__45__hexadeca__45__2__45__7__45__dienoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_2E__45__9Z__45__octadeca__45__2__45__9__45__dienoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__OXOBUTANOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3R__45__5Z__45__3__45__hydroxy__45__tetradec__45__5__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3R__45__7Z__45__3__45__hydroxy__45__hexadec__45__7__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3R__45__9Z__45__3__45__hydroxy__45__octadec__45__9__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__hydroxy__45__cis__45__D7__45__tetraecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__hydroxy__45__cis__45__D9__45__hexaecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__oxo__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__oxo__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__AMINO__45__BUTYRATE_c": [
+            "host_metab_mod"
+        ],
+        "M_5Z__45__3__45__oxo__45__tetradec__45__5__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_5Z__45__tetradec__45__5__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_7Z__45__3__45__oxo__45__hexadec__45__7__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_7Z__45__hexadec__45__7__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_9Z__45__3__45__oxo__45__octadec__45__9__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_ACETALD_c": [
+            "host_metab_mod"
+        ],
+        "M_CAPSORUBIN_c": [
+            "host_metab_mod"
+        ],
+        "M_CARNOSINE_c": [
+            "host_metab_mod"
+        ],
+        "M_CATECHOL_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__115_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__118_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__126_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__129_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__130_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__133_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12185_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12247_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12249_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12253_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14646_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15435_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20647_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__289_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__622_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7414_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7419_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7422_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9245_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9247_c": [
+            "host_metab_mod"
+        ],
+        "M_Cis__45__Delta5__45__dodecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_Cis__45__Delta7__45__tetradecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_Cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__ALANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__ALA__45__D__45__ALA_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__GLT_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__METHYL__45__MALONYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_ETOH_c": [
+            "host_metab_mod"
+        ],
+        "M_HIS_c": [
+            "host_metab_mod"
+        ],
+        "M_ILE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__ALLO__45__THREONINE_c": [
+            "host_metab_mod"
+        ],
+        "M_NA__43___e": [
+            "host_metab_mod"
+        ],
+        "M_NIACINAMIDE_c": [
+            "host_metab_mod"
+        ],
+        "M_Oleoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_PROPIONYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_Palmitoleoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_SUCC__45__S__45__ALD_c": [
+            "host_metab_mod"
+        ],
+        "M_THR_c": [
+            "host_metab_mod"
+        ],
+        "M_Trans__45__D2__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_Trans__45__D3__45__cis__45__D5__45__dodecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_Trans__45__D3__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_b__45__Hydroxy__45__cis__45__D5__45__dodecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_b__45__Keto__45__cis__45__D5__45__dodecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ]
+    },
+    "key_species": [
+        "Candidatus_Phaeomarinobacter_ectocarpi",
+        "Candidatus_Phaeomarinobacter_ectocarpi_1"
+    ],
+    "newly_prod": [
+        "M_OXALYL__45__COA_c",
+        "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c",
+        "M_3__45__hydroxy__45__cis__45__D9__45__hexaecenoyl__45__ACPs_c",
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__17__45__DIPHOSPHATE_c",
+        "M_INDOXYL_c",
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c",
+        "M_CPD__45__12247_c",
+        "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c",
+        "M_Cis__45__delta__45__3__45__decenoyl__45__ACPs_c",
+        "M_HISTIDINOL_c",
+        "M_2E__45__5Z__45__tetradeca__45__2__45__5__45__dienoyl__45__ACPs_c",
+        "M_D__45__GLT_c",
+        "M_FORMYL__45__COA_c",
+        "M_THR_c",
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c",
+        "M_PROPIONYL__45__COA_c",
+        "M_ILE_c",
+        "M_CPD__45__15555_c",
+        "M_CAPSORUBIN_c",
+        "M_CPD1F__45__130_c",
+        "M_D__45__ALANINE_c",
+        "M_CPD__45__9245_c",
+        "M_HYDROXYMUCONATE__45__SALD_c",
+        "M_2__45__OXOBUTANOATE_c",
+        "M_CATECHOL_c",
+        "M_CPD__45__465_c",
+        "M_OCTAPRENYL__45__DIPHOSPHATE_c",
+        "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c",
+        "M_CPD__45__1821_c",
+        "M_4Z__45__9Z__45__Hexadec__45__4__45__9__45__dienoyl__45__acp_c",
+        "M_Trans__45__D3__45__cis__45__D5__45__dodecenoyl__45__ACPs_c",
+        "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c",
+        "M_CPD__45__18508_c",
+        "M_Cis__45__vaccenoyl__45__ACPs_c",
+        "M_CPD__45__110_c",
+        "M_CPD__45__20647_c",
+        "M_CPD__45__289_c",
+        "M_3R__45__7Z__45__3__45__hydroxy__45__hexadec__45__7__45__enoyl__45__ACPs_c",
+        "M_3__45__oxo__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c",
+        "M_CPD__45__12179_c",
+        "M_CPD__45__622_c",
+        "M_BETA__45__D__45__FRUCTOSE_c",
+        "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c",
+        "M_CPD__45__12249_c",
+        "M_CPD__45__9387_c",
+        "M_NA__43___e",
+        "M_CPD__45__627_c",
+        "M_D__45__ALA__45__D__45__ALA_c",
+        "M_9Z__45__3__45__oxo__45__octadec__45__9__45__enoyl__45__ACPs_c",
+        "M_CPD__45__12253_c",
+        "M_CPD__45__9247_c",
+        "M_BUTANEDIOL_c",
+        "M_ADP__45__L__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c",
+        "M_Trans__45__D3__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c",
+        "M_HIS_c",
+        "M_CPD1F__45__129_c",
+        "M_5Z__45__tetradec__45__5__45__enoyl__45__ACPs_c",
+        "M_CPD__45__10525_c",
+        "M_NIACINAMIDE_c",
+        "M_L__45__DI__45__GMP_c",
+        "M_D__45__METHYL__45__MALONYL__45__COA_c",
+        "M_b__45__Hydroxy__45__cis__45__D5__45__dodecenoyl__45__ACPs_c",
+        "M_CPD__45__9409_c",
+        "M_1__45__KETO__45__2__45__METHYLVALERATE_c",
+        "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c",
+        "M_3R__45__5Z__45__3__45__hydroxy__45__tetradec__45__5__45__enoyl__45__ACPs_c",
+        "M_CPD0__45__1699_c",
+        "M_C__45__DI__45__GMP_c",
+        "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c",
+        "M_Palmitoleoyl__45__ACPs_c",
+        "M_3Z__45__dodec__45__3__45__enoyl__45__ACPs_c",
+        "M_5Z__45__3__45__oxo__45__tetradec__45__5__45__enoyl__45__ACPs_c",
+        "M_ACETALD_c",
+        "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c",
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__1__45__P_c",
+        "M_7Z__45__hexadec__45__7__45__enoyl__45__ACPs_c",
+        "M_CPD1F__45__114_c",
+        "M_Delta6__45__hexadecenoyl__45__ACPs_c",
+        "M_Cis__45__Delta5__45__dodecenoyl__45__ACPs_c",
+        "M_CPD__45__1136_c",
+        "M_CPD__45__15435_c",
+        "M_CPD1F__45__98_c",
+        "M_Trans__45__D2__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c",
+        "M_CPD__45__14646_c",
+        "M_FMNH2_c",
+        "M_4__45__HYDROXY__45__BUTYRATE_c",
+        "M_CPD1F__45__115_c",
+        "M_CPD__45__10353_c",
+        "M_D__45__ALPHABETA__45__D__45__HEPTOSE__45__7__45__PHOSPHATE_c",
+        "M_3R__45__9Z__45__3__45__hydroxy__45__octadec__45__9__45__enoyl__45__ACPs_c",
+        "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c",
+        "M_4Z__45__9Z__45__Octadec__45__4__45__9__45__dienoyl__45__acp_c",
+        "M_ETOH_c",
+        "M_Delta4__45__hexadecenoyl__45__ACPs_c",
+        "M_2E__45__9Z__45__octadeca__45__2__45__9__45__dienoyl__45__ACPs_c",
+        "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c",
+        "M_CPD1F__45__133_c",
+        "M_CPD1F__45__126_c",
+        "M_PROTOHEME_e",
+        "M_CPD1F__45__118_c",
+        "M_Oleoyl__45__ACPs_c",
+        "M_CPD__45__12185_c",
+        "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c",
+        "M_CARNOSINE_c",
+        "M_7Z__45__3__45__oxo__45__hexadec__45__7__45__enoyl__45__ACPs_c",
+        "M_ADP__45__D__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c",
+        "M_ARABINOSE__45__5P_c",
+        "M_CPD__45__208_c",
+        "M_CPD__45__7414_c",
+        "M_Cis__45__Delta7__45__tetradecenoyl__45__ACPs_c",
+        "M_b__45__Keto__45__cis__45__D5__45__dodecenoyl__45__ACPs_c",
+        "M_CPD__45__7422_c",
+        "M_NEUROSPORENE_c",
+        "M_SUCC__45__S__45__ALD_c",
+        "M_3__45__hydroxy__45__cis__45__D7__45__tetraecenoyl__45__ACPs_c",
+        "M_3__45__oxo__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c",
+        "M_L__45__ALLO__45__THREONINE_c",
+        "M_CPD__45__9408_c",
+        "M_3__45__oxo__45__petroselinoyl__45__ACPs_c",
+        "M_4__45__AMINO__45__BUTYRATE_c",
+        "M_CPD__45__13043_c",
+        "M_CPD__45__7419_c",
+        "M_2E__45__7Z__45__hexadeca__45__2__45__7__45__dienoyl__45__ACPs_c"
+    ],
+    "one_model": {
+        "chosen_bacteria": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "newly_producible_target": [
+            "M_OXALYL__45__COA_c",
+            "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c",
+            "M_3__45__hydroxy__45__cis__45__D9__45__hexaecenoyl__45__ACPs_c",
+            "M_D__45__BETA__45__D__45__HEPTOSE__45__17__45__DIPHOSPHATE_c",
+            "M_INDOXYL_c",
+            "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c",
+            "M_CPD__45__12247_c",
+            "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c",
+            "M_Cis__45__delta__45__3__45__decenoyl__45__ACPs_c",
+            "M_HISTIDINOL_c",
+            "M_2E__45__5Z__45__tetradeca__45__2__45__5__45__dienoyl__45__ACPs_c",
+            "M_D__45__GLT_c",
+            "M_FORMYL__45__COA_c",
+            "M_THR_c",
+            "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c",
+            "M_PROPIONYL__45__COA_c",
+            "M_ILE_c",
+            "M_CPD__45__15555_c",
+            "M_CAPSORUBIN_c",
+            "M_CPD1F__45__130_c",
+            "M_D__45__ALANINE_c",
+            "M_CPD__45__9245_c",
+            "M_HYDROXYMUCONATE__45__SALD_c",
+            "M_2__45__OXOBUTANOATE_c",
+            "M_CATECHOL_c",
+            "M_CPD__45__465_c",
+            "M_OCTAPRENYL__45__DIPHOSPHATE_c",
+            "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c",
+            "M_CPD__45__1821_c",
+            "M_4Z__45__9Z__45__Hexadec__45__4__45__9__45__dienoyl__45__acp_c",
+            "M_Trans__45__D3__45__cis__45__D5__45__dodecenoyl__45__ACPs_c",
+            "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c",
+            "M_CPD__45__18508_c",
+            "M_Cis__45__vaccenoyl__45__ACPs_c",
+            "M_CPD__45__110_c",
+            "M_CPD__45__20647_c",
+            "M_CPD__45__289_c",
+            "M_3R__45__7Z__45__3__45__hydroxy__45__hexadec__45__7__45__enoyl__45__ACPs_c",
+            "M_3__45__oxo__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c",
+            "M_CPD__45__12179_c",
+            "M_CPD__45__622_c",
+            "M_BETA__45__D__45__FRUCTOSE_c",
+            "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c",
+            "M_CPD__45__12249_c",
+            "M_CPD__45__9387_c",
+            "M_NA__43___e",
+            "M_CPD__45__627_c",
+            "M_D__45__ALA__45__D__45__ALA_c",
+            "M_9Z__45__3__45__oxo__45__octadec__45__9__45__enoyl__45__ACPs_c",
+            "M_CPD__45__12253_c",
+            "M_CPD__45__9247_c",
+            "M_BUTANEDIOL_c",
+            "M_ADP__45__L__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c",
+            "M_Trans__45__D3__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c",
+            "M_HIS_c",
+            "M_CPD1F__45__129_c",
+            "M_5Z__45__tetradec__45__5__45__enoyl__45__ACPs_c",
+            "M_CPD__45__10525_c",
+            "M_NIACINAMIDE_c",
+            "M_L__45__DI__45__GMP_c",
+            "M_D__45__METHYL__45__MALONYL__45__COA_c",
+            "M_b__45__Hydroxy__45__cis__45__D5__45__dodecenoyl__45__ACPs_c",
+            "M_CPD__45__9409_c",
+            "M_1__45__KETO__45__2__45__METHYLVALERATE_c",
+            "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c",
+            "M_3R__45__5Z__45__3__45__hydroxy__45__tetradec__45__5__45__enoyl__45__ACPs_c",
+            "M_CPD0__45__1699_c",
+            "M_C__45__DI__45__GMP_c",
+            "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c",
+            "M_Palmitoleoyl__45__ACPs_c",
+            "M_3Z__45__dodec__45__3__45__enoyl__45__ACPs_c",
+            "M_5Z__45__3__45__oxo__45__tetradec__45__5__45__enoyl__45__ACPs_c",
+            "M_ACETALD_c",
+            "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c",
+            "M_D__45__BETA__45__D__45__HEPTOSE__45__1__45__P_c",
+            "M_7Z__45__hexadec__45__7__45__enoyl__45__ACPs_c",
+            "M_CPD1F__45__114_c",
+            "M_Delta6__45__hexadecenoyl__45__ACPs_c",
+            "M_Cis__45__Delta5__45__dodecenoyl__45__ACPs_c",
+            "M_CPD__45__1136_c",
+            "M_CPD__45__15435_c",
+            "M_CPD1F__45__98_c",
+            "M_Trans__45__D2__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c",
+            "M_CPD__45__14646_c",
+            "M_FMNH2_c",
+            "M_4__45__HYDROXY__45__BUTYRATE_c",
+            "M_CPD1F__45__115_c",
+            "M_CPD__45__10353_c",
+            "M_D__45__ALPHABETA__45__D__45__HEPTOSE__45__7__45__PHOSPHATE_c",
+            "M_3R__45__9Z__45__3__45__hydroxy__45__octadec__45__9__45__enoyl__45__ACPs_c",
+            "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c",
+            "M_4Z__45__9Z__45__Octadec__45__4__45__9__45__dienoyl__45__acp_c",
+            "M_ETOH_c",
+            "M_Delta4__45__hexadecenoyl__45__ACPs_c",
+            "M_2E__45__9Z__45__octadeca__45__2__45__9__45__dienoyl__45__ACPs_c",
+            "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c",
+            "M_CPD1F__45__133_c",
+            "M_CPD1F__45__126_c",
+            "M_PROTOHEME_e",
+            "M_CPD1F__45__118_c",
+            "M_Oleoyl__45__ACPs_c",
+            "M_CPD__45__12185_c",
+            "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c",
+            "M_CARNOSINE_c",
+            "M_7Z__45__3__45__oxo__45__hexadec__45__7__45__enoyl__45__ACPs_c",
+            "M_ADP__45__D__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c",
+            "M_ARABINOSE__45__5P_c",
+            "M_CPD__45__208_c",
+            "M_CPD__45__7414_c",
+            "M_Cis__45__Delta7__45__tetradecenoyl__45__ACPs_c",
+            "M_b__45__Keto__45__cis__45__D5__45__dodecenoyl__45__ACPs_c",
+            "M_CPD__45__7422_c",
+            "M_NEUROSPORENE_c",
+            "M_SUCC__45__S__45__ALD_c",
+            "M_3__45__hydroxy__45__cis__45__D7__45__tetraecenoyl__45__ACPs_c",
+            "M_3__45__oxo__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c",
+            "M_L__45__ALLO__45__THREONINE_c",
+            "M_CPD__45__9408_c",
+            "M_3__45__oxo__45__petroselinoyl__45__ACPs_c",
+            "M_4__45__AMINO__45__BUTYRATE_c",
+            "M_CPD__45__13043_c",
+            "M_CPD__45__7419_c",
+            "M_2E__45__7Z__45__hexadeca__45__2__45__7__45__dienoyl__45__ACPs_c"
+        ],
+        "producible_target": [
+            "M_OXALYL__45__COA_c",
+            "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c",
+            "M_3__45__hydroxy__45__cis__45__D9__45__hexaecenoyl__45__ACPs_c",
+            "M_D__45__BETA__45__D__45__HEPTOSE__45__17__45__DIPHOSPHATE_c",
+            "M_INDOXYL_c",
+            "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c",
+            "M_CPD__45__12247_c",
+            "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c",
+            "M_Cis__45__delta__45__3__45__decenoyl__45__ACPs_c",
+            "M_HISTIDINOL_c",
+            "M_2E__45__5Z__45__tetradeca__45__2__45__5__45__dienoyl__45__ACPs_c",
+            "M_D__45__GLT_c",
+            "M_FORMYL__45__COA_c",
+            "M_THR_c",
+            "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c",
+            "M_PROPIONYL__45__COA_c",
+            "M_ILE_c",
+            "M_CPD__45__15555_c",
+            "M_CAPSORUBIN_c",
+            "M_CPD1F__45__130_c",
+            "M_D__45__ALANINE_c",
+            "M_CPD__45__9245_c",
+            "M_HYDROXYMUCONATE__45__SALD_c",
+            "M_2__45__OXOBUTANOATE_c",
+            "M_CATECHOL_c",
+            "M_CPD__45__465_c",
+            "M_OCTAPRENYL__45__DIPHOSPHATE_c",
+            "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c",
+            "M_CPD__45__1821_c",
+            "M_4Z__45__9Z__45__Hexadec__45__4__45__9__45__dienoyl__45__acp_c",
+            "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c",
+            "M_Trans__45__D3__45__cis__45__D5__45__dodecenoyl__45__ACPs_c",
+            "M_CPD__45__18508_c",
+            "M_Cis__45__vaccenoyl__45__ACPs_c",
+            "M_CPD__45__110_c",
+            "M_CPD__45__20647_c",
+            "M_CPD__45__289_c",
+            "M_3R__45__7Z__45__3__45__hydroxy__45__hexadec__45__7__45__enoyl__45__ACPs_c",
+            "M_3__45__oxo__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c",
+            "M_CPD__45__12179_c",
+            "M_CPD__45__622_c",
+            "M_BETA__45__D__45__FRUCTOSE_c",
+            "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c",
+            "M_CPD__45__12249_c",
+            "M_CPD__45__9387_c",
+            "M_NA__43___e",
+            "M_CPD__45__627_c",
+            "M_D__45__ALA__45__D__45__ALA_c",
+            "M_CPD__45__12253_c",
+            "M_9Z__45__3__45__oxo__45__octadec__45__9__45__enoyl__45__ACPs_c",
+            "M_BUTANEDIOL_c",
+            "M_CPD__45__9247_c",
+            "M_ADP__45__L__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c",
+            "M_Trans__45__D3__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c",
+            "M_HIS_c",
+            "M_CPD1F__45__129_c",
+            "M_CPD__45__10525_c",
+            "M_NIACINAMIDE_c",
+            "M_5Z__45__tetradec__45__5__45__enoyl__45__ACPs_c",
+            "M_L__45__DI__45__GMP_c",
+            "M_D__45__METHYL__45__MALONYL__45__COA_c",
+            "M_b__45__Hydroxy__45__cis__45__D5__45__dodecenoyl__45__ACPs_c",
+            "M_CPD__45__9409_c",
+            "M_1__45__KETO__45__2__45__METHYLVALERATE_c",
+            "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c",
+            "M_3R__45__5Z__45__3__45__hydroxy__45__tetradec__45__5__45__enoyl__45__ACPs_c",
+            "M_CPD0__45__1699_c",
+            "M_C__45__DI__45__GMP_c",
+            "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c",
+            "M_Palmitoleoyl__45__ACPs_c",
+            "M_3Z__45__dodec__45__3__45__enoyl__45__ACPs_c",
+            "M_5Z__45__3__45__oxo__45__tetradec__45__5__45__enoyl__45__ACPs_c",
+            "M_ACETALD_c",
+            "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c",
+            "M_D__45__BETA__45__D__45__HEPTOSE__45__1__45__P_c",
+            "M_7Z__45__hexadec__45__7__45__enoyl__45__ACPs_c",
+            "M_CPD1F__45__114_c",
+            "M_Delta6__45__hexadecenoyl__45__ACPs_c",
+            "M_Cis__45__Delta5__45__dodecenoyl__45__ACPs_c",
+            "M_CPD__45__1136_c",
+            "M_CPD__45__15435_c",
+            "M_Trans__45__D2__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c",
+            "M_CPD1F__45__98_c",
+            "M_CPD__45__14646_c",
+            "M_FMNH2_c",
+            "M_4__45__HYDROXY__45__BUTYRATE_c",
+            "M_CPD1F__45__115_c",
+            "M_CPD__45__10353_c",
+            "M_D__45__ALPHABETA__45__D__45__HEPTOSE__45__7__45__PHOSPHATE_c",
+            "M_3R__45__9Z__45__3__45__hydroxy__45__octadec__45__9__45__enoyl__45__ACPs_c",
+            "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c",
+            "M_4Z__45__9Z__45__Octadec__45__4__45__9__45__dienoyl__45__acp_c",
+            "M_ETOH_c",
+            "M_Delta4__45__hexadecenoyl__45__ACPs_c",
+            "M_2E__45__9Z__45__octadeca__45__2__45__9__45__dienoyl__45__ACPs_c",
+            "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c",
+            "M_CPD1F__45__133_c",
+            "M_CPD1F__45__126_c",
+            "M_CPD1F__45__118_c",
+            "M_PROTOHEME_e",
+            "M_Oleoyl__45__ACPs_c",
+            "M_CPD__45__12185_c",
+            "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c",
+            "M_CARNOSINE_c",
+            "M_7Z__45__3__45__oxo__45__hexadec__45__7__45__enoyl__45__ACPs_c",
+            "M_ADP__45__D__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c",
+            "M_ARABINOSE__45__5P_c",
+            "M_CPD__45__208_c",
+            "M_CPD__45__7414_c",
+            "M_Cis__45__Delta7__45__tetradecenoyl__45__ACPs_c",
+            "M_b__45__Keto__45__cis__45__D5__45__dodecenoyl__45__ACPs_c",
+            "M_CPD__45__7422_c",
+            "M_NEUROSPORENE_c",
+            "M_SUCC__45__S__45__ALD_c",
+            "M_3__45__hydroxy__45__cis__45__D7__45__tetraecenoyl__45__ACPs_c",
+            "M_3__45__oxo__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c",
+            "M_L__45__ALLO__45__THREONINE_c",
+            "M_CPD__45__9408_c",
+            "M_3__45__oxo__45__petroselinoyl__45__ACPs_c",
+            "M_4__45__AMINO__45__BUTYRATE_c",
+            "M_CPD__45__13043_c",
+            "M_CPD__45__7419_c",
+            "M_2E__45__7Z__45__hexadeca__45__2__45__7__45__dienoyl__45__ACPs_c"
+        ],
+        "target_producer_coop_selectedcom": {
+            "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_1__45__KETO__45__2__45__METHYLVALERATE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_2E__45__5Z__45__tetradeca__45__2__45__5__45__dienoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_2E__45__7Z__45__hexadeca__45__2__45__7__45__dienoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_2E__45__9Z__45__octadeca__45__2__45__9__45__dienoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c": [
+                "host_metab_mod"
+            ],
+            "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c": [
+                "host_metab_mod"
+            ],
+            "M_2__45__OXOBUTANOATE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_3R__45__5Z__45__3__45__hydroxy__45__tetradec__45__5__45__enoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_3R__45__7Z__45__3__45__hydroxy__45__hexadec__45__7__45__enoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_3R__45__9Z__45__3__45__hydroxy__45__octadec__45__9__45__enoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_3Z__45__dodec__45__3__45__enoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_3__45__hydroxy__45__cis__45__D7__45__tetraecenoyl__45__ACPs_c": [
+                "host_metab_mod"
+            ],
+            "M_3__45__hydroxy__45__cis__45__D9__45__hexaecenoyl__45__ACPs_c": [
+                "host_metab_mod"
+            ],
+            "M_3__45__oxo__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c": [
+                "host_metab_mod"
+            ],
+            "M_3__45__oxo__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c": [
+                "host_metab_mod"
+            ],
+            "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c": [
+                "host_metab_mod"
+            ],
+            "M_3__45__oxo__45__petroselinoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_4Z__45__9Z__45__Hexadec__45__4__45__9__45__dienoyl__45__acp_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_4Z__45__9Z__45__Octadec__45__4__45__9__45__dienoyl__45__acp_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_4__45__AMINO__45__BUTYRATE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_4__45__HYDROXY__45__BUTYRATE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_5Z__45__3__45__oxo__45__tetradec__45__5__45__enoyl__45__ACPs_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_5Z__45__tetradec__45__5__45__enoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_7Z__45__3__45__oxo__45__hexadec__45__7__45__enoyl__45__ACPs_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_7Z__45__hexadec__45__7__45__enoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_9Z__45__3__45__oxo__45__octadec__45__9__45__enoyl__45__ACPs_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_ACETALD_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_ADP__45__D__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_ADP__45__L__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_ARABINOSE__45__5P_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_BETA__45__D__45__FRUCTOSE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_BUTANEDIOL_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CAPSORUBIN_c": [
+                "host_metab_mod"
+            ],
+            "M_CARNOSINE_c": [
+                "host_metab_mod"
+            ],
+            "M_CATECHOL_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_CPD0__45__1699_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD1F__45__114_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD1F__45__115_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD1F__45__118_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD1F__45__126_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD1F__45__129_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD1F__45__130_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD1F__45__133_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD1F__45__98_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__10353_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__10525_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__110_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__1136_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__12179_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__12185_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__12247_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__12249_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__12253_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__13043_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__14646_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__15435_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__15555_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__1821_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__18508_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__20647_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_CPD__45__208_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__289_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__465_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__622_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__627_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__7414_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__7419_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__7422_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__9245_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__9247_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__9387_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__9408_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_CPD__45__9409_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_C__45__DI__45__GMP_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_Cis__45__Delta5__45__dodecenoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_Cis__45__Delta7__45__tetradecenoyl__45__ACPs_c": [
+                "host_metab_mod"
+            ],
+            "M_Cis__45__delta__45__3__45__decenoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_Cis__45__vaccenoyl__45__ACPs_c": [
+                "host_metab_mod"
+            ],
+            "M_D__45__ALANINE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_D__45__ALA__45__D__45__ALA_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_D__45__ALPHABETA__45__D__45__HEPTOSE__45__7__45__PHOSPHATE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_D__45__BETA__45__D__45__HEPTOSE__45__17__45__DIPHOSPHATE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_D__45__BETA__45__D__45__HEPTOSE__45__1__45__P_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_D__45__GLT_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_D__45__METHYL__45__MALONYL__45__COA_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_Delta4__45__hexadecenoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_Delta6__45__hexadecenoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_ETOH_c": [
+                "host_metab_mod"
+            ],
+            "M_FMNH2_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_FORMYL__45__COA_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_HISTIDINOL_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_HIS_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_HYDROXYMUCONATE__45__SALD_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_ILE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_INDOXYL_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_L__45__ALLO__45__THREONINE_c": [
+                "host_metab_mod"
+            ],
+            "M_L__45__DI__45__GMP_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_NA__43___e": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_NEUROSPORENE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_NIACINAMIDE_c": [
+                "host_metab_mod"
+            ],
+            "M_OCTAPRENYL__45__DIPHOSPHATE_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_OXALYL__45__COA_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_Oleoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_PROPIONYL__45__COA_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_PROTOHEME_e": [
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_Palmitoleoyl__45__ACPs_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c": [
+                "host_metab_mod"
+            ],
+            "M_SUCC__45__S__45__ALD_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_THR_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_Trans__45__D2__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c": [
+                "host_metab_mod"
+            ],
+            "M_Trans__45__D3__45__cis__45__D5__45__dodecenoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_Trans__45__D3__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c": [
+                "host_metab_mod"
+            ],
+            "M_b__45__Hydroxy__45__cis__45__D5__45__dodecenoyl__45__ACPs_c": [
+                "host_metab_mod",
+                "Candidatus_Phaeomarinobacter_ectocarpi"
+            ],
+            "M_b__45__Keto__45__cis__45__D5__45__dodecenoyl__45__ACPs_c": [
+                "Candidatus_Phaeomarinobacter_ectocarpi",
+                "host_metab_mod"
+            ],
+            "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c": [
+                "host_metab_mod"
+            ]
+        }
+    },
+    "one_model_targetsproducers": {
+        "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_1__45__KETO__45__2__45__METHYLVALERATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_2E__45__5Z__45__tetradeca__45__2__45__5__45__dienoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_2E__45__7Z__45__hexadeca__45__2__45__7__45__dienoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_2E__45__9Z__45__octadeca__45__2__45__9__45__dienoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__OXOBUTANOATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_3R__45__5Z__45__3__45__hydroxy__45__tetradec__45__5__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_3R__45__7Z__45__3__45__hydroxy__45__hexadec__45__7__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_3R__45__9Z__45__3__45__hydroxy__45__octadec__45__9__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_3Z__45__dodec__45__3__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_3__45__hydroxy__45__cis__45__D7__45__tetraecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__hydroxy__45__cis__45__D9__45__hexaecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__oxo__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__oxo__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__oxo__45__petroselinoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_4Z__45__9Z__45__Hexadec__45__4__45__9__45__dienoyl__45__acp_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_4Z__45__9Z__45__Octadec__45__4__45__9__45__dienoyl__45__acp_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_4__45__AMINO__45__BUTYRATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_4__45__HYDROXY__45__BUTYRATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_5Z__45__3__45__oxo__45__tetradec__45__5__45__enoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_5Z__45__tetradec__45__5__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_7Z__45__3__45__oxo__45__hexadec__45__7__45__enoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_7Z__45__hexadec__45__7__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_9Z__45__3__45__oxo__45__octadec__45__9__45__enoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_ACETALD_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_ADP__45__D__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_ADP__45__L__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_ARABINOSE__45__5P_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_BETA__45__D__45__FRUCTOSE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_BUTANEDIOL_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CAPSORUBIN_c": [
+            "host_metab_mod"
+        ],
+        "M_CARNOSINE_c": [
+            "host_metab_mod"
+        ],
+        "M_CATECHOL_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__1699_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD1F__45__114_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD1F__45__115_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__118_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD1F__45__126_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD1F__45__129_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD1F__45__130_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD1F__45__133_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__98_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__10353_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__10525_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__110_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__1136_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__12179_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__12185_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12247_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12249_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12253_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__13043_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__14646_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15435_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__15555_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__1821_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__18508_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__20647_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__208_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__289_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__465_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__622_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__627_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__7414_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7419_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__7422_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9245_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9247_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9387_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__9408_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__9409_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_C__45__DI__45__GMP_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_Cis__45__Delta5__45__dodecenoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_Cis__45__Delta7__45__tetradecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_Cis__45__delta__45__3__45__decenoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_Cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__ALANINE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_D__45__ALA__45__D__45__ALA_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_D__45__ALPHABETA__45__D__45__HEPTOSE__45__7__45__PHOSPHATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__17__45__DIPHOSPHATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__1__45__P_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_D__45__GLT_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_D__45__METHYL__45__MALONYL__45__COA_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_Delta4__45__hexadecenoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_Delta6__45__hexadecenoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_ETOH_c": [
+            "host_metab_mod"
+        ],
+        "M_FMNH2_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_FORMYL__45__COA_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_HISTIDINOL_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_HIS_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_HYDROXYMUCONATE__45__SALD_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_ILE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_INDOXYL_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_L__45__ALLO__45__THREONINE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DI__45__GMP_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_NA__43___e": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_NEUROSPORENE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_NIACINAMIDE_c": [
+            "host_metab_mod"
+        ],
+        "M_OCTAPRENYL__45__DIPHOSPHATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_OXALYL__45__COA_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_Oleoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_PROPIONYL__45__COA_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_PROTOHEME_e": [
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_Palmitoleoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_SUCC__45__S__45__ALD_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_THR_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_Trans__45__D2__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_Trans__45__D3__45__cis__45__D5__45__dodecenoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_Trans__45__D3__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_b__45__Hydroxy__45__cis__45__D5__45__dodecenoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_b__45__Keto__45__cis__45__D5__45__dodecenoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ]
+    },
+    "producible": [
+        "M_OXALYL__45__COA_c",
+        "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c",
+        "M_3__45__hydroxy__45__cis__45__D9__45__hexaecenoyl__45__ACPs_c",
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__17__45__DIPHOSPHATE_c",
+        "M_INDOXYL_c",
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c",
+        "M_CPD__45__12247_c",
+        "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c",
+        "M_Cis__45__delta__45__3__45__decenoyl__45__ACPs_c",
+        "M_HISTIDINOL_c",
+        "M_2E__45__5Z__45__tetradeca__45__2__45__5__45__dienoyl__45__ACPs_c",
+        "M_D__45__GLT_c",
+        "M_FORMYL__45__COA_c",
+        "M_THR_c",
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c",
+        "M_PROPIONYL__45__COA_c",
+        "M_ILE_c",
+        "M_CPD__45__15555_c",
+        "M_CAPSORUBIN_c",
+        "M_CPD1F__45__130_c",
+        "M_D__45__ALANINE_c",
+        "M_CPD__45__9245_c",
+        "M_HYDROXYMUCONATE__45__SALD_c",
+        "M_2__45__OXOBUTANOATE_c",
+        "M_CATECHOL_c",
+        "M_CPD__45__465_c",
+        "M_OCTAPRENYL__45__DIPHOSPHATE_c",
+        "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c",
+        "M_CPD__45__1821_c",
+        "M_4Z__45__9Z__45__Hexadec__45__4__45__9__45__dienoyl__45__acp_c",
+        "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c",
+        "M_Trans__45__D3__45__cis__45__D5__45__dodecenoyl__45__ACPs_c",
+        "M_CPD__45__18508_c",
+        "M_Cis__45__vaccenoyl__45__ACPs_c",
+        "M_CPD__45__110_c",
+        "M_CPD__45__20647_c",
+        "M_CPD__45__289_c",
+        "M_3R__45__7Z__45__3__45__hydroxy__45__hexadec__45__7__45__enoyl__45__ACPs_c",
+        "M_3__45__oxo__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c",
+        "M_CPD__45__12179_c",
+        "M_CPD__45__622_c",
+        "M_BETA__45__D__45__FRUCTOSE_c",
+        "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c",
+        "M_CPD__45__12249_c",
+        "M_CPD__45__9387_c",
+        "M_NA__43___e",
+        "M_CPD__45__627_c",
+        "M_D__45__ALA__45__D__45__ALA_c",
+        "M_CPD__45__12253_c",
+        "M_9Z__45__3__45__oxo__45__octadec__45__9__45__enoyl__45__ACPs_c",
+        "M_BUTANEDIOL_c",
+        "M_CPD__45__9247_c",
+        "M_ADP__45__L__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c",
+        "M_Trans__45__D3__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c",
+        "M_HIS_c",
+        "M_CPD1F__45__129_c",
+        "M_CPD__45__10525_c",
+        "M_NIACINAMIDE_c",
+        "M_5Z__45__tetradec__45__5__45__enoyl__45__ACPs_c",
+        "M_L__45__DI__45__GMP_c",
+        "M_D__45__METHYL__45__MALONYL__45__COA_c",
+        "M_b__45__Hydroxy__45__cis__45__D5__45__dodecenoyl__45__ACPs_c",
+        "M_CPD__45__9409_c",
+        "M_1__45__KETO__45__2__45__METHYLVALERATE_c",
+        "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c",
+        "M_3R__45__5Z__45__3__45__hydroxy__45__tetradec__45__5__45__enoyl__45__ACPs_c",
+        "M_CPD0__45__1699_c",
+        "M_C__45__DI__45__GMP_c",
+        "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c",
+        "M_Palmitoleoyl__45__ACPs_c",
+        "M_3Z__45__dodec__45__3__45__enoyl__45__ACPs_c",
+        "M_5Z__45__3__45__oxo__45__tetradec__45__5__45__enoyl__45__ACPs_c",
+        "M_ACETALD_c",
+        "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c",
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__1__45__P_c",
+        "M_7Z__45__hexadec__45__7__45__enoyl__45__ACPs_c",
+        "M_CPD1F__45__114_c",
+        "M_Delta6__45__hexadecenoyl__45__ACPs_c",
+        "M_Cis__45__Delta5__45__dodecenoyl__45__ACPs_c",
+        "M_CPD__45__1136_c",
+        "M_CPD__45__15435_c",
+        "M_Trans__45__D2__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c",
+        "M_CPD1F__45__98_c",
+        "M_CPD__45__14646_c",
+        "M_FMNH2_c",
+        "M_4__45__HYDROXY__45__BUTYRATE_c",
+        "M_CPD1F__45__115_c",
+        "M_CPD__45__10353_c",
+        "M_D__45__ALPHABETA__45__D__45__HEPTOSE__45__7__45__PHOSPHATE_c",
+        "M_3R__45__9Z__45__3__45__hydroxy__45__octadec__45__9__45__enoyl__45__ACPs_c",
+        "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c",
+        "M_4Z__45__9Z__45__Octadec__45__4__45__9__45__dienoyl__45__acp_c",
+        "M_ETOH_c",
+        "M_Delta4__45__hexadecenoyl__45__ACPs_c",
+        "M_2E__45__9Z__45__octadeca__45__2__45__9__45__dienoyl__45__ACPs_c",
+        "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c",
+        "M_CPD1F__45__133_c",
+        "M_CPD1F__45__126_c",
+        "M_CPD1F__45__118_c",
+        "M_PROTOHEME_e",
+        "M_Oleoyl__45__ACPs_c",
+        "M_CPD__45__12185_c",
+        "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c",
+        "M_CARNOSINE_c",
+        "M_7Z__45__3__45__oxo__45__hexadec__45__7__45__enoyl__45__ACPs_c",
+        "M_ADP__45__D__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c",
+        "M_ARABINOSE__45__5P_c",
+        "M_CPD__45__208_c",
+        "M_CPD__45__7414_c",
+        "M_Cis__45__Delta7__45__tetradecenoyl__45__ACPs_c",
+        "M_b__45__Keto__45__cis__45__D5__45__dodecenoyl__45__ACPs_c",
+        "M_CPD__45__7422_c",
+        "M_NEUROSPORENE_c",
+        "M_SUCC__45__S__45__ALD_c",
+        "M_3__45__hydroxy__45__cis__45__D7__45__tetraecenoyl__45__ACPs_c",
+        "M_3__45__oxo__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c",
+        "M_L__45__ALLO__45__THREONINE_c",
+        "M_CPD__45__9408_c",
+        "M_3__45__oxo__45__petroselinoyl__45__ACPs_c",
+        "M_4__45__AMINO__45__BUTYRATE_c",
+        "M_CPD__45__13043_c",
+        "M_CPD__45__7419_c",
+        "M_2E__45__7Z__45__hexadeca__45__2__45__7__45__dienoyl__45__ACPs_c"
+    ],
+    "score_optimum_inter": "1",
+    "score_optimum_union": "1",
+    "still_unprod": [],
+    "union_bacteria": [
+        "Candidatus_Phaeomarinobacter_ectocarpi",
+        "Candidatus_Phaeomarinobacter_ectocarpi_1"
+    ],
+    "union_exchanged": [],
+    "union_targetsproducers": {
+        "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_1__45__KETO__45__2__45__METHYLVALERATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "host_metab_mod"
+        ],
+        "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_2E__45__5Z__45__tetradeca__45__2__45__5__45__dienoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_2E__45__7Z__45__hexadeca__45__2__45__7__45__dienoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_2E__45__9Z__45__octadeca__45__2__45__9__45__dienoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__OXOBUTANOATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_3R__45__5Z__45__3__45__hydroxy__45__tetradec__45__5__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_3R__45__7Z__45__3__45__hydroxy__45__hexadec__45__7__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_3R__45__9Z__45__3__45__hydroxy__45__octadec__45__9__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_3Z__45__dodec__45__3__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_3__45__hydroxy__45__cis__45__D7__45__tetraecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__hydroxy__45__cis__45__D9__45__hexaecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__oxo__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__oxo__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__oxo__45__petroselinoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_4Z__45__9Z__45__Hexadec__45__4__45__9__45__dienoyl__45__acp_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_4Z__45__9Z__45__Octadec__45__4__45__9__45__dienoyl__45__acp_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_4__45__AMINO__45__BUTYRATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_4__45__HYDROXY__45__BUTYRATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_5Z__45__3__45__oxo__45__tetradec__45__5__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_5Z__45__tetradec__45__5__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_7Z__45__3__45__oxo__45__hexadec__45__7__45__enoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_7Z__45__hexadec__45__7__45__enoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_9Z__45__3__45__oxo__45__octadec__45__9__45__enoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_ACETALD_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_ADP__45__D__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_ADP__45__L__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_ARABINOSE__45__5P_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_BETA__45__D__45__FRUCTOSE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_BUTANEDIOL_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CAPSORUBIN_c": [
+            "host_metab_mod"
+        ],
+        "M_CARNOSINE_c": [
+            "host_metab_mod"
+        ],
+        "M_CATECHOL_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__1699_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD1F__45__114_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_CPD1F__45__115_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__118_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD1F__45__126_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD1F__45__129_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD1F__45__130_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_CPD1F__45__133_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__98_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_CPD__45__10353_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_CPD__45__10525_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_CPD__45__110_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_CPD__45__1136_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_CPD__45__12179_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__12185_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12247_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12249_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12253_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__13043_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__14646_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15435_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15555_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__1821_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_CPD__45__18508_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__20647_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_CPD__45__208_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__289_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__465_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_CPD__45__622_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__627_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__7414_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7419_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__7422_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9245_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9247_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9387_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_CPD__45__9408_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_CPD__45__9409_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_C__45__DI__45__GMP_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_Cis__45__Delta5__45__dodecenoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_Cis__45__Delta7__45__tetradecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_Cis__45__delta__45__3__45__decenoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_Cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__ALANINE_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_D__45__ALA__45__D__45__ALA_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_D__45__ALPHABETA__45__D__45__HEPTOSE__45__7__45__PHOSPHATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__17__45__DIPHOSPHATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__1__45__P_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_D__45__GLT_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_D__45__METHYL__45__MALONYL__45__COA_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_Delta4__45__hexadecenoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_Delta6__45__hexadecenoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_ETOH_c": [
+            "host_metab_mod"
+        ],
+        "M_FMNH2_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_FORMYL__45__COA_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_HISTIDINOL_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_HIS_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_HYDROXYMUCONATE__45__SALD_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_ILE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_INDOXYL_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_L__45__ALLO__45__THREONINE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DI__45__GMP_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_NA__43___e": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_NEUROSPORENE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_NIACINAMIDE_c": [
+            "host_metab_mod"
+        ],
+        "M_OCTAPRENYL__45__DIPHOSPHATE_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_OXALYL__45__COA_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_Oleoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1"
+        ],
+        "M_PROPIONYL__45__COA_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_PROTOHEME_e": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_Palmitoleoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_SUCC__45__S__45__ALD_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_THR_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_Trans__45__D2__45__cis__45__D7__45__tetradecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_Trans__45__D3__45__cis__45__D5__45__dodecenoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "host_metab_mod"
+        ],
+        "M_Trans__45__D3__45__cis__45__D9__45__hexadecenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_b__45__Hydroxy__45__cis__45__D5__45__dodecenoyl__45__ACPs_c": [
+            "host_metab_mod",
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi"
+        ],
+        "M_b__45__Keto__45__cis__45__D5__45__dodecenoyl__45__ACPs_c": [
+            "Candidatus_Phaeomarinobacter_ectocarpi_1",
+            "Candidatus_Phaeomarinobacter_ectocarpi",
+            "host_metab_mod"
+        ],
+        "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ]
+    }
+}

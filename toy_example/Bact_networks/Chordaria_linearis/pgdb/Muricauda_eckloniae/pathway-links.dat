@@ -1,0 +1,47 @@
+#
+#  muricauda_eckloniaecyc 1.0 Pathways link table generated on Sun Jun 25, 2023
+#
+PWY-5194	siroheme biosynthesis	
+PWY-8073	lipid IV<sub>A</sub> biosynthesis (<i>P. putida</i>)	lipid-A-precursor biosynthesis (<i>P. putida</i>)
+PWY-7663	gondoate biosynthesis (anaerobic)	<i>cis</i>-11-icosenoate biosynthesis	(11<i>Z</i>)-icos-11-enoate biosynthesis	(11<i>Z</i>)-icosenoate biosynthesis	gondoic acid biosynthesis	11-eicosenoic acid biosynthesis
+FASYN-ELONG-PWY	fatty acid elongation -- saturated	
+VALSYN-PWY	L-valine biosynthesis	
+HISTSYN-PWY	L-histidine biosynthesis	
+PWY-7790	UMP biosynthesis II	uridine-5'-phosphate biosynthesis II	<i>de novo</i> biosynthesis of uridine-5'-phosphate II	<i>de novo</i> biosynthesis of uridine-5'-monophosphate II
+TRPSYN-PWY	L-tryptophan biosynthesis	
+ILEUSYN-PWY	L-isoleucine biosynthesis I (from threonine)	
+PWY0-1264	biotin-carboxyl carrier protein assembly	BCCP assembly
+PWY-801	homocysteine and cysteine interconversion	transsulfuration pathway
+PWY-5188	tetrapyrrole biosynthesis I (from glutamate)	
+TRNA-CHARGING-PWY	tRNA charging	
+PWY-1269	CMP-3-deoxy-D-<I>manno</I>-octulosonate biosynthesis	CMP-Kdo biosynthesis I
+GLUCOSE1PMETAB-PWY	glucose and glucose-1-phosphate degradation	
+NAGLIPASYN-PWY	lipid IV<sub>A</sub> biosynthesis (<i>E. coli</i>)	lipid-A-precursor biosynthesis (<i>E. coli</i>)
+PWY-6317	D-galactose degradation I (Leloir pathway)	Leloir pathway
+PWY-6268	adenosylcobalamin salvage from cobalamin	vitamin B<sub>12</sub> biosynthesis
+PWY-6938-1	NADH repair (prokaryotes)	
+PWY-7388	octanoyl-[acyl-carrier protein] biosynthesis (mitochondria, yeast)	octanoyl-ACP biosynthesis (mitochondria, yeast)
+COA-PWY	coenzyme A biosynthesis I (bacteria)	CoA biosynthesis
+PWY-6121	5-aminoimidazole ribonucleotide biosynthesis I	
+DTDPRHAMSYN-PWY	dTDP-&beta;-L-rhamnose biosynthesis	
+PWY-6387	UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)	
+PWY-6823	molybdopterin biosynthesis	
+HISDEG-PWY	L-histidine degradation I	
+LEUSYN-PWY	L-leucine biosynthesis	
+PWY-5177	glutaryl-CoA degradation	
+PWY-7909	formaldehyde oxidation VII (THF pathway)	
+PWY-7224	purine deoxyribonucleosides salvage	
+PWY-5686	UMP biosynthesis I	uridine-5'-phosphate biosynthesis I	<i>de novo</i> biosynthesis of uridine-5'-phosphate I	<i>de novo</i> biosynthesis of uridine-5'-monophosphate I
+PWY-6163	chorismate biosynthesis from 3-dehydroquinate	
+PWY1ZNC-1	assimilatory sulfate reduction IV	
+PWY0-1507	biotin biosynthesis from 8-amino-7-oxononanoate I	biotin biosynthesis from 7-keto-8-aminopelargonate
+PWY-702	L-methionine biosynthesis II	L-methionine biosynthesis via <i>O</i>-phospho-homoserine
+PROSYN-PWY	L-proline biosynthesis I (from L-glutamate)	
+PWY-5659	GDP-mannose biosynthesis	
+PWY-6123	inosine-5'-phosphate biosynthesis I	IMP biosynthesis I
+PWY-8136	NADPH repair (prokaryotes)	
+PWY-5097	L-lysine biosynthesis VI	
+PWY-8283	lipid IV<sub>A</sub> biosynthesis (generic)	lipid-A-precursor biosynthesis (generic)
+PWY-8245	lipid IV<sub>A</sub> biosynthesis (<i>P. gingivalis</i>)	lipid-A-precursor biosynthesis (<i>P. gingivalis</i>)
+PWY-7221	guanosine ribonucleotides <i>de novo</i> biosynthesis	
+PWYI-14	lipid IV<sub>A</sub> biosynthesis (<i>H. pylori</i>)	lipid-A-precursor biosynthesis
