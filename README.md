@@ -1,5 +1,6 @@
-[![](https://img.shields.io/badge/python-3.10-blue.svg)]()
 [![](https://img.shields.io/badge/python-3.9-blue.svg)]()
+[![](https://img.shields.io/badge/python-3.10-blue.svg)]()
+[![](https://img.shields.io/badge/python-3.11-blue.svg)]()
 [![](https://img.shields.io/badge/documentation-unfinished-orange.svg)]()
 [![](https://img.shields.io/badge/wiki-nonexistent-red.svg)]()
 
@@ -9,7 +10,7 @@ Uses the [Metage2Metabo library]() to generate and manipulate metabolic networks
 
 ## Installation
 
-Requires **python >=3.10**.
+Requires **python >=3.9**.
 
 ```bash
 git clone git@github.com:CoLucas22/HoloInteract
