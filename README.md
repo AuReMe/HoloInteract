@@ -50,7 +50,7 @@ holointeract get_alg_scopes -r /repository/to/host/networks/ --seeds /path/to/se
 
 ## Reconstruct metabolic networks :
 
-Need a singularity image with Pathway Tools installed.
+Need a singularity image with Pathway Tools installed and use the Genouest Bioinformatics Cluster.
 
 ```bash
 . /local/env/enveggnog-mapper-2.1.9.sh
