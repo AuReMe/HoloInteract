@@ -149,6 +149,7 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
             corrected_pvalues = resultat[1]
 
         for i in range(n_groups-1):
+            print(i)
             start = i*spacing
             end = (i+1)*spacing + 1
 
