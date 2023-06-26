@@ -108,7 +108,7 @@ parser_stat_cpd.add_argument(
 
 parser_clustermap: ArgumentParser = subparsers.add_parser(
     'clustermap',
-    help="Generates a cluster map of the matrice\n"
+    help="Generates a cluster map of the scopes matrice\n"
 )
 parser_clustermap.add_argument("--matrice", "-i", type=str, required=True,
                                help="Path to the matrice produced by the function create_big_tab_alg or create_big_tab_bact.")
@@ -155,7 +155,7 @@ parser_mat_full_crossed.add_argument(
 
 parser_coevolution_graph: ArgumentParser = subparsers.add_parser(
     'coevolution_graph',
-    help="Generates the matrix using the scopes of all bacterias with all algaes\n"
+    help="Genrates a graph of the metabolic complementarity as a function of phylogenetic distance to host.\n"
 )
 parser_coevolution_graph.add_argument("--phylogenetic_tree", "-t", type=str,
                                       required=True, help="A phylogenetic tree (in Newick format) of the hosts.")
