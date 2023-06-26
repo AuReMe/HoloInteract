@@ -23,7 +23,7 @@ export CONDA_ALWAYS_YES="true"
 
 
 #2e
-conda create -p $WD"/.env_metabo" python=3.8
+conda create -p $WD"/.env_metabo" python=3.10
 conda activate $WD"/.env_metabo"
 
 python -m pip install --upgrade pip
