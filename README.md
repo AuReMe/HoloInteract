@@ -40,19 +40,19 @@ These commands below launch a full workflow :
 
 - **metabolic_analysis** All the scope analysis of holobionts.
 
-  - **get_alg_scope** : Compute the scope of hosts.
-  - **community_analysis** : Compute the scope of the bacteria community.
-  - **stat_cpd** : Compute statistics on the scopes matrix.
-  - **clustermap** : Generates a clustermap of the scopes matrix.
+  - get_alg_scope : Compute the scope of hosts.
+  - community_analysis : Compute the scope of the bacteria community.
+  - stat_cpd : Compute statistics on the scopes matrix.
+  - clustermap : Generates a clustermap of the scopes matrix.
 
 - **coevolution_analysis** All the scope analysis of holobionts and the coevolution research.
-  - **get_alg_scope** : Compute the scope of hosts.
-  - **community_analysis** : Compute the scope of the bacteria community.
-  - **stat_cpd** : Compute statistics on the scopes matrix.
-  - **clustermap** : Generates a clustermap of the scopes matrix.
-  - **coevolution_scopes** : Computes the scopes of the bacterias in cooperation with each algae.
-  - **coevolution_matrix** : Generates a matrix of the coevolution scopes.
-  - **coevolution_graph** : Generates a graph of the metabolic. complementarity as a function of phylogenetic distance from the host organism.
+  - get_alg_scope : Compute the scope of hosts.
+  - community_analysis : Compute the scope of the bacteria community.
+  - stat_cpd : Compute statistics on the scopes matrix.
+  - clustermap : Generates a clustermap of the scopes matrix.
+  - coevolution_scopes : Computes the scopes of the bacterias in cooperation with each algae.
+  - coevolution_matrix : Generates a matrix of the coevolution scopes.
+  - coevolution_graph : Generates a graph of the metabolic. complementarity as a function of phylogenetic distance from the host organism.
 
 ### Required :
 
