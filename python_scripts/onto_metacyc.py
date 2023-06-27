@@ -33,7 +33,7 @@ def get_classes_opti(cpd: str, dico: str):
     """
     if cpd.split("/")[-1] in dico and cpd.split("/")[-1] != "Compounds":
         return get_classes_opti(cpd+"/"+dico[cpd.split("/")[-1]], dico)
-    return ""
+    return cpd
 
 
 if __name__ == "__main__":
