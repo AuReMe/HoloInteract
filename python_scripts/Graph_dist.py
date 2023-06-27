@@ -212,7 +212,7 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
                     [couple_name, slope, spearman_coef, spearman_p])
                 counter += 1
                 print(spearman_p, type(spearman_p))
-                if (spearman_p < (0.05) or spearman_p == "nan") and slope < 0:
+                if (spearman_p < (0.05) or np.isnan(spearman_p)) and slope < 0:
                     # Plot de la droite de régression et des points correspondants
                     fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
                         color=colors[counter % len(colors)])))
