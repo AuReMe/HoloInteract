@@ -9,7 +9,7 @@
 
 . /local/env/envconda.sh
 conda activate .env_metabo/
-. /local/env/enveggnog-mapper-2.1.9.sh
+#. /local/env/enveggnog-mapper-2.1.9.sh
 
 #python python_scripts/network_from_genomes.py /scratch/clucas/HoloInteract/toy_example/Bact_genomes/ \
                                             /scratch/clucas/HoloInteract/toy_example/gbk_files/ \
