@@ -156,10 +156,10 @@ def get_category_production(categories: list, pourcentage: list, input_file: str
                 print(index, row[categories[0]], ">", pourcentage[0])
 
 
-def job(matrice, output_fig_cpd, output_file_cpd):
+def job(matrice, output_fig_cpd, output_file_cpd, padmet):
     dico = count_cat(matrice)
     hist_global(dico, output_fig_cpd)
-    write_tab(dico, output_file_cpd)
+    write_tab_opti(dico, output_file_cpd, padmet)
 
 
 if __name__ == "__main__":

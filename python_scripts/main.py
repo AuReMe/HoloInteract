@@ -102,6 +102,8 @@ parser_stat_cpd.add_argument("--matrice", "-i", type=str, required=True,
 parser_stat_cpd.add_argument(
     "--histogram_name", "-n", type=str, required=True, help="Name of the graph")
 parser_stat_cpd.add_argument(
+    "--padmet_file", "-p", type=str, required=True, help="Padmet database file")
+parser_stat_cpd.add_argument(
     "--output_file_name", "-o", type=str, required=True, help="Name of the csv file")
 
 # Clustermap
@@ -222,6 +224,8 @@ parser_metabolic_analysis.add_argument(
 parser_metabolic_analysis.add_argument(
     "-c", "--csv_cpd_name", type=str, required=True, help="name of the csv file containing added value compounds")
 parser_metabolic_analysis.add_argument(
+    "--padmet_file", type=str, required=True, help="padmet database file")
+parser_metabolic_analysis.add_argument(
     "--clustermap_name", type=str, required=True, help="name of the clustermap")
 parser_metabolic_analysis.add_argument("-t", "--clustering_method", type=str, required=True, choices=[
                                        'single', 'complete', 'average', 'weighted', 'centroid', 'ward'], help="clustering method")
@@ -292,6 +296,8 @@ parser_coevolution_analysis.add_argument(
     "--output_values_coev_graph", "-z", type=str, required=True, help="phylogenetic_tree (Newick format) of the hosts")
 parser_coevolution_analysis.add_argument(
     "--correction", type=str, help="Mutiple test correction", choices=["", "bonferroni", "benjamini"], default="")
+parser_metabolic_analysis.add_argument(
+    "--padmet_file", type=str, required=True, help="padmet database file")
 
 
 #############################################################################################
@@ -346,7 +352,7 @@ def networks_from_genomes(genomes_path, gbk_files, metabolic_networks_path, sing
 #                     analysis_method=analysis_method, output_file=matrice_name, color="tab10")
 
 
-def metabolic_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes, output_fig_cpd, output_file_cpd, clustering_method, matrice_name="matrice"):
+def metabolic_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes, output_fig_cpd, output_file_cpd, clustering_method, padmet_file, matrice_name="matrice"):
 
     print("Start analysing networks")
     # Algues
@@ -365,14 +371,14 @@ def metabolic_analysis(metabolic_networks_path, scopes_path, analysis_method, al
             alg_scopes=alg_scopes, bact_scopes=scopes_path, sbml_path=metabolic_networks_path, output_name=matrice_name, method=analysis_method)
 
     python_scripts.stat_cpd.job(
-        matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd)
+        matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet_file)
 
     print("Start heatmap")
     python_scripts.heatmap.heatmap(matrice_name+".csv", clustering_method,
                                    output_file=matrice_name, color="tab10")
 
 
-def coevolution_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes, all_scopes, all_bact, phylogenetic_tree, output_fig_cpd, output_file_cpd, clustering_method, csv_file_for_graph, coevolution_graph_name, correction, matrice_name="matrice"):
+def coevolution_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes, all_scopes, all_bact, phylogenetic_tree, output_fig_cpd, output_file_cpd, clustering_method, csv_file_for_graph, coevolution_graph_name, correction, padmet_file, matrice_name="matrice"):
 
     print("Start analysing networks")
     # Algues
@@ -391,7 +397,7 @@ def coevolution_analysis(metabolic_networks_path, scopes_path, analysis_method, 
             alg_scopes=alg_scopes, bact_scopes=scopes_path, sbml_path=metabolic_networks_path, output_name=matrice_name, method=analysis_method)
 
     python_scripts.stat_cpd.job(
-        matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd)
+        matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet_file)
 
     list_bact = [x for x in dico_bact.keys()]
     list_algue = [x for x in dico_algue.keys()]
@@ -485,7 +491,7 @@ def main():
             path=args.repository, seeds=args.seeds, method=args.method, path_algues_network=args.alg_networks_dir, path_output=args.out)
     elif args.subcommands == "stat_cpd":
         python_scripts.stat_cpd.job(
-            matrice=args.matrice, output_fig_cpd=args.histogram_name, output_file_cpd=args.output_file_name)
+            matrice=args.matrice, output_fig_cpd=args.histogram_name, output_file_cpd=args.output_file_name, padmet=args.padmet_file)
     elif args.subcommands == "clustermap":
         python_scripts.heatmap.heatmap(
             input_file=args.matrice, method=args.method, output_file=args.clustermap_name)
@@ -499,28 +505,13 @@ def main():
         python_scripts.Graph_dist.job(phylogenetic_tree=args.phylogenetic_tree, input_file=args.coevolution_matrix,
                                       ouput_file_for_graph=args.csv_file_name, correction=args.correction, graph_name=args.graph_name)
 
-    elif args.subcommands == "full_metabolic_analysis":
-        full_metabolic_analysis(genomes_path=args.genomes_path, metabolic_networks_path=args.metabolic_networks_path,
-                                scopes_path=args.bact_scopes_path, analysis_method=args.analysis_method, singularity_path=args.singularity_path,
-                                algaes_network_path=args.host_metabolic_networks_path, seeds=args.seeds, alg_scopes=args.host_scopes_path,
-                                gbk_files=args.gbk_files, output_fig_cpd=args.histogram_cpd_name, output_file_cpd=args.csv_cpd_name,
-                                clustering_method=args.clustering_method, matrice_name=args.matrix_name
-                                )
-
     elif args.subcommands == 'metabolic_analysis':
         metabolic_analysis(metabolic_networks_path=args.metabolic_networks_path, scopes_path=args.bact_scopes_path, analysis_method=args.analysis_method,
                            algaes_network_path=args.host_metabolic_networks_path, seeds=args.seeds,
                            alg_scopes=args.host_scopes_path, output_fig_cpd=args.histogram_cpd_name, output_file_cpd=args.csv_cpd_name,
-                           clustering_method=args.clustering_method, matrice_name=args.matrix_name
+                           clustering_method=args.clustering_method, matrice_name=args.matrix_name, padmet_file=args.padmet_file
                            )
 
-    elif args.subcommands == 'full_coevolution_analysis':
-        full_coevolution_analysis(genomes_path=args.genomes_path, metabolic_networks_path=args.metabolic_networks_path,
-                                  scopes_path=args.bact_scopes_path, analysis_method=args.analysis_method, singularity_path=args.singularity_path,
-                                  algaes_network_path=args.host_metabolic_networks_path, seeds=args.seeds, alg_scopes=args.host_scopes_path,
-                                  gbk_files=args.gbk_files, output_fig_cpd=args.histogram_cpd_name, output_file_cpd=args.csv_cpd_name,
-                                  clustering_method=args.clustering_method, matrice_name=args.matrix_name, phylogenetic_tree=args.phylogenetic_tree, out_file_graph=args.output_values_coev_graph
-                                  )
     elif args.subcommands == 'coevolution_analysis':
         coevolution_analysis(metabolic_networks_path=args.metabolic_networks_path, scopes_path=args.bact_scopes_path, analysis_method=args.analysis_method,
                              algaes_network_path=args.host_metabolic_networks_path, seeds=args.seeds, alg_scopes=args.host_scopes_path, output_fig_cpd=args.histogram_cpd_name, output_file_cpd=args.csv_cpd_name,
