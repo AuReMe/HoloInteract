@@ -296,7 +296,7 @@ parser_coevolution_analysis.add_argument(
     "--output_values_coev_graph", "-z", type=str, required=True, help="phylogenetic_tree (Newick format) of the hosts")
 parser_coevolution_analysis.add_argument(
     "--correction", type=str, help="Mutiple test correction", choices=["", "bonferroni", "benjamini"], default="")
-parser_metabolic_analysis.add_argument(
+parser_coevolution_analysis.add_argument(
     "--padmet_file", type=str, required=True, help="padmet database file")
 
 
