@@ -106,7 +106,7 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
 
     #####
 
-    spacing = donnees.shape[1] - 1
+    spacing = donnees.shape[1]
     print("spacing", spacing)
     n_groups = donnees.shape[0]//spacing
 
