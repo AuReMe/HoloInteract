@@ -352,7 +352,7 @@ def networks_from_genomes(genomes_path, gbk_files, metabolic_networks_path, sing
 #                     analysis_method=analysis_method, output_file=matrice_name, color="tab10")
 
 
-def metabolic_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes, output_fig_cpd, output_file_cpd, clustering_method, padmet_file, matrice_name="matrice"):
+def metabolic_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes, output_fig_cpd, output_file_cpd, clustering_method, padmet, matrice_name="matrice"):
 
     print("Start analysing networks")
     # Algues
@@ -371,14 +371,14 @@ def metabolic_analysis(metabolic_networks_path, scopes_path, analysis_method, al
             alg_scopes=alg_scopes, bact_scopes=scopes_path, sbml_path=metabolic_networks_path, output_name=matrice_name, method=analysis_method)
 
     python_scripts.stat_cpd.job(
-        matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet_file)
+        matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet)
 
     print("Start heatmap")
     python_scripts.heatmap.heatmap(matrice_name+".csv", clustering_method,
                                    output_file=matrice_name, color="tab10")
 
 
-def coevolution_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes, all_scopes, all_bact, phylogenetic_tree, output_fig_cpd, output_file_cpd, clustering_method, csv_file_for_graph, coevolution_graph_name, correction, padmet_file, matrice_name="matrice"):
+def coevolution_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes, all_scopes, all_bact, phylogenetic_tree, output_fig_cpd, output_file_cpd, clustering_method, csv_file_for_graph, coevolution_graph_name, correction, padmet, matrice_name="matrice"):
 
     print("Start analysing networks")
     # Algues
@@ -397,7 +397,7 @@ def coevolution_analysis(metabolic_networks_path, scopes_path, analysis_method, 
             alg_scopes=alg_scopes, bact_scopes=scopes_path, sbml_path=metabolic_networks_path, output_name=matrice_name, method=analysis_method)
 
     python_scripts.stat_cpd.job(
-        matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet_file)
+        matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet)
 
     list_bact = [x for x in dico_bact.keys()]
     list_algue = [x for x in dico_algue.keys()]
@@ -509,7 +509,7 @@ def main():
         metabolic_analysis(metabolic_networks_path=args.metabolic_networks_path, scopes_path=args.bact_scopes_path, analysis_method=args.analysis_method,
                            algaes_network_path=args.host_metabolic_networks_path, seeds=args.seeds,
                            alg_scopes=args.host_scopes_path, output_fig_cpd=args.histogram_cpd_name, output_file_cpd=args.csv_cpd_name,
-                           clustering_method=args.clustering_method, matrice_name=args.matrix_name, padmet_file=args.padmet_file
+                           clustering_method=args.clustering_method, matrice_name=args.matrix_name, padmet=args.padmet_file
                            )
 
     elif args.subcommands == 'coevolution_analysis':
@@ -517,7 +517,7 @@ def main():
                              algaes_network_path=args.host_metabolic_networks_path, seeds=args.seeds, alg_scopes=args.host_scopes_path, output_fig_cpd=args.histogram_cpd_name, output_file_cpd=args.csv_cpd_name,
                              clustering_method=args.clustering_method, matrice_name=args.matrix_name, phylogenetic_tree=args.phylogenetic_tree,
                              csv_file_for_graph=args.output_values_coev_graph, correction=args.correction, all_bact=args.all_bact,
-                             coevolution_graph_name=args.coevolution_graph, all_scopes=args.all_bact_scopes
+                             coevolution_graph_name=args.coevolution_graph, all_scopes=args.all_bact_scopes, padmet=args.padmet_file
                              )
     else:
         print(
