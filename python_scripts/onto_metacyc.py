@@ -1,7 +1,8 @@
 from glob import glob
 import sys
 
-def get_classes(cpd:str, file:str):
+
+def get_classes(cpd: str, file: str):
     """get classes f the compound 
 
     Args:
@@ -17,6 +18,21 @@ def get_classes(cpd:str, file:str):
                 return ""
             elif line.split("\t")[0] == cpd and "is_a_class" in line:
                 return get_classes(line.strip().split("\t")[2], file)+"/"+line.strip().split("\t")[2]
+    return ""
+
+
+def get_classes_opti(cpd: str, dico: str):
+    """get classes f the compound 
+
+    Args:
+        cpd (str): compound
+        file (str): metacyc padmet file
+
+    Returns:
+        str: classes of the compound
+    """
+    if cpd.split("/")[-1] in dico and cpd.split("/")[-1] != "Compounds":
+        return get_classes_opti(cpd+"/"+dico[cpd], dico)
     return ""
 
 

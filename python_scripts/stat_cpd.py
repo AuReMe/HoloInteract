@@ -72,6 +72,26 @@ def write_tab(dico: dict, output: str):
         fo.write(data)
 
 
+def write_tab_opti(dico: dict, output: str, padmet: str):
+    with open(output+".csv", "w") as fo:
+        fo.write(f"Compound;Lien Metacyc;Nb holobiontes;Ontology\n")
+    data = ""
+    dico_onto = dict()
+    with open(padmet, "r") as fi:
+        for line in fi:
+            if "is_a_class" in line:
+                liste = line.strip().split("	")
+                dico_onto[liste[0]] = liste[2]
+
+    for cpd in dico:
+        print(cpd)
+        if dico[cpd]["3"] > 0:
+            data += f'{cpd};https://metacyc.org/compound?orgid=META&id={cpd};{dico[cpd]["3"]};\
+                {get_classes(cpd, "/scratch/clucas/HoloInteract/toy_example/metacyc_26.0.padmet")}\n'
+    with open(output+".csv", "a") as fo:
+        fo.write(data)
+
+
 def classing_cpd(input_file, output_file):
     with open(input_file) as f:
         lines = f.readlines()
