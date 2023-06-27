@@ -84,7 +84,7 @@ def write_tab_opti(dico: dict, output: str, padmet: str):
                 dico_onto[liste[0]] = liste[2]
 
     for cpd in dico:
-        print(cpd)
+        print(":)", cpd)
         if dico[cpd]["3"] > 0:
             data += f'{cpd};https://metacyc.org/compound?orgid=META&id={cpd};{dico[cpd]["3"]};\
                 {get_classes_opti(cpd, dico_onto)}\n'
