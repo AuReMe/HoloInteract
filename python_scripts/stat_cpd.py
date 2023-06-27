@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from python_scripts.onto_metacyc import get_classes
+from python_scripts.onto_metacyc import get_classes, get_classes_opti
 import pandas as pd
 import plotly.graph_objs as go
 import seaborn as sns
@@ -87,7 +87,7 @@ def write_tab_opti(dico: dict, output: str, padmet: str):
         print(cpd)
         if dico[cpd]["3"] > 0:
             data += f'{cpd};https://metacyc.org/compound?orgid=META&id={cpd};{dico[cpd]["3"]};\
-                {get_classes(cpd, "/scratch/clucas/HoloInteract/toy_example/metacyc_26.0.padmet")}\n'
+                {get_classes_opti(cpd, dico_onto)}\n'
     with open(output+".csv", "a") as fo:
         fo.write(data)
 
