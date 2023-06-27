@@ -130,7 +130,7 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
         if correction == "benjamini":
             for i in range(n_groups):
                 start = i*spacing
-                end = (i+1)*spacing+1
+                end = (i+1)*spacing
 
                 group_data = donnees.iloc[start:end]
                 x_data = group_data["Distance"].to_numpy()
@@ -151,7 +151,7 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
         for i in range(n_groups):
             print(i)
             start = i*spacing
-            end = (i+1)*spacing + 1
+            end = (i+1)*spacing
 
             group_data = donnees.iloc[start:end]
 
