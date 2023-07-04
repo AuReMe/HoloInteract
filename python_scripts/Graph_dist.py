@@ -68,11 +68,11 @@ def get_graph_csv(input_file: str, output: str, phylogenetic_tree: str):
     for index, row in data.iterrows():
         print(index, row)
         for column, value in row.iteritems():
-            if "-".join(index.split("-")[0].split("_")) == "-".join(column.split("_")):
+            if index.split("-")[0] == column:
                 distance = 0
             else:
-                distance = dico_dist["-".join(index.split("-")
-                                              [0].split("_"))]["-".join(column.split("_"))]
+                distance = dico_dist[index.split(
+                    "-")[0]][column]
             with open(output+".csv", "a") as fo:
                 fo.write(f'{index}_{column},{float(value)},{distance}\n')
 
