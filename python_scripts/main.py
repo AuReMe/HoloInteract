@@ -167,8 +167,8 @@ parser_coevolution_graph.add_argument(
     "--csv_file_name", "-r", type=str, required=True, help="Name of csv file")
 parser_coevolution_graph.add_argument(
     "--graph_name", "-o", type=str, required=True, help="Name of the graph")
-parser_coevolution_graph.add_argument("--correction", "-c", type=str, required=True, choices=[
-                                      "bonferroni", "benjamini", ""], help="Multiple tests correction")
+parser_coevolution_graph.add_argument("--correction", "-c", type=str, choices=[
+                                      "bonferroni", "benjamini", ""], default="", help="Multiple tests correction")
 
 
 # Metabolic network reconstruction
