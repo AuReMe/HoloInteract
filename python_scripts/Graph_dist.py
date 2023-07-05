@@ -237,7 +237,16 @@ def stats_tests(input_file):
     print("Valeur-p : ", p_value)
 
 
-def job(phylogenetic_tree, input_file, ouput_file_for_graph, correction, graph_name="graph_complementarite_distance"):
+def job(phylogenetic_tree: str, input_file: str, ouput_file_for_graph: str, correction: str, graph_name="graph_complementarite_distance"):
+    """Create the html graph to analyse coevolution
+
+    Args:
+        phylogenetic_tree (str): phylogenetic tree of hosts (Newick format)
+        input_file (str): matrix built by 'mat_dist_full_crossed.job' function
+        ouput_file_for_graph (str): name of csv file for graph
+        correction (str): multiple test correction 
+        graph_name (str, optional): name for html file. Defaults to "graph_complementarite_distance".
+    """
     get_graph_csv(input_file=input_file, output=ouput_file_for_graph,
                   phylogenetic_tree=phylogenetic_tree)
     plot_regression_all(ouput_file_for_graph+".csv", output=graph_name,

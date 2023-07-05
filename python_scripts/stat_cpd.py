@@ -41,7 +41,7 @@ def hist_global(dico: dict, output_fig_cpd):
     compounds = []
     valeur = []
     for cpd in dico:
-        if dico[cpd]["3"] >= (sum(dico[cpd].values())/3):
+        if dico[cpd]["3"] >= (sum(dico[cpd]["3"].values())/3):
             compounds.append(cpd)
             valeur.append(dico[cpd]["3"])
 
@@ -131,32 +131,15 @@ def mole_count(input_file):
     plt.show()
 
 
-def get_category_production(categories: list, pourcentage: list, input_file: str):
-    if len(categories) != len(pourcentage):
-        raise TypeError
+def job(matrice: str, output_fig_cpd: str, output_file_cpd: str, padmet: str):
+    """Analyse the type of production of metabolites in holobionts of the dataset
 
-    data = pd.read_csv(input_file, sep=",", header=0, index_col=0)
-    if len(categories) > 1:
-        print(categories[0], pourcentage[0])
-        print(categories[1], pourcentage[1])
-        for index, row in data.iterrows():
-            if type(pourcentage[0]) == tuple and type(pourcentage[1]) == tuple:
-                if float(pourcentage[0][0]) <= float(row[categories[0]]) <= float(pourcentage[0][1]) and float(pourcentage[1][0]) <= float(row[categories[1]]) <= float(pourcentage[1][1]):
-                    print(index)
-
-            elif float(row[categories[0]]) > float(pourcentage[0]) and float(row[categories[1]]) > float(pourcentage[1]):
-                print(index)
-    else:
-        for index, row in data.iterrows():
-            if type(pourcentage[0]) == tuple:
-                if float(pourcentage[0][0]) <= float(row[categories[0]]) <= float(pourcentage[0][1]):
-                    print(index, row[categories[0]])
-
-            elif float(row[categories[0]]) == float(pourcentage[0]):
-                print(index, row[categories[0]], ">", pourcentage[0])
-
-
-def job(matrice, output_fig_cpd, output_file_cpd, padmet):
+    Args:
+        matrice (str): csv file built to create the heatmap
+        output_fig_cpd (str): name of the histogramme of added value metabolites
+        output_file_cpd (str): name fo the csv file of addedvalue metabolites
+        padmet (str): padmet file of metacyc database
+    """
     dico = count_cat(matrice)
     hist_global(dico, output_fig_cpd)
     write_tab_opti(dico, output_file_cpd, padmet)

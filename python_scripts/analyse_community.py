@@ -4,14 +4,14 @@ import sys
 
 
 def test_analyse(path: str, method: str, path_output: str, path_algues_network: str, seeds: str):
-    """_summary_
+    """Compute scopes analysis of microbiota with or without bacteria cooperation depending on the 'method' argument
 
     Args:
-        path (str): _description_
-        method (str): _description_
-        path_output (str): _description_
-        path_algues_network (str): _description_
-        seeds (str): _description_
+        path (str): Path to host names containing a sbml folder containing bacteria metabolic networks
+        method (str): 'solo' or 'coop' (if coop, bacteria of a single microbiota can cooperate)
+        path_output (str): bacteria scope directory
+        path_algues_network (str): directory of host metabolic networks
+        seeds (str): seeds file
     """
     if method == "solo":
 
@@ -72,7 +72,13 @@ def test_analyse(path: str, method: str, path_output: str, path_algues_network: 
             sub.run([f'rm -r ./tempo'], shell=True)
 
 
-def prepare_all_solo_bact(input_path, output_dir):
+def prepare_all_solo_bact(input_path: str, output_dir: str):
+    """Prepare the folder with all the bacteria to compute scopes of each host with each bacteria
+
+    Args:
+        input_path (str): Path to host names containing a sbml folder containing bacteria metabolic networks 
+        output_dir (str): directory of all bacteria metabolic networks
+    """
     algues = sorted(glob(input_path+"*"))
     all_bact = []
     for algue in algues:
@@ -90,19 +96,15 @@ def prepare_all_solo_bact(input_path, output_dir):
 
 
 def get_all_full_scope(list_algue: str, path_all_bact: str, path_sbml_algue, output_dir: str, seeds: str):
-    """_summary_
+    """Compute scopes of each host with each bacteria
 
     Args:
-        path_alg (str): _description_
-        path_all_bact (str): _description_
+        list_algue (str): list of hosts
+        path_all_bact (str): path to directory of all bacteria metabolic networks
+        path_sbml_algue (_type_): path to host metabolic networks
+        output_dir (str): path to all scopes
+        seeds (str): seeds file
     """
-
-    #sub.run([f'mkdir /scratch/clucas/full_microbiota'], shell=True)
-    #bacts = sorted(glob(path_all_bact+"*"))
-    # for bact in bacts:
-    #    sub.run(
-    #        [f'cp {bact}/{bact.split(".")[-1]}.sbml /scratch/clucas/full_microbiota/{bact.split("/")[-1]}.sbml'], shell=True)
-
     bacts = glob(path_all_bact+"*")
 
     for algue in list_algue:
@@ -117,10 +119,19 @@ def get_all_full_scope(list_algue: str, path_all_bact: str, path_sbml_algue, out
                 [f'mkdir {output_dir}{algue.split("/")[-1]}/{bact.split("-")[1]}'], shell=True)
             sub.run(
                 [f'm2m metacom -n {bact} -s {seeds} -m {net_alg} -o {output} -c 30'], shell=True)
-            #sub.run([f'rm -r {output_dir}'], shell=True)
 
 
 def coev_scopes(path_metabolic_networks, path_all_bact, list_algues, path_sbml_algues, output_dir_scopes, seeds):
+    """create folder with all bacteria metabolic networks and computes scopes of each host with each bacteria
+
+    Args:
+        path_metabolic_networks (_type_): _description_
+        path_all_bact (_type_): _description_
+        list_algues (_type_): _description_
+        path_sbml_algues (_type_): _description_
+        output_dir_scopes (_type_): _description_
+        seeds (_type_): _description_
+    """
     prepare_all_solo_bact(path_metabolic_networks, path_all_bact)
     get_all_full_scope(list_algues, path_all_bact,
                        path_sbml_algues, output_dir_scopes, seeds=seeds)
@@ -128,4 +139,5 @@ def coev_scopes(path_metabolic_networks, path_all_bact, list_algues, path_sbml_a
 
 if __name__ == "__main__":
 
-    test_analyse(path=sys.argv[1], method=sys.argv[2], path_output=sys.argv[3], seeds=sys.argv[4])
+    test_analyse(path=sys.argv[1], method=sys.argv[2],
+                 path_output=sys.argv[3], seeds=sys.argv[4])

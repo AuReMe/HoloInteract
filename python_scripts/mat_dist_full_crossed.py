@@ -119,7 +119,15 @@ def boxploter(data, output_name):
     plt.savefig(output_name+".png")
 
 
-def job(list_algue, list_bact, scopes_bacteries_path, output_name="matrice_complementarite_normalized"):
+def job(list_algue: list, list_bact: list, scopes_bacteries_path: str, output_name: str = "matrice_complementarite_normalized"):
+    """Create the csv file of the scopes of each host with each bacteria
+
+    Args:
+        list_algue (list): list of hosts
+        list_bact (list): list of bacteria
+        scopes_bacteries_path (str): directory of each host with each bacteria
+        output_name (str, optional): output name for csv file . Defaults to "matrice_complementarite_normalized".
+    """
     mat = create_matrix(list_algue, list_bact)
 
     data = fill_mat(mat, scopes_bacteries_path)

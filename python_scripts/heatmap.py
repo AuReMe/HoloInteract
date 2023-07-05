@@ -3,13 +3,13 @@ import sys
 import pandas
 
 
-def heatmap(input_file, method, output_file="output", color="tab10"):
+def heatmap(input_file, method, output_file, color="tab10"):
     """Genere une clustermap du fichier csv donné en entree
     Args:
         input_file (str): fichier csv
         method (str): methode de clusterisation
-        color (str): palette de couleur Seaborn à utiliser. Defauts : viridis
-        output_file (str): nom du fichier PNG de sortie. Defauts : output
+        color (str): palette de couleur Seaborn à utiliser. Defauts : tab10
+        output_file (str): nom du fichier PNG de sortie.
     """
 
     matrice = pandas.read_csv(input_file, sep=";", header=0, index_col=0)
