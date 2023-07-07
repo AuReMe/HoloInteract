@@ -54,34 +54,43 @@ These commands below launch a full workflow :
   - coevolution_matrix : Generates a matrix of the coevolution scopes.
   - coevolution_graph : Generates a graph of the metabolic. complementarity as a function of phylogenetic distance from the host organism.
 
-### Required :
+## Required :
 
-You have to put a '/' at the end of the paths you give as an argument of the function.
+You have to put a '/' at the end of the paths you give as an argument of the function.  
 ex:
 
 ```bash
 holointeract get_alg_scopes -r /repository/to/host/networks/ --seeds /path/to/seeds.sbml -o /path/to/out/directory/
 ```
 
+The name of species (hosts and bacteria) has to be separated by '\_'.  
+ex:
+
+```bash
+Homo_Sapiens
+
+Roseobacter_litoralis
+```
+
 The repository structure of the bacterias metabolic networks has to be :
 
 ├── Bacteria_networks/  
-│ ├── Host1/  
+│ ├── Host_1/  
 │ │ ├── sbml/  
-│ │ │ ├── Bacteria1.sbml  
-│ │ │ ├── Bacteria2.sbml  
-│ ├── Host2/  
+│ │ │ ├── Bacteria_1.sbml  
+│ │ │ ├── Bacteria_2.sbml  
+│ ├── Host_2/  
 │ │ ├── sbml/  
-│ │ │ ├── Bacteria3.sbml  
-│ │ │ ├── Bacteria4.sbml
+│ │ │ ├── Bacteria_3.sbml  
+│ │ │ ├── Bacteria_4.sbml
 
 The repository structure of the host metabolic networks has to be :
 
 ├── Host_networks/  
-│ ├── Host1.sbml  
-│ ├── Host2.sbml
+│ ├── Host_1.sbml  
+│ ├── Host_2.sbml
 
-## Reconstruct metabolic networks :
+<!-- ## Reconstruct metabolic networks :
 
 Need a singularity image with Pathway Tools installed and use the Genouest Bioinformatics Cluster.
 
@@ -89,4 +98,4 @@ Need a singularity image with Pathway Tools installed and use the Genouest Bioin
 . /local/env/enveggnog-mapper-2.1.9.sh
 
 python python_scripts/network_from_genomes.py /path/to/bact/genomes/ /path/to/gbk/files/ /path/to/bact/networks/ /path/to/singularity
-```
+``` -->
