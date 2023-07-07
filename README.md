@@ -99,3 +99,17 @@ Need a singularity image with Pathway Tools installed and use the Genouest Bioin
 
 python python_scripts/network_from_genomes.py /path/to/bact/genomes/ /path/to/gbk/files/ /path/to/bact/networks/ /path/to/singularity
 ``` -->
+
+### Help available
+
+You can look for help using commands:
+
+```bash
+holointeract -h
+```
+
+or
+
+```bash
+holointeract 'subcommand' -h
+```
