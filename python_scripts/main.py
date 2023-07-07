@@ -218,13 +218,13 @@ parser_metabolic_analysis.add_argument(
 parser_metabolic_analysis.add_argument(
     "-s", "--seeds", type=str, required=True, help="seeds file")
 parser_metabolic_analysis.add_argument(
-    "-a", "--host_scopes_path", type=str, required=True, help="path to hosr scopes")
+    "-a", "--host_scopes_path", type=str, required=True, help="path to host scopes")
 parser_metabolic_analysis.add_argument(
     "-i", "--histogram_cpd_name", type=str, required=True, help="histogram added value compounds name")
 parser_metabolic_analysis.add_argument(
     "-c", "--csv_cpd_name", type=str, required=True, help="name of the csv file containing added value compounds")
 parser_metabolic_analysis.add_argument(
-    "--padmet_file", type=str, required=True, help="padmet database file")
+    "--padmet_file", type=str, required=True, help="padmet metacyc database file")
 parser_metabolic_analysis.add_argument(
     "--clustermap_name", type=str, required=True, help="name of the clustermap")
 parser_metabolic_analysis.add_argument("-t", "--clustering_method", type=str, required=True, choices=[
@@ -232,33 +232,6 @@ parser_metabolic_analysis.add_argument("-t", "--clustering_method", type=str, re
 parser_metabolic_analysis.add_argument(
     "-x", "--matrix_name", type=str, required=True, help="name of the csv_file permitting to create the clustermap")
 
-# FULL WORKFLOW
-
-# parser_full_coevolution_analysis: ArgumentParser = subparsers.add_parser(
-#     'full_coevolution_analysis',
-#     help="Perform every steps to analysis the metabolic interaction in holobionts.\n"
-# )
-# parser_full_coevolution_analysis.add_argument("-g","--genomes_path", type=str, required=True,help="The bacteria genomes must be in a type repository structure like : ../Genomes/Host/Bacteria/Bacteria_genome.fna . You have to give the path to ../Genomes/")
-# parser_full_coevolution_analysis.add_argument("-n", "--metabolic_networks_path",type=str, required=True,help="path to metabolic networks")
-# parser_full_coevolution_analysis.add_argument("-b", "--bact_scopes_path", type=str, required=True,help="path to scopes")
-# parser_full_coevolution_analysis.add_argument("-m","--analysis_method",choices=["solo", "coop"], type=str, required=True,help="Authorize cooperation between bacteria or not")
-# parser_full_coevolution_analysis.add_argument("--singularity_path", type=str, required=True,help="path to singularity")
-# parser_full_coevolution_analysis.add_argument("--host_metabolic_networks_path", type=str, required=True,help="host_metabolic network")
-# parser_full_coevolution_analysis.add_argument("-s", "--seeds", type=str, required=True,help="seeds file")
-# parser_full_coevolution_analysis.add_argument("-a","--host_scopes_path", type=str, required=True,help="path to hosr scopes")
-# parser_full_coevolution_analysis.add_argument("-k", "--gbk_files", type=str, required=True,help="path to gbk files")
-# parser_full_coevolution_analysis.add_argument("-i","--histogram_cpd_name", type=str, required=True,help="histogram added value compounds name")
-# parser_full_coevolution_analysis.add_argument("-c","--csv_cpd_name", type=str, required=True,help="name of the csv file containing added value compounds")
-# parser_full_coevolution_analysis.add_argument("--clustermap_name" ,type=str, required=True,help="name of the clustermap")
-# parser_full_coevolution_analysis.add_argument("-t","--clustering_method", type=str, required=True, choices=['single', 'complete', 'average','weighted', 'centroid','ward'],help="clustering method")
-# parser_full_coevolution_analysis.add_argument("-x", "--matrix_name",type=str, required=True,help="name of the csv_file permitting to create the clustermap")
-# parser_full_coevolution_analysis.add_argument("--all_bact","-p", type=str, required=True,help="Path to create the pool of all bacterias of the dataset (in the singularity path)")
-# parser_full_coevolution_analysis.add_argument("--coevolution_matrix",type=str, required=True,help="name of the csv_file permitting to create the clustermap")
-# parser_full_coevolution_analysis.add_argument("-f", "--coevolution_graph",type=str, required=True,help="name of the csv_file permitting to create the clustermap")
-# parser_full_coevolution_analysis.add_argument("--all_bact_scopes", "-r", type=str, required=True, help="path to the directory containing the scopes of all bacteria with all algaes")
-# parser_full_coevolution_analysis.add_argument("--coevolution_matrix_name", "-e", type=str, required=True, help="name of the coevolution matrix")
-# parser_full_coevolution_analysis.add_argument("--phylogenetic_tree", "-y", type=str, required=True, help="phylogenetic_tree (Newick format) of the hosts")
-# parser_full_coevolution_analysis.add_argument("--output_values_coev_graph", "-z", type=str, required=True, help="phylogenetic_tree (Newick format) of the hosts")
 
 parser_coevolution_analysis: ArgumentParser = subparsers.add_parser(
     'coevolution_analysis',
@@ -275,7 +248,7 @@ parser_coevolution_analysis.add_argument(
 parser_coevolution_analysis.add_argument(
     "-s", "--seeds", type=str, required=True, help="seeds file")
 parser_coevolution_analysis.add_argument(
-    "-a", "--host_scopes_path", type=str, required=True, help="path to hosr scopes")
+    "-a", "--host_scopes_path", type=str, required=True, help="path to host scopes")
 parser_coevolution_analysis.add_argument(
     "-i", "--histogram_cpd_name", type=str, required=True, help="histogram added value compounds name")
 parser_coevolution_analysis.add_argument(
@@ -287,17 +260,17 @@ parser_coevolution_analysis.add_argument(
 parser_coevolution_analysis.add_argument("--all_bact", "-p", type=str, required=True,
                                          help="Path to create the pool of all bacterias of the dataset (in the singularity path)")
 parser_coevolution_analysis.add_argument("-f", "--coevolution_graph", type=str,
-                                         required=True, help="name of the csv_file permitting to create the clustermap")
+                                         required=True, help="name of the coevolution graph file")
 parser_coevolution_analysis.add_argument("--all_bact_scopes", "-r", type=str, required=True,
                                          help="path to the directory containing the scopes of all bacteria with all algaes")
 parser_coevolution_analysis.add_argument(
     "--phylogenetic_tree", "-y", type=str, required=True, help="phylogenetic_tree (Newick format) of the hosts")
 parser_coevolution_analysis.add_argument(
-    "--output_values_coev_graph", "-z", type=str, required=True, help="phylogenetic_tree (Newick format) of the hosts")
+    "--output_values_coev_graph", "-z", type=str, required=True, help="name of the csv files containing graph values")
 parser_coevolution_analysis.add_argument(
     "--correction", type=str, help="Mutiple test correction", choices=["", "bonferroni", "benjamini"], default="")
 parser_coevolution_analysis.add_argument(
-    "--padmet_file", type=str, required=True, help="padmet database file")
+    "--padmet_file", type=str, required=True, help="padmet metacyc database file")
 
 
 #############################################################################################
@@ -317,39 +290,6 @@ def networks_from_genomes(genomes_path, gbk_files, metabolic_networks_path, sing
     print("Start metabolic network building")
     python_scripts.meta_network.build_network_eggnog(
         input_dir=gbk_files, output_dir=metabolic_networks_path, singularity_path=singularity_path)
-
-# def full_metabolic_analysis(genomes_path, metabolic_networks_path, scopes_path, analysis_method, singularity_path, algaes_network_path, seeds, alg_scopes, gbk_files, output_fig_cpd, output_file_cpd, clustering_method,matrice_name="matrice"):
-#     # print("Annotation done")
-#     # python_scripts.annot_emapper.annot_eggnog(input_dir=genomes_path, output_dir=genomes_path)
-
-#     # print("Start emapper2GBK")
-#     # python_scripts.create_input_mpwt.egg2gbk(input_dir=genomes_path, output_dir=gbk_files)
-
-#     # print("Start metabolic network building")
-#     # python_scripts.meta_network.build_network_eggnog(
-#     #     input_dir=gbk_files, output_dir=metabolic_networks_path,singularity_path=singularity_path)
-
-#     print("Start analysing networks")
-#     # Algues
-#     python_scripts.get_algae_scope.run_miscoto(
-#         path=algaes_network_path, seeds=seeds, output=alg_scopes)
-#     # Bacts
-#     python_scripts.analyse_community.test_analyse(path=metabolic_networks_path, method=analysis_method,
-#                                    path_output=scopes_path, path_algues_network=algaes_network_path, seeds=seeds)
-
-#     print("Start matrix creation")
-#     if analysis_method == "solo":
-#         dico_algue, dico_bact = python_scripts.create_big_tab_bact.job(
-#             path_alg=alg_scopes, path_bact=scopes_path, path_holo=scopes_path, path_metabolic_networks=metabolic_networks_path, output_name=matrice_name)
-#     else:
-#         dico_algue, dico_bact = python_scripts.create_big_tab_alg.job(
-#             alg_scopes=alg_scopes, bact_scopes=scopes_path, sbml_path=metabolic_networks_path, output_name=matrice_name, method=analysis_method)
-
-#     python_scripts.stat_cpd.job(matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd)
-
-#     print("Start heatmap")
-#     python_scripts.heatmap.heatmap(matrice_name+".csv", clustering_method,
-#                     analysis_method=analysis_method, output_file=matrice_name, color="tab10")
 
 
 def metabolic_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes, output_fig_cpd, output_file_cpd, clustering_method, padmet, matrice_name="matrice"):
@@ -416,54 +356,6 @@ def coevolution_analysis(metabolic_networks_path, scopes_path, analysis_method, 
 
     python_scripts.Graph_dist.job(phylogenetic_tree, input_file=matrice_name+"_coevolution.csv",
                                   ouput_file_for_graph=csv_file_for_graph, graph_name=coevolution_graph_name, correction=correction)
-
-
-# def full_coevolution_analysis(genomes_path, metabolic_networks_path, scopes_path, analysis_method, singularity_path,all_bact,all_scopes, algaes_network_path, seeds, alg_scopes, gbk_files, phylogenetic_tree, output_fig_cpd, output_file_cpd,clustering_method, out_file_graph,matrice_name="matrice"):
-#     print("Annotation done")
-#     python_scripts.annot_emapper.annot_eggnog(input_dir=genomes_path, output_dir=genomes_path)
-
-#     print("Start emapper2GBK")
-#     python_scripts.create_input_mpwt.egg2gbk(input_dir=genomes_path, output_dir=gbk_files)
-
-#     print("Start metabolic network building")
-#     python_scripts.meta_network.build_network_eggnog(
-#         input_dir=gbk_files, output_dir=metabolic_networks_path, singularity_path=singularity_path)
-
-#     print("Start analysing networks")
-#     # Algues
-#     python_scripts.get_algae_scope.run_miscoto(
-#         path=algaes_network_path, seeds=seeds, output=alg_scopes)
-#     # Bacts
-#     python_scripts.analyse_community.test_analyse(path=metabolic_networks_path, method=analysis_method,
-#                                    path_output=scopes_path, path_algues_network=algaes_network_path, seeds=seeds)
-
-#     print("Start matrix creation")
-#     if analysis_method == "solo":
-#         dico_algue, dico_bact = python_scripts.create_big_tab_bact.job(
-#             path_alg=alg_scopes, path_bact=scopes_path, path_holo=scopes_path, path_metabolic_networks=metabolic_networks_path, output_name=matrice_name)
-#     else:
-#         dico_algue, dico_bact = python_scripts.create_big_tab_alg.job(
-#             alg_scopes=alg_scopes, bact_scopes=scopes_path, sbml_path=metabolic_networks_path, output_name=matrice_name, method=analysis_method)
-
-#     python_scripts.stat_cpd.job(matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd)
-
-#     list_bact = [x for x in dico_bact.keys()]
-#     list_algue = [x for x in dico_algue.keys()]
-
-#     print("Start heatmap")
-#     python_scripts.heatmap.heatmap(matrice_name+".csv", clustering_method,
-#                     analysis_method=analysis_method, output_file=matrice_name, color="tab10")
-
-#     python_scripts.analyse_community.coev_scopes(metabolic_networks_path,path_all_bact=all_bact,
-#                                   list_algues=list_algue,path_sbml_algues=algaes_network_path,output_dir_scopes=all_scopes, seeds=seeds)
-#     # On continue vers la coévolution
-#     python_scripts.mat_dist_full_crossed.job(list_algue=list_algue, list_bact=list_bact,
-#                               scopes_bacteries_path=all_scopes, output_name=matrice_name+"_coevolution")
-
-#     # Construction du graph de coévolution
-
-#     python_scripts.Graph_dist.job(phylogenetic_tree, input_file=matrice_name+"_coevolution.csv",
-#                    ouput_file_for_graph=out_file_graph, graph_name="Coevolution_distance")
 
 
 def main():
