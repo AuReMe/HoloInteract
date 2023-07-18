@@ -280,6 +280,7 @@ def metabolic_analysis(metabolic_networks_path, scopes_path, analysis_method, al
         dico_algue, dico_bact = python_scripts.create_big_tab_alg.job(
             alg_scopes=alg_scopes, bact_scopes=scopes_path, sbml_path=metabolic_networks_path, output_name=matrice_name, method=analysis_method)
 
+    print("Start stat_cpd")
     python_scripts.stat_cpd.job(
         matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet)
 
