@@ -171,37 +171,7 @@ parser_coevolution_graph.add_argument("--correction", "-c", type=str, choices=[
                                       "bonferroni", "benjamini", ""], default="", help="Multiple tests correction")
 
 
-# Metabolic network reconstruction
-# parser_networks_from_genomes: ArgumentParser = subparsers.add_parser(
-#     'networks_from_genomes',
-#     help="Reconstruction of the metabolic networks from the bacteria genomes\n"
-# )
-# parser_full_metabolic_analysis.add_argument("-g","--genomes_path", type=str, required=True,help="The bacteria genomes must be in a type repository structure like : ../Genomes/Host/Bacteria/Bacteria_genome.fna . You have to give the path to ../Genomes/")
-# parser_full_metabolic_analysis.add_argument("-n", "--metabolic_networks_path",type=str, required=True,help="path to metabolic networks")
-# parser_full_metabolic_analysis.add_argument("-p","--singularity_path", type=str, required=True,help="path to singularity")
-# parser_full_metabolic_analysis.add_argument("-k", "--gbk_files", type=str, required=True,help="path to gbk files")
-
-
 # METABOLIC ANALYSIS ONLY
-
-# parser_full_metabolic_analysis: ArgumentParser = subparsers.add_parser(
-#     'full_metabolic_analysis',
-#     help="Perform every steps to analysis the metabolic interaction in holobionts.\n"
-# )
-# parser_full_metabolic_analysis.add_argument("-g","--genomes_path", type=str, required=True,help="The bacteria genomes must be in a type repository structure like : ../Genomes/Host/Bacteria/Bacteria_genome.fna . You have to give the path to ../Genomes/")
-# parser_full_metabolic_analysis.add_argument("-n", "--metabolic_networks_path",type=str, required=True,help="path to metabolic networks")
-# parser_full_metabolic_analysis.add_argument("-b", "--bact_scopes_path", type=str, required=True,help="path to scopes")
-# parser_full_metabolic_analysis.add_argument("-m","--analysis_method",choices=["solo", "coop"], type=str, required=True,help="Authorize cooperation between bacteria or not")
-# parser_full_metabolic_analysis.add_argument("-p","--singularity_path", type=str, required=True,help="path to singularity")
-# parser_full_metabolic_analysis.add_argument("--host_metabolic_networks_path", type=str, required=True,help="host_metabolic network")
-# parser_full_metabolic_analysis.add_argument("-s", "--seeds", type=str, required=True,help="seeds file")
-# parser_full_metabolic_analysis.add_argument("-a","--host_scopes_path", type=str, required=True,help="path to hosr scopes")
-# parser_full_metabolic_analysis.add_argument("-k", "--gbk_files", type=str, required=True,help="path to gbk files")
-# parser_full_metabolic_analysis.add_argument("-i","--histogram_cpd_name", type=str, required=True,help="histogram added value compounds name")
-# parser_full_metabolic_analysis.add_argument("-c","--csv_cpd_name", type=str, required=True,help="name of the csv file containing added value compounds")
-# parser_full_metabolic_analysis.add_argument("--clustermap_name" ,type=str, required=True,help="name of the clustermap")
-# parser_full_metabolic_analysis.add_argument("-t","--clustering_method", type=str, required=True, choices=['single', 'complete', 'average','weighted', 'centroid','ward'],help="clustering method")
-# parser_full_metabolic_analysis.add_argument("-x", "--matrix_name",type=str, required=True,help="name of the csv_file permitting to create the clustermap")
 
 parser_metabolic_analysis: ArgumentParser = subparsers.add_parser(
     'metabolic_analysis',
