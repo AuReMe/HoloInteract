@@ -1,14 +1,17 @@
-import python_scripts.annot_emapper
-import python_scripts.create_input_mpwt
-import python_scripts.meta_network
-import python_scripts.analyse_community
-import python_scripts.get_algae_scope
-import python_scripts.create_big_tab_alg
-import python_scripts.stat_cpd
-import python_scripts.create_big_tab_bact
-import python_scripts.heatmap
-import python_scripts.mat_dist_full_crossed
-import python_scripts.Graph_dist
+import holointeract.network_generation.annot_emapper
+import holointeract.network_generation.create_input_mpwt
+import holointeract.network_generation.meta_network
+
+import holointeract.scopes_analysis.analyse_community
+import holointeract.scopes_analysis.get_algae_scope
+import holointeract.scopes_analysis.create_big_tab_alg
+import holointeract.scopes_analysis.stat_cpd
+import holointeract.scopes_analysis.create_big_tab_bact
+import holointeract.scopes_analysis.heatmap
+
+import holointeract.mat_dist_full_crossed
+import holointeract.Graph_dist
+
 from sys import argv
 from argparse import ArgumentParser
 from rich.traceback import install
@@ -28,7 +31,8 @@ parser._optionals.title = 'Global Arguments'
 parser_annot: ArgumentParser = subparsers.add_parser(
     'annot_emapper',
     help="Performs emapper annotations\n"
-    "The bacteria genomes must be in a type repository structure like : ../Genomes/Host/Bacteria/Bacteria_genome.fna . You have to give the path to ../Genomes/"
+    "The bacteria genomes must be in a type repository structure like : ../Genomes/Host/Bacteria/Bacteria_genome.fna . "
+         "You have to give the path to ../Genomes/"
 )
 parser_annot.add_argument("--repository", "-r", type=str, required=True,
                           help="Path to the repository ../Genomes/ containing hosts folders.")
@@ -47,7 +51,7 @@ parser_gbk.add_argument("--repository", "-r", type=str, required=True,
 parser_gbk.add_argument("--out", "-o", type=str,
                         required=True, help="Ouput directory path")
 
-# Reseau metabolic
+# Metabolic networks
 
 parser_meta_network: ArgumentParser = subparsers.add_parser(
     'meta_network',
@@ -250,15 +254,15 @@ args = parser.parse_args()
 
 def networks_from_genomes(genomes_path, gbk_files, metabolic_networks_path, singularity_path):
     print("Annotation done")
-    python_scripts.annot_emapper.annot_eggnog(
+    holointeract.network_generation.annot_emapper.annot_eggnog(
         input_dir=genomes_path, output_dir=genomes_path)
 
     print("Start emapper2GBK")
-    python_scripts.create_input_mpwt.egg2gbk(
+    holointeract.network_generation.create_input_mpwt.egg2gbk(
         input_dir=genomes_path, output_dir=gbk_files)
 
     print("Start metabolic network building")
-    python_scripts.meta_network.build_network_eggnog(
+    holointeract.network_generation.meta_network.build_network_eggnog(
         input_dir=gbk_files, output_dir=metabolic_networks_path, singularity_path=singularity_path)
 
 
@@ -266,67 +270,67 @@ def metabolic_analysis(metabolic_networks_path, scopes_path, analysis_method, al
 
     print("Start analysing networks")
     # Algues
-    python_scripts.get_algae_scope.run_miscoto(
+    holointeract.scopes_analysis.get_algae_scope.run_miscoto(
         path=algaes_network_path, seeds=seeds, output=alg_scopes)
     # Bacts
-    python_scripts.analyse_community.test_analyse(path=metabolic_networks_path, method=analysis_method,
-                                                  path_output=scopes_path, path_algues_network=algaes_network_path, seeds=seeds)
+    holointeract.scopes_analysis.analyse_community.test_analyse(path=metabolic_networks_path, method=analysis_method,
+                                                path_output=scopes_path, path_algues_network=algaes_network_path, seeds=seeds)
 
     print("Start matrix creation")
     if analysis_method == "solo":
-        dico_algue, dico_bact = python_scripts.create_big_tab_bact.job(
+        dico_algue, dico_bact = holointeract.scopes_analysis.create_big_tab_bact.job(
             path_alg=alg_scopes, path_bact=scopes_path, path_holo=scopes_path, path_metabolic_networks=metabolic_networks_path, output_name=matrice_name)
     else:
-        dico_algue, dico_bact = python_scripts.create_big_tab_alg.job(
+        dico_algue, dico_bact = holointeract.scopes_analysis.create_big_tab_alg.job(
             alg_scopes=alg_scopes, bact_scopes=scopes_path, sbml_path=metabolic_networks_path, output_name=matrice_name, method=analysis_method)
 
     print("Start stat_cpd")
-    python_scripts.stat_cpd.job(
+    holointeract.scopes_analysis.stat_cpd.job(
         matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet)
 
     print("Start heatmap")
-    python_scripts.heatmap.heatmap(matrice_name+".csv", clustering_method,
-                                   output_file=matrice_name, color="tab10")
+    holointeract.scopes_analysis.heatmap.heatmap(matrice_name + ".csv", clustering_method,
+                                 output_file=matrice_name, color="tab10")
 
 
 def coevolution_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes, all_scopes, all_bact, phylogenetic_tree, output_fig_cpd, output_file_cpd, clustering_method, csv_file_for_graph, coevolution_graph_name, correction, padmet, matrice_name="matrice"):
 
     print("Start analysing networks")
     # Algues
-    python_scripts.get_algae_scope.run_miscoto(
+    holointeract.scopes_analysis.get_algae_scope.run_miscoto(
         path=algaes_network_path, seeds=seeds, output=alg_scopes)
     # Bacts
-    python_scripts.analyse_community.test_analyse(path=metabolic_networks_path, method=analysis_method,
-                                                  path_output=scopes_path, path_algues_network=algaes_network_path, seeds=seeds)
+    holointeract.scopes_analysis.analyse_community.test_analyse(path=metabolic_networks_path, method=analysis_method,
+                                                path_output=scopes_path, path_algues_network=algaes_network_path, seeds=seeds)
 
     print("Start matrix creation")
     if analysis_method == "solo":
-        dico_algue, dico_bact = python_scripts.create_big_tab_bact.job(
+        dico_algue, dico_bact = holointeract.scopes_analysis.create_big_tab_bact.job(
             path_alg=alg_scopes, path_bact=scopes_path, path_holo=scopes_path, path_metabolic_networks=metabolic_networks_path, output_name=matrice_name)
     else:
-        dico_algue, dico_bact = python_scripts.create_big_tab_alg.job(
+        dico_algue, dico_bact = holointeract.scopes_analysis.create_big_tab_alg.job(
             alg_scopes=alg_scopes, bact_scopes=scopes_path, sbml_path=metabolic_networks_path, output_name=matrice_name, method=analysis_method)
 
-    python_scripts.stat_cpd.job(
+    holointeract.scopes_analysis.stat_cpd.job(
         matrice_name+".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet)
 
     list_bact = [x for x in dico_bact.keys()]
     list_algue = [x for x in dico_algue.keys()]
     print(list_bact)
     print("Start heatmap")
-    python_scripts.heatmap.heatmap(matrice_name+".csv", clustering_method,
-                                   output_file=matrice_name, color="tab10")
+    holointeract.scopes_analysis.heatmap.heatmap(matrice_name + ".csv", clustering_method,
+                                 output_file=matrice_name, color="tab10")
 
-    python_scripts.analyse_community.coev_scopes(metabolic_networks_path, path_all_bact=all_bact,
-                                                 list_algues=list_algue, path_sbml_algues=algaes_network_path, output_dir_scopes=all_scopes, seeds=seeds)
+    holointeract.scopes_analysis.analyse_community.coev_scopes(metabolic_networks_path, path_all_bact=all_bact,
+                                               list_algues=list_algue, path_sbml_algues=algaes_network_path, output_dir_scopes=all_scopes, seeds=seeds)
     # On continue vers la coévolution
-    python_scripts.mat_dist_full_crossed.job(list_algue=list_algue, list_bact=list_bact,
-                                             scopes_bacteries_path=all_scopes, output_name=matrice_name+"_coevolution")
+    holointeract.mat_dist_full_crossed.job(list_algue=list_algue, list_bact=list_bact,
+                                           scopes_bacteries_path=all_scopes, output_name=matrice_name+"_coevolution")
 
     # Construction du graph de coévolution
 
-    python_scripts.Graph_dist.job(phylogenetic_tree, input_file=matrice_name+"_coevolution.csv",
-                                  ouput_file_for_graph=csv_file_for_graph, graph_name=coevolution_graph_name, correction=correction)
+    holointeract.Graph_dist.job(phylogenetic_tree, input_file=matrice_name + "_coevolution.csv",
+                                ouput_file_for_graph=csv_file_for_graph, graph_name=coevolution_graph_name, correction=correction)
 
 
 def main():
@@ -338,35 +342,35 @@ def main():
         exit()
 
     elif args.subcommands == 'annot_emapper':
-        python_scripts.annot_emapper.annot_eggnog(
+        holointeract.annot_emapper.annot_eggnog(
             input_dir=args.repository, output_dir=args.out)
     elif args.subcommands == "create_gbk":
-        python_scripts.create_input_mpwt.egg2gbk(
+        holointeract.create_input_mpwt.egg2gbk(
             input_dir=args.repository, output_dir=args.out)
     elif args.subcommands == "meta_network":
-        python_scripts.meta_network.build_network_eggnog(
+        holointeract.meta_network.build_network_eggnog(
             input_dir=args.repository, output_dir=args.out, singularity_path=args.singularity_path)
     elif args.subcommands == "get_alg_scope":
-        python_scripts.get_algae_scope.run_miscoto(
+        holointeract.get_algae_scope.run_miscoto(
             path=args.repository, seeds=args.seeds, output=args.out)
     elif args.subcommands == "community_analysis":
-        python_scripts.analyse_community.test_analyse(
+        holointeract.analyse_community.test_analyse(
             path=args.repository, seeds=args.seeds, method=args.method, path_algues_network=args.alg_networks_dir, path_output=args.out)
     elif args.subcommands == "stat_cpd":
-        python_scripts.stat_cpd.job(
+        holointeract.stat_cpd.job(
             matrice=args.matrice, output_fig_cpd=args.histogram_name, output_file_cpd=args.output_file_name, padmet=args.padmet_file)
     elif args.subcommands == "clustermap":
-        python_scripts.heatmap.heatmap(
+        holointeract.heatmap.heatmap(
             input_file=args.matrice, method=args.method, output_file=args.clustermap_name)
     elif args.subcommands == "coevolution_scopes":
-        python_scripts.analyse_community.coev_scopes(path_metabolic_networks=args.repository, path_all_bact=args.all_bact,
-                                                     list_algues=args.list_alg, path_sbml_algues=args.alg_networks_dir, output_dir_scopes=args.out, seeds=args.seeds)
+        holointeract.analyse_community.coev_scopes(path_metabolic_networks=args.repository, path_all_bact=args.all_bact,
+                                                   list_algues=args.list_alg, path_sbml_algues=args.alg_networks_dir, output_dir_scopes=args.out, seeds=args.seeds)
     elif args.subcommands == 'coevolution_matrix':
-        python_scripts.mat_dist_full_crossed.job(
+        holointeract.mat_dist_full_crossed.job(
             list_algue=args.list_alg, list_bact=args.list_bact, scopes_bacteries_path=args.all_scopes, output_name=args.out)
     elif args.subcommands == 'coevolution_graph':
-        python_scripts.Graph_dist.job(phylogenetic_tree=args.phylogenetic_tree, input_file=args.coevolution_matrix,
-                                      ouput_file_for_graph=args.csv_file_name, correction=args.correction, graph_name=args.graph_name)
+        holointeract.Graph_dist.job(phylogenetic_tree=args.phylogenetic_tree, input_file=args.coevolution_matrix,
+                                    ouput_file_for_graph=args.csv_file_name, correction=args.correction, graph_name=args.graph_name)
 
     elif args.subcommands == 'metabolic_analysis':
         metabolic_analysis(metabolic_networks_path=args.metabolic_networks_path, scopes_path=args.bact_scopes_path, analysis_method=args.analysis_method,

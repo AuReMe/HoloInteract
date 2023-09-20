@@ -78,10 +78,10 @@ if __name__ == "__main__":
         analyse_tab_pourc(input_file=sys.argv[2], output_name=sys.argv[3])
 
 # clustermap
-# python python_scripts/heatmap.py clustermap table.csv ward Bacterie_cpd_clust tab10
+# python holointeract/heatmap.py clustermap table.csv ward Bacterie_cpd_clust tab10
 
-# python python_scripts/heatmap.py clustermap long_read_solo_alg_mat.csv ward Long_Solo_cpd tab10
-# python python_scripts/heatmap.py clustermap short_read_solo_alg_mat.csv ward Short_Solo_cpd tab10
+# python holointeract/heatmap.py clustermap long_read_solo_alg_mat.csv ward Long_Solo_cpd tab10
+# python holointeract/heatmap.py clustermap short_read_solo_alg_mat.csv ward Short_Solo_cpd tab10
 
 # pourcentage
-# python python_scripts/heatmap.py pourcentage All_solo_stats.csv All_solo_stats
+# python holointeract/heatmap.py pourcentage All_solo_stats.csv All_solo_stats

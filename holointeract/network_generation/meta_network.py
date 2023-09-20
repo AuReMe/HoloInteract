@@ -1,7 +1,7 @@
 import glob
 import subprocess as sub
 import sys
-from python_scripts.rename_gbk_id import rename_id
+from holointeract.rename_gbk_id import rename_id
 
 
 def build_network_eggnog(input_dir: str, output_dir: str, singularity_path: str):

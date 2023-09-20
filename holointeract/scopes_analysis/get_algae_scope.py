@@ -1,7 +1,7 @@
 from glob import glob
 import subprocess as sub
 import sys
-from python_scripts.create_big_tab_alg import modif_cpd_name
+from holointeract.create_big_tab_alg import modif_cpd_name
 import pandas
 
 
@@ -27,4 +27,4 @@ def run_miscoto(path: str, seeds: str, output: str):
         sub.run([f'rm -r ./tempo'], shell=True)
 
 
-# python python_scripts/get_algae_scope.py /scratch/clucas/sbml_algues/ /scratch/clucas/miscoto_out/
+# python holointeract/get_algae_scope.py /scratch/clucas/sbml_algues/ /scratch/clucas/miscoto_out/

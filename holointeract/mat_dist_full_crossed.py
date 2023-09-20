@@ -145,7 +145,7 @@ if __name__ == "__main__":
 
     job(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
 
-# python python_scripts/mat_dist_full_crossed.py /groups/phaeo_bact/SBML_EggNog/ /scratch/clucas/all_scopes_matrix/ /scratch/clucas/scopes_full_microbiota/ mat_dist_full_crossed_nonorm
+# python holointeract/mat_dist_full_crossed.py /groups/phaeo_bact/SBML_EggNog/ /scratch/clucas/all_scopes_matrix/ /scratch/clucas/scopes_full_microbiota/ mat_dist_full_crossed_nonorm
 
-# python python_scripts/mat_dist_full_crossed.py /groups/phaeo_bact/Long_reads/ /scratch/clucas/Long_all_scopes/ /scratch/clucas/Long_full_scopes/ Long_dist_full_crossed
-# python python_scripts/mat_dist_full_crossed.py /groups/phaeo_bact/Short_reads/ /scratch/clucas/Short_all_scopes/ /scratch/clucas/Short_full_scopes/ Short_dist_full_crossed
+# python holointeract/mat_dist_full_crossed.py /groups/phaeo_bact/Long_reads/ /scratch/clucas/Long_all_scopes/ /scratch/clucas/Long_full_scopes/ Long_dist_full_crossed
+# python holointeract/mat_dist_full_crossed.py /groups/phaeo_bact/Short_reads/ /scratch/clucas/Short_all_scopes/ /scratch/clucas/Short_full_scopes/ Short_dist_full_crossed

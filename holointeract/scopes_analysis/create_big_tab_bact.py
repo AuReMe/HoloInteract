@@ -164,4 +164,4 @@ if __name__ == "__main__":
 
     
 
-# python python_scripts/create_big_tab.py /scratch/clucas/algaes_scopes/ /scratch/clucas/Added_value/ /groups/phaeo_bact/SBML_EggNog/
+# python holointeract/create_big_tab.py /scratch/clucas/algaes_scopes/ /scratch/clucas/Added_value/ /groups/phaeo_bact/SBML_EggNog/

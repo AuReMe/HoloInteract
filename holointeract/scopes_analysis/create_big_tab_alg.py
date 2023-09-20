@@ -322,5 +322,5 @@ if __name__ == "__main__":
     matrice = modif_cpd_name(matrice)
     write_mat(matrice, sys.argv[4])"""
 
-# python python_scripts/create_big_tab_alg.py /scratch/clucas/algaes_scopes/ /scratch/clucas/Added_value/ /groups/phaeo_bact/SBML_EggNog/ alg_mat solo
-# python python_scripts/create_big_tab_alg.py /scratch/clucas/algaes_scopes/ /scratch/clucas/Coop_Added_value/ /groups/phaeo_bact/SBML_EggNog/ coop_alg_mat coop
+# python holointeract/create_big_tab_alg.py /scratch/clucas/algaes_scopes/ /scratch/clucas/Added_value/ /groups/phaeo_bact/SBML_EggNog/ alg_mat solo
+# python holointeract/create_big_tab_alg.py /scratch/clucas/algaes_scopes/ /scratch/clucas/Coop_Added_value/ /groups/phaeo_bact/SBML_EggNog/ coop_alg_mat coop
