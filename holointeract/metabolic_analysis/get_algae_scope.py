@@ -1,7 +1,7 @@
 from glob import glob
 import subprocess as sub
 import sys
-from holointeract.create_big_tab_alg import modif_cpd_name
+from holointeract.metabolic_analysis.create_big_tab_alg import modif_cpd_name
 import pandas
 
 
@@ -25,6 +25,3 @@ def run_miscoto(path: str, seeds: str, output: str):
         sub.run(
             [f'm2m metacom -n ./tempo/ -s {seeds} -m {algae} -o {out} -c 30'], shell=True)
         sub.run([f'rm -r ./tempo'], shell=True)
-
-
-# python holointeract/get_algae_scope.py /scratch/clucas/sbml_algues/ /scratch/clucas/miscoto_out/
