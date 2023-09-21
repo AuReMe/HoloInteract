@@ -8,13 +8,17 @@ from holointeract.utils.utils import *
 
 SOLO_METHOD = 'solo'
 COOP_METHOD = 'coop'
+SCOPES_STR = 'scopes'
 
 
 def community_scopes(community_sbml_path, hosts_sbml_path, output_dir, seeds, method, cpu=1):
     temp_path = os.path.join(output_dir, '.temp')
     create_new_dir(temp_path)
+    output_dir = os.path.join(output_dir, SCOPES_STR)
+    create_new_dir(output_dir)
     output_dir = os.path.join(output_dir, method)
     create_new_dir(output_dir)
+
     hosts_sbml = os.listdir(hosts_sbml_path)
 
     for h_sbml in hosts_sbml:
@@ -26,8 +30,8 @@ def community_scopes(community_sbml_path, hosts_sbml_path, output_dir, seeds, me
             comm_sbml = os.listdir(h_comm_path)
             for c_sbml in comm_sbml:
                 c_name = c_sbml.split('.')[0]
-                h_c_output = os.path.join(output_dir, f'{host_name}__{c_name}')
                 c_sbml_path = os.path.join(h_comm_path, c_sbml)
+                h_c_output = os.path.join(output_dir, f'{host_name}__{c_name}')
                 tmp_com_path = duplicate_networks_temp(c_sbml_path, temp_path, c_name)
                 metacom_analysis(tmp_com_path, h_c_output, seeds, h_sbml_path, None, cpu)
                 shutil.rmtree(tmp_com_path)
@@ -59,6 +63,7 @@ def duplicate_networks_temp(com_sbml_path, temp_path, c_name):
 
 
 # COEVOLUTION SCOPES
+# ======================================================================================================================
 
 def get_all_full_scope(list_algue: str, path_all_bact: str, path_sbml_algue, output_dir: str, seeds: str):
     """Compute scopes of each host with each bacteria

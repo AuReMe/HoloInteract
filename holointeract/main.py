@@ -1,6 +1,7 @@
 """
 HoloInteract
 """
+import os.path
 
 # ### IMPORTS
 # ======================================================================================================================
@@ -9,12 +10,9 @@ import holointeract.network_generation.annot_emapper
 import holointeract.network_generation.create_input_mpwt
 import holointeract.network_generation.meta_network
 
-import holointeract.metabolic_analysis.analyse_community
-import holointeract.metabolic_analysis.get_algae_scope
-import holointeract.metabolic_analysis.create_big_tab_alg
+from holointeract.metabolic_analysis.analyse_community import *
 import holointeract.metabolic_analysis.stat_cpd
-import holointeract.metabolic_analysis.create_big_tab_bact
-import holointeract.metabolic_analysis.heatmap
+from holointeract.metabolic_analysis.heatmap_host_bacteria import *
 
 import holointeract.coevolution_analysis.mat_dist_full_crossed
 import holointeract.coevolution_analysis.Graph_dist
@@ -278,47 +276,28 @@ def networks_from_genomes(genomes_path, gbk_files, metabolic_networks_path, sing
         input_dir=gbk_files, output_dir=metabolic_networks_path, singularity_path=singularity_path)
 
 
-def metabolic_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes,
-                       output_fig_cpd, output_file_cpd, clustering_method, padmet, matrice_name="matrice"):
-    print("Start analysing networks")
-    # Host
-    holointeract.metabolic_analysis.get_algae_scope.run_miscoto(
-        path=algaes_network_path, seeds=seeds, output=alg_scopes)
-    # Bacteria
-    holointeract.metabolic_analysis.analyse_community.test_analyse(path=metabolic_networks_path, method=analysis_method,
-                                                                   path_output=scopes_path,
-                                                                   path_algues_network=algaes_network_path, seeds=seeds)
+def metabolic_analysis(community_networks_path, host_networks_path, output_path, seeds, analysis_method,
+                       clustering_method, max_clust, cpu):
 
-    print("Start matrix creation")
-    if analysis_method == "solo":
-        dico_algue, dico_bact = holointeract.metabolic_analysis.create_big_tab_bact.job(
-            path_alg=alg_scopes, path_bact=scopes_path, path_holo=scopes_path,
-            path_metabolic_networks=metabolic_networks_path, output_name=matrice_name)
-    else:
-        dico_algue, dico_bact = holointeract.metabolic_analysis.create_big_tab_alg.job(
-            alg_scopes=alg_scopes, bact_scopes=scopes_path, sbml_path=metabolic_networks_path, output_name=matrice_name,
-            method=analysis_method)
+    print("Start calculate community scopes")
+    # Calculate scopes
+    community_scopes(community_sbml_path=community_networks_path, hosts_sbml_path=host_networks_path,
+                     output_dir=output_path, seeds=seeds, method=analysis_method, cpu=cpu)
 
-    print("Start stat_cpd")
-    holointeract.metabolic_analysis.stat_cpd.job(
-        matrice_name + ".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet)
+    # print("Start stat_cpd")
+    # holointeract.metabolic_analysis.stat_cpd.job(
+    #     matrice_name + ".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet)
 
-    print("Start heatmap")
-    holointeract.metabolic_analysis.heatmap.heatmap(matrice_name + ".csv", clustering_method,
-                                                    output_file=matrice_name, color="tab10")
+    print("Start generating clustermap")
+    input_heatmap = os.path.join(output_path, SCOPES_STR, analysis_method)
+    heatmap_host_bacteria(input_dir=input_heatmap, output=output_path, method=clustering_method, max_clust=max_clust)
 
 
 def coevolution_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes,
                          all_scopes, all_bact, phylogenetic_tree, output_fig_cpd, output_file_cpd, clustering_method,
                          csv_file_for_graph, coevolution_graph_name, correction, padmet, matrice_name="matrice"):
-    print("Start analysing networks")
-    # Algues
-    holointeract.metabolic_analysis.get_algae_scope.run_miscoto(
-        path=algaes_network_path, seeds=seeds, output=alg_scopes)
-    # Bacts
-    holointeract.metabolic_analysis.analyse_community.test_analyse(path=metabolic_networks_path, method=analysis_method,
-                                                                   path_output=scopes_path,
-                                                                   path_algues_network=algaes_network_path, seeds=seeds)
+
+    metabolic_analysis()
 
     print("Start matrix creation")
     if analysis_method == "solo":

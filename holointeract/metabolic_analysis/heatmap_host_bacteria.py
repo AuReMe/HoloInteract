@@ -193,7 +193,3 @@ def heatmap_host_bacteria(input_dir: str, output: str, method: str = 'ward', max
     df = rename_metabolites(df)
     df.to_csv(f'{output}_matrix.tsv', sep='\t')
     heatmap(df, f'{output}_heatmap.png', f'{output}_clusters.tsv', method, max_clust)
-
-
-
-heatmap_host_bacteria('Outputs/AscoOutput', 'coop_asco_falvo')
