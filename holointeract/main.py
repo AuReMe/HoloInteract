@@ -2,7 +2,6 @@
 HoloInteract
 """
 import os.path
-import scipy
 
 # ### IMPORTS
 # ======================================================================================================================
@@ -11,8 +10,7 @@ import holointeract.network_generation.annot_emapper
 import holointeract.network_generation.create_input_mpwt
 import holointeract.network_generation.meta_network
 
-from holointeract.metabolic_analysis.analyse_community import *
-import holointeract.metabolic_analysis.stat_cpd
+from holointeract.metabolic_analysis.scopes_community import *
 from holointeract.metabolic_analysis.heatmap_host_bacteria import *
 
 import holointeract.coevolution_analysis.mat_dist_full_crossed
@@ -34,7 +32,7 @@ LINKAGE_METHODS = ['single', 'complete', 'average', 'weighted', 'centroid', 'med
 def get_command_line_args():
     parser = ArgumentParser(prog='HoloInteract', description='', epilog='')
     subparsers = parser.add_subparsers(help='Available subcommands', dest='subcommands')
-    subparsers = args_metabolic_analysis(subparsers)
+    args_metabolic_analysis(subparsers)
     args = parser.parse_args()
     return args
 
@@ -51,6 +49,8 @@ def args_metabolic_analysis(subparsers):
                                            help='path to output directory')
     parser_metabolic_analysis.add_argument('-s', '--seeds', type=str, required=True,
                                            help='path to seeds SBML file')
+    parser_metabolic_analysis.add_argument('-n', '--name', type=str, required=False, default='run',
+                                           help='output files name')
     parser_metabolic_analysis.add_argument('-am', '--analysis_method', type=str, required=False,
                                            choices=[SOLO_METHOD, COOP_METHOD], default=COOP_METHOD,
                                            help='method of analysis')
@@ -321,7 +321,7 @@ def networks_from_genomes(genomes_path, gbk_files, metabolic_networks_path, sing
         input_dir=gbk_files, output_dir=metabolic_networks_path, singularity_path=singularity_path)
 
 
-def metabolic_analysis(community_networks_path, host_networks_path, output_path, seeds, analysis_method,
+def metabolic_analysis(community_networks_path, host_networks_path, output_path, seeds, output_name, analysis_method,
                        clustering_method, max_clust, cpu):
 
     print("Start calculate community scopes")
@@ -334,7 +334,17 @@ def metabolic_analysis(community_networks_path, host_networks_path, output_path,
 
     print("Start generating clustermap")
     input_heatmap = os.path.join(output_path, SCOPES_STR, analysis_method)
-    heatmap_host_bacteria(input_dir=input_heatmap, output=output_path, method=clustering_method, max_clust=max_clust)
+    output_heatmap = create_heatmap_output(output_path, output_name, analysis_method)
+    heatmap_host_bacteria(input_dir=input_heatmap, output=output_heatmap, method=clustering_method, max_clust=max_clust)
+
+
+def create_heatmap_output(output_path, output_name, analysis_method):
+    output_heatmap = os.path.join(output_path, 'heatmap')
+    create_new_dir(output_heatmap)
+    output_heatmap = os.path.join(output_heatmap, analysis_method)
+    create_new_dir(output_heatmap)
+    output_heatmap = os.path.join(output_heatmap, output_name)
+    return output_heatmap
 
 
 # def coevolution_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes,
@@ -388,8 +398,9 @@ def main():
 
     elif args.subcommands == 'metabolic_analysis':
         metabolic_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
-                           output_path=args.output, seeds=args.seeds, analysis_method=args.analysis_method,
-                           clustering_method=args.clustering_method, max_clust=args.max_clust, cpu=args.cpu)
+                           output_path=args.output, seeds=args.seeds, output_name=args.name,
+                           analysis_method=args.analysis_method, clustering_method=args.clustering_method,
+                           max_clust=args.max_clust, cpu=args.cpu)
 
     else:
         print('[dark_orange]Unknown command. Please use the help (-h) to see available commands.')
