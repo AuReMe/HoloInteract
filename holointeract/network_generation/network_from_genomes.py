@@ -1,6 +1,8 @@
 import sys
 import glob
 import subprocess as sub
+from holointeract.network_generation.rename_gbk_id import rename_id
+
 
 def annot_eggnog(input_dir:str, output_dir:str):
     files = glob.glob(input_dir+"*")

@@ -2,7 +2,7 @@ from scipy.optimize import curve_fit
 import pandas
 import matplotlib.pyplot as plt
 import numpy as np
-from holointeract.dist import get_dist
+from holointeract.coevolution_analysis.dist import get_dist
 from scipy.stats import linregress
 import scipy.stats as stats
 import plotly.graph_objs as go

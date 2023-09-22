@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
-from holointeract.onto_metacyc import get_classes, get_classes_opti
+from holointeract.metabolic_analysis.onto_metacyc import get_classes, get_classes_opti
 import pandas as pd
 import plotly.graph_objs as go
 import seaborn as sns
