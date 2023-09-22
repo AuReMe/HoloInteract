@@ -4,7 +4,7 @@ HoloInteract
 # ### IMPORTS
 # ======================================================================================================================
 import os.path
-import ontosunburst
+from ontosunburst.class_metabolites import proportion_workflow
 
 import holointeract.network_generation.annot_emapper
 import holointeract.network_generation.create_input_mpwt
@@ -333,7 +333,6 @@ def metabolic_analysis(community_networks_path, host_networks_path, output_path,
     bact_metabolites, host_metabolites, holo_metabolites, all_metabolites = heatmap_host_bacteria(
         input_dir=input_heatmap, output=output_heatmap, method=clustering_method, max_clust=max_clust)
 
-    from ontosunburst.class_metabolites import proportion_workflow
     proportion_workflow(set(all_metabolites), output=output_heatmap + '_stat_cpd')
 
 
