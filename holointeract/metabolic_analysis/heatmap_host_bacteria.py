@@ -41,9 +41,9 @@ def extract_metabolites(input_dir: str) \
         with open(bact_scope_file, 'r') as bact_f, \
              open(host_scope_file, 'r') as host_f, \
              open(holo_scope_file, 'r') as holo_f:
-            bact_scope = set().union(*[set(x) for x in dict(json.load(bact_f)).values()])
-            host_scope = set(dict(json.load(host_f))['host_scope'])
-            holo_scope = set(dict(json.load(holo_f))['addedvalue'])
+            bact_scope = rename_metabolites(set().union(*[set(x) for x in dict(json.load(bact_f)).values()]))
+            host_scope = rename_metabolites(set(dict(json.load(host_f))['host_scope']))
+            holo_scope = rename_metabolites(set(dict(json.load(holo_f))['addedvalue']))
 
             all_metabolites = all_metabolites.union(bact_scope, host_scope, holo_scope)
             bact_metabolites[host] = bact_scope
@@ -98,24 +98,23 @@ def fill_matrix(bact_metabolites: Dict[str, Set[str]], host_metabolites: Dict[st
     return df
 
 
-def rename_metabolites(df: pandas.DataFrame) -> pandas.DataFrame:
-    """ Rename the metabolites in index in the dataframe from SBML format
+def rename_metabolites(metabolites: Set[str]) -> Set[str]:
+    """ Rename the metabolites from SBML format
 
     Parameters
     ----------
-    df : pandas.DataFrame
-        Matrix to rename the metabolites
+    metabolites : Set[str]
+        Set of metabolites to rename
 
     Returns
     -------
-    pandas.DataFrame
-        Matrix with metabolites in index renamed
+    Set[str]
+        Set of renamed metabolites
     """
-    renamed_metabolites = list()
-    for metabolite in df.index:
-        renamed_metabolites.append(convert_from_coded_id(metabolite)[0].replace('_C-BOUNDARY', ''))
-    df.index = renamed_metabolites
-    return df
+    renamed_metabolites = set()
+    for met in metabolites:
+        renamed_metabolites.add(convert_from_coded_id(met)[0].replace('_C-BOUNDARY', ''))
+    return renamed_metabolites
 
 
 def heatmap(df: pandas.DataFrame, output_heatmap: str, output_clusters: str,  method: str, max_clust: int):
@@ -190,6 +189,6 @@ def heatmap_host_bacteria(input_dir: str, output: str, method: str = 'ward', max
     """
     bact_metabolites, host_metabolites, holo_metabolites, all_metabolites = extract_metabolites(input_dir)
     df = fill_matrix(bact_metabolites, host_metabolites, holo_metabolites, all_metabolites)
-    df = rename_metabolites(df)
     df.to_csv(f'{output}_matrix.tsv', sep='\t')
     heatmap(df, f'{output}_heatmap.png', f'{output}_clusters.tsv', method, max_clust)
+    return bact_metabolites, host_metabolites, holo_metabolites, all_metabolites

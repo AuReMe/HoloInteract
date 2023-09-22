@@ -221,7 +221,7 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
                         fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
                                                  " points", marker=dict(color=colors[counter % len(colors)])))
 
-    pio.write_html(fig, output+'.html', auto_open=True)
+    pio.write_html(fig, output+'file.html', auto_open=True)
     print(spacing)
 
 

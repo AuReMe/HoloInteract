@@ -1,10 +1,10 @@
 """
 HoloInteract
 """
-import os.path
-
 # ### IMPORTS
 # ======================================================================================================================
+import os.path
+import ontosunburst
 
 import holointeract.network_generation.annot_emapper
 import holointeract.network_generation.create_input_mpwt
@@ -25,7 +25,6 @@ from rich import print
 # ======================================================================================================================
 
 install(show_locals=True)
-
 LINKAGE_METHODS = ['single', 'complete', 'average', 'weighted', 'centroid', 'median', 'ward']
 
 
@@ -328,14 +327,14 @@ def metabolic_analysis(community_networks_path, host_networks_path, output_path,
     community_scopes(community_sbml_path=community_networks_path, hosts_sbml_path=host_networks_path,
                      output_dir=output_path, seeds=seeds, method=analysis_method, cpu=cpu)
 
-    # print("Start stat_cpd")
-    # holointeract.metabolic_analysis.stat_cpd.job(
-    #     matrice_name + ".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet)
-
     print("Start generating clustermap")
     input_heatmap = os.path.join(output_path, SCOPES_STR, analysis_method)
     output_heatmap = create_heatmap_output(output_path, output_name, analysis_method)
-    heatmap_host_bacteria(input_dir=input_heatmap, output=output_heatmap, method=clustering_method, max_clust=max_clust)
+    bact_metabolites, host_metabolites, holo_metabolites, all_metabolites = heatmap_host_bacteria(
+        input_dir=input_heatmap, output=output_heatmap, method=clustering_method, max_clust=max_clust)
+
+    from ontosunburst.class_metabolites import proportion_workflow
+    proportion_workflow(set(all_metabolites), output=output_heatmap + '_stat_cpd')
 
 
 def create_heatmap_output(output_path, output_name, analysis_method):
@@ -408,6 +407,8 @@ def main():
 
 
 # holointeract metabolic_analysis -cn example/inputs/community/ -hn example/inputs/hosts/ -o example/outputs/ -s example/inputs/seeds/seeds_seawater_artefact.sbml
+
+
 
 # def main():
 #     """Call for subprograms"""
