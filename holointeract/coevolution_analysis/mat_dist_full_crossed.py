@@ -1,37 +1,38 @@
+import os
 from glob import glob
-import subprocess as sub
-import sys
 import json
 import pandas as pd
-from scipy.stats import ttest_ind
 import matplotlib.pyplot as plt
-import pprint
 
 
-def create_matrix(list_algue: str, list_bact: str):
-    """_summary_
-
-    Args:
-        path_alg (str): _description_
-        path_bact (str): _description_
-
-    Returns:
-        _type_: _description_
+def create_matrix(host_path: str, comm_path: str):
     """
+    """
+    host_list = [x.split('.')[0] for x in os.listdir(host_path)]
+    comm_list = []
+    for comm_host in os.listdir(comm_path):
+        comm_list += [x.split('.')[0] for x in os.listdir(os.path.join(comm_path, comm_host))]
 
-    matrix = [["" for _ in range(len(list_algue)+1)]
-              for _ in range((len(list_bact)+1))]
+    print(host_list)
+    print(comm_list)
 
-    list_algue.insert(0, " ")
+    # matrix = [["" for _ in range(len(list_algue)+1)]
+    #           for _ in range((len(list_bact)+1))]
+    #
+    # list_algue.insert(0, " ")
+    #
+    # matrix[0] = list_algue
+    # print(matrix)
+    # print(list_bact)
+    # for i in range(len(matrix)):
+    #     if i > 0:
+    #         print(list_bact[i-1].split("/")[-1])
+    #         matrix[i][0] = list_bact[i-1].split("/")[-1]
 
-    matrix[0] = list_algue
-    print(matrix)
-    print(list_bact)
-    for i in range(len(matrix)):
-        if i > 0:
-            print(list_bact[i-1].split("/")[-1])
-            matrix[i][0] = list_bact[i-1].split("/")[-1]
-    return matrix
+
+COMM_PATH = '../../example/inputs/community'
+HOST_PATH = '../../example/inputs/hosts'
+create_matrix(HOST_PATH, COMM_PATH)
 
 
 def fill_mat(matrix: list, path: str):
@@ -139,13 +140,3 @@ def job(list_algue: list, list_bact: list, scopes_bacteries_path: str, output_na
     data.to_csv(output_name+".csv")
 
     boxploter(data, output_name)
-
-
-if __name__ == "__main__":
-
-    job(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
-
-# python holointeract/mat_dist_full_crossed.py /groups/phaeo_bact/SBML_EggNog/ /scratch/clucas/all_scopes_matrix/ /scratch/clucas/scopes_full_microbiota/ mat_dist_full_crossed_nonorm
-
-# python holointeract/mat_dist_full_crossed.py /groups/phaeo_bact/Long_reads/ /scratch/clucas/Long_all_scopes/ /scratch/clucas/Long_full_scopes/ Long_dist_full_crossed
-# python holointeract/mat_dist_full_crossed.py /groups/phaeo_bact/Short_reads/ /scratch/clucas/Short_all_scopes/ /scratch/clucas/Short_full_scopes/ Short_dist_full_crossed

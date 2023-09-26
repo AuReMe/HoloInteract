@@ -1,0 +1,2673 @@
+{
+    "unproducible": [],
+    "producible": [
+        "M_CMP__45__KDO_c",
+        "M_1__45__KETO__45__2__45__METHYLVALERATE_c",
+        "M_Cis__45__vaccenoyl__45__ACPs_c",
+        "M_CPD__45__19753_c",
+        "M_CPD__45__15936_c",
+        "M_CPD__45__22402_c",
+        "M_CPD1F__45__98_c",
+        "M_CAPSORUBIN_c",
+        "M_N2__45__SUCCINYLGLUTAMATE_c",
+        "M_UDP__45__AA__45__GLUTAMATE_c",
+        "M_CPD__45__302_c",
+        "M_CPD0__45__882_c",
+        "M_UDP__45__ACETYL__45__CARBOXYVINYL__45__GLUCOSAMINE_c",
+        "M_4Z__45__9Z__45__Octadec__45__4__45__9__45__dienoyl__45__acp_c",
+        "M_4Z__45__9Z__45__Hexadec__45__4__45__9__45__dienoyl__45__acp_c",
+        "M_CPD__45__16618_c",
+        "M_XANTHURENATE_c",
+        "M_DEOXY__45__RIBOSE__45__5P_c",
+        "M_NIACINAMIDE_c",
+        "M_CPD__45__14736_c",
+        "M_ACETYL__45__D__45__GLUCOSAMINYLDIPHOSPHO__45__UNDECAPRE_c",
+        "M_2__45__OXOBUTANOATE_c",
+        "M_CPD__45__14646_c",
+        "M_2__45__AMINOMUCONATE_SEMIALDEHYDE_c",
+        "M_D__45__TAGATURONATE_c",
+        "M_CPD__45__19716_c",
+        "M_CPD0__45__181_c",
+        "M_THR_c",
+        "M_UDP__45__N__45__ACETYL__45__D__45__GLUCOSAMINE_c",
+        "M_CPD0__45__1110_c",
+        "M_Delta6__45__hexadecenoyl__45__ACPs_c",
+        "M_LIPID__45__IV__45__A_c",
+        "M_CPD__45__12119_c",
+        "M_Delta4__45__hexadecenoyl__45__ACPs_c",
+        "M_CPD__45__254_c",
+        "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c",
+        "M_CPD__45__16467_c",
+        "M_CPD__45__2961_c",
+        "M_CPD1F__45__133_c",
+        "M_OH__45__PYR_c",
+        "M_L__45__ARABITOL_c",
+        "M_CPD__45__15586_c",
+        "M_UDP__45__OHMYR__45__ACETYLGLUCOSAMINE_c",
+        "M_D__45__XYLULOSE_c",
+        "M_KYNURENATE_c",
+        "M_BISOHMYR__45__GLUCOSAMINYL__45__1P_c",
+        "M_CPD0__45__2461_c",
+        "M_ISOGLUTAMINE_c",
+        "M_FORMYL__45__ISOGLUTAMINE_c",
+        "M_THYMINE_c",
+        "M_D__45__MANNONATE_c",
+        "M_UDP__45__MANNAC_c",
+        "M_OH__45__MYRISTOYL_c",
+        "M_4__45__AMINO__45__BUTYRALDEHYDE_c",
+        "M_CPD__45__13469_c",
+        "M_OCTAPRENYL__45__DIPHOSPHATE_c",
+        "M_D__45__Galactopyranuronate_c",
+        "M_D__45__METHYL__45__MALONYL__45__COA_c",
+        "M_CPD__45__13462_c",
+        "M_ETOH_c",
+        "M_CPD__45__9245_c",
+        "M_L__45__LACTATE_c",
+        "M_CPD__45__389_c",
+        "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c",
+        "M_CPD__45__6124_c",
+        "M_BETA__45__D__45__FRUCTOSE_c",
+        "M_CPD__45__18064_c",
+        "M_CPD__45__227_c",
+        "M_Oleoyl__45__ACPs_c",
+        "M_CPD__45__12150_c",
+        "M_2__45__METHYLMALEATE_c",
+        "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c",
+        "M_CPD1F__45__129_c",
+        "M_CARNOSINE_c",
+        "M_CPD__45__15633_c",
+        "M_CPD__45__330_c",
+        "M_L__45__XYLULOSE_c",
+        "M_CPD__45__31_c",
+        "M_CPD__45__20647_c",
+        "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c",
+        "M_CPD1F__45__126_c",
+        "M_CPD__45__622_c",
+        "M_CPD__45__13524_c",
+        "M_CPD__45__12115_c",
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c",
+        "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c",
+        "M_CPD__45__7643_c",
+        "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c",
+        "M_4__45__OXOGLUTARAMATE_c",
+        "M_CPD__45__22403_c",
+        "M_CPD__45__12118_c",
+        "M_CPD0__45__2018_c",
+        "M_CPD__45__10819_c",
+        "M_CPD0__45__1456_c",
+        "M_CPD__45__7419_c",
+        "M_CPD__45__569_c",
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c",
+        "M_HIS_c",
+        "M_3__45__UREIDO__45__ISOBUTYRATE_c",
+        "M_CPD__45__1128_c",
+        "M_2__45__KETO__45__3__45__DEOXY__45__6__45__P__45__GLUCONATE_c",
+        "M_UROCANATE_c",
+        "M_CPD__45__654_c",
+        "M_RETINAL_c",
+        "M_CPD__45__22407_c",
+        "M_FRUCTURONATE_c",
+        "M_GLUCONATE_c",
+        "M_CPD__45__13043_c",
+        "M_CPD__45__470_c",
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c",
+        "M_CPD__45__7422_c",
+        "M_CPD__45__448_c",
+        "M_ALLANTOATE_c",
+        "M_CHOCOLA_A_c",
+        "M_CPD__45__12253_c",
+        "M_CPD__45__7247_c",
+        "M_CPD1F__45__118_c",
+        "M_DEOXY__45__D__45__RIBOSE__45__1__45__PHOSPHATE_c",
+        "M_D__45__ALA__45__D__45__ALA_c",
+        "M_DEOXYCYTIDINE_c",
+        "M_2__45__AMINO__45__3__45__3__45__OXOPROP__45__2__45__ENYL__45__BUT__45__2__45__ENEDI_c",
+        "M_CPD1F__45__130_c",
+        "M_CPD__45__21306_c",
+        "M_Palmitoleoyl__45__ACPs_c",
+        "M_2__45__DEHYDRO__45__3__45__DEOXY__45__D__45__GLUCONATE_c",
+        "M_DIHYDROXYNAPHTHOATE_c",
+        "M_GLYCERATE_c",
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c",
+        "M_ACETOL_c",
+        "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c",
+        "M_ILE_c",
+        "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c",
+        "M_AMINO__45__ACETONE_c",
+        "M_D__45__ALANINE_c",
+        "M_D__45__GLT_c",
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c",
+        "M_XYLITOL_c",
+        "M_PROPIONYL__45__COA_c",
+        "M_ACETYL__45__ETCETERA__45__GLUCOSAMINYLDIPHOSPHOUND_c",
+        "M_CPD__45__3633_c",
+        "M_ACETALD_c",
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__1__45__P_c",
+        "M_C__45__DI__45__GMP_c",
+        "M_BISOHMYR__45__GLC_c",
+        "M_HISTIDINOL_c",
+        "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c",
+        "M_CPD__45__8052_c",
+        "M_KDO_c",
+        "M_L__45__ALLO__45__THREONINE_c",
+        "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c",
+        "M_UDP__45__OHMYR__45__GLUCOSAMINE_c",
+        "M_ARABINOSE__45__5P_c",
+        "M_METHYL__45__GLYOXAL_c",
+        "M_4__45__MALEYL__45__ACETOACETATE_c",
+        "M_CPD__45__19754_c",
+        "M_NEUROSPORENE_c",
+        "M_UDP__45__N__45__ACETYL__45__2__45__AMINO__45__D__45__GLUCURONATE_c",
+        "M_ADENINE_c",
+        "M_CPD__45__18118_c",
+        "M_D__45__XYLONATE_c",
+        "M_CPD__45__18063_c",
+        "M_4__45__AMINO__45__BUTYRATE_c",
+        "M_AMINO__45__OXOBUT_c",
+        "M_CPD__45__471_c",
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__6__45__P_c",
+        "M_CPD__45__22404_c",
+        "M_CPD__45__15435_c",
+        "M_GLUTAMIDE_c",
+        "M_UDP__45__N__45__ACETYLMURAMATE_c",
+        "M_CPD1F__45__114_c",
+        "M_CPD__45__12247_c",
+        "M_SUCC__45__S__45__ALD_c",
+        "M_CPD__45__19715_c",
+        "M_CPD__45__7246_c",
+        "M_CPD__45__10683_c",
+        "M_CPD__45__9247_c",
+        "M_CPD__45__9387_c",
+        "M_CPD__45__1091_c",
+        "M_CPD__45__22405_c",
+        "M_DIHYDRO__45__THYMINE_c",
+        "M_3__45__HYDROXY__45__L__45__KYNURENINE_c",
+        "M_CPD0__45__881_c",
+        "M_CPD__45__12116_c",
+        "M_3__45__HYDROXY__45__ANTHRANILATE_c",
+        "M_N__45__ACETYL__45__L__45__24__45__DIAMINOBUTANOATE_c",
+        "M_FORMAMIDE_c",
+        "M_KDO__45__8P_c",
+        "M_DEOXYURIDINE_c",
+        "M_CPD__45__22406_c",
+        "M_CPD__45__365_c",
+        "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c",
+        "M_CPD0__45__1699_c",
+        "M_CPD__45__12185_c",
+        "M_THYMIDINE_c",
+        "M_CPD__45__7414_c",
+        "M_INDOLEYL__45__CPD_c",
+        "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c",
+        "M_CPD__45__14795_c",
+        "M_CPD__45__10723_c",
+        "M_L__45__DI__45__GMP_c",
+        "M_2__45__DH__45__3__45__DO__45__D__45__ARABINONATE_c",
+        "M_CPD1F__45__115_c",
+        "M_CPD__45__12249_c",
+        "M_PROPANE__45__1__45__2__45__DIOL_c",
+        "M_TARTRONATE__45__S__45__ALD_c",
+        "M_D__45__ALTRONATE_c"
+    ],
+    "indiv_producible": [],
+    "individual_producers": {},
+    "com_only_producers": {},
+    "mincom_producible": [
+        "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c",
+        "M_CPD__45__22405_c",
+        "M_LIPID__45__IV__45__A_c",
+        "M_CPD1F__45__118_c",
+        "M_CPD__45__227_c",
+        "M_C__45__DI__45__GMP_c",
+        "M_FORMAMIDE_c",
+        "M_DEOXY__45__D__45__RIBOSE__45__1__45__PHOSPHATE_c",
+        "M_HISTIDINOL_c",
+        "M_D__45__ALA__45__D__45__ALA_c",
+        "M_CPD__45__19716_c",
+        "M_CPD__45__13469_c",
+        "M_HIS_c",
+        "M_CPD0__45__1110_c",
+        "M_CPD__45__448_c",
+        "M_CPD__45__7247_c",
+        "M_GLUCONATE_c",
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c",
+        "M_CPD__45__22406_c",
+        "M_D__45__TAGATURONATE_c",
+        "M_ARABINOSE__45__5P_c",
+        "M_AMINO__45__OXOBUT_c",
+        "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c",
+        "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c",
+        "M_CPD__45__13043_c",
+        "M_XYLITOL_c",
+        "M_CPD0__45__882_c",
+        "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c",
+        "M_3__45__UREIDO__45__ISOBUTYRATE_c",
+        "M_UDP__45__OHMYR__45__GLUCOSAMINE_c",
+        "M_4__45__MALEYL__45__ACETOACETATE_c",
+        "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c",
+        "M_DIHYDRO__45__THYMINE_c",
+        "M_CPD__45__365_c",
+        "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c",
+        "M_CPD__45__7643_c",
+        "M_RETINAL_c",
+        "M_KDO_c",
+        "M_CPD__45__7414_c",
+        "M_CPD__45__12116_c",
+        "M_2__45__AMINOMUCONATE_SEMIALDEHYDE_c",
+        "M_KDO__45__8P_c",
+        "M_CPD__45__470_c",
+        "M_L__45__DI__45__GMP_c",
+        "M_D__45__Galactopyranuronate_c",
+        "M_CPD__45__254_c",
+        "M_CPD__45__12119_c",
+        "M_ACETYL__45__ETCETERA__45__GLUCOSAMINYLDIPHOSPHOUND_c",
+        "M_CPD__45__6124_c",
+        "M_CPD__45__12253_c",
+        "M_CPD__45__20647_c",
+        "M_CPD__45__15435_c",
+        "M_CPD__45__9387_c",
+        "M_CPD__45__13462_c",
+        "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c",
+        "M_CPD__45__18064_c",
+        "M_CPD0__45__2461_c",
+        "M_CPD1F__45__114_c",
+        "M_CPD__45__16467_c",
+        "M_3__45__HYDROXY__45__ANTHRANILATE_c",
+        "M_CPD__45__12249_c",
+        "M_D__45__ALANINE_c",
+        "M_D__45__MANNONATE_c",
+        "M_CMP__45__KDO_c",
+        "M_2__45__KETO__45__3__45__DEOXY__45__6__45__P__45__GLUCONATE_c",
+        "M_FORMYL__45__ISOGLUTAMINE_c",
+        "M_ALLANTOATE_c",
+        "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c",
+        "M_CPD__45__389_c",
+        "M_4__45__OXOGLUTARAMATE_c",
+        "M_INDOLEYL__45__CPD_c",
+        "M_AMINO__45__ACETONE_c",
+        "M_CPD__45__10819_c",
+        "M_L__45__ARABITOL_c",
+        "M_CPD__45__18118_c",
+        "M_METHYL__45__GLYOXAL_c",
+        "M_UDP__45__N__45__ACETYLMURAMATE_c",
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__6__45__P_c",
+        "M_N__45__ACETYL__45__L__45__24__45__DIAMINOBUTANOATE_c",
+        "M_CPD0__45__1699_c",
+        "M_UDP__45__AA__45__GLUTAMATE_c",
+        "M_ETOH_c",
+        "M_CPD__45__9245_c",
+        "M_Delta4__45__hexadecenoyl__45__ACPs_c",
+        "M_CPD__45__8052_c",
+        "M_D__45__ALTRONATE_c",
+        "M_CPD__45__22404_c",
+        "M_3__45__HYDROXY__45__L__45__KYNURENINE_c",
+        "M_CPD1F__45__133_c",
+        "M_CPD__45__19715_c",
+        "M_PROPANE__45__1__45__2__45__DIOL_c",
+        "M_N2__45__SUCCINYLGLUTAMATE_c",
+        "M_CPD__45__12115_c",
+        "M_4Z__45__9Z__45__Hexadec__45__4__45__9__45__dienoyl__45__acp_c",
+        "M_SUCC__45__S__45__ALD_c",
+        "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c",
+        "M_CPD__45__19754_c",
+        "M_2__45__DEHYDRO__45__3__45__DEOXY__45__D__45__GLUCONATE_c",
+        "M_CPD__45__7422_c",
+        "M_CPD__45__22402_c",
+        "M_CPD1F__45__130_c",
+        "M_CPD__45__22403_c",
+        "M_L__45__XYLULOSE_c",
+        "M_CPD__45__3633_c",
+        "M_TARTRONATE__45__S__45__ALD_c",
+        "M_UROCANATE_c",
+        "M_UDP__45__N__45__ACETYL__45__2__45__AMINO__45__D__45__GLUCURONATE_c",
+        "M_2__45__AMINO__45__3__45__3__45__OXOPROP__45__2__45__ENYL__45__BUT__45__2__45__ENEDI_c",
+        "M_DIHYDROXYNAPHTHOATE_c",
+        "M_CPD__45__7246_c",
+        "M_PROPIONYL__45__COA_c",
+        "M_CPD__45__12118_c",
+        "M_OCTAPRENYL__45__DIPHOSPHATE_c",
+        "M_KYNURENATE_c",
+        "M_CPD0__45__181_c",
+        "M_ACETYL__45__D__45__GLUCOSAMINYLDIPHOSPHO__45__UNDECAPRE_c",
+        "M_CPD1F__45__129_c",
+        "M_BISOHMYR__45__GLUCOSAMINYL__45__1P_c",
+        "M_UDP__45__MANNAC_c",
+        "M_2__45__METHYLMALEATE_c",
+        "M_ACETOL_c",
+        "M_CPD__45__12247_c",
+        "M_CPD__45__10723_c",
+        "M_THR_c",
+        "M_CPD__45__471_c",
+        "M_4__45__AMINO__45__BUTYRATE_c",
+        "M_CPD__45__302_c",
+        "M_CPD0__45__1456_c",
+        "M_CPD__45__1091_c",
+        "M_ADENINE_c",
+        "M_ISOGLUTAMINE_c",
+        "M_GLYCERATE_c",
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c",
+        "M_THYMIDINE_c",
+        "M_CPD__45__7419_c",
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c",
+        "M_ACETALD_c",
+        "M_1__45__KETO__45__2__45__METHYLVALERATE_c",
+        "M_XANTHURENATE_c",
+        "M_CARNOSINE_c",
+        "M_CPD1F__45__98_c",
+        "M_CAPSORUBIN_c",
+        "M_L__45__LACTATE_c",
+        "M_2__45__OXOBUTANOATE_c",
+        "M_CPD1F__45__115_c",
+        "M_DEOXYURIDINE_c",
+        "M_CPD__45__15936_c",
+        "M_CPD0__45__2018_c",
+        "M_BETA__45__D__45__FRUCTOSE_c",
+        "M_CPD__45__2961_c",
+        "M_Palmitoleoyl__45__ACPs_c",
+        "M_Oleoyl__45__ACPs_c",
+        "M_DEOXY__45__RIBOSE__45__5P_c",
+        "M_CPD__45__10683_c",
+        "M_UDP__45__ACETYL__45__CARBOXYVINYL__45__GLUCOSAMINE_c",
+        "M_CPD__45__15633_c",
+        "M_DEOXYCYTIDINE_c",
+        "M_L__45__ALLO__45__THREONINE_c",
+        "M_4Z__45__9Z__45__Octadec__45__4__45__9__45__dienoyl__45__acp_c",
+        "M_CPD__45__9247_c",
+        "M_2__45__DH__45__3__45__DO__45__D__45__ARABINONATE_c",
+        "M_CPD__45__569_c",
+        "M_D__45__GLT_c",
+        "M_4__45__AMINO__45__BUTYRALDEHYDE_c",
+        "M_OH__45__PYR_c",
+        "M_CPD__45__22407_c",
+        "M_CPD__45__12150_c",
+        "M_CPD1F__45__126_c",
+        "M_CPD__45__18063_c",
+        "M_OH__45__MYRISTOYL_c",
+        "M_CPD__45__13524_c",
+        "M_THYMINE_c",
+        "M_CPD__45__330_c",
+        "M_GLUTAMIDE_c",
+        "M_UDP__45__N__45__ACETYL__45__D__45__GLUCOSAMINE_c",
+        "M_CPD__45__622_c",
+        "M_Cis__45__vaccenoyl__45__ACPs_c",
+        "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c",
+        "M_FRUCTURONATE_c",
+        "M_CPD__45__14646_c",
+        "M_D__45__XYLONATE_c",
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c",
+        "M_CPD__45__15586_c",
+        "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c",
+        "M_CPD__45__14736_c",
+        "M_NIACINAMIDE_c",
+        "M_UDP__45__OHMYR__45__ACETYLGLUCOSAMINE_c",
+        "M_CPD__45__19753_c",
+        "M_D__45__METHYL__45__MALONYL__45__COA_c",
+        "M_CHOCOLA_A_c",
+        "M_Delta6__45__hexadecenoyl__45__ACPs_c",
+        "M_CPD__45__21306_c",
+        "M_NEUROSPORENE_c",
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__1__45__P_c",
+        "M_CPD__45__31_c",
+        "M_CPD__45__16618_c",
+        "M_ILE_c",
+        "M_CPD__45__654_c",
+        "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c",
+        "M_D__45__XYLULOSE_c",
+        "M_CPD0__45__881_c",
+        "M_CPD__45__14795_c",
+        "M_CPD__45__12185_c",
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c",
+        "M_BISOHMYR__45__GLC_c",
+        "M_CPD__45__1128_c"
+    ],
+    "key_species": [
+        "Rhodopirellula_europaea_6C",
+        "Muricauda_eckloniae"
+    ],
+    "mincom_optsol_producers": {
+        "M_CMP__45__KDO_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_1__45__KETO__45__2__45__METHYLVALERATE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_Cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__19753_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__15936_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__22402_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD1F__45__98_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CAPSORUBIN_c": [
+            "host_metab_mod"
+        ],
+        "M_N2__45__SUCCINYLGLUTAMATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_UDP__45__AA__45__GLUTAMATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__302_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD0__45__882_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_UDP__45__ACETYL__45__CARBOXYVINYL__45__GLUCOSAMINE_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_4Z__45__9Z__45__Octadec__45__4__45__9__45__dienoyl__45__acp_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_4Z__45__9Z__45__Hexadec__45__4__45__9__45__dienoyl__45__acp_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__16618_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_XANTHURENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_DEOXY__45__RIBOSE__45__5P_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_NIACINAMIDE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14736_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_ACETYL__45__D__45__GLUCOSAMINYLDIPHOSPHO__45__UNDECAPRE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__OXOBUTANOATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14646_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__AMINOMUCONATE_SEMIALDEHYDE_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__TAGATURONATE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__19716_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD0__45__181_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_THR_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_UDP__45__N__45__ACETYL__45__D__45__GLUCOSAMINE_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD0__45__1110_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_Delta6__45__hexadecenoyl__45__ACPs_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_LIPID__45__IV__45__A_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12119_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_Delta4__45__hexadecenoyl__45__ACPs_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__254_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__16467_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__2961_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD1F__45__133_c": [
+            "host_metab_mod"
+        ],
+        "M_OH__45__PYR_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_L__45__ARABITOL_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15586_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_UDP__45__OHMYR__45__ACETYLGLUCOSAMINE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_D__45__XYLULOSE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_KYNURENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_BISOHMYR__45__GLUCOSAMINYL__45__1P_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD0__45__2461_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_ISOGLUTAMINE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_FORMYL__45__ISOGLUTAMINE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_THYMINE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_D__45__MANNONATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_UDP__45__MANNAC_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_OH__45__MYRISTOYL_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_4__45__AMINO__45__BUTYRALDEHYDE_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__13469_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_OCTAPRENYL__45__DIPHOSPHATE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_D__45__Galactopyranuronate_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__METHYL__45__MALONYL__45__COA_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__13462_c": [
+            "host_metab_mod"
+        ],
+        "M_ETOH_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9245_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__LACTATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__389_c": [
+            "host_metab_mod"
+        ],
+        "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__6124_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_BETA__45__D__45__FRUCTOSE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__18064_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__227_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_Oleoyl__45__ACPs_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__12150_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_2__45__METHYLMALEATE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD1F__45__129_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CARNOSINE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15633_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__330_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_L__45__XYLULOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__31_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__20647_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__126_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__622_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__13524_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12115_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7643_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__OXOGLUTARAMATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__22403_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__12118_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD0__45__2018_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__10819_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD0__45__1456_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7419_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__569_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_HIS_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_3__45__UREIDO__45__ISOBUTYRATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__1128_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_2__45__KETO__45__3__45__DEOXY__45__6__45__P__45__GLUCONATE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_UROCANATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__654_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_RETINAL_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__22407_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_FRUCTURONATE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_GLUCONATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__13043_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__470_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__7422_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__448_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_ALLANTOATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CHOCOLA_A_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12253_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7247_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__118_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_DEOXY__45__D__45__RIBOSE__45__1__45__PHOSPHATE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_D__45__ALA__45__D__45__ALA_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_DEOXYCYTIDINE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__AMINO__45__3__45__3__45__OXOPROP__45__2__45__ENYL__45__BUT__45__2__45__ENEDI_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD1F__45__130_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__21306_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_Palmitoleoyl__45__ACPs_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_2__45__DEHYDRO__45__3__45__DEOXY__45__D__45__GLUCONATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_DIHYDROXYNAPHTHOATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_GLYCERATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_ACETOL_c": [
+            "host_metab_mod"
+        ],
+        "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_ILE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_AMINO__45__ACETONE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_D__45__ALANINE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_D__45__GLT_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_XYLITOL_c": [
+            "host_metab_mod"
+        ],
+        "M_PROPIONYL__45__COA_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_ACETYL__45__ETCETERA__45__GLUCOSAMINYLDIPHOSPHOUND_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__3633_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_ACETALD_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__1__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_C__45__DI__45__GMP_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_BISOHMYR__45__GLC_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_HISTIDINOL_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__8052_c": [
+            "host_metab_mod"
+        ],
+        "M_KDO_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_L__45__ALLO__45__THREONINE_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_UDP__45__OHMYR__45__GLUCOSAMINE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_ARABINOSE__45__5P_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_METHYL__45__GLYOXAL_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__19754_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_NEUROSPORENE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_UDP__45__N__45__ACETYL__45__2__45__AMINO__45__D__45__GLUCURONATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_ADENINE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__18118_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_D__45__XYLONATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__18063_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_4__45__AMINO__45__BUTYRATE_c": [
+            "host_metab_mod"
+        ],
+        "M_AMINO__45__OXOBUT_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__471_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__6__45__P_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__22404_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__15435_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_GLUTAMIDE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_UDP__45__N__45__ACETYLMURAMATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__114_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__12247_c": [
+            "host_metab_mod"
+        ],
+        "M_SUCC__45__S__45__ALD_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__19715_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__7246_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__10683_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__9247_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9387_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__1091_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__22405_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_DIHYDRO__45__THYMINE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_3__45__HYDROXY__45__L__45__KYNURENINE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__881_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__12116_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_3__45__HYDROXY__45__ANTHRANILATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_N__45__ACETYL__45__L__45__24__45__DIAMINOBUTANOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_FORMAMIDE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_KDO__45__8P_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_DEOXYURIDINE_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__22406_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__365_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__1699_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__12185_c": [
+            "host_metab_mod"
+        ],
+        "M_THYMIDINE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__7414_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLEYL__45__CPD_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14795_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__10723_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_L__45__DI__45__GMP_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__DH__45__3__45__DO__45__D__45__ARABINONATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD1F__45__115_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12249_c": [
+            "host_metab_mod"
+        ],
+        "M_PROPANE__45__1__45__2__45__DIOL_c": [
+            "host_metab_mod"
+        ],
+        "M_TARTRONATE__45__S__45__ALD_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_D__45__ALTRONATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ]
+    },
+    "mincom_union_producers": {
+        "M_CMP__45__KDO_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_1__45__KETO__45__2__45__METHYLVALERATE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_Cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__19753_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__15936_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__22402_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD1F__45__98_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CAPSORUBIN_c": [
+            "host_metab_mod"
+        ],
+        "M_N2__45__SUCCINYLGLUTAMATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_UDP__45__AA__45__GLUTAMATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__302_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD0__45__882_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_UDP__45__ACETYL__45__CARBOXYVINYL__45__GLUCOSAMINE_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_4Z__45__9Z__45__Octadec__45__4__45__9__45__dienoyl__45__acp_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_4Z__45__9Z__45__Hexadec__45__4__45__9__45__dienoyl__45__acp_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__16618_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_XANTHURENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_DEOXY__45__RIBOSE__45__5P_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_NIACINAMIDE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14736_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_ACETYL__45__D__45__GLUCOSAMINYLDIPHOSPHO__45__UNDECAPRE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__OXOBUTANOATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14646_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__AMINOMUCONATE_SEMIALDEHYDE_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__TAGATURONATE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__19716_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD0__45__181_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_THR_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_UDP__45__N__45__ACETYL__45__D__45__GLUCOSAMINE_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD0__45__1110_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_Delta6__45__hexadecenoyl__45__ACPs_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_LIPID__45__IV__45__A_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12119_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_Delta4__45__hexadecenoyl__45__ACPs_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__254_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__16467_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__2961_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD1F__45__133_c": [
+            "host_metab_mod"
+        ],
+        "M_OH__45__PYR_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_L__45__ARABITOL_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15586_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_UDP__45__OHMYR__45__ACETYLGLUCOSAMINE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_D__45__XYLULOSE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_KYNURENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_BISOHMYR__45__GLUCOSAMINYL__45__1P_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD0__45__2461_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_ISOGLUTAMINE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_FORMYL__45__ISOGLUTAMINE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_THYMINE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_D__45__MANNONATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_UDP__45__MANNAC_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_OH__45__MYRISTOYL_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_4__45__AMINO__45__BUTYRALDEHYDE_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__13469_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_OCTAPRENYL__45__DIPHOSPHATE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_D__45__Galactopyranuronate_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__METHYL__45__MALONYL__45__COA_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__13462_c": [
+            "host_metab_mod"
+        ],
+        "M_ETOH_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9245_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__LACTATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__389_c": [
+            "host_metab_mod"
+        ],
+        "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__6124_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_BETA__45__D__45__FRUCTOSE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__18064_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__227_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_Oleoyl__45__ACPs_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__12150_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_2__45__METHYLMALEATE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD1F__45__129_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CARNOSINE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15633_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__330_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_L__45__XYLULOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__31_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__20647_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__126_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__622_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__13524_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12115_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7643_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__OXOGLUTARAMATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__22403_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__12118_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD0__45__2018_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__10819_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD0__45__1456_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7419_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__569_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_HIS_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_3__45__UREIDO__45__ISOBUTYRATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__1128_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_2__45__KETO__45__3__45__DEOXY__45__6__45__P__45__GLUCONATE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_UROCANATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__654_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_RETINAL_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__22407_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_FRUCTURONATE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_GLUCONATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__13043_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__470_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__7422_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__448_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_ALLANTOATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CHOCOLA_A_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12253_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7247_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__118_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_DEOXY__45__D__45__RIBOSE__45__1__45__PHOSPHATE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_D__45__ALA__45__D__45__ALA_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_DEOXYCYTIDINE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__AMINO__45__3__45__3__45__OXOPROP__45__2__45__ENYL__45__BUT__45__2__45__ENEDI_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD1F__45__130_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__21306_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_Palmitoleoyl__45__ACPs_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_2__45__DEHYDRO__45__3__45__DEOXY__45__D__45__GLUCONATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_DIHYDROXYNAPHTHOATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_GLYCERATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_ACETOL_c": [
+            "host_metab_mod"
+        ],
+        "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_ILE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_AMINO__45__ACETONE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_D__45__ALANINE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_D__45__GLT_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_XYLITOL_c": [
+            "host_metab_mod"
+        ],
+        "M_PROPIONYL__45__COA_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_ACETYL__45__ETCETERA__45__GLUCOSAMINYLDIPHOSPHOUND_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__3633_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_ACETALD_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__1__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_C__45__DI__45__GMP_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_BISOHMYR__45__GLC_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_HISTIDINOL_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__8052_c": [
+            "host_metab_mod"
+        ],
+        "M_KDO_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_L__45__ALLO__45__THREONINE_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_UDP__45__OHMYR__45__GLUCOSAMINE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_ARABINOSE__45__5P_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_METHYL__45__GLYOXAL_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__19754_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_NEUROSPORENE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_UDP__45__N__45__ACETYL__45__2__45__AMINO__45__D__45__GLUCURONATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_ADENINE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__18118_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_D__45__XYLONATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__18063_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_4__45__AMINO__45__BUTYRATE_c": [
+            "host_metab_mod"
+        ],
+        "M_AMINO__45__OXOBUT_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__471_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__6__45__P_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__22404_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__15435_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_GLUTAMIDE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_UDP__45__N__45__ACETYLMURAMATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__114_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__12247_c": [
+            "host_metab_mod"
+        ],
+        "M_SUCC__45__S__45__ALD_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__19715_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__7246_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__10683_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__9247_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9387_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__1091_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__22405_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_DIHYDRO__45__THYMINE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_3__45__HYDROXY__45__L__45__KYNURENINE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__881_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__12116_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_3__45__HYDROXY__45__ANTHRANILATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_N__45__ACETYL__45__L__45__24__45__DIAMINOBUTANOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_FORMAMIDE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_KDO__45__8P_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_DEOXYURIDINE_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__22406_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__365_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__1699_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__12185_c": [
+            "host_metab_mod"
+        ],
+        "M_THYMIDINE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__7414_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLEYL__45__CPD_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14795_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__10723_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_L__45__DI__45__GMP_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__DH__45__3__45__DO__45__D__45__ARABINONATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD1F__45__115_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12249_c": [
+            "host_metab_mod"
+        ],
+        "M_PROPANE__45__1__45__2__45__DIOL_c": [
+            "host_metab_mod"
+        ],
+        "M_TARTRONATE__45__S__45__ALD_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_D__45__ALTRONATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ]
+    },
+    "mincom_inter_producers": {
+        "M_CMP__45__KDO_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_1__45__KETO__45__2__45__METHYLVALERATE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_Cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__19753_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__15936_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__22402_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD1F__45__98_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CAPSORUBIN_c": [
+            "host_metab_mod"
+        ],
+        "M_N2__45__SUCCINYLGLUTAMATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_UDP__45__AA__45__GLUTAMATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__302_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD0__45__882_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_UDP__45__ACETYL__45__CARBOXYVINYL__45__GLUCOSAMINE_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_4Z__45__9Z__45__Octadec__45__4__45__9__45__dienoyl__45__acp_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_4Z__45__9Z__45__Hexadec__45__4__45__9__45__dienoyl__45__acp_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__16618_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_XANTHURENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_DEOXY__45__RIBOSE__45__5P_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_NIACINAMIDE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14736_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_ACETYL__45__D__45__GLUCOSAMINYLDIPHOSPHO__45__UNDECAPRE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__OXOBUTANOATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14646_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__AMINOMUCONATE_SEMIALDEHYDE_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__TAGATURONATE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__19716_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD0__45__181_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_THR_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_UDP__45__N__45__ACETYL__45__D__45__GLUCOSAMINE_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD0__45__1110_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_Delta6__45__hexadecenoyl__45__ACPs_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_LIPID__45__IV__45__A_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12119_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_Delta4__45__hexadecenoyl__45__ACPs_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__254_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__16467_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__2961_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD1F__45__133_c": [
+            "host_metab_mod"
+        ],
+        "M_OH__45__PYR_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_L__45__ARABITOL_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15586_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_UDP__45__OHMYR__45__ACETYLGLUCOSAMINE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_D__45__XYLULOSE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_KYNURENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_BISOHMYR__45__GLUCOSAMINYL__45__1P_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD0__45__2461_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_ISOGLUTAMINE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_FORMYL__45__ISOGLUTAMINE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_THYMINE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_D__45__MANNONATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_UDP__45__MANNAC_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_OH__45__MYRISTOYL_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_4__45__AMINO__45__BUTYRALDEHYDE_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__13469_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_OCTAPRENYL__45__DIPHOSPHATE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_D__45__Galactopyranuronate_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__METHYL__45__MALONYL__45__COA_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__13462_c": [
+            "host_metab_mod"
+        ],
+        "M_ETOH_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9245_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__LACTATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__389_c": [
+            "host_metab_mod"
+        ],
+        "M_11Z__45__3__45__oxo__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__6124_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_BETA__45__D__45__FRUCTOSE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__18064_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__227_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_Oleoyl__45__ACPs_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__12150_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_2__45__METHYLMALEATE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__ACETO__45__2__45__HYDROXY__45__BUTYRATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD1F__45__129_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CARNOSINE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15633_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__330_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_L__45__XYLULOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__31_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__20647_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__ACETO__45__ACETYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__126_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__622_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__13524_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12115_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__KETO__45__3__45__METHYL__45__VALERATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7643_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__METHYL__45__3__45__HYDROXY__45__BUTYRYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__OXOGLUTARAMATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__22403_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__12118_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD0__45__2018_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__10819_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD0__45__1456_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7419_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__569_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_HIS_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_3__45__UREIDO__45__ISOBUTYRATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__1128_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_2__45__KETO__45__3__45__DEOXY__45__6__45__P__45__GLUCONATE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_UROCANATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__654_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_RETINAL_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__22407_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_FRUCTURONATE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_GLUCONATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__13043_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__470_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__7422_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__448_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_ALLANTOATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CHOCOLA_A_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12253_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7247_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__118_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_DEOXY__45__D__45__RIBOSE__45__1__45__PHOSPHATE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_D__45__ALA__45__D__45__ALA_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_DEOXYCYTIDINE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__AMINO__45__3__45__3__45__OXOPROP__45__2__45__ENYL__45__BUT__45__2__45__ENEDI_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD1F__45__130_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__21306_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_Palmitoleoyl__45__ACPs_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_2__45__DEHYDRO__45__3__45__DEOXY__45__D__45__GLUCONATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_DIHYDROXYNAPHTHOATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_GLYCERATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_ACETOL_c": [
+            "host_metab_mod"
+        ],
+        "M_11Z__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_ILE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2E__45__11Z__45__icosa__45__2__45__11__45__dienoyl__45__ACPs_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_AMINO__45__ACETONE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_D__45__ALANINE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_D__45__GLT_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_XYLITOL_c": [
+            "host_metab_mod"
+        ],
+        "M_PROPIONYL__45__COA_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_ACETYL__45__ETCETERA__45__GLUCOSAMINYLDIPHOSPHOUND_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__3633_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_ACETALD_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__1__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_C__45__DI__45__GMP_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_BISOHMYR__45__GLC_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_HISTIDINOL_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_3R__45__11Z__45__3__45__hydroxy__45__icos__45__11__45__enoyl__45__ACPs_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__8052_c": [
+            "host_metab_mod"
+        ],
+        "M_KDO_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_L__45__ALLO__45__THREONINE_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_UDP__45__OHMYR__45__GLUCOSAMINE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_ARABINOSE__45__5P_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_METHYL__45__GLYOXAL_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__19754_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_NEUROSPORENE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_UDP__45__N__45__ACETYL__45__2__45__AMINO__45__D__45__GLUCURONATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_ADENINE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__18118_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_D__45__XYLONATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__18063_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_4__45__AMINO__45__BUTYRATE_c": [
+            "host_metab_mod"
+        ],
+        "M_AMINO__45__OXOBUT_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__471_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__6__45__P_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__22404_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__15435_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_GLUTAMIDE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_UDP__45__N__45__ACETYLMURAMATE_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD1F__45__114_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__12247_c": [
+            "host_metab_mod"
+        ],
+        "M_SUCC__45__S__45__ALD_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__19715_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_CPD__45__7246_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__10683_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__9247_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9387_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__1091_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__22405_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_DIHYDRO__45__THYMINE_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_3__45__HYDROXY__45__L__45__KYNURENINE_c": [
+            "Muricauda_eckloniae",
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__881_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__12116_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_3__45__HYDROXY__45__ANTHRANILATE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_N__45__ACETYL__45__L__45__24__45__DIAMINOBUTANOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_FORMAMIDE_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_KDO__45__8P_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_DEOXYURIDINE_c": [
+            "host_metab_mod",
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__22406_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__365_c": [
+            "host_metab_mod",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__1699_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__12185_c": [
+            "host_metab_mod"
+        ],
+        "M_THYMIDINE_c": [
+            "Muricauda_eckloniae",
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD__45__7414_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLEYL__45__CPD_c": [
+            "Muricauda_eckloniae"
+        ],
+        "M_cis__45__vaccen__45__2__45__enoyl__45__ACPs_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14795_c": [
+            "Rhodopirellula_europaea_6C",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__10723_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_L__45__DI__45__GMP_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_2__45__DH__45__3__45__DO__45__D__45__ARABINONATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ],
+        "M_CPD1F__45__115_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12249_c": [
+            "host_metab_mod"
+        ],
+        "M_PROPANE__45__1__45__2__45__DIOL_c": [
+            "host_metab_mod"
+        ],
+        "M_TARTRONATE__45__S__45__ALD_c": [
+            "Rhodopirellula_europaea_6C",
+            "Muricauda_eckloniae"
+        ],
+        "M_D__45__ALTRONATE_c": [
+            "Rhodopirellula_europaea_6C"
+        ]
+    }
+}

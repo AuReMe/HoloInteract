@@ -32,6 +32,7 @@ def get_command_line_args():
     parser = ArgumentParser(prog='HoloInteract', description='', epilog='')
     subparsers = parser.add_subparsers(help='Available subcommands', dest='subcommands')
     args_metabolic_analysis(subparsers)
+    args_coevolution_analysis(subparsers)
     args = parser.parse_args()
     return args
 
@@ -51,7 +52,7 @@ def args_metabolic_analysis(subparsers):
     parser_metabolic_analysis.add_argument('-n', '--name', type=str, required=False, default='run',
                                            help='output files name')
     parser_metabolic_analysis.add_argument('-am', '--analysis_method', type=str, required=False,
-                                           choices=[SOLO_METHOD, COOP_METHOD, FULL_METHOD], default=COOP_METHOD,
+                                           choices=[SOLO_METHOD, COOP_METHOD], default=COOP_METHOD,
                                            help='method of analysis')
     parser_metabolic_analysis.add_argument('-cm', '--clustering_method', type=str, required=False,
                                            choices=LINKAGE_METHODS, default='ward',
@@ -60,7 +61,28 @@ def args_metabolic_analysis(subparsers):
                                            help='path to seeds SBML file')
     parser_metabolic_analysis.add_argument('-cpu', type=int, required=False, default=1,
                                            help='number of cpu to use')
-    return subparsers
+
+
+def args_coevolution_analysis(subparsers):
+    parser_metabolic_analysis = subparsers.add_parser('coevolution',
+                                                      help='')
+    parser_metabolic_analysis.add_argument('-cn', '--community_networks', type=str, required=True,
+                                           help='path to community networks in SBML')
+    parser_metabolic_analysis.add_argument('-hn', '--host_networks', type=str, required=True,
+                                           help='path to hosts networks in SBML')
+    parser_metabolic_analysis.add_argument('-o', '--output', type=str, required=True,
+                                           help='path to output directory')
+    parser_metabolic_analysis.add_argument('-s', '--seeds', type=str, required=True,
+                                           help='path to seeds SBML file')
+    parser_metabolic_analysis.add_argument('-n', '--name', type=str, required=False, default='run',
+                                           help='output files name')
+    parser_metabolic_analysis.add_argument('-cm', '--clustering_method', type=str, required=False,
+                                           choices=LINKAGE_METHODS, default='ward',
+                                           help='method for linkage in clustering')
+    parser_metabolic_analysis.add_argument('--max_clust', type=int, required=False, default=10,
+                                           help='path to seeds SBML file')
+    parser_metabolic_analysis.add_argument('-cpu', type=int, required=False, default=1,
+                                           help='number of cpu to use')
 
 
 # ### FUNCTIONS
@@ -68,17 +90,18 @@ def args_metabolic_analysis(subparsers):
 
 
 def networks_from_genomes(genomes_path, gbk_files, metabolic_networks_path, singularity_path):
-    print("Annotation done")
-    holointeract.network_generation.annot_emapper.annot_eggnog(
-        input_dir=genomes_path, output_dir=genomes_path)
-
-    print("Start emapper2GBK")
-    holointeract.network_generation.create_input_mpwt.egg2gbk(
-        input_dir=genomes_path, output_dir=gbk_files)
-
-    print("Start metabolic network building")
-    holointeract.network_generation.meta_network.build_network_eggnog(
-        input_dir=gbk_files, output_dir=metabolic_networks_path, singularity_path=singularity_path)
+    pass
+    # print("Annotation done")
+    # holointeract.network_generation.annot_emapper.annot_eggnog(
+    #     input_dir=genomes_path, output_dir=genomes_path)
+    #
+    # print("Start emapper2GBK")
+    # holointeract.network_generation.create_input_mpwt.egg2gbk(
+    #     input_dir=genomes_path, output_dir=gbk_files)
+    #
+    # print("Start metabolic network building")
+    # holointeract.network_generation.meta_network.build_network_eggnog(
+    #     input_dir=gbk_files, output_dir=metabolic_networks_path, singularity_path=singularity_path)
 
 
 def metabolic_analysis(community_networks_path, host_networks_path, output_path, seeds, output_name, analysis_method,
@@ -100,10 +123,7 @@ def metabolic_analysis(community_networks_path, host_networks_path, output_path,
 
 
 def coevolution_analysis(community_networks_path, host_networks_path, output_path, seeds, output_name,
-                         clustering_method, max_clust, cpu,
-
-                         all_scopes, phylogenetic_tree,
-                         csv_file_for_graph, coevolution_graph_name, correction, matrice_name="matrice"):
+                         clustering_method, max_clust, cpu):
 
     metabolic_analysis(community_networks_path, host_networks_path, output_path, seeds, output_name, FULL_METHOD,
                        clustering_method, max_clust, cpu)
@@ -113,10 +133,10 @@ def coevolution_analysis(community_networks_path, host_networks_path, output_pat
                                                                 scopes_bacteries_path=all_scopes,
                                                                 output_name=matrice_name + "_coevolution")
 
-    # Construction du graph de coévolution
-    holointeract.coevolution_analysis.Graph_dist.job(phylogenetic_tree, input_file=matrice_name + "_coevolution.csv",
-                                                     ouput_file_for_graph=csv_file_for_graph,
-                                                     graph_name=coevolution_graph_name, correction=correction)
+    # # Construction du graph de coévolution
+    # holointeract.coevolution_analysis.Graph_dist.job(phylogenetic_tree, input_file=matrice_name + "_coevolution.csv",
+    #                                                  ouput_file_for_graph=csv_file_for_graph,
+    #                                                  graph_name=coevolution_graph_name, correction=correction)
 
 
 def main():
@@ -134,7 +154,9 @@ def main():
                            max_clust=args.max_clust, cpu=args.cpu)
 
     elif args.args.subcommands == 'coevolution':
-        coevolution_analysis()
+        coevolution_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
+                             output_path=args.output, seeds=args.seeds, output_name=args.name,
+                             clustering_method=args.clustering_method, max_clust=args.max_clust, cpu=args.cpu)
 
     else:
         print('[dark_orange]Unknown command. Please use the help (-h) to see available commands.')
