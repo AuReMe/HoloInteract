@@ -168,7 +168,7 @@ def heatmap(df: pandas.DataFrame, output_heatmap: str, output_clusters: str,  me
     plot.savefig(output_heatmap)
 
     with open(output_clusters, 'w') as f:
-        f.write('Cluster\tMetabolite')
+        f.write('Cluster\tCompound')
         met = df.columns
         for ind in plot.dendrogram_col.reordered_ind:
             f.write(f'\n{clusters_d[met[ind]]}\t{met[ind]}')

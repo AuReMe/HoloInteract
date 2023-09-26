@@ -51,7 +51,7 @@ def args_metabolic_analysis(subparsers):
     parser_metabolic_analysis.add_argument('-n', '--name', type=str, required=False, default='run',
                                            help='output files name')
     parser_metabolic_analysis.add_argument('-am', '--analysis_method', type=str, required=False,
-                                           choices=[SOLO_METHOD, COOP_METHOD], default=COOP_METHOD,
+                                           choices=[SOLO_METHOD, COOP_METHOD, FULL_METHOD], default=COOP_METHOD,
                                            help='method of analysis')
     parser_metabolic_analysis.add_argument('-cm', '--clustering_method', type=str, required=False,
                                            choices=LINKAGE_METHODS, default='ward',
@@ -94,57 +94,41 @@ def metabolic_analysis(community_networks_path, host_networks_path, output_path,
     bact_metabolites, host_metabolites, holo_metabolites, all_metabolites = heatmap_host_bacteria(
         input_dir=input_heatmap, output=output_heatmap, method=clustering_method, max_clust=max_clust)
 
-    proportion_workflow(set(all_metabolites), output=output_heatmap + '_classes_cpd_info')
+    output_info = output_heatmap + '_classes_cpd_info'
+    proportion_workflow(set(all_metabolites), output=output_info)
+    merge_outputs(f'{output_heatmap}_clusters.tsv', f'{output_info}.tsv')
 
 
-def create_heatmap_output(output_path, output_name, analysis_method):
-    output_heatmap = os.path.join(output_path, 'heatmap')
-    create_new_dir(output_heatmap)
-    output_heatmap = os.path.join(output_heatmap, analysis_method)
-    create_new_dir(output_heatmap)
-    output_heatmap = os.path.join(output_heatmap, output_name)
-    return output_heatmap
+def coevolution_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes,
+                         all_scopes, all_bact, phylogenetic_tree, output_fig_cpd, output_file_cpd, clustering_method,
+                         csv_file_for_graph, coevolution_graph_name, correction, padmet, matrice_name="matrice"):
+
+    # print("Start matrix creation")
+    # if analysis_method == "solo":
+    #     dico_algue, dico_bact = holointeract.metabolic_analysis.create_big_tab_bact.job(
+    #         path_alg=alg_scopes, path_bact=scopes_path, path_holo=scopes_path,
+    #         path_metabolic_networks=metabolic_networks_path, output_name=matrice_name)
+    # else:
+    #     dico_algue, dico_bact = holointeract.metabolic_analysis.create_big_tab_alg.job(
+    #         alg_scopes=alg_scopes, bact_scopes=scopes_path, sbml_path=metabolic_networks_path, output_name=matrice_name,
+    #         method=analysis_method)
 
 
-# def coevolution_analysis(metabolic_networks_path, scopes_path, analysis_method, algaes_network_path, seeds, alg_scopes,
-#                          all_scopes, all_bact, phylogenetic_tree, output_fig_cpd, output_file_cpd, clustering_method,
-#                          csv_file_for_graph, coevolution_graph_name, correction, padmet, matrice_name="matrice"):
-#     metabolic_analysis()
-#
-#     print("Start matrix creation")
-#     if analysis_method == "solo":
-#         dico_algue, dico_bact = holointeract.metabolic_analysis.create_big_tab_bact.job(
-#             path_alg=alg_scopes, path_bact=scopes_path, path_holo=scopes_path,
-#             path_metabolic_networks=metabolic_networks_path, output_name=matrice_name)
-#     else:
-#         dico_algue, dico_bact = holointeract.metabolic_analysis.create_big_tab_alg.job(
-#             alg_scopes=alg_scopes, bact_scopes=scopes_path, sbml_path=metabolic_networks_path, output_name=matrice_name,
-#             method=analysis_method)
-#
-#     holointeract.metabolic_analysis.stat_cpd.job(
-#         matrice_name + ".csv", output_fig_cpd=output_fig_cpd, output_file_cpd=output_file_cpd, padmet=padmet)
-#
-#     list_bact = [x for x in dico_bact.keys()]
-#     list_algue = [x for x in dico_algue.keys()]
-#     print(list_bact)
-#     print("Start heatmap")
-#     holointeract.metabolic_analysis.heatmap.heatmap(matrice_name + ".csv", clustering_method,
-#                                                     output_file=matrice_name, color="tab10")
-#
-#     holointeract.metabolic_analysis.analyse_community.coev_scopes(metabolic_networks_path, path_all_bact=all_bact,
-#                                                                   list_algues=list_algue,
-#                                                                   path_sbml_algues=algaes_network_path,
-#                                                                   output_dir_scopes=all_scopes, seeds=seeds)
-#     # On continue vers la coévolution
-#     holointeract.coevolution_analysis.mat_dist_full_crossed.job(list_algue=list_algue, list_bact=list_bact,
-#                                                                 scopes_bacteries_path=all_scopes,
-#                                                                 output_name=matrice_name + "_coevolution")
-#
-#     # Construction du graph de coévolution
-#
-#     holointeract.coevolution_analysis.Graph_dist.job(phylogenetic_tree, input_file=matrice_name + "_coevolution.csv",
-#                                                      ouput_file_for_graph=csv_file_for_graph,
-#                                                      graph_name=coevolution_graph_name, correction=correction)
+
+    holointeract.metabolic_analysis.analyse_community.coev_scopes(metabolic_networks_path, path_all_bact=all_bact,
+                                                                  list_algues=list_algue,
+                                                                  path_sbml_algues=algaes_network_path,
+                                                                  output_dir_scopes=all_scopes, seeds=seeds)
+    # On continue vers la coévolution
+    holointeract.coevolution_analysis.mat_dist_full_crossed.job(list_algue=list_algue, list_bact=list_bact,
+                                                                scopes_bacteries_path=all_scopes,
+                                                                output_name=matrice_name + "_coevolution")
+
+    # Construction du graph de coévolution
+
+    holointeract.coevolution_analysis.Graph_dist.job(phylogenetic_tree, input_file=matrice_name + "_coevolution.csv",
+                                                     ouput_file_for_graph=csv_file_for_graph,
+                                                     graph_name=coevolution_graph_name, correction=correction)
 
 
 def main():
@@ -160,6 +144,9 @@ def main():
                            output_path=args.output, seeds=args.seeds, output_name=args.name,
                            analysis_method=args.analysis_method, clustering_method=args.clustering_method,
                            max_clust=args.max_clust, cpu=args.cpu)
+
+    elif args.args.subcommands == 'coevolution':
+        coevolution_analysis()
 
     else:
         print('[dark_orange]Unknown command. Please use the help (-h) to see available commands.')

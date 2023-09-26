@@ -8,6 +8,7 @@ from holointeract.utils.utils import *
 
 SOLO_METHOD = 'solo'
 COOP_METHOD = 'coop'
+FULL_METHOD = 'full'
 SCOPES_STR = 'scopes'
 
 
@@ -27,29 +28,43 @@ def community_scopes(community_sbml_path, hosts_sbml_path, output_dir, seeds, me
         h_sbml_path = os.path.join(hosts_sbml_path, h_sbml)
 
         if method == SOLO_METHOD:
-            comm_sbml = os.listdir(h_comm_path)
-            for c_sbml in comm_sbml:
-                c_name = c_sbml.split('.')[0]
-                c_sbml_path = os.path.join(h_comm_path, c_sbml)
-                h_c_output = os.path.join(output_dir, f'{host_name}__{c_name}')
-                tmp_com_path = duplicate_networks_temp(c_sbml_path, temp_path, c_name)
-                metacom_analysis(tmp_com_path, h_c_output, seeds, h_sbml_path, None, cpu)
-                shutil.rmtree(tmp_com_path)
+            solo_method_scopes(h_comm_path, output_dir, host_name, temp_path, seeds, h_sbml_path, cpu)
 
         elif method == COOP_METHOD:
-            h_output = os.path.join(output_dir, host_name)
-            create_new_dir(h_output)
-            if len(os.listdir(h_comm_path)) == 1:
-                c_sbml = os.listdir(h_comm_path)[0]
-                c_name = c_sbml.split('.')[0]
-                c_sbml_path = os.path.join(h_comm_path, c_sbml)
-                tmp_com_path = duplicate_networks_temp(c_sbml_path, temp_path, c_name)
-                metacom_analysis(tmp_com_path, h_output, seeds, h_sbml_path, None, cpu)
-                shutil.rmtree(tmp_com_path)
-            else:
-                metacom_analysis(h_comm_path, h_output, seeds, h_sbml_path, None, cpu)
+            coop_method_scopes(output_dir, host_name, h_comm_path, temp_path, seeds, h_sbml_path, cpu)
+
+        elif method == FULL_METHOD:
+            all_comm_path = os.listdir(community_sbml_path)
+            for comm_path in all_comm_path:
+                comm_path = os.path.join(community_sbml_path, comm_path)
+                solo_method_scopes(comm_path, output_dir, host_name, temp_path, seeds, h_sbml_path, cpu)
 
     shutil.rmtree(temp_path)
+
+
+def coop_method_scopes(output_dir, host_name, h_comm_path, temp_path, seeds, h_sbml_path, cpu):
+    h_output = os.path.join(output_dir, host_name)
+    create_new_dir(h_output)
+    if len(os.listdir(h_comm_path)) == 1:
+        c_sbml = os.listdir(h_comm_path)[0]
+        c_name = c_sbml.split('.')[0]
+        c_sbml_path = os.path.join(h_comm_path, c_sbml)
+        tmp_com_path = duplicate_networks_temp(c_sbml_path, temp_path, c_name)
+        metacom_analysis(tmp_com_path, h_output, seeds, h_sbml_path, None, cpu)
+        shutil.rmtree(tmp_com_path)
+    else:
+        metacom_analysis(h_comm_path, h_output, seeds, h_sbml_path, None, cpu)
+
+
+def solo_method_scopes(h_comm_path, output_dir, host_name, temp_path, seeds, h_sbml_path, cpu):
+    comm_sbml = os.listdir(h_comm_path)
+    for c_sbml in comm_sbml:
+        c_name = c_sbml.split('.')[0]
+        c_sbml_path = os.path.join(h_comm_path, c_sbml)
+        h_c_output = os.path.join(output_dir, f'{host_name}__{c_name}')
+        tmp_com_path = duplicate_networks_temp(c_sbml_path, temp_path, c_name)
+        metacom_analysis(tmp_com_path, h_c_output, seeds, h_sbml_path, None, cpu)
+        shutil.rmtree(tmp_com_path)
 
 
 def duplicate_networks_temp(com_sbml_path, temp_path, c_name):
@@ -89,18 +104,3 @@ def get_all_full_scope(list_algue: str, path_all_bact: str, path_sbml_algue, out
                 [f'mkdir {output_dir}{algue.split("/")[-1]}/{bact.split("-")[1]}'], shell=True)
             sub.run(
                 [f'm2m metacom -n {bact} -s {seeds} -m {net_alg} -o {output} -c 30'], shell=True)
-
-
-def coev_scopes(path_metabolic_networks, path_all_bact, list_algues, path_sbml_algues, output_dir_scopes, seeds):
-    """create folder with all bacteria metabolic networks and computes scopes of each host with each bacteria
-
-    Args:
-        path_metabolic_networks (_type_): _description_
-        path_all_bact (_type_): _description_
-        list_algues (_type_): _description_
-        path_sbml_algues (_type_): _description_
-        output_dir_scopes (_type_): _description_
-        seeds (_type_): _description_
-    """
-    get_all_full_scope(list_algues, path_all_bact,
-                       path_sbml_algues, output_dir_scopes, seeds=seeds)
