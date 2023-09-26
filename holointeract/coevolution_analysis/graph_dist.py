@@ -1,8 +1,5 @@
-from scipy.optimize import curve_fit
 import pandas
-import matplotlib.pyplot as plt
 import numpy as np
-import scipy.stats as stats
 import plotly.graph_objs as go
 import plotly.io as pio
 from statsmodels.stats.multitest import multipletests
@@ -31,61 +28,30 @@ def get_dist_from_tree(tree: str):
     return dict_tree
 
 
-def show_graph(input_file):
-
-    fig, ax = plt.subplots(figsize=(10, 10))
-    donnees = pandas.read_csv(input_file, sep=",", header=0)
-
-    score_c = donnees["Complementarite"].to_list()
-    distance = donnees["Distance"].to_list()
-
-    slope, intercept = np.polyfit(distance, score_c, 1)
-    print("pente: ", slope)
-    print("intercept: ", intercept)
-
-    popt, pcov = curve_fit(func, xdata=distance, ydata=score_c)
-
-    # calcul de la distance des points à la courbe de régression
-    """diff = np.abs(score_c - func(distance, *popt))"""
-
-    # colormap pour colorer les points selon leur distance à la courbe de régression
-    """cmap = plt.colormaps.get_cmap('viridis')
-    norm = plt.Normalize(vmin=diff.min(), vmax=diff.max())"""
-
-    #ax.scatter(distance, score_c,s=200, c=diff, cmap=cmap, norm=norm)
-    ax.scatter(distance, score_c, s=2, c="black")
-    ax.plot(distance, slope*np.array(distance) +
-            intercept, color="red", linewidth=2)
-    ax.plot(distance, func(distance, *popt),
-            'r-', label='Courbe de régression')
-
-    ax.set_xlabel("Distance phylogénétique")
-    ax.set_ylabel("Complementarite métabolique normalisée")
-
-    ax.set_title("Observation de la complémentarité métabolique de chaque bactérie avec chaque algue \nen fonction de la distance phylogénétique des algues")
-
-    plt.savefig("noerror_courbe_nodup.png")
-
-
 def get_graph_csv(input_file: str, output: str, phylogenetic_tree: str):
-    data = pandas.read_csv(input_file, sep=",", header=0, index_col=0)
-    print(data.columns)
+    data = pandas.read_csv(input_file, sep='\t', header=True, index_col=0)
+    # print(data.columns)
+    #
+    # with open(output+".csv", "w") as fo:
+    #     fo.write("Couple,Complementarite,Distance\n")
+    #
+    # dico_dist = get_dist_from_tree(phylogenetic_tree)
+    #
+    # for index, row in data.iterrows():
+    #     print(index, row)
+    #     for column, value in row.iteritems():
+    #         if index.split("-")[0] == column:
+    #             distance = 0
+    #         else:
+    #             distance = dico_dist[index.split(
+    #                 "-")[0]][column]
+    #         with open(output+".csv", "a") as fo:
+    #             fo.write(f'{index}_{column},{float(value)},{distance}\n')
 
-    with open(output+".csv", "w") as fo:
-        fo.write("Couple,Complementarite,Distance\n")
 
-    dico_dist = get_dist_from_tree(phylogenetic_tree)
-
-    for index, row in data.iterrows():
-        print(index, row)
-        for column, value in row.iteritems():
-            if index.split("-")[0] == column:
-                distance = 0
-            else:
-                distance = dico_dist[index.split(
-                    "-")[0]][column]
-            with open(output+".csv", "a") as fo:
-                fo.write(f'{index}_{column},{float(value)},{distance}\n')
+DATA_FILE = '../../example/outputs/coevolution/run_matrix.tsv'
+PHYLO_FILE = '../../example/inputs/SpeciesTree_rooted.txt'
+get_graph_csv(DATA_FILE, 'truc', PHYLO_FILE)
 
 
 def plot_regression_all(input_file, output, base_file, show_points=False, correction="", spacing_remove=0):
@@ -234,18 +200,6 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
 
     pio.write_html(fig, output+'file.html', auto_open=True)
     print(spacing)
-
-
-def stats_tests(input_file):
-    donnees = pandas.read_csv(input_file, sep=",", header=0)
-    score_c = donnees["Complementarite"].to_list()
-
-    distance = donnees["Distance"].to_list()
-
-    # Test de corrélation de Spearman
-    rho, p_value = stats.spearmanr(distance, score_c)
-    print("Coefficient de corrélation de Spearman : ", rho)
-    print("Valeur-p : ", p_value)
 
 
 def job(phylogenetic_tree: str, input_file: str, ouput_file_for_graph: str, correction: str, graph_name="graph_complementarite_distance"):
