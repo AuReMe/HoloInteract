@@ -2,8 +2,6 @@ from scipy.optimize import curve_fit
 import pandas
 import matplotlib.pyplot as plt
 import numpy as np
-from holointeract.coevolution_analysis.dist import get_dist
-from scipy.stats import linregress
 import scipy.stats as stats
 import plotly.graph_objs as go
 import plotly.io as pio
@@ -12,10 +10,25 @@ import csv
 from scipy.stats import linregress, spearmanr
 from scipy.stats import f_oneway
 import sys
+import os
+from ete3 import Tree
 
 
 def func(x, a, b, c):
     return a * np.exp(-b * np.array(x)) + c
+
+
+def get_dist_from_tree(tree: str):
+    tree_file = os.path.join(tree)
+    dict_tree = dict()
+    tree = Tree(tree_file)
+    for sp1 in tree.iter_leaves():
+        dict_dist = dict()
+        for sp2 in tree.iter_leaves():
+            if sp1 != sp2:
+                dict_dist[str(sp2)[3:]] = sp1.get_distance(sp2)
+        dict_tree[str(sp1)[3:]] = dict_dist
+    return dict_tree
 
 
 def show_graph(input_file):
@@ -58,12 +71,10 @@ def get_graph_csv(input_file: str, output: str, phylogenetic_tree: str):
     data = pandas.read_csv(input_file, sep=",", header=0, index_col=0)
     print(data.columns)
 
-    ####################
-
     with open(output+".csv", "w") as fo:
         fo.write("Couple,Complementarite,Distance\n")
 
-    dico_dist = get_dist(phylogenetic_tree)
+    dico_dist = get_dist_from_tree(phylogenetic_tree)
 
     for index, row in data.iterrows():
         print(index, row)
@@ -256,27 +267,3 @@ def job(phylogenetic_tree: str, input_file: str, ouput_file_for_graph: str, corr
 if __name__ == "__main__":
 
     job(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
-
-    # #space_to_remove=get_graph_csv("mat_dist_nonorm.csv", output="outlier_comp_dist_nonorm")
-    # #print("nonorm_space_remove", space_to_remove)
-    # #space_to_remove=get_graph_csv("mat_dist_norm_fullmicro.csv", output="outlier_comp_dist_norm_fullmicro")
-    # #print("normfullmicro_space_remove", space_to_remove)
-    # print("normmean_space_remove", space_to_remove)
-
-    # #get_graph_csv("Short_dist_full_crossed.csv", output="Short_Comp_Dist")
-    # #get_graph_csv("Long_dist_full_crossed.csv", output="Long_Comp_Dist")
-
-    # space_to_remove=1+space_to_remove
-
-    # #plot_regression_all("outlier_comp_dist_nonorm.csv",output="outlier_NoNorm_graph",base_file="mat_dist_nonorm.csv", show_points=True, correction="benjamini", spacing_remove=space_to_remove)
-    # plot_regression_all("outlier_comp_dist_norm_mean.csv",output="outlier_Norm_Mean_graph",base_file="mat_dist_norm_mean.csv", show_points=True, correction="", spacing_remove=space_to_remove)
-    # #plot_regression_all("outlier_comp_dist_norm_fullmicro.csv",output="outlier_Norm_Fullmicro_graph",base_file="mat_dist_norm_fullmicro.csv", show_points=True,correction="benjamini", spacing_remove=space_to_remove)
-
-    # #plot_regression_all("Long_Comp_Dist.csv",output="Long_graph",base_file="Long_dist_full_crossed.csv", show_points=True)
-    # #plot_regression_all("Short_Comp_Dist.csv",output = "Short_graph",base_file="Short_dist_full_crossed.csv", show_points=True)
-
-    # #stats_tests("test_comp_dist_newnorm.csv")
-    # #stats_tests("Long_Comp_Dist.csv")
-    # #stats_tests("outlier_comp_dist_norm_meansans_outlier.csv")
-
-    # #show_graph("outlier_comp_dist_norm_meansans_outlier.csv")
