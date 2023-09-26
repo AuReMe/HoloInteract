@@ -76,31 +76,3 @@ def duplicate_networks_temp(com_sbml_path, temp_path, c_name):
     shutil.copy(com_sbml_path, copy_2)
     return input_dir
 
-
-# COEVOLUTION SCOPES
-# ======================================================================================================================
-
-def get_all_full_scope(list_algue: str, path_all_bact: str, path_sbml_algue, output_dir: str, seeds: str):
-    """Compute scopes of each host with each bacteria
-
-    Args:
-        list_algue (str): list of hosts
-        path_all_bact (str): path to directory of all bacteria metabolic networks
-        path_sbml_algue (_type_): path to host metabolic networks
-        output_dir (str): path to all scopes
-        seeds (str): seeds file
-    """
-    bacts = glob(path_all_bact+"*")
-
-    for algue in list_algue:
-        sub.run([f'mkdir {output_dir}{algue.split("/")[-1]}'], shell=True)
-        for bact in bacts:
-            output = output_dir + \
-                algue.split("/")[-1] + "/" + bact.split("-")[1]
-
-            net_alg = path_sbml_algue + algue.split('/')[-1]+".sbml"
-
-            sub.run(
-                [f'mkdir {output_dir}{algue.split("/")[-1]}/{bact.split("-")[1]}'], shell=True)
-            sub.run(
-                [f'm2m metacom -n {bact} -s {seeds} -m {net_alg} -o {output} -c 30'], shell=True)
