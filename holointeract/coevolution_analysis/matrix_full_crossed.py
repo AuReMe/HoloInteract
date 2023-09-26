@@ -46,4 +46,5 @@ def generate_added_value_df(host_path: str, comm_path: str, scopes_path, output,
     create_new_dir(output)
     complementarity_boxplot(df, os.path.join(output, f'{name}_boxplot.png'))
     df.to_csv(os.path.join(output, f'{name}_matrix.tsv'), sep='\t')
+    return df
 
