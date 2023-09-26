@@ -13,7 +13,7 @@ import holointeract.network_generation.meta_network
 from holointeract.metabolic_analysis.scopes_community import *
 from holointeract.metabolic_analysis.heatmap_host_bacteria import *
 
-import holointeract.coevolution_analysis.mat_dist_full_crossed
+from holointeract.coevolution_analysis.mat_dist_full_crossed import *
 import holointeract.coevolution_analysis.Graph_dist
 
 from sys import argv
@@ -128,10 +128,8 @@ def coevolution_analysis(community_networks_path, host_networks_path, output_pat
     metabolic_analysis(community_networks_path, host_networks_path, output_path, seeds, output_name, FULL_METHOD,
                        clustering_method, max_clust, cpu)
 
-    # On continue vers la coévolution
-    holointeract.coevolution_analysis.mat_dist_full_crossed.job(list_algue=list_algue, list_bact=list_bact,
-                                                                scopes_bacteries_path=all_scopes,
-                                                                output_name=matrice_name + "_coevolution")
+    scopes_path = os.path.join(output_path, SCOPES_STR, FULL_METHOD)
+    generate_added_value_df(host_networks_path, community_networks_path, scopes_path, output_path)
 
     # # Construction du graph de coévolution
     # holointeract.coevolution_analysis.Graph_dist.job(phylogenetic_tree, input_file=matrice_name + "_coevolution.csv",
