@@ -13,8 +13,8 @@ import holointeract.network_generation.meta_network
 from holointeract.metabolic_analysis.scopes_community import *
 from holointeract.metabolic_analysis.heatmap_host_bacteria import *
 
-from holointeract.coevolution_analysis.matrix_full_crossed import *
-import holointeract.coevolution_analysis.graph_dist
+from holointeract.coevolution_analysis.coevolution_matrix import *
+import holointeract.coevolution_analysis.coevolution_figures
 
 from sys import argv
 from argparse import ArgumentParser
@@ -77,6 +77,8 @@ def args_coevolution_analysis(subparsers):
                                     help='path to seeds SBML file')
     parser_coevolution.add_argument('-n', '--name', type=str, required=False, default='run',
                                     help='output files name')
+    parser_coevolution.add_argument('-p', '--phylo_tree', type=str, required=False, default=None,
+                                    help='path to phylogenetic tree (Newick format)')
     parser_coevolution.add_argument('-cm', '--clustering_method', type=str, required=False,
                                     choices=LINKAGE_METHODS, default='ward',
                                     help='method for linkage in clustering')
@@ -123,19 +125,19 @@ def metabolic_analysis(community_networks_path, host_networks_path, output_path,
     proportion_workflow(set(all_metabolites), output=output_info)
     merge_outputs(f'{output_heatmap}_clusters.tsv', f'{output_info}.tsv')
 
+    return name_assoc
+
 
 def coevolution_analysis(community_networks_path, host_networks_path, output_path, seeds, output_name,
-                         clustering_method, max_clust, cpu):
-    metabolic_analysis(community_networks_path, host_networks_path, output_path, seeds, output_name, FULL_METHOD,
-                       clustering_method, max_clust, cpu)
+                         clustering_method, max_clust, phylo_tree, cpu):
+    name_assoc = metabolic_analysis(community_networks_path=community_networks_path,
+                                    host_networks_path=host_networks_path, output_path=output_path, seeds=seeds,
+                                    output_name=output_name, analysis_method=FULL_METHOD,
+                                    clustering_method=clustering_method, max_clust=max_clust, cpu=cpu)
 
     scopes_path = os.path.join(output_path, SCOPES_STR, FULL_METHOD)
-    generate_added_value_df(scopes_path, output_path, output_name)
-
-    # # Construction du graph de coévolution
-    # holointeract.coevolution_analysis.Graph_dist.job(phylogenetic_tree, input_file=matrice_name + "_coevolution.csv",
-    #                                                  ouput_file_for_graph=csv_file_for_graph,
-    #                                                  graph_name=coevolution_graph_name, correction=correction)
+    coevolution(scopes_path=scopes_path, output=output_path, name=output_name, name_assoc=name_assoc,
+                phylo_tree=phylo_tree)
 
 
 # MAIN
@@ -157,10 +159,12 @@ def main():
     elif args.subcommands == 'coevolution':
         coevolution_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
                              output_path=args.output, seeds=args.seeds, output_name=args.name,
-                             clustering_method=args.clustering_method, max_clust=args.max_clust, cpu=args.cpu)
+                             clustering_method=args.clustering_method, max_clust=args.max_clust,
+                             phylo_tree=args.phylo_tree, cpu=args.cpu)
 
     else:
         print('[dark_orange]Unknown command. Please use the help (-h) to see available commands.')
         exit(1)
 
-# holointeract metabolic_analysis -cn example/inputs/community/ -hn example/inputs/hosts/ -o example/outputs/ -s example/inputs/seeds/seeds_seawater_artefact.sbml
+# holointeract metabolic_analysis -cn example/inputs/community/ -hn example/inputs/hosts/ -o example/outputs/ -s example/inputs/seeds/seeds_seawater_artefact.sbml -am solo
+# holointeract coevolution -cn example/inputs/community/ -hn example/inputs/hosts/ -o example/outputs/ -s example/inputs/seeds/seeds_seawater_artefact.sbml -p example/inputs/SpeciesTree_rooted.txt

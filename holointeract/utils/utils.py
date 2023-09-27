@@ -1,6 +1,7 @@
 import json
 import os.path
 import pandas as pd
+from ete3 import Tree
 
 
 # DIVERSE
@@ -69,3 +70,20 @@ def create_heatmap_output(output_path, output_name, analysis_method):
     create_new_dir(output_heatmap)
     output_heatmap = os.path.join(output_heatmap, output_name)
     return output_heatmap
+
+
+# COEVOLUTION
+# ======================================================================================================================
+
+def get_host_comm_from_name(name):
+    decomposition = name.split('_')
+    host = decomposition[0]
+    comm = decomposition[1] + '_' + decomposition[2]
+    return host, comm
+
+
+def col_normalization(df):
+    for col in df.columns:
+        mean_col = df[col].mean()
+        df[col] = df[col]/mean_col
+    return df
