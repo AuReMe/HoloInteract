@@ -130,7 +130,7 @@ def coevolution_analysis(community_networks_path, host_networks_path, output_pat
                        clustering_method, max_clust, cpu)
 
     scopes_path = os.path.join(output_path, SCOPES_STR, FULL_METHOD)
-    generate_added_value_df(host_networks_path, community_networks_path, scopes_path, output_path, output_name)
+    generate_added_value_df(scopes_path, output_path, output_name)
 
     # # Construction du graph de coévolution
     # holointeract.coevolution_analysis.Graph_dist.job(phylogenetic_tree, input_file=matrice_name + "_coevolution.csv",

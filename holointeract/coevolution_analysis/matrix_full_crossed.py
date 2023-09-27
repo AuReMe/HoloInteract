@@ -6,6 +6,13 @@ from holointeract.utils.utils import *
 COEVOLUTION_STR = 'coevolution'
 
 
+def get_host_comm_from_name(name):
+    decomposition = name.split('_')
+    host = decomposition[0]
+    comm = decomposition[1] + '_' + decomposition[2]
+    return host, comm
+
+
 def col_normalization(df):
     for col in df.columns:
         mean_col = df[col].mean()
@@ -24,21 +31,26 @@ def complementarity_boxplot(df, output_name):
     plt.savefig(output_name+".png")
 
 
-def generate_added_value_df(host_path: str, comm_path: str, scopes_path, output, name):
+def generate_added_value_df(scopes_path, output, name):
     """
     """
-    host_list = [x.split('.')[0] for x in os.listdir(host_path)]
-    comm_list = []
-    for comm_host in os.listdir(comm_path):
-        comm_list += [x.split('.')[0] for x in os.listdir(os.path.join(comm_path, comm_host))]
+    host_set = set()
+    comm_set = set()
+    value_dict = {}
+    for scope in os.listdir(scopes_path):
+        host, comm = get_host_comm_from_name(scope)
+        host_set.add(host)
+        comm_set.add(comm)
 
-    df = pd.DataFrame(index=comm_list, columns=host_list)
-    for host in host_list:
-        for comm in comm_list:
-            added_value_file = os.path.join(scopes_path, f'{host}__{comm}', 'community_analysis', 'addedvalue.json')
-            with open(added_value_file, 'r') as f:
-                data = json.load(f)
-                df.loc[comm, host] = str(len(data['addedvalue']))
+        added_value_file = os.path.join(scopes_path, scope, 'community_analysis', 'addedvalue.json')
+        with open(added_value_file, 'r') as f:
+            data = json.load(f)
+            value_dict[scope] = str(len(data['addedvalue']))
+
+    df = pd.DataFrame(index=list(comm_set), columns=list(host_set))
+    for couple, value in value_dict.items():
+        host, comm = get_host_comm_from_name(couple)
+        df.loc[comm, host] = value
     df = df[df.columns].astype(float)
     df = col_normalization(df)
 
