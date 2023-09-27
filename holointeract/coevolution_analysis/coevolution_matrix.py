@@ -26,6 +26,7 @@ def coevolution(scopes_path, output, name, name_assoc, phylo_tree=None):
     complementarity_df.to_csv(os.path.join(output, f'{name}_complementarity_matrix.tsv'), sep='\t')
     if phylo_tree is not None:
         phylo_dist_df = get_phylo_dist_df(phylo_tree, name_assoc)
+        correlation_complementarity_phylo_dist(complementarity_df, phylo_dist_df)
         phylo_dist_df.to_csv(os.path.join(output, f'{name}_phylogenetic_dist_matrix.tsv'), sep='\t')
 
 
@@ -62,10 +63,6 @@ def get_phylo_dist_df(phylo_tree, name_assoc):
 # FIGURES
 # ======================================================================================================================
 
-def func(x, a, b, c):
-    return a * np.exp(-b * np.array(x)) + c
-
-
 def complementarity_boxplot(df, output):
     fig, ax = plt.subplots()
     ax.boxplot(df.values)
@@ -78,41 +75,48 @@ def complementarity_boxplot(df, output):
 
 
 def correlation_complementarity_phylo_dist(complementarity_df, phylo_dist_df):
-    pass
+    # ANOVA test
+    result = f_oneway(*[complementarity_df[host].values for host in complementarity_df.columns])
+    print(result)
+
+    # Regression
+    fig = go.Figure()
+    fig.update_layout(
+        xaxis_title="Distance phylogénétique",
+        yaxis_title="Complémentarité métabolique normalisée",
+        title="Régression linéaire pour chaque bactérie"
+    )
+
 
 # OLD
 # ======================================================================================================================
 def plot_regression_all(input_file, output, base_file, show_points=False, correction="", spacing_remove=0):
     donnees = pandas.read_csv(input_file, sep=",", header=0)
-
-    added_value_df = pandas.read_csv(base_file, sep=",", header=0)
-
+    groups_data = pandas.read_csv(base_file, sep=",", header=0)
     pvalues = []
 
-    # Vérification statistique des données
-    # Effectuer l'ANOVA pour chaque colonne
-    results = {}
-    for host in added_value_df.columns:
-        print(host)
+    # # Vérification statistique des données
+    # # Effectuer l'ANOVA pour chaque colonne
+    # results = {}
+    # for col in groups_data.columns:
+    #     print(col)
+    #     result = f_oneway(*[groups_data[col].values for col in groups_data.columns[1:]])
+    #     results[col] = {'Statistique F': result.statistic,
+    #                     'Valeur p': result.pvalue}
+    #
+    # # Afficher les résultats
+    # for col, result in results.items():
+    #     print(result)
+    #     print("Colonne :", col)
+    #     print("Statistique F :", result['Statistique F'])
+    #     print("Valeur p :", result['Valeur p'])
+    #     print()
+    #
+    # #####
 
-        result = f_oneway(
-            *[added_value_df[col].values for col in added_value_df.columns[1:]])
-        results[host] = {'Statistique F': result.statistic,
-                         'Valeur p': result.pvalue}
-
-    # Afficher les résultats
-    for host, result in results.items():
-        print(result)
-        print("Colonne :", host)
-        print("Statistique F :", result['Statistique F'])
-        print("Valeur p :", result['Valeur p'])
-        print()
-
-    #####
-
-    spacing = added_value_df.shape[1] - 1
+    spacing = groups_data.shape[1]-1
     print("spacing", spacing)
-    n_groups = donnees.shape[0] // spacing
+    n_groups = donnees.shape[0]//spacing
 
     fig = go.Figure()
     fig.update_layout(
@@ -124,17 +128,17 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
     # Définir une liste de couleurs
     colors = ['red', 'blue', 'green', 'purple', 'orange', "brown"]
     counter = 0
-    with open(output + 'Regression_correlation.csv', 'w', newline='') as csvfile:
+    with open(output+'Regression_correlation.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(
             ['Couple', 'Pente', 'Corrélation de Spearman', 'P-value', 'P-value corrigée'])
 
-        # Correction avant calculs
+    # Correction avant calculs
 
         if correction == "benjamini":
             for i in range(n_groups):
-                start = i * spacing
-                end = (i + 1) * spacing
+                start = i*spacing
+                end = (i+1)*spacing
 
                 group_data = donnees.iloc[start:end]
                 x_data = group_data["Distance"].to_numpy()
@@ -154,8 +158,8 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
 
         for i in range(n_groups):
             print(i)
-            start = i * spacing
-            end = (i + 1) * spacing
+            start = i*spacing
+            end = (i+1)*spacing
 
             group_data = donnees.iloc[start:end]
 
@@ -174,46 +178,44 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
 
             # Verification par un test de Bonferoni
             if correction == "bonferroni":
-                bonferroni = len(added_value_df)
+                bonferroni = len(groups_data)
                 # Écriture des informations dans le fichier CSV
                 couple_name = " ".join(
-                    donnees["Couple"].iloc[i * spacing].split("_")[0:-3])
+                    donnees["Couple"].iloc[i*spacing].split("_")[0:-3])
                 writer.writerow(
-                    [couple_name, slope, spearman_coef, spearman_p, spearman_p * bonferroni])
-                if spearman_p < (0.05 / bonferroni) and slope < 0:
+                    [couple_name, slope, spearman_coef, spearman_p, spearman_p*bonferroni])
+                if spearman_p < (0.05/bonferroni) and slope < 0:
                     counter += 1
-                    # Plot de la droite de régression et des points correspondants
+                # Plot de la droite de régression et des points correspondants
                     fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
                         color=colors[counter % len(colors)])))
 
                     if show_points:
                         fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
-                                                                                          " points",
-                                                 marker=dict(color=colors[counter % len(colors)])))
+                                                 " points", marker=dict(color=colors[counter % len(colors)])))
                 """elif spearman_p < (0.05/bonferroni) and slope > 0:
                     print(couple_name)"""
 
             elif correction == "benjamini":
                 couple_name = " ".join(
-                    donnees["Couple"].iloc[i * spacing].split("_")[0:-3])
+                    donnees["Couple"].iloc[i*spacing].split("_")[0:-3])
                 writer.writerow(
                     [couple_name, slope, spearman_coef, spearman_p, corrected_pvalues[i]])
                 if rejected[i] == True:
                     counter += 1
-                    # Plot de la droite de régression et des points correspondants
+                # Plot de la droite de régression et des points correspondants
                     fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
                         color=colors[counter % len(colors)])))
 
                     if show_points:
                         fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
-                                                                                          " points",
-                                                 marker=dict(color=colors[counter % len(colors)])))
+                                                 " points", marker=dict(color=colors[counter % len(colors)])))
                 """elif corrected_pvalues[i] < (0.05) and slope > 0:
                     print(couple_name)"""
 
             elif correction == "":
                 couple_name = " ".join(
-                    donnees["Couple"].iloc[i * spacing].split("_")[0:-3])
+                    donnees["Couple"].iloc[i*spacing].split("_")[0:-3])
                 writer.writerow(
                     [couple_name, slope, spearman_coef, spearman_p])
                 counter += 1
@@ -225,11 +227,11 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
 
                     if show_points:
                         fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
-                                                                                          " points",
-                                                 marker=dict(color=colors[counter % len(colors)])))
+                                                 " points", marker=dict(color=colors[counter % len(colors)])))
 
-    pio.write_html(fig, output + 'file.html', auto_open=True)
+    pio.write_html(fig, output+'.html', auto_open=True)
     print(spacing)
+
 
 
 def job(input_file: str, ouput_file_for_graph: str, correction: str):
@@ -243,3 +245,10 @@ def job(input_file: str, ouput_file_for_graph: str, correction: str):
 
     plot_regression_all(ouput_file_for_graph + ".csv",
                         base_file=input_file, show_points=True, correction=correction)
+
+
+SC_PATH = '../../example/outputs/scopes/full'
+PHY_FILE = '../../example/inputs/SpeciesTree_rooted.txt'
+with open('../../example/outputs/name_assoc.json', 'r') as f:
+    NASS = json.load(f)
+coevolution(SC_PATH, '', '', NASS, PHY_FILE)
