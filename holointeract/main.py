@@ -53,7 +53,7 @@ def args_metabolic_analysis(subparsers):
     parser_metabolic_analysis.add_argument('-n', '--name', type=str, required=False, default='run',
                                            help='output files name')
     parser_metabolic_analysis.add_argument('-am', '--analysis_method', type=str, required=False,
-                                           choices=[SOLO_METHOD, COOP_METHOD], default=COOP_METHOD,
+                                           choices=[SOLO_METHOD, COOP_METHOD, FULL_METHOD], default=COOP_METHOD,
                                            help='method of analysis')
     parser_metabolic_analysis.add_argument('-cm', '--clustering_method', type=str, required=False,
                                            choices=LINKAGE_METHODS, default='ward',
@@ -107,9 +107,11 @@ def networks_from_genomes(genomes_path, gbk_files, metabolic_networks_path, sing
 
 def metabolic_analysis(community_networks_path, host_networks_path, output_path, seeds, output_name, analysis_method,
                        clustering_method, max_clust, cpu):
+    name_assoc = create_abbreviation_names_dict(community_networks_path, host_networks_path, output_path)
+
     print("Start calculate community scopes")
     community_scopes(community_sbml_path=community_networks_path, hosts_sbml_path=host_networks_path,
-                     output_dir=output_path, seeds=seeds, method=analysis_method, cpu=cpu)
+                     output_dir=output_path, seeds=seeds, method=analysis_method, name_assoc=name_assoc, cpu=cpu)
 
     print("Start generating clustermap")
     input_heatmap = os.path.join(output_path, SCOPES_STR, analysis_method)

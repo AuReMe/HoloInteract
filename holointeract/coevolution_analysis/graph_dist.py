@@ -28,24 +28,24 @@ def get_dist_from_tree(tree: str):
     return dict_tree
 
 
-def get_graph_csv(matrix_file, output: str, phylogenetic_tree: str):
-    df = pandas.read_csv(matrix_file, sep='\t', header=0, index_col=0)
-    with open(f'{output}.csv', 'w') as o:
-        o.write('\t'.join(['Host', 'Community', 'Complementarity', 'Distance']) + '\n')
-        phylo_dist = get_dist_from_tree(phylogenetic_tree)
-        for comm, host in df.iterrows():
-            for column, value in host.iteritems():
-                if comm.split("-")[0] == column:
-                    distance = 0
-                else:
-                    distance = dico_dist[index.split(
-                        "-")[0]][column]
-                fo.write(f'{index}_{column},{float(value)},{distance}\n')
-
-
-DATA_FILE = '../../example/outputs/coevolution/run_matrix.tsv'
-PHYLO_FILE = '../../example/inputs/SpeciesTree_rooted.txt'
-get_graph_csv(DATA_FILE, 'truc', PHYLO_FILE)
+# def get_graph_csv(matrix_file, output: str, phylogenetic_tree: str):
+#     df = pandas.read_csv(matrix_file, sep='\t', header=0, index_col=0)
+#     with open(f'{output}.csv', 'w') as o:
+#         o.write('\t'.join(['Host', 'Community', 'Complementarity', 'Distance']) + '\n')
+#         phylo_dist = get_dist_from_tree(phylogenetic_tree)
+#         for comm, host in df.iterrows():
+#             for column, value in host.iteritems():
+#                 if comm.split("-")[0] == column:
+#                     distance = 0
+#                 else:
+#                     distance = dico_dist[index.split(
+#                         "-")[0]][column]
+#                 fo.write(f'{index}_{column},{float(value)},{distance}\n')
+#
+#
+# DATA_FILE = '../../example/outputs/coevolution/run_matrix.tsv'
+# PHYLO_FILE = '../../example/inputs/SpeciesTree_rooted.txt'
+# get_graph_csv(DATA_FILE, 'truc', PHYLO_FILE)
 
 
 def plot_regression_all(input_file, output, base_file, show_points=False, correction="", spacing_remove=0):
