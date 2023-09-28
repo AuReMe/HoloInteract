@@ -80,96 +80,78 @@ def correlation_complementarity_phylo_dist(complementarity_df, phylo_dist_df, co
     # ANOVA test
     print(f_oneway(*[complementarity_df[host].values for host in complementarity_df.columns]))
 
-    # Regression
-    fig = go.Figure()
-    fig.update_layout(
-        xaxis_title="Distance phylogénétique",
-        yaxis_title="Complémentarité métabolique normalisée",
-        title="Régression linéaire pour chaque bactérie"
-    )
-
     n_comm, n_host = complementarity_df.shape
-
-    p_values = []
     colors = ['red', 'blue', 'green', 'purple', 'orange', "brown"]
-    counter = 0
+    significant_slopes = 0
 
-    results = dict()
     with open('Regression_correlation.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['Bacteria', 'Slope', 'Spearman Correlation', 'P-value', 'Corrected P-value'])
 
-        # Correction avant calculs
+        results, p_values = linear_regression_results(complementarity_df, phylo_dist_df)
 
-        # if correction == "benjamini":
-        #     for host in complementarity_df.columns:
-        #         x_phylo_dist = []
-        #         y_complementarity = []
-        #         label = []
-        #         for comm in complementarity_df.index:
-        #             comm_host = comm.split('_')[0]
-        #             x_phylo_dist.append(phylo_dist_df.loc[host, comm_host])
-        #             y_complementarity.append(complementarity_df.loc[comm, host])
-        #             label.append(comm)
-        #         x_phylo_dist = x_phylo_dist
-        #         y_complementarity = y_complementarity
-        #         slope, intercept, r_value, p_value, std_err = linregress(x_phylo_dist, y_complementarity)
-        #         p_values.append(spearmanr(x_phylo_dist, y_complementarity)[1])
-        #     multiple_tests_cor = multipletests(p_values, alpha=0.05, method="fdr_bh", is_sorted=False,
-        #                                        returnsorted=False)
-        #     rejected = multiple_tests_cor[0]
-        #     corrected_p_values = multiple_tests_cor[1]
+        fig = go.Figure()
+        fig.update_layout(
+            xaxis_title="Distance phylogénétique",
+            yaxis_title="Complémentarité métabolique normalisée",
+            title="Régression linéaire pour chaque bactérie"
+        )
 
-        for microorganism in complementarity_df.index:
-            microorganism_host = microorganism.split('_')[0]
-            # Extract complementarity line values from Data Frame
-            comm_line = complementarity_df.loc[microorganism]
-            # Get phylogenetic distance values between each host and the comm host
-            x_phylo_dist = [phylo_dist_df.loc[host, microorganism_host] for host in comm_line.index]
-            y_complementarity = comm_line.values
-            label = comm_line.index
-            # Linear regression
-            slope, intercept, r_value, p_value, std_err = linregress(x_phylo_dist, y_complementarity)
-            y_prediction = slope * np.array(x_phylo_dist) + intercept
-            # Calculate Spearman coefficient and p-value
-            spearman_coefficient, spearman_p_value = spearmanr(x_phylo_dist, y_complementarity)
-            p_values.append(spearman_p_value)
-            # Store result for the
-            results[microorganism] = {'p_value': spearman_p_value,
-                                      'x': x_phylo_dist,
-                                      'y': y_complementarity,
-                                      'y_prediction': y_prediction}
-        multiple_tests_cor = multipletests(p_values, alpha=0.05, method="fdr_bh", is_sorted=False,
-                                           returnsorted=False)
-        print(multiple_tests_cor)
+        if correction == 'benjamini':
+            multiple_tests_cor = multipletests(p_values, alpha=0.05, method="fdr_bh", is_sorted=False,
+                                               returnsorted=False)
+            print(multiple_tests_cor)
+            for i in range(len(complementarity_df.index)):
+                if multiple_tests_cor[0][i]:
+                    microorganism = complementarity_df.index[i]
+                    significant_slopes += 1
+                    color = colors[significant_slopes % len(colors)]
+                    add_slope(fig, results, microorganism, color)
 
-        #
-        #     if correction == "bonferroni":
-        #         # Écriture des informations dans le fichier CSV
-        #         # couple_name = " ".join(
-        #         #     donnees["Couple"].iloc[i*spacing].split("_")[0:-3])
-        #         # writer.writerow(
-        #         #     [couple_name, slope, spearman_coef, spearman_p, spearman_p*n_host])
-        #         if spearman_p < (0.05/n_host) and slope < 0:
-        #             counter += 1
-        #             # Plot de la droite de régression et des points correspondants
-        #             fig.add_trace(go.Scatter(x=x_phylo_dist, y=y_pred, name=comm, line=dict(
-        #                 color=colors[counter % len(colors)])))
-        #
-        #             fig.add_trace(go.Scatter(x=x_phylo_dist, y=y_complementarity, mode='markers', name=comm,
-        #                                      marker=dict(color=colors[counter % len(colors)])))
-        #
-        #     elif correction == "benjamini":
-        #         if rejected[i] == True:
-        #             counter += 1
-        #         # Plot de la droite de régression et des points correspondants
-        #             fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
-        #                 color=colors[counter % len(colors)])))
-        #
-        #             if show_points:
-        #                 fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
-        #                                          " points", marker=dict(color=colors[counter % len(colors)])))
-        # fig.show()
+        elif correction == 'bonferroni':
+            for microorganism in complementarity_df.index:
+                if results[microorganism]['p_value'] < (0.05 / n_host) and results[microorganism]['slope'] < 0:
+                    significant_slopes += 1
+                    color = colors[significant_slopes % len(colors)]
+                    add_slope(fig, results, microorganism, color)
+
+        elif correction is None:
+            pass
+
+
+def linear_regression_results(complementarity_df, phylo_dist_df):
+    results = {}
+    p_values = []
+    for microorganism in complementarity_df.index:
+        microorganism_host = microorganism.split('_')[0]
+        # Extract complementarity line values from Data Frame
+        comm_line = complementarity_df.loc[microorganism]
+        # Get phylogenetic distance values between each host and the comm host
+        x_phylo_dist = [phylo_dist_df.loc[host, microorganism_host] for host in comm_line.index]
+        y_complementarity = comm_line.values
+        label = comm_line.index
+        # Linear regression
+        slope, intercept, r_value, p_value, std_err = linregress(x_phylo_dist, y_complementarity)
+        y_prediction = slope * np.array(x_phylo_dist) + intercept
+        # Calculate Spearman coefficient and p-value
+        spearman_coefficient, spearman_p_value = spearmanr(x_phylo_dist, y_complementarity)
+        p_values.append(spearman_p_value)
+        # Store result for the
+        results[microorganism] = {'p_value': spearman_p_value,
+                                  'x': x_phylo_dist,
+                                  'y': y_complementarity,
+                                  'y_prediction': y_prediction,
+                                  'slope': slope}
+    return results, p_values
+
+
+def add_slope(fig, results, microorganism, color):
+    fig.add_trace(go.Scatter(x=results[microorganism]['x'], y=results[microorganism]['y_prediction'],
+                             name=microorganism, line=dict(color=color)))
+
+    fig.add_trace(go.Scatter(x=results[microorganism]['x'], y=results[microorganism]['y_prediction'],
+                             mode='markers', name=microorganism, marker=dict(color=color)))
+
 
 
 # OLD
