@@ -1,4 +1,7 @@
 import os
+
+import numpy
+
 from holointeract.utils.utils import *
 
 
@@ -74,7 +77,7 @@ def complementarity_boxplot(df, output):
     plt.savefig(output)
 
 
-def correlation_complementarity_phylo_dist(complementarity_df, phylo_dist_df):
+def correlation_complementarity_phylo_dist(complementarity_df, phylo_dist_df, correction='bonferroni'):
     # ANOVA test
     result = f_oneway(*[complementarity_df[host].values for host in complementarity_df.columns])
     print(result)
@@ -87,6 +90,70 @@ def correlation_complementarity_phylo_dist(complementarity_df, phylo_dist_df):
         title="Régression linéaire pour chaque bactérie"
     )
 
+    n_comm, n_host = complementarity_df.shape
+
+    p_values = []
+    colors = ['red', 'blue', 'green', 'purple', 'orange', "brown"]
+    counter = 0
+    with open('Regression_correlation.csv', 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(
+            ['Couple', 'Pente', 'Corrélation de Spearman', 'P-value', 'P-value corrigée'])
+
+    # Correction avant calculs
+
+        # if correction == "benjamini":
+        #     for host in complementarity_df.columns:
+        #         x_phylo_dist = []
+        #         y_complementarity = []
+        #         label = []
+        #         for comm in complementarity_df.index:
+        #             comm_host = comm.split('_')[0]
+        #             x_phylo_dist.append(phylo_dist_df.loc[host, comm_host])
+        #             y_complementarity.append(complementarity_df.loc[comm, host])
+        #             label.append(comm)
+        #         x_phylo_dist = x_phylo_dist
+        #         y_complementarity = y_complementarity
+        #         slope, intercept, r_value, p_value, std_err = linregress(x_phylo_dist, y_complementarity)
+        #         p_values.append(spearmanr(x_phylo_dist, y_complementarity)[1])
+        #     multiple_tests_cor = multipletests(p_values, alpha=0.05, method="fdr_bh", is_sorted=False,
+        #                                        returnsorted=False)
+        #     rejected = multiple_tests_cor[0]
+        #     corrected_p_values = multiple_tests_cor[1]
+
+        for comm in complementarity_df.index:
+            comm_host = comm.split('_')[0]
+            x_phylo_dist = []
+            y_complementarity = []
+            label = []
+            for host in complementarity_df.columns:
+                x_phylo_dist.append(phylo_dist_df.loc[host, comm_host])
+                y_complementarity.append(complementarity_df.loc[comm, host])
+                label.append(comm)
+            x_phylo_dist = x_phylo_dist
+            y_complementarity = y_complementarity
+            slope, intercept, r_value, p_value, std_err = linregress(x_phylo_dist, y_complementarity)
+            y_pred = slope * np.array(x_phylo_dist) + intercept
+
+            # Coefficient de corrélation de Spearman et valeur p
+            spearman_coef, spearman_p = spearmanr(x_phylo_dist, y_complementarity)
+
+            if correction == "bonferroni":
+                # Écriture des informations dans le fichier CSV
+                # couple_name = " ".join(
+                #     donnees["Couple"].iloc[i*spacing].split("_")[0:-3])
+                # writer.writerow(
+                #     [couple_name, slope, spearman_coef, spearman_p, spearman_p*n_host])
+                # if spearman_p < (0.05/n_host) and slope < 0:
+                counter += 1
+                # Plot de la droite de régression et des points correspondants
+                fig.add_trace(go.Scatter(x=x_phylo_dist, y=y_pred, name=comm, line=dict(
+                    color=colors[counter % len(colors)])))
+
+                fig.add_trace(go.Scatter(x=x_phylo_dist, y=y_complementarity, mode='markers', name=comm,
+                                         marker=dict(color=colors[counter % len(colors)])))
+        fig.show()
+
 
 # OLD
 # ======================================================================================================================
@@ -95,15 +162,15 @@ def plot_regression_all(input_file, output, base_file, show_points=False, correc
     groups_data = pandas.read_csv(base_file, sep=",", header=0)
     pvalues = []
 
-    # # Vérification statistique des données
-    # # Effectuer l'ANOVA pour chaque colonne
+    # Vérification statistique des données
+    # Effectuer l'ANOVA pour chaque colonne
     # results = {}
     # for col in groups_data.columns:
     #     print(col)
     #     result = f_oneway(*[groups_data[col].values for col in groups_data.columns[1:]])
     #     results[col] = {'Statistique F': result.statistic,
     #                     'Valeur p': result.pvalue}
-    #
+    # #
     # # Afficher les résultats
     # for col, result in results.items():
     #     print(result)
@@ -247,8 +314,8 @@ def job(input_file: str, ouput_file_for_graph: str, correction: str):
                         base_file=input_file, show_points=True, correction=correction)
 
 
-SC_PATH = '../../example/outputs/scopes/full'
-PHY_FILE = '../../example/inputs/SpeciesTree_rooted.txt'
-with open('../../example/outputs/name_assoc.json', 'r') as f:
-    NASS = json.load(f)
-coevolution(SC_PATH, '', '', NASS, PHY_FILE)
+# SC_PATH = '../../example2/outputs/scopes/full'
+# PHY_FILE = '../../example/inputs/SpeciesTree_rooted.txt'
+# with open('../../example2/outputs/name_assoc.json', 'r') as f:
+#     NASS = json.load(f)
+# coevolution(SC_PATH, '', '', NASS, PHY_FILE)

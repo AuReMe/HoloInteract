@@ -14,7 +14,6 @@ from holointeract.metabolic_analysis.scopes_community import *
 from holointeract.metabolic_analysis.heatmap_host_bacteria import *
 
 from holointeract.coevolution_analysis.coevolution_matrix import *
-import holointeract.coevolution_analysis.coevolution_figures
 
 from sys import argv
 from argparse import ArgumentParser
@@ -136,8 +135,8 @@ def coevolution_analysis(community_networks_path, host_networks_path, output_pat
                                     clustering_method=clustering_method, max_clust=max_clust, cpu=cpu)
 
     scopes_path = os.path.join(output_path, SCOPES_STR, FULL_METHOD)
-    coevolution(scopes_path=scopes_path, output=output_path, name=output_name, name_assoc=name_assoc,
-                phylo_tree=phylo_tree)
+    # coevolution(scopes_path=scopes_path, output=output_path, name=output_name, name_assoc=name_assoc,
+    #             phylo_tree=phylo_tree)
 
 
 # MAIN
