@@ -65,10 +65,6 @@ def create_abbreviation_names_dict(community_path, host_path, output_path):
     return name_assoc
 
 
-create_abbreviation_names_dict('../../example2/inputs/community',
-                               '../../example2/inputs/hosts',
-                               '../../example2/outputs')
-
 # METABOLIC ANALYSIS
 # ======================================================================================================================
 def merge_outputs(file_cluster, file_info):
