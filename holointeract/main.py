@@ -78,6 +78,9 @@ def args_coevolution_analysis(subparsers):
                                     help='output files name')
     parser_coevolution.add_argument('-p', '--phylo_tree', type=str, required=False, default=None,
                                     help='path to phylogenetic tree (Newick format)')
+    parser_coevolution.add_argument('-cor', '--correction', type=str, required=False, default=None,
+                                    choices=[None, BONFERRONI, BENJAMINI],
+                                    help='correction to apply to p-values')
     parser_coevolution.add_argument('-cm', '--clustering_method', type=str, required=False,
                                     choices=LINKAGE_METHODS, default='ward',
                                     help='method for linkage in clustering')
@@ -129,12 +132,15 @@ def metabolic_analysis(community_networks_path, host_networks_path, output_path,
 
 def coevolution_analysis(community_networks_path, host_networks_path, output_path, seeds, output_name,
                          clustering_method, max_clust, phylo_tree, correction, cpu):
-    name_assoc = metabolic_analysis(community_networks_path=community_networks_path,
-                                    host_networks_path=host_networks_path, output_path=output_path, seeds=seeds,
-                                    output_name=output_name, analysis_method=FULL_METHOD,
-                                    clustering_method=clustering_method, max_clust=max_clust, cpu=cpu)
-
     scopes_path = os.path.join(output_path, SCOPES_STR, FULL_METHOD)
+    if not os.path.exists(scopes_path):
+        name_assoc = metabolic_analysis(community_networks_path=community_networks_path,
+                                        host_networks_path=host_networks_path, output_path=output_path, seeds=seeds,
+                                        output_name=output_name, analysis_method=FULL_METHOD,
+                                        clustering_method=clustering_method, max_clust=max_clust, cpu=cpu)
+    else:
+        name_assoc = load_name_assoc_file(output_path)
+
     coevolution(scopes_path=scopes_path, output=output_path, name=output_name, name_assoc=name_assoc,
                 phylo_tree=phylo_tree, correction=correction)
 
@@ -159,7 +165,7 @@ def main():
         coevolution_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
                              output_path=args.output, seeds=args.seeds, output_name=args.name,
                              clustering_method=args.clustering_method, max_clust=args.max_clust,
-                             phylo_tree=args.phylo_tree, cpu=args.cpu)
+                             phylo_tree=args.phylo_tree, correction=args.correction, cpu=args.cpu)
 
     else:
         print('[dark_orange]Unknown command. Please use the help (-h) to see available commands.')

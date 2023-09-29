@@ -1,4 +1,6 @@
 import os
+
+import pandas as pd
 import plotly
 import numpy as np
 import plotly.graph_objs as go
@@ -9,6 +11,8 @@ from holointeract.utils.utils import *
 from statsmodels.stats.multitest import multipletests
 from scipy.stats import linregress, spearmanr
 from scipy.stats import f_oneway
+from typing import Dict
+
 
 # CONSTANT STR
 # ======================================================================================================================
@@ -24,17 +28,37 @@ Y_PRED = 'y_pred'
 LABEL = 'label'
 
 
-# FUNCTIONS
+# MAIN FUNCTION
 # ======================================================================================================================
-def coevolution(scopes_path, output, name, name_assoc, phylo_tree=None, correction=None):
-    """
+def coevolution(scopes_path: str, output: str, name: str, name_assoc: Dict[str, str], phylo_tree: str = None,
+                correction: str = None):
+    """ Performs coevolution analysis : build matrix and generate boxplot and linear regression figures. Looking for
+    coevolution signs by searching correlation between complementarity for a microorganism and a host AND phylogenetic
+    distance between the natural microorganism host and a host.
+
+    Parameters
+    ----------
+    scopes_path: str
+        Path to the directory with calculated scopes (with full method)
+    output: str
+        Path to the directory to store the output results
+    name: str
+        Name of the analysis for output files name
+    name_assoc: Dict[str, str]
+        Dictionary associating for each host and each microorganism name, its abbreviated name
+    phylo_tree: str, optional (default=None)
+        Path to phylogenetic tree of hosts at Newick format (if None, linear regression analysis will not be performed)
+    correction: str, optional (default=None)
+        Type of correction to apply to p-values for the multiple linear regression performed (bonferroni, benjamini or
+        None for no correction)
     """
     output = os.path.join(output, COEVOLUTION_STR)
     create_new_dir(output)
-
+    # Performs complementarity analysis (matrix + boxplot)
     complementarity_df = get_complementarity_df(scopes_path)
     complementarity_boxplot(complementarity_df, os.path.join(output, f'{name}_complementarity_boxplot.png'))
     complementarity_df.to_csv(os.path.join(output, f'{name}_complementarity_matrix.tsv'), sep='\t')
+    # Performs linear regression if phylogenetic tree parameter given (+phylogenetic distance matrix creation)
     if phylo_tree is not None:
         phylo_dist_df = get_phylo_dist_df(phylo_tree, name_assoc)
         linear_regression_complementarity_phylo_dist(complementarity_df, phylo_dist_df,
@@ -42,39 +66,70 @@ def coevolution(scopes_path, output, name, name_assoc, phylo_tree=None, correcti
         phylo_dist_df.to_csv(os.path.join(output, f'{name}_phylogenetic_dist_matrix.tsv'), sep='\t')
 
 
-# MATRIX
+# MATRIX FUNCTIONS
 # ======================================================================================================================
-def get_complementarity_df(scopes_path):
+def get_complementarity_df(scopes_path: str) -> pd.DataFrame:
+    """ Generate the complementarity matrix. For each couple host / microorganism calculate its complementarity
+    normalizing the number of compounds produces by added value (cooperation) in the scope.
+
+    Parameters
+    ----------
+    scopes_path: str
+        Path to the directory with calculated scopes (with full method)
+
+    Returns
+    -------
+    pd.DataFrame
+        Complementarity matrix
+    """
     df = pd.DataFrame()
     for scope in os.listdir(scopes_path):
         host, comm = get_host_comm_from_name(scope)
         added_value_file = os.path.join(scopes_path, scope, 'community_analysis', 'addedvalue.json')
         with open(added_value_file, 'r') as f:
             data = json.load(f)
+            # Store the number of compounds produces by added value (cooperation)
             df.loc[comm, host] = str(len(data['addedvalue']))
     df = df[df.columns].astype(float)
+    # Normalize values in the matrix
     df = col_normalization(df)
     return df
 
 
-def get_phylo_dist_df(phylo_tree, name_assoc):
+def get_phylo_dist_df(phylo_tree: str, name_assoc: Dict[str, str]) -> pd.DataFrame:
+    """ Creates a matrix calculating phylogenetic distance between each pair of host.
+
+    Parameters
+    ----------
+    phylo_tree: str
+        Path to phylogenetic tree of hosts at Newick format
+    name_assoc: str
+        Dictionary associating for each host and each microorganism name, its abbreviated name
+
+    Returns
+    -------
+    pd.DataFrame
+        matrix associating phylogenetic distance between each pair of host
+    """
     df = pd.DataFrame()
+    # Load tree with ete3
     tree = Tree(phylo_tree)
     for host1 in tree.iter_leaves():
-        host1_name = str(host1)[3:]
         for host2 in tree.iter_leaves():
-            host2_name = str(host2)[3:]
-            if host1_name in name_assoc and host2_name in name_assoc:
-                if host1_name != host2_name:
-                    df.loc[name_assoc[host1_name], name_assoc[host2_name]] = host1.get_distance(host2)
+            # Checks if both host are in name assoc dict (<==> in the run analyse)
+            if host1.name in name_assoc and host2.name in name_assoc:
+                # Store distance between hosts in matrix
+                if host1.name != host2.name:
+                    df.loc[name_assoc[host1.name], name_assoc[host2.name]] = host1.get_distance(host2)
                 else:
-                    df.loc[name_assoc[host1_name], name_assoc[host2_name]] = float(0)
+                    df.loc[name_assoc[host1.name], name_assoc[host2.name]] = float(0)
     return df
 
 
-# FIGURES
+# FIGURES FUNCTIONS
 # ======================================================================================================================
 
+# BOXPLOT
 def complementarity_boxplot(df, output):
     fig, ax = plt.subplots()
     ax.boxplot(df.values)
@@ -86,6 +141,7 @@ def complementarity_boxplot(df, output):
     plt.savefig(output)
 
 
+# LINEAR REGRESSION
 def linear_regression_complementarity_phylo_dist(complementarity_df, phylo_dist_df, output, correction=None):
     # ANOVA test
     print(f_oneway(*[complementarity_df[host].values for host in complementarity_df.columns]))
@@ -174,10 +230,3 @@ def add_slope(fig, results, microorganism, color):
     fig.add_trace(go.Scatter(x=results[microorganism][X], y=results[microorganism][Y],
                              text=results[microorganism][LABEL],
                              mode='markers', name=microorganism, marker=dict(color=color)))
-
-
-SC_PATH = '../../example2/outputs/scopes/full'
-PHY_FILE = '../../example/inputs/SpeciesTree_rooted.txt'
-with open('../../example2/outputs/name_assoc.json', 'r') as f:
-    NASS = json.load(f)
-coevolution(SC_PATH, '', 'test', NASS, PHY_FILE)

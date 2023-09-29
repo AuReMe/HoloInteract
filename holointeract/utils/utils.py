@@ -65,6 +65,13 @@ def create_abbreviation_names_dict(community_path, host_path, output_path):
     return name_assoc
 
 
+def load_name_assoc_file(name_assoc_directory_path):
+    name_assoc_file_path = os.path.join(name_assoc_directory_path, 'name_assoc.json')
+    with open(name_assoc_file_path, 'r') as f:
+        name_assoc_dict = json.load(f)
+    return name_assoc_dict
+
+
 # METABOLIC ANALYSIS
 # ======================================================================================================================
 def merge_outputs(file_cluster, file_info):
