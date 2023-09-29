@@ -71,8 +71,8 @@ def coevolution(scopes_path: str, output: str, name: str, name_assoc: Dict[str, 
         phylo_dist_df = get_phylo_dist_df(phylo_tree, name_assoc)
         out_coevolution_reg = os.path.join(output, f'{name}_coevolution_regression')
         out_phylo_matrix = os.path.join(output, f'{name}_phylogenetic_dist_matrix.tsv')
-        linear_regression_complementarity_phylo_dist(complementarity_df, phylo_dist_df, out_coevolution_reg, correction)
         phylo_dist_df.to_csv(out_phylo_matrix, sep='\t')
+        linear_regression_complementarity_phylo_dist(complementarity_df, phylo_dist_df, out_coevolution_reg, correction)
         logging.info(f'Phylogenetic distance matrix saved to {out_phylo_matrix}\n'
                      f'Coevolution linear regression figure saved to {out_coevolution_reg}.html\n'
                      f'Coevolution linear regression information file saved to {out_coevolution_reg}.tsv\n')

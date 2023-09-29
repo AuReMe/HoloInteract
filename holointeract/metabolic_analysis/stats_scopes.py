@@ -60,6 +60,6 @@ def bar_occurrence_cat(cat_count):
     fig.show()
 
 
-mat_file = '../../example/outputs/heatmap/solo/run_matrix.tsv'
+mat_file = '../../small_example/outputs/heatmap/solo/run_matrix.tsv'
 d = count_cat(mat_file)
 bar_occurrence_cat(d)

@@ -35,6 +35,7 @@ def main():
     elif args.subcommands == 'metabolic_analysis':
         log_file = os.path.join(args.output, 'metabolic_analysis.log')
         logging.basicConfig(filename=log_file, level=logging.INFO, format='%(message)s')
+        logging.getLogger('metage2metabo').setLevel(logging.WARNING)
         metabolic_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
                            output_path=args.output, seeds=args.seeds, output_name=args.name,
                            scopes_method=args.scopes_method, clustering_method=args.clustering_method,
@@ -43,6 +44,7 @@ def main():
     elif args.subcommands == 'coevolution':
         log_file = os.path.join(args.output, 'coevolution.log')
         logging.basicConfig(filename=log_file, level=logging.INFO, format='%(message)s')
+        logging.getLogger('metage2metabo').setLevel(logging.WARNING)
         coevolution_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
                              output_path=args.output, seeds=args.seeds, output_name=args.name,
                              clustering_method=args.clustering_method, max_clust=args.max_clust,
@@ -69,9 +71,9 @@ def args_metabolic_analysis(subparsers):
     parser_metabolic_analysis = subparsers.add_parser('metabolic_analysis',
                                                       help='Performs every steps to analysis the metabolic interactions'
                                                            ' in holobionts. Metabolic networks required.')
-    parser_metabolic_analysis.add_argument('-c', '--community_networks', type=str, required=True,
+    parser_metabolic_analysis.add_argument('-comm', '--community_networks', type=str, required=True,
                                            help='path to community networks in SBML')
-    parser_metabolic_analysis.add_argument('-h', '--host_networks', type=str, required=True,
+    parser_metabolic_analysis.add_argument('-host', '--host_networks', type=str, required=True,
                                            help='path to hosts networks in SBML')
     parser_metabolic_analysis.add_argument('-o', '--output', type=str, required=True,
                                            help='path to output directory')
@@ -79,14 +81,14 @@ def args_metabolic_analysis(subparsers):
                                            help='path to seeds SBML file')
     parser_metabolic_analysis.add_argument('-n', '--name', type=str, required=False, default='run',
                                            help='output files name')
-    parser_metabolic_analysis.add_argument('-m', '--scopes_method_method', type=str, required=False,
+    parser_metabolic_analysis.add_argument('-m', '--scopes_method', type=str, required=False,
                                            choices=[SOLO_METHOD, COOP_METHOD, FULL_METHOD], default=COOP_METHOD,
                                            help='method of scopes generation')
     parser_metabolic_analysis.add_argument('-cm', '--clustering_method', type=str, required=False,
                                            choices=LINKAGE_METHODS, default='ward',
                                            help='method for linkage in clustering')
     parser_metabolic_analysis.add_argument('--max_clust', type=int, required=False, default=10,
-                                           help='path to seeds SBML file')
+                                           help='maximal number of cluster for the dendrogram division')
     parser_metabolic_analysis.add_argument('-cpu', type=int, required=False, default=1,
                                            help='number of cpu to use')
 
@@ -94,9 +96,9 @@ def args_metabolic_analysis(subparsers):
 def args_coevolution_analysis(subparsers):
     parser_coevolution = subparsers.add_parser('coevolution',
                                                help='')
-    parser_coevolution.add_argument('-c', '--community_networks', type=str, required=True,
+    parser_coevolution.add_argument('-comm', '--community_networks', type=str, required=True,
                                     help='path to community networks in SBML')
-    parser_coevolution.add_argument('-h', '--host_networks', type=str, required=True,
+    parser_coevolution.add_argument('-host', '--host_networks', type=str, required=True,
                                     help='path to hosts networks in SBML')
     parser_coevolution.add_argument('-o', '--output', type=str, required=True,
                                     help='path to output directory')
@@ -200,9 +202,3 @@ def coevolution_analysis(community_networks_path: str, host_networks_path: str, 
     coevolution(scopes_path=scopes_path, output=output_path, name=output_name, name_assoc=name_assoc,
                 phylo_tree=phylo_tree, correction=correction)
     logging.info('Coevolution analysis done')
-
-
-# holointeract metabolic_analysis -cn example/inputs/community/ -hn example/inputs/hosts/ -o example/outputs/
-# -s example/inputs/seeds/seeds_seawater_artefact.sbml -am solo
-# holointeract coevolution -cn example/inputs/community/ -hn example/inputs/hosts/ -o example/outputs/
-# -s example/inputs/seeds/seeds_seawater_artefact.sbml -p example/inputs/SpeciesTree_rooted.txt

@@ -1,4 +1,5 @@
 import json
+import logging
 import os.path
 import pandas as pd
 from typing import Dict, Tuple
@@ -22,10 +23,10 @@ def create_new_dir(dir_path: str, verbose: bool = True):
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
         if verbose:
-            print(f'{dir_path} directory created')
+            logging.info(f'{dir_path} directory created')
     else:
         if verbose:
-            print(f'{dir_path} directory already exists')
+            logging.info(f'{dir_path} directory already exists')
 
 
 def get_abbr_name(name: str, name_assoc: Dict[str, str], prefix: str = None) -> str:
