@@ -1,23 +1,32 @@
 import os
-
-import numpy
-
-from holointeract.utils.utils import *
-
-import pandas
+import plotly
 import numpy as np
 import plotly.graph_objs as go
 import plotly.io as pio
-from statsmodels.stats.multitest import multipletests
 import csv
+import matplotlib.pyplot as plt
+from holointeract.utils.utils import *
+from statsmodels.stats.multitest import multipletests
 from scipy.stats import linregress, spearmanr
 from scipy.stats import f_oneway
-import matplotlib.pyplot as plt
 
+# CONSTANT STR
+# ======================================================================================================================
 COEVOLUTION_STR = 'coevolution'
+BENJAMINI = 'benjamini'
+BONFERRONI = 'bonferroni'
+SLOPE = 'slope'
+P_VALUE = 'p_value'
+SPEARMAN_C = 'spearman_coefficient'
+X = 'x'
+Y = 'y'
+Y_PRED = 'y_pred'
+LABEL = 'label'
 
 
-def coevolution(scopes_path, output, name, name_assoc, phylo_tree=None):
+# FUNCTIONS
+# ======================================================================================================================
+def coevolution(scopes_path, output, name, name_assoc, phylo_tree=None, correction=None):
     """
     """
     output = os.path.join(output, COEVOLUTION_STR)
@@ -28,7 +37,8 @@ def coevolution(scopes_path, output, name, name_assoc, phylo_tree=None):
     complementarity_df.to_csv(os.path.join(output, f'{name}_complementarity_matrix.tsv'), sep='\t')
     if phylo_tree is not None:
         phylo_dist_df = get_phylo_dist_df(phylo_tree, name_assoc)
-        correlation_complementarity_phylo_dist(complementarity_df, phylo_dist_df)
+        linear_regression_complementarity_phylo_dist(complementarity_df, phylo_dist_df,
+                                                     os.path.join(output, f'{name}_coevolution_regression'), correction)
         phylo_dist_df.to_csv(os.path.join(output, f'{name}_phylogenetic_dist_matrix.tsv'), sep='\t')
 
 
@@ -76,53 +86,56 @@ def complementarity_boxplot(df, output):
     plt.savefig(output)
 
 
-def correlation_complementarity_phylo_dist(complementarity_df, phylo_dist_df, correction='benjamini'):
+def linear_regression_complementarity_phylo_dist(complementarity_df, phylo_dist_df, output, correction=None):
     # ANOVA test
     print(f_oneway(*[complementarity_df[host].values for host in complementarity_df.columns]))
 
     n_micro, n_host = complementarity_df.shape
-    colors = ['red', 'blue', 'green', 'purple', 'orange', "brown"]
+    colors = plotly.colors.qualitative.Dark2
     significant_slopes = 0
 
-    with open('Regression_correlation.csv', 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(['Bacteria', 'Slope', 'Spearman Correlation', 'P-value', 'Corrected P-value'])
+    with open(f'{output}.tsv', 'w', newline='') as tsv_file:
+        writer = csv.writer(tsv_file, delimiter='\t')
+        writer.writerow(['Microorganism', 'Slope', 'Spearman Correlation', 'P-value', 'Corrected P-value'])
 
         results, p_values = linear_regression_results(complementarity_df, phylo_dist_df)
 
         fig = go.Figure()
-        fig.update_layout(
-            xaxis_title="Distance phylogénétique",
-            yaxis_title="Complémentarité métabolique normalisée",
-            title="Régression linéaire pour chaque bactérie"
-        )
+        fig.update_layout(xaxis_title="Phylogenetic distance (between host and natural microorganism host)",
+                          yaxis_title="Metabolic complementarity (normalized)",
+                          title="Linear regression for each microorganism")
 
-        if correction == 'benjamini':
+        if correction == BENJAMINI:
             multiple_tests_cor = multipletests(p_values, alpha=0.05, method="fdr_bh", is_sorted=False,
                                                returnsorted=False)
-            print(multiple_tests_cor)
             for i in range(len(complementarity_df.index)):
+                writer.writerow([microorganism, results[microorganism][SLOPE], results[microorganism][SPEARMAN_C],
+                                 results[microorganism][P_VALUE], multiple_tests_cor[1][i]])
                 if multiple_tests_cor[0][i]:
                     microorganism = complementarity_df.index[i]
                     significant_slopes += 1
                     color = colors[significant_slopes % len(colors)]
                     add_slope(fig, results, microorganism, color)
 
-        elif correction == 'bonferroni':
+        elif correction == BONFERRONI:
             for microorganism in complementarity_df.index:
-                if results[microorganism]['p_value'] < (0.05 / n_host) and results[microorganism]['slope'] < 0:
+                writer.writerow([microorganism, results[microorganism][SLOPE], results[microorganism][SPEARMAN_C],
+                                 results[microorganism][P_VALUE], results[microorganism][P_VALUE] * n_host])
+                if results[microorganism][P_VALUE] < (0.05 / n_host) and results[microorganism][SLOPE] < 0:
                     significant_slopes += 1
                     color = colors[significant_slopes % len(colors)]
                     add_slope(fig, results, microorganism, color)
 
         elif correction is None:
             for microorganism in complementarity_df.index:
-                if results[microorganism]['p_value'] < 0.05 and results[microorganism]['slope'] < 0:
+                writer.writerow([microorganism, results[microorganism][SLOPE], results[microorganism][SPEARMAN_C],
+                                 results[microorganism][P_VALUE], 'No correction'])
+                if results[microorganism][P_VALUE] < 0.05 and results[microorganism][SLOPE] < 0:
                     significant_slopes += 1
                     color = colors[significant_slopes % len(colors)]
                     add_slope(fig, results, microorganism, color)
 
-    pio.write_html(fig, 'out' + '.html', auto_open=True)
+    pio.write_html(fig, f'{output}.html')
 
 
 def linear_regression_results(complementarity_df, phylo_dist_df):
@@ -135,7 +148,7 @@ def linear_regression_results(complementarity_df, phylo_dist_df):
         # Get phylogenetic distance values between each host and the comm host
         x_phylo_dist = [phylo_dist_df.loc[host, microorganism_host] for host in comm_line.index]
         y_complementarity = comm_line.values
-        label = comm_line.index
+        label = ['Host = ' + i for i in comm_line.index]
         # Linear regression
         slope, intercept, r_value, p_value, std_err = linregress(x_phylo_dist, y_complementarity)
         y_prediction = slope * np.array(x_phylo_dist) + intercept
@@ -143,182 +156,24 @@ def linear_regression_results(complementarity_df, phylo_dist_df):
         spearman_coefficient, spearman_p_value = spearmanr(x_phylo_dist, y_complementarity)
         p_values.append(spearman_p_value)
         # Store result for the
-        results[microorganism] = {'p_value': spearman_p_value,
-                                  'x': x_phylo_dist,
-                                  'y': y_complementarity,
-                                  'y_prediction': y_prediction,
-                                  'slope': slope}
+        results[microorganism] = {P_VALUE: spearman_p_value,
+                                  X: x_phylo_dist,
+                                  Y: y_complementarity,
+                                  Y_PRED: y_prediction,
+                                  SLOPE: slope,
+                                  LABEL: label,
+                                  SPEARMAN_C: spearman_coefficient}
     return results, p_values
 
 
 def add_slope(fig, results, microorganism, color):
-    fig.add_trace(go.Scatter(x=results[microorganism]['x'], y=results[microorganism]['y_prediction'],
+    # Add regression line to plot
+    fig.add_trace(go.Scatter(x=results[microorganism][X], y=results[microorganism][Y_PRED], mode='lines',
                              name=microorganism, line=dict(color=color)))
-
-    fig.add_trace(go.Scatter(x=results[microorganism]['x'], y=results[microorganism]['y_prediction'],
+    # Add points to plot
+    fig.add_trace(go.Scatter(x=results[microorganism][X], y=results[microorganism][Y],
+                             text=results[microorganism][LABEL],
                              mode='markers', name=microorganism, marker=dict(color=color)))
-
-
-
-# OLD
-# ======================================================================================================================
-# def plot_regression_all(input_file, output, base_file, show_points=False, correction="", spacing_remove=0):
-#     donnees = pandas.read_csv(input_file, sep=",", header=0)
-#     groups_data = pandas.read_csv(base_file, sep=",", header=0)
-#     pvalues = []
-#
-#     # Vérification statistique des données
-#     # Effectuer l'ANOVA pour chaque colonne
-#     # results = {}
-#     # for col in groups_data.columns:
-#     #     print(col)
-#     #     result = f_oneway(*[groups_data[col].values for col in groups_data.columns[1:]])
-#     #     results[col] = {'Statistique F': result.statistic,
-#     #                     'Valeur p': result.pvalue}
-#     # #
-#     # # Afficher les résultats
-#     # for col, result in results.items():
-#     #     print(result)
-#     #     print("Colonne :", col)
-#     #     print("Statistique F :", result['Statistique F'])
-#     #     print("Valeur p :", result['Valeur p'])
-#     #     print()
-#     #
-#     # #####
-#
-#     spacing = groups_data.shape[1] - 1
-#     print("spacing", spacing)
-#     n_groups = donnees.shape[0] // spacing
-#
-#     fig = go.Figure()
-#     fig.update_layout(
-#         xaxis_title="Distance phylogénétique",
-#         yaxis_title="Complémentarité métabolique normalisée",
-#         title="Régression linéaire pour chaque bactérie"
-#     )
-#
-#     # Définir une liste de couleurs
-#     colors = ['red', 'blue', 'green', 'purple', 'orange', "brown"]
-#     counter = 0
-#     with open(output + 'Regression_correlation.csv', 'w', newline='') as csvfile:
-#         writer = csv.writer(csvfile)
-#         writer.writerow(
-#             ['Couple', 'Pente', 'Corrélation de Spearman', 'P-value', 'P-value corrigée'])
-#
-#         # Correction avant calculs
-#
-#         if correction == "benjamini":
-#             for i in range(n_groups):
-#                 start = i * spacing
-#                 end = (i + 1) * spacing
-#
-#                 group_data = donnees.iloc[start:end]
-#                 x_data = group_data["Distance"].to_numpy()
-#                 y_data = group_data["Complementarite"].to_numpy()
-#                 # Fit de la droite de régression
-#                 slope, intercept, r_value, p_value, std_err = linregress(
-#                     x_data, y_data)
-#                 y_pred = slope * x_data + intercept
-#
-#                 # Coefficient de corrélation de Spearman et valeur p
-#                 pvalues.append(spearmanr(x_data, y_data)[1])
-#             resultat = multipletests(
-#                 pvalues, alpha=0.05, method="fdr_bh", is_sorted=False, returnsorted=False)
-#             rejected = resultat[0]
-#
-#             corrected_pvalues = resultat[1]
-#
-#         for i in range(n_groups):
-#             print(i)
-#             start = i * spacing
-#             end = (i + 1) * spacing
-#
-#             group_data = donnees.iloc[start:end]
-#
-#             print("AAAAAA", group_data)
-#             x_data = group_data["Distance"].to_numpy()
-#             print("xdata", x_data)
-#             y_data = group_data["Complementarite"].to_numpy()
-#             print("ydata", y_data)
-#             # Fit de la droite de régression
-#             slope, intercept, r_value, p_value, std_err = linregress(
-#                 x_data, y_data)
-#             y_pred = slope * x_data + intercept
-#
-#             # Coefficient de corrélation de Spearman et valeur p
-#             spearman_coef, spearman_p = spearmanr(x_data, y_data)
-#
-#             # Verification par un test de Bonferoni
-#             if correction == "bonferroni":
-#                 bonferroni = len(groups_data)
-#                 # Écriture des informations dans le fichier CSV
-#                 couple_name = " ".join(
-#                     donnees["Couple"].iloc[i * spacing].split("_")[0:-3])
-#                 writer.writerow(
-#                     [couple_name, slope, spearman_coef, spearman_p, spearman_p * bonferroni])
-#                 if spearman_p < (0.05 / bonferroni) and slope < 0:
-#                     counter += 1
-#                     # Plot de la droite de régression et des points correspondants
-#                     fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
-#                         color=colors[counter % len(colors)])))
-#
-#                     if show_points:
-#                         fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
-#                                                                                           " points",
-#                                                  marker=dict(color=colors[counter % len(colors)])))
-#                 """elif spearman_p < (0.05/bonferroni) and slope > 0:
-#                     print(couple_name)"""
-#
-#             elif correction == "benjamini":
-#                 couple_name = " ".join(
-#                     donnees["Couple"].iloc[i * spacing].split("_")[0:-3])
-#                 writer.writerow(
-#                     [couple_name, slope, spearman_coef, spearman_p, corrected_pvalues[i]])
-#                 if rejected[i] == True:
-#                     counter += 1
-#                     # Plot de la droite de régression et des points correspondants
-#                     fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
-#                         color=colors[counter % len(colors)])))
-#
-#                     if show_points:
-#                         fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
-#                                                                                           " points",
-#                                                  marker=dict(color=colors[counter % len(colors)])))
-#                 """elif corrected_pvalues[i] < (0.05) and slope > 0:
-#                     print(couple_name)"""
-#
-#             elif correction == "":
-#                 couple_name = " ".join(
-#                     donnees["Couple"].iloc[i * spacing].split("_")[0:-3])
-#                 writer.writerow(
-#                     [couple_name, slope, spearman_coef, spearman_p])
-#                 counter += 1
-#                 print(spearman_p, type(spearman_p))
-#                 if (spearman_p < (0.05) or np.isnan(spearman_p)) and slope < 0:
-#                     # Plot de la droite de régression et des points correspondants
-#                     fig.add_trace(go.Scatter(x=x_data, y=y_pred, name=couple_name, line=dict(
-#                         color=colors[counter % len(colors)])))
-#
-#                     if show_points:
-#                         fig.add_trace(go.Scatter(x=x_data, y=y_data, mode='markers', name=couple_name +
-#                                                                                           " points",
-#                                                  marker=dict(color=colors[counter % len(colors)])))
-#
-#     pio.write_html(fig, output + '.html', auto_open=True)
-#     print(spacing)
-#
-#
-# def job(input_file: str, ouput_file_for_graph: str, correction: str):
-#     """Create the html graph to analyse coevolution
-#
-#     Args:
-#         input_file (str): matrix built by 'mat_dist_full_crossed.job' function
-#         ouput_file_for_graph (str): name of csv file for graph
-#         correction (str): multiple test correction
-#     """
-#
-#     plot_regression_all(ouput_file_for_graph + ".csv",
-#                         base_file=input_file, show_points=True, correction=correction)
 
 
 SC_PATH = '../../example2/outputs/scopes/full'

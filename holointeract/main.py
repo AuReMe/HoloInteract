@@ -128,15 +128,15 @@ def metabolic_analysis(community_networks_path, host_networks_path, output_path,
 
 
 def coevolution_analysis(community_networks_path, host_networks_path, output_path, seeds, output_name,
-                         clustering_method, max_clust, phylo_tree, cpu):
+                         clustering_method, max_clust, phylo_tree, correction, cpu):
     name_assoc = metabolic_analysis(community_networks_path=community_networks_path,
                                     host_networks_path=host_networks_path, output_path=output_path, seeds=seeds,
                                     output_name=output_name, analysis_method=FULL_METHOD,
                                     clustering_method=clustering_method, max_clust=max_clust, cpu=cpu)
 
     scopes_path = os.path.join(output_path, SCOPES_STR, FULL_METHOD)
-    # coevolution(scopes_path=scopes_path, output=output_path, name=output_name, name_assoc=name_assoc,
-    #             phylo_tree=phylo_tree)
+    coevolution(scopes_path=scopes_path, output=output_path, name=output_name, name_assoc=name_assoc,
+                phylo_tree=phylo_tree, correction=correction)
 
 
 # MAIN
