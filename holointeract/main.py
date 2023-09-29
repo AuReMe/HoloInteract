@@ -6,10 +6,6 @@ HoloInteract
 import os.path
 from ontosunburst.class_metabolites import proportion_workflow
 
-import holointeract.network_generation.annot_emapper
-import holointeract.network_generation.create_input_mpwt
-import holointeract.network_generation.meta_network
-
 from holointeract.metabolic_analysis.scopes_community import *
 from holointeract.metabolic_analysis.heatmap_host_microorganism import *
 
@@ -25,7 +21,34 @@ install(show_locals=True)
 LINKAGE_METHODS = ['single', 'complete', 'average', 'weighted', 'centroid', 'median', 'ward']
 
 
-# ### PARSING
+# MAIN FUNCTION
+# ======================================================================================================================
+def main():
+    args = get_command_line_args()
+
+    if len(argv) == 1:
+        print('[dark_orange]You need to provide a command and its arguments for the program to work.\n'
+              'Try to use -h or --help to get list of available commands.')
+        exit()
+
+    elif args.subcommands == 'metabolic_analysis':
+        metabolic_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
+                           output_path=args.output, seeds=args.seeds, output_name=args.name,
+                           analysis_method=args.analysis_method, clustering_method=args.clustering_method,
+                           max_clust=args.max_clust, cpu=args.cpu)
+
+    elif args.subcommands == 'coevolution':
+        coevolution_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
+                             output_path=args.output, seeds=args.seeds, output_name=args.name,
+                             clustering_method=args.clustering_method, max_clust=args.max_clust,
+                             phylo_tree=args.phylo_tree, correction=args.correction, cpu=args.cpu)
+
+    else:
+        print('[dark_orange]Unknown command. Please use the help (-h) to see available commands.')
+        exit(1)
+
+
+# ARGUMENTS PARSING
 # ======================================================================================================================
 
 def get_command_line_args():
@@ -90,12 +113,12 @@ def args_coevolution_analysis(subparsers):
                                     help='number of cpu to use')
 
 
-# ### FUNCTIONS
+# FUNCTIONS
 # ======================================================================================================================
 
 
-def networks_from_genomes(genomes_path, gbk_files, metabolic_networks_path, singularity_path):
-    pass
+# def networks_from_genomes(genomes_path, gbk_files, metabolic_networks_path, singularity_path):
+#     pass
     # print("Annotation done")
     # holointeract.network_generation.annot_emapper.annot_eggnog(
     #     input_dir=genomes_path, output_dir=genomes_path)
@@ -144,32 +167,6 @@ def coevolution_analysis(community_networks_path, host_networks_path, output_pat
     coevolution(scopes_path=scopes_path, output=output_path, name=output_name, name_assoc=name_assoc,
                 phylo_tree=phylo_tree, correction=correction)
 
-
-# MAIN
-# ======================================================================================================================
-def main():
-    args = get_command_line_args()
-
-    if len(argv) == 1:
-        print('[dark_orange]You need to provide a command and its arguments for the program to work.\n'
-              'Try to use -h or --help to get list of available commands.')
-        exit()
-
-    elif args.subcommands == 'metabolic_analysis':
-        metabolic_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
-                           output_path=args.output, seeds=args.seeds, output_name=args.name,
-                           analysis_method=args.analysis_method, clustering_method=args.clustering_method,
-                           max_clust=args.max_clust, cpu=args.cpu)
-
-    elif args.subcommands == 'coevolution':
-        coevolution_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
-                             output_path=args.output, seeds=args.seeds, output_name=args.name,
-                             clustering_method=args.clustering_method, max_clust=args.max_clust,
-                             phylo_tree=args.phylo_tree, correction=args.correction, cpu=args.cpu)
-
-    else:
-        print('[dark_orange]Unknown command. Please use the help (-h) to see available commands.')
-        exit(1)
 
 # holointeract metabolic_analysis -cn example/inputs/community/ -hn example/inputs/hosts/ -o example/outputs/ -s example/inputs/seeds/seeds_seawater_artefact.sbml -am solo
 # holointeract coevolution -cn example/inputs/community/ -hn example/inputs/hosts/ -o example/outputs/ -s example/inputs/seeds/seeds_seawater_artefact.sbml -p example/inputs/SpeciesTree_rooted.txt
