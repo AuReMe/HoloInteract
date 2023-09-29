@@ -84,7 +84,7 @@ def get_complementarity_df(scopes_path: str) -> pd.DataFrame:
     """
     df = pd.DataFrame()
     for scope in os.listdir(scopes_path):
-        host, comm = get_host_comm_from_name(scope)
+        host, comm = get_host_microorganism_from_name(scope)
         added_value_file = os.path.join(scopes_path, scope, 'community_analysis', 'addedvalue.json')
         with open(added_value_file, 'r') as f:
             data = json.load(f)
