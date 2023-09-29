@@ -1,3 +1,4 @@
+import logging
 import os
 import pandas as pd
 import plotly
@@ -7,6 +8,7 @@ import plotly.io as pio
 import csv
 import matplotlib.pyplot as plt
 
+from ete3 import Tree
 from holointeract.utils.utils import *
 from statsmodels.stats.multitest import multipletests
 from scipy.stats import linregress, spearmanr
@@ -54,16 +56,26 @@ def coevolution(scopes_path: str, output: str, name: str, name_assoc: Dict[str, 
     """
     output = os.path.join(output, COEVOLUTION_STR)
     create_new_dir(output)
-    # Performs complementarity analysis (matrix + boxplot)
+    # Complementarity analysis  (matrix + boxplot)
+    logging.info('Performs complementarity analysis')
     complementarity_df = get_complementarity_df(scopes_path)
-    complementarity_boxplot(complementarity_df, os.path.join(output, f'{name}_complementarity_boxplot.png'))
-    complementarity_df.to_csv(os.path.join(output, f'{name}_complementarity_matrix.tsv'), sep='\t')
+    out_comp_boxplot = os.path.join(output, f'{name}_complementarity_boxplot.png')
+    out_comp_matrix = os.path.join(output, f'{name}_complementarity_matrix.tsv')
+    complementarity_boxplot(complementarity_df, out_comp_boxplot)
+    complementarity_df.to_csv(out_comp_matrix, sep='\t')
+    logging.info(f'Complementarity matrix saved to {out_comp_matrix}\n'
+                 f'Complementarity boxplot saved to {out_comp_boxplot}\n')
     # Performs linear regression if phylogenetic tree parameter given (+phylogenetic distance matrix creation)
     if phylo_tree is not None:
+        logging.info('Performs linear regression analysis')
         phylo_dist_df = get_phylo_dist_df(phylo_tree, name_assoc)
-        linear_regression_complementarity_phylo_dist(complementarity_df, phylo_dist_df,
-                                                     os.path.join(output, f'{name}_coevolution_regression'), correction)
-        phylo_dist_df.to_csv(os.path.join(output, f'{name}_phylogenetic_dist_matrix.tsv'), sep='\t')
+        out_coevolution_reg = os.path.join(output, f'{name}_coevolution_regression')
+        out_phylo_matrix = os.path.join(output, f'{name}_phylogenetic_dist_matrix.tsv')
+        linear_regression_complementarity_phylo_dist(complementarity_df, phylo_dist_df, out_coevolution_reg, correction)
+        phylo_dist_df.to_csv(out_phylo_matrix, sep='\t')
+        logging.info(f'Phylogenetic distance matrix saved to {out_phylo_matrix}\n'
+                     f'Coevolution linear regression figure saved to {out_coevolution_reg}.html\n'
+                     f'Coevolution linear regression information file saved to {out_coevolution_reg}.tsv\n')
 
 
 # MATRIX FUNCTIONS
@@ -171,7 +183,7 @@ def linear_regression_complementarity_phylo_dist(complementarity_df: pd.DataFram
         None for no correction)
     """
     # ANOVA test
-    print(f_oneway(*[complementarity_df[host].values for host in complementarity_df.columns]))
+    logging.info(f'ANOVA test : {f_oneway(*[complementarity_df[host].values for host in complementarity_df.columns])}')
 
     n_micro, n_host = complementarity_df.shape  # Number of microorganism / Number of host
     colors = plotly.colors.qualitative.Dark2  # Color palette for figure slopes
