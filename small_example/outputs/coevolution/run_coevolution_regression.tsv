@@ -1,0 +1,5 @@
+Microorganism	Slope	Spearman Correlation	P-value	Corrected P-value
+CLine_REuro	0.014206654708238904	0.9999999999999999	nan	No correction
+CLine_MEckl	-0.012915140643853731	-0.9999999999999999	nan	No correction
+PFluv_CPhae	-0.014589325542131036	-0.9999999999999999	nan	No correction
+PFluv_AHeli	0.015880839606517014	0.9999999999999999	nan	No correction
