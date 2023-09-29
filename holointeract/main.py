@@ -4,6 +4,7 @@ HoloInteract
 # ### IMPORTS
 # ======================================================================================================================
 import os.path
+import logging
 from ontosunburst.class_metabolites import proportion_workflow
 
 from holointeract.metabolic_analysis.scopes_community import *
@@ -32,12 +33,16 @@ def main():
         exit()
 
     elif args.subcommands == 'metabolic_analysis':
+        log_file = os.path.join(args.output, 'metabolic_analysis.log')
+        logging.basicConfig(filename=log_file, level=logging.INFO, format='%(message)s')
         metabolic_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
                            output_path=args.output, seeds=args.seeds, output_name=args.name,
-                           analysis_method=args.analysis_method, clustering_method=args.clustering_method,
+                           scopes_method=args.scopes_method, clustering_method=args.clustering_method,
                            max_clust=args.max_clust, cpu=args.cpu)
 
     elif args.subcommands == 'coevolution':
+        log_file = os.path.join(args.output, 'coevolution.log')
+        logging.basicConfig(filename=log_file, level=logging.INFO, format='%(message)s')
         coevolution_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
                              output_path=args.output, seeds=args.seeds, output_name=args.name,
                              clustering_method=args.clustering_method, max_clust=args.max_clust,
@@ -64,9 +69,9 @@ def args_metabolic_analysis(subparsers):
     parser_metabolic_analysis = subparsers.add_parser('metabolic_analysis',
                                                       help='Performs every steps to analysis the metabolic interactions'
                                                            ' in holobionts. Metabolic networks required.')
-    parser_metabolic_analysis.add_argument('-cn', '--community_networks', type=str, required=True,
+    parser_metabolic_analysis.add_argument('-c', '--community_networks', type=str, required=True,
                                            help='path to community networks in SBML')
-    parser_metabolic_analysis.add_argument('-hn', '--host_networks', type=str, required=True,
+    parser_metabolic_analysis.add_argument('-h', '--host_networks', type=str, required=True,
                                            help='path to hosts networks in SBML')
     parser_metabolic_analysis.add_argument('-o', '--output', type=str, required=True,
                                            help='path to output directory')
@@ -74,9 +79,9 @@ def args_metabolic_analysis(subparsers):
                                            help='path to seeds SBML file')
     parser_metabolic_analysis.add_argument('-n', '--name', type=str, required=False, default='run',
                                            help='output files name')
-    parser_metabolic_analysis.add_argument('-am', '--analysis_method', type=str, required=False,
+    parser_metabolic_analysis.add_argument('-m', '--scopes_method_method', type=str, required=False,
                                            choices=[SOLO_METHOD, COOP_METHOD, FULL_METHOD], default=COOP_METHOD,
-                                           help='method of analysis')
+                                           help='method of scopes generation')
     parser_metabolic_analysis.add_argument('-cm', '--clustering_method', type=str, required=False,
                                            choices=LINKAGE_METHODS, default='ward',
                                            help='method for linkage in clustering')
@@ -89,9 +94,9 @@ def args_metabolic_analysis(subparsers):
 def args_coevolution_analysis(subparsers):
     parser_coevolution = subparsers.add_parser('coevolution',
                                                help='')
-    parser_coevolution.add_argument('-cn', '--community_networks', type=str, required=True,
+    parser_coevolution.add_argument('-c', '--community_networks', type=str, required=True,
                                     help='path to community networks in SBML')
-    parser_coevolution.add_argument('-hn', '--host_networks', type=str, required=True,
+    parser_coevolution.add_argument('-h', '--host_networks', type=str, required=True,
                                     help='path to hosts networks in SBML')
     parser_coevolution.add_argument('-o', '--output', type=str, required=True,
                                     help='path to output directory')
@@ -132,41 +137,72 @@ def args_coevolution_analysis(subparsers):
     #     input_dir=gbk_files, output_dir=metabolic_networks_path, singularity_path=singularity_path)
 
 
-def metabolic_analysis(community_networks_path, host_networks_path, output_path, seeds, output_name, analysis_method,
-                       clustering_method, max_clust, cpu):
+def metabolic_analysis(community_networks_path: str, host_networks_path: str, output_path: str, seeds: str,
+                       output_name: str, scopes_method: str, clustering_method: str, max_clust: int, cpu: int):
+    logging.info('METABOLIC ANALYSIS\n'
+                 '==================\n')
+    # ABBREVIATION NAMES
+    logging.info(f'Creates abbreviation names for species')
     name_assoc = create_abbreviation_names_dict(community_networks_path, host_networks_path, output_path)
+    logging.info(f'Abbreviation names stored in {output_path}/name_assoc.json\n')
 
-    print("Start calculate community scopes")
-    community_scopes(community_sbml_path=community_networks_path, hosts_sbml_path=host_networks_path,
-                     output_dir=output_path, seeds=seeds, method=analysis_method, name_assoc=name_assoc, cpu=cpu)
+    # SCOPES CALCULATION
+    logging.info('Community scopes :\n'
+                 '------------------\n')
+    scopes_path = os.path.join(output_path, SCOPES_STR, scopes_method)
+    if not os.path.exists(scopes_path):
+        logging.info(f'Scopes calculation with {scopes_method} method to {scopes_path} directory\n')
+        community_scopes(community_sbml_path=community_networks_path, hosts_sbml_path=host_networks_path,
+                         output_dir=output_path, seeds=seeds, method=scopes_method, name_assoc=name_assoc, cpu=cpu)
+    else:
+        logging.info(f'Scopes with {scopes_method} already performed to {scopes_path} directory\n'
+                     f'Will not pe performed again. Delete {scopes_path} to perform again\n')
+    logging.info(f'Scopes calculation done\n'
+                 f'-----------------------\n')
 
-    print("Start generating clustermap")
-    input_heatmap = os.path.join(output_path, SCOPES_STR, analysis_method)
-    output_heatmap = create_heatmap_output(output_path, output_name, analysis_method)
+    # CLUSTERMAP ANALYSIS
+    logging.info('Clustermap analysis :\n'
+                 '---------------------\n')
+    input_heatmap = os.path.join(output_path, SCOPES_STR, scopes_method)
+    output_heatmap = create_heatmap_output(output_path, output_name, scopes_method)
+    logging.info(f'Create clustermap to {output_heatmap} directory\n')
     bact_metabolites, host_metabolites, holo_metabolites, all_metabolites = heatmap_host_bacteria(
         input_dir=input_heatmap, output=output_heatmap, method=clustering_method, max_clust=max_clust)
+    logging.info(f'Clustermap analysis done\n'
+                 f'------------------------\n')
 
+    # METABOLIC CLASSES INFO
+    logging.info('Metabolic classes information analysis :\n'
+                 '----------------------------------------\n')
     output_info = output_heatmap + '_classes_cpd_info'
     proportion_workflow(set(all_metabolites), output=output_info)
     merge_outputs(f'{output_heatmap}_clusters.tsv', f'{output_info}.tsv')
+    logging.info(f'Metabolic classes sunburst stored in {output_info}.html file\n'
+                 f'Metabolic classes information stored in {output_info}.tsv file\n')
+    logging.info('Metabolic classes information analysis done\n'
+                 '-------------------------------------------\n')
 
     return name_assoc
 
 
-def coevolution_analysis(community_networks_path, host_networks_path, output_path, seeds, output_name,
-                         clustering_method, max_clust, phylo_tree, correction, cpu):
+def coevolution_analysis(community_networks_path: str, host_networks_path: str, output_path: str, seeds: str,
+                         output_name: str, clustering_method: str, max_clust: int, phylo_tree: str, correction: str,
+                         cpu: int):
     scopes_path = os.path.join(output_path, SCOPES_STR, FULL_METHOD)
-    if not os.path.exists(scopes_path):
-        name_assoc = metabolic_analysis(community_networks_path=community_networks_path,
-                                        host_networks_path=host_networks_path, output_path=output_path, seeds=seeds,
-                                        output_name=output_name, analysis_method=FULL_METHOD,
-                                        clustering_method=clustering_method, max_clust=max_clust, cpu=cpu)
-    else:
-        name_assoc = load_name_assoc_file(output_path)
+    name_assoc = metabolic_analysis(community_networks_path=community_networks_path,
+                                    host_networks_path=host_networks_path, output_path=output_path, seeds=seeds,
+                                    output_name=output_name, scopes_method=FULL_METHOD,
+                                    clustering_method=clustering_method, max_clust=max_clust, cpu=cpu)
 
+    logging.info('COEVOLUTION ANALYSIS\n'
+                 '====================\n')
+    logging.info(f'Performing coevolution analysis to {output_path} directory\n')
     coevolution(scopes_path=scopes_path, output=output_path, name=output_name, name_assoc=name_assoc,
                 phylo_tree=phylo_tree, correction=correction)
+    logging.info('Coevolution analysis done')
 
 
-# holointeract metabolic_analysis -cn example/inputs/community/ -hn example/inputs/hosts/ -o example/outputs/ -s example/inputs/seeds/seeds_seawater_artefact.sbml -am solo
-# holointeract coevolution -cn example/inputs/community/ -hn example/inputs/hosts/ -o example/outputs/ -s example/inputs/seeds/seeds_seawater_artefact.sbml -p example/inputs/SpeciesTree_rooted.txt
+# holointeract metabolic_analysis -cn example/inputs/community/ -hn example/inputs/hosts/ -o example/outputs/
+# -s example/inputs/seeds/seeds_seawater_artefact.sbml -am solo
+# holointeract coevolution -cn example/inputs/community/ -hn example/inputs/hosts/ -o example/outputs/
+# -s example/inputs/seeds/seeds_seawater_artefact.sbml -p example/inputs/SpeciesTree_rooted.txt
