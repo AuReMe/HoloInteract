@@ -2,6 +2,7 @@ import os
 import json
 import pandas
 import matplotlib.pyplot as plt
+import csv
 from matplotlib.patches import Patch
 import seaborn
 import scipy.cluster.hierarchy as sch
@@ -10,6 +11,30 @@ from padmet.utils.sbmlPlugin import convert_from_coded_id
 from typing import List, Tuple, Set, Dict
 
 
+# MAIN FUNCTION
+# ======================================================================================================================
+def heatmap_host_bacteria(input_dir: str, output: str, method: str = 'ward', max_clust: int = 10):
+    """Generate a matrix in tsv format from m2m metacom outputs indicating how each metabolite is produced for each host
+
+    Parameters
+    ----------
+    input_dir : str
+        Path to the directory where are stored all the m2m metacom results for each host
+    output : str
+        Path and name to the output tsv and heatmap file to generate
+    method : str
+        Method for the heatmap
+    max_clust: int
+    """
+    bact_metabolites, host_metabolites, holo_metabolites, all_metabolites = extract_metabolites(input_dir)
+    df = fill_matrix(bact_metabolites, host_metabolites, holo_metabolites, all_metabolites)
+    df.to_csv(f'{output}_matrix.tsv', sep='\t')
+    heatmap(df, f'{output}_heatmap.png', f'{output}_clusters.tsv', method, max_clust)
+    return bact_metabolites, host_metabolites, holo_metabolites, all_metabolites
+
+
+# FUNCTIONS
+# ======================================================================================================================
 def extract_metabolites(input_dir: str) \
         -> Tuple[Dict[str, Set[str]], Dict[str, Set[str]], Dict[str, Set[str]], List[str]]:
     """ Extract the metabolites linked to the hosts, bacteria and holobionts from m2m metacom results
@@ -168,27 +193,8 @@ def heatmap(df: pandas.DataFrame, output_heatmap: str, output_clusters: str,  me
     plot.savefig(output_heatmap)
 
     with open(output_clusters, 'w') as f:
-        f.write('Cluster\tCompound')
+        writer = csv.writer(f, delimiter='\t')
+        writer.writerow(['Cluster', 'Compound'])
         met = df.columns
         for ind in plot.dendrogram_col.reordered_ind:
-            f.write(f'\n{clusters_d[met[ind]]}\t{met[ind]}')
-
-
-def heatmap_host_bacteria(input_dir: str, output: str, method: str = 'ward', max_clust: int = 10):
-    """Generate a matrix in tsv format from m2m metacom outputs indicating how each metabolite is produced for each host
-
-    Parameters
-    ----------
-    input_dir : str
-        Path to the directory where are stored all the m2m metacom results for each host
-    output : str
-        Path and name to the output tsv and heatmap file to generate
-    method : str
-        Method for the heatmap
-    max_clust: int
-    """
-    bact_metabolites, host_metabolites, holo_metabolites, all_metabolites = extract_metabolites(input_dir)
-    df = fill_matrix(bact_metabolites, host_metabolites, holo_metabolites, all_metabolites)
-    df.to_csv(f'{output}_matrix.tsv', sep='\t')
-    heatmap(df, f'{output}_heatmap.png', f'{output}_clusters.tsv', method, max_clust)
-    return bact_metabolites, host_metabolites, holo_metabolites, all_metabolites
+            writer.writerow([clusters_d[met[ind]], met[ind]])

@@ -11,7 +11,7 @@ import holointeract.network_generation.create_input_mpwt
 import holointeract.network_generation.meta_network
 
 from holointeract.metabolic_analysis.scopes_community import *
-from holointeract.metabolic_analysis.heatmap_host_bacteria import *
+from holointeract.metabolic_analysis.heatmap_host_microorganism import *
 
 from holointeract.coevolution_analysis.coevolution_analysis import *
 
