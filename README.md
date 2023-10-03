@@ -62,9 +62,7 @@ Subcommands available through `holointeract`:
 #### Test example :
 
 ```commandline
-holointeract metabolic_analysis --comm small_example/inputs/community/ 
---host small_example/inputs/hosts/ -o small_example/outputs/ 
--s small_example/inputs/seeds/seeds_seawater_artefact.sbml -n test -m coop 
+holointeract metabolic_analysis --comm small_example/inputs/community/ --host small_example/inputs/hosts/ -o small_example/outputs/ -s small_example/inputs/seeds/seeds_seawater_artefact.sbml -n test -m coop 
 ```
 
 ### Coevolution Analysis : `holointeract coevolution`
@@ -86,10 +84,7 @@ holointeract metabolic_analysis --comm small_example/inputs/community/
 #### Test example :
 
 ```commandline
-holointeract coevolution --comm small_example/inputs/community/ 
---host small_example/inputs/hosts/ -o small_example/outputs/ 
--s small_example/inputs/seeds/seeds_seawater_artefact.sbml -n test 
--p small_example/inputs/SpeciesTree_rooted.txt 
+holointeract coevolution --comm small_example/inputs/community/ --host small_example/inputs/hosts/ -o small_example/outputs/ -s small_example/inputs/seeds/seeds_seawater_artefact.sbml -n test -p small_example/inputs/SpeciesTree_rooted.txt 
 ```
 
 ### Help available

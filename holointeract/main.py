@@ -36,9 +36,9 @@ def main():
         log_file = os.path.join(args.output, 'metabolic_analysis.log')
         logging.basicConfig(filename=log_file, level=logging.INFO, format='%(message)s')
         logging.getLogger('metage2metabo').setLevel(logging.WARNING)
-        metabolic_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
+        metabolic_analysis(community_networks_path=args.comm, host_networks_path=args.host,
                            output_path=args.output, seeds=args.seeds, output_name=args.name,
-                           scopes_method=args.scopes_method, clustering_method=args.clustering_method,
+                           scopes_method=args.scopes_method, clustering_method=args.cm,
                            max_clust=args.max_clust, cpu=args.cpu)
 
     elif args.subcommands == 'coevolution':
@@ -69,8 +69,8 @@ def get_command_line_args():
 
 def args_metabolic_analysis(subparsers):
     parser_metabolic_analysis = subparsers.add_parser('metabolic_analysis',
-                                                      help='Performs every steps to analysis the metabolic interactions'
-                                                           ' in holobionts. Metabolic networks required.')
+                                                      help='Performs analysis of metabolic interactions '
+                                                           'in holobionts.')
     parser_metabolic_analysis.add_argument('--comm', '--community_networks', type=str, required=True,
                                            help='path to community networks in SBML')
     parser_metabolic_analysis.add_argument('--host', '--host_networks', type=str, required=True,
@@ -95,7 +95,8 @@ def args_metabolic_analysis(subparsers):
 
 def args_coevolution_analysis(subparsers):
     parser_coevolution = subparsers.add_parser('coevolution',
-                                               help='')
+                                               help='Performs coevolution analysis, looking for correlation between '
+                                                    'complementarity and phylogenetic distance.')
     parser_coevolution.add_argument('--comm', '--community_networks', type=str, required=True,
                                     help='path to community networks in SBML')
     parser_coevolution.add_argument('--host', '--host_networks', type=str, required=True,
