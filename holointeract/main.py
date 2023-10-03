@@ -45,10 +45,10 @@ def main():
         log_file = os.path.join(args.output, 'coevolution.log')
         logging.basicConfig(filename=log_file, level=logging.INFO, format='%(message)s')
         logging.getLogger('metage2metabo').setLevel(logging.WARNING)
-        coevolution_analysis(community_networks_path=args.community_networks, host_networks_path=args.host_networks,
+        coevolution_analysis(community_networks_path=args.comm, host_networks_path=args.host,
                              output_path=args.output, seeds=args.seeds, output_name=args.name,
-                             clustering_method=args.clustering_method, max_clust=args.max_clust,
-                             phylo_tree=args.phylo_tree, correction=args.correction, cpu=args.cpu)
+                             clustering_method=args.cm, max_clust=args.max_clust,
+                             phylo_tree=args.phylo_tree, correction=args.cor, cpu=args.cpu)
 
     else:
         print('[dark_orange]Unknown command. Please use the help (-h) to see available commands.')
