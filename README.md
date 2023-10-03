@@ -104,7 +104,7 @@ holointeract 'subcommand' -h
 
 ## Required Inputs
 
-### Community Networks (`-comm`, `--community_networks`)
+### Community Networks (`--comm`, `--community_networks`)
 
 Directory containing SBML networks files for each community organism.
 
@@ -124,7 +124,7 @@ Host names in community networks directory and host networks directory must coin
 │ │ ├── Microorganism_4.sbml
 ```
 
-### Host Networks (`-host`, `--host_networks`)
+### Host Networks (`--host`, `--host_networks`)
 
 Directory containing SBML networks files for each host.
 
