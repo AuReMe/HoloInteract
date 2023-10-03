@@ -1,23 +1,29 @@
+"""
+Coevolution analysis
+"""
 import logging
 import os
+import json
+import csv
+from typing import Dict, Tuple, List, Any
+
 import pandas as pd
-import plotly
 import numpy as np
 import plotly.graph_objs as go
 import plotly.io as pio
-import csv
+import plotly.colors as pcol
 import matplotlib.pyplot as plt
-
 from ete3 import Tree
-from holointeract.utils.utils import *
 from statsmodels.stats.multitest import multipletests
 from scipy.stats import linregress, spearmanr
 from scipy.stats import f_oneway
-from typing import Dict, Tuple, List, Any
+
+from holointeract.utils.utils import (col_normalization, create_new_dir,
+                                      get_host_microorganism_from_name)
 
 
 # CONSTANT STR
-# ======================================================================================================================
+# ==================================================================================================
 COEVOLUTION_STR = 'coevolution'
 BENJAMINI = 'benjamini'
 BONFERRONI = 'bonferroni'
@@ -31,12 +37,13 @@ LABEL = 'label'
 
 
 # MAIN FUNCTION
-# ======================================================================================================================
-def coevolution(scopes_path: str, output: str, name: str, name_assoc: Dict[str, str], phylo_tree: str = None,
-                correction: str = None):
-    """ Performs coevolution analysis : build matrix and generate boxplot and linear regression figures. Looking for
-    coevolution signs by searching correlation between complementarity for a microorganism and a host AND phylogenetic
-    distance between the natural microorganism host and a host.
+# ==================================================================================================
+def coevolution(scopes_path: str, output: str, name: str, name_assoc: Dict[str, str],
+                phylo_tree: str = None, correction: str = None):
+    """ Performs coevolution analysis : build matrix and generate boxplot and linear regression
+    figures. Looking for coevolution signs by searching correlation between complementarity for a
+    microorganism and a host AND phylogenetic distance between the natural microorganism host and
+    a host.
 
     Parameters
     ----------
@@ -49,10 +56,11 @@ def coevolution(scopes_path: str, output: str, name: str, name_assoc: Dict[str, 
     name_assoc: Dict[str, str]
         Dictionary associating for each host and each microorganism name, its abbreviated name
     phylo_tree: str, optional (default=None)
-        Path to phylogenetic tree of hosts at Newick format (if None, linear regression analysis will not be performed)
+        Path to phylogenetic tree of hosts at Newick format (if None, linear regression analysis
+        will not be performed)
     correction: str, optional (default=None)
-        Type of correction to apply to p-values for the multiple linear regression performed (bonferroni, benjamini or
-        None for no correction)
+        Type of correction to apply to p-values for the multiple linear regression performed
+        (bonferroni, benjamini or None for no correction)
     """
     output = os.path.join(output, COEVOLUTION_STR)
     create_new_dir(output)
@@ -65,24 +73,27 @@ def coevolution(scopes_path: str, output: str, name: str, name_assoc: Dict[str, 
     complementarity_df.to_csv(out_comp_matrix, sep='\t')
     logging.info(f'Complementarity matrix saved to {out_comp_matrix}\n'
                  f'Complementarity boxplot saved to {out_comp_boxplot}\n')
-    # Performs linear regression if phylogenetic tree parameter given (+phylogenetic distance matrix creation)
+    # Performs linear regression if phylogenetic tree parameter given
     if phylo_tree is not None:
         logging.info('Performs linear regression analysis')
         phylo_dist_df = get_phylo_dist_df(phylo_tree, name_assoc)
         out_coevolution_reg = os.path.join(output, f'{name}_coevolution_regression')
         out_phylo_matrix = os.path.join(output, f'{name}_phylogenetic_dist_matrix.tsv')
         phylo_dist_df.to_csv(out_phylo_matrix, sep='\t')
-        linear_regression_complementarity_phylo_dist(complementarity_df, phylo_dist_df, out_coevolution_reg, correction)
+        linear_regression_complementarity_phylo_dist(complementarity_df, phylo_dist_df,
+                                                     out_coevolution_reg, correction)
         logging.info(f'Phylogenetic distance matrix saved to {out_phylo_matrix}\n'
                      f'Coevolution linear regression figure saved to {out_coevolution_reg}.html\n'
-                     f'Coevolution linear regression information file saved to {out_coevolution_reg}.tsv\n')
+                     f'Coevolution linear regression information file saved to '
+                     f'{out_coevolution_reg}.tsv\n')
 
 
 # MATRIX FUNCTIONS
-# ======================================================================================================================
+# ==================================================================================================
 def get_complementarity_df(scopes_path: str) -> pd.DataFrame:
-    """ Generate the complementarity matrix. For each couple host (col) / microorganism (row) calculate its
-    complementarity normalizing the number of compounds produces by added value (cooperation) in the scope.
+    """ Generate the complementarity matrix. For each couple host (col) / microorganism (row)
+    calculate its complementarity normalizing the number of compounds produces by added value
+    (cooperation) in the scope.
 
     Parameters
     ----------
@@ -132,14 +143,15 @@ def get_phylo_dist_df(phylo_tree: str, name_assoc: Dict[str, str]) -> pd.DataFra
             if host1.name in name_assoc and host2.name in name_assoc:
                 # Store distance between hosts in matrix
                 if host1.name != host2.name:
-                    df.loc[name_assoc[host1.name], name_assoc[host2.name]] = host1.get_distance(host2)
+                    df.loc[name_assoc[host1.name], name_assoc[host2.name]] = (
+                        host1.get_distance(host2))
                 else:
                     df.loc[name_assoc[host1.name], name_assoc[host2.name]] = float(0)
     return df
 
 
 # FIGURES FUNCTIONS
-# ======================================================================================================================
+# ==================================================================================================
 
 # BOXPLOT
 def complementarity_boxplot(complementarity_df: pd.DataFrame, output: str):
@@ -148,7 +160,8 @@ def complementarity_boxplot(complementarity_df: pd.DataFrame, output: str):
     Parameters
     ----------
     complementarity_df: pd.DataFrame
-        Complementarity matrix indicating for each couple host (col) / microorganism (row) its complementarity
+        Complementarity matrix indicating for each couple host (col) / microorganism (row) its
+        complementarity
     output: str
         Output path of the figure file
     """
@@ -165,10 +178,12 @@ def complementarity_boxplot(complementarity_df: pd.DataFrame, output: str):
 
 
 # LINEAR REGRESSION
-def linear_regression_complementarity_phylo_dist(complementarity_df: pd.DataFrame, phylo_dist_df: pd.DataFrame,
-                                                 output: str, correction: str = None):
-    """ Performs linear regression analysis searching correlation between complementarity for a microorganism and a
-    host AND phylogenetic distance between the natural microorganism host and a host.
+def linear_regression_complementarity_phylo_dist(complementarity_df: pd.DataFrame,
+                                                 phylo_dist_df: pd.DataFrame, output: str,
+                                                 correction: str = None):
+    """ Performs linear regression analysis searching correlation between complementarity for a
+    microorganism and a host AND phylogenetic distance between the natural microorganism host and
+    a host.
 
     Parameters
     ----------
@@ -179,39 +194,43 @@ def linear_regression_complementarity_phylo_dist(complementarity_df: pd.DataFram
     output: str
         Path and name to output figure file
     correction: str, optional (default=None)
-        Type of correction to apply to p-values for the multiple linear regression performed (bonferroni, benjamini or
-        None for no correction)
+        Type of correction to apply to p-values for the multiple linear regression performed
+        (bonferroni, benjamini or None for no correction)
     """
     # ANOVA test
-    logging.info(f'ANOVA test : {f_oneway(*[complementarity_df[host].values for host in complementarity_df.columns])}')
+    logging.info(f'ANOVA test : '
+                 f'{f_oneway(*[complementarity_df[host].values for host in complementarity_df.columns])}')
 
     n_micro, n_host = complementarity_df.shape  # Number of microorganism / Number of host
-    colors = plotly.colors.qualitative.Dark2  # Color palette for figure slopes
+    colors = pcol.qualitative.Dark2  # Color palette for figure slopes
     significant_slopes = 0  # Counter for slopes with significant p-value
 
     # Initialize result tsv file
     with open(f'{output}.tsv', 'w', newline='') as tsv_file:
         writer = csv.writer(tsv_file, delimiter='\t')
-        writer.writerow(['Microorganism', 'Slope', 'Spearman Correlation', 'P-value', 'Corrected P-value'])
+        writer.writerow(['Microorganism', 'Slope', 'Spearman Correlation', 'P-value',
+                         'Corrected P-value'])
         # Get linear regression results
         results, p_values = linear_regression_results(complementarity_df, phylo_dist_df)
         # Initialize figure
         fig = go.Figure()
-        fig.update_layout(xaxis_title="Phylogenetic distance (between host and natural microorganism host)",
+        fig.update_layout(xaxis_title="Phylogenetic distance (between host and natural "
+                                      "microorganism host)",
                           yaxis_title="Metabolic complementarity (normalized)",
                           title="Linear regression for each microorganism")
 
         # Apply different corrections to p-values
         if correction == BENJAMINI:
-            multiple_tests_cor = multipletests(p_values, alpha=0.05, method="fdr_bh", is_sorted=False,
-                                               returnsorted=False)
-            for i in range(len(complementarity_df.index)):
+            multiple_tests_cor = multipletests(p_values, alpha=0.05, method="fdr_bh",
+                                               is_sorted=False, returnsorted=False)
+            for i, name in enumerate(complementarity_df.index):
                 # Write results in tsv file
-                writer.writerow([microorganism, results[microorganism][SLOPE], results[microorganism][SPEARMAN_C],
+                writer.writerow([microorganism, results[microorganism][SLOPE],
+                                 results[microorganism][SPEARMAN_C],
                                  results[microorganism][P_VALUE], multiple_tests_cor[1][i]])
                 # Add slope to the figure if corrected p-value significant
                 if multiple_tests_cor[0][i]:
-                    microorganism = complementarity_df.index[i]
+                    microorganism = name
                     significant_slopes += 1
                     color = colors[significant_slopes % len(colors)]
                     add_slope(fig, results, microorganism, color)
@@ -219,10 +238,13 @@ def linear_regression_complementarity_phylo_dist(complementarity_df: pd.DataFram
         elif correction == BONFERRONI:
             for microorganism in complementarity_df.index:
                 # Write results in tsv file
-                writer.writerow([microorganism, results[microorganism][SLOPE], results[microorganism][SPEARMAN_C],
-                                 results[microorganism][P_VALUE], results[microorganism][P_VALUE] * n_host])
+                writer.writerow([microorganism, results[microorganism][SLOPE],
+                                 results[microorganism][SPEARMAN_C],
+                                 results[microorganism][P_VALUE],
+                                 results[microorganism][P_VALUE] * n_host])
                 # Add slope to the figure if corrected p-value significant
-                if results[microorganism][P_VALUE] < (0.05 / n_host) and results[microorganism][SLOPE] < 0:
+                if results[microorganism][P_VALUE] < (0.05 / n_host) \
+                        and results[microorganism][SLOPE] < 0:
                     significant_slopes += 1
                     color = colors[significant_slopes % len(colors)]
                     add_slope(fig, results, microorganism, color)
@@ -230,7 +252,8 @@ def linear_regression_complementarity_phylo_dist(complementarity_df: pd.DataFram
         elif correction is None:
             for microorganism in complementarity_df.index:
                 # Write results in tsv file
-                writer.writerow([microorganism, results[microorganism][SLOPE], results[microorganism][SPEARMAN_C],
+                writer.writerow([microorganism, results[microorganism][SLOPE],
+                                 results[microorganism][SPEARMAN_C],
                                  results[microorganism][P_VALUE], 'No correction'])
                 # Add slope to the figure if p-value significant
                 if results[microorganism][P_VALUE] < 0.05 and results[microorganism][SLOPE] < 0:
@@ -243,7 +266,8 @@ def linear_regression_complementarity_phylo_dist(complementarity_df: pd.DataFram
 
 def linear_regression_results(complementarity_df: pd.DataFrame, phylo_dist_df: pd.DataFrame) \
         -> Tuple[Dict[str, Dict[str, Any]], List[float]]:
-    """ Generate linear regression results for each microorganism. Returns results dictionary and p-values list.
+    """ Generate linear regression results for each microorganism. Returns results dictionary and
+    p-values list.
 
     Parameters
     ----------
@@ -301,8 +325,8 @@ def add_slope(fig: go.Figure, results: Dict[str, Dict[str, Any]], microorganism:
         color name (hex or rgba or name)
     """
     # Add regression line to plot
-    fig.add_trace(go.Scatter(x=results[microorganism][X], y=results[microorganism][Y_PRED], mode='lines',
-                             name=microorganism, line=dict(color=color)))
+    fig.add_trace(go.Scatter(x=results[microorganism][X], y=results[microorganism][Y_PRED],
+                             mode='lines', name=microorganism, line=dict(color=color)))
     # Add points to plot
     fig.add_trace(go.Scatter(x=results[microorganism][X], y=results[microorganism][Y],
                              text=results[microorganism][LABEL],
