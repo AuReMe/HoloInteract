@@ -44,7 +44,7 @@ pip install -e .
 ## Commands
 Subcommands available through `holointeract`:
 
-### Community Analysis : `holointeract community_analysis`
+### Metabolic Analysis : `holointeract metabolic_analysis`
 
 #### Arguments :
 
@@ -59,6 +59,13 @@ Subcommands available through `holointeract`:
 - `--max_clust` : maximal number of cluster for the dendrogram division (default=`10`)
 - `-cpu` : number of cpu to use (default=`1`)
 
+#### Test example :
+
+```commandline
+holointeract metabolic_analysis -comm small_example/inputs/community/ 
+-host small_example/inputs/hosts/ -o small_example/outputs/ 
+-s small_example/inputs/seeds/seeds_seawater_artefact.sbml -n test -m coop 
+```
 
 ### Coevolution Analysis : `holointeract coevolution`
 
@@ -69,7 +76,6 @@ Subcommands available through `holointeract`:
 - `-o`, `--output` : path to output directory
 - `-s`, `--seeds` : path to seeds SBML file
 - `-n`, `--name` : output files name (default=run)
-`['solo', 'coop', 'full']` (default=`'coop'`)
 - `-cm`, `--clustering_method` : method for linkage in clustering (default=`'ward'`) 
 - `--max_clust` : maximal number of cluster for the dendrogram division (default=`10`)
 - `-p`, `--phylo_tree` : path to phylogenetic tree (Newick format) (default=`None`)
@@ -77,6 +83,14 @@ Subcommands available through `holointeract`:
 `['bonferroni', 'benjamini', None]` (default=`None`)
 - `-cpu` : number of cpu to use (default=`1`)
 
+#### Test example :
+
+```commandline
+holointeract coevolution -comm small_example/inputs/community/ 
+-host small_example/inputs/hosts/ -o small_example/outputs/ 
+-s small_example/inputs/seeds/seeds_seawater_artefact.sbml -n test 
+-p small_example/inputs/SpeciesTree_rooted.txt 
+```
 
 ### Help available
 
