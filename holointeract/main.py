@@ -71,9 +71,9 @@ def args_metabolic_analysis(subparsers):
     parser_metabolic_analysis = subparsers.add_parser('metabolic_analysis',
                                                       help='Performs every steps to analysis the metabolic interactions'
                                                            ' in holobionts. Metabolic networks required.')
-    parser_metabolic_analysis.add_argument('-comm', '--community_networks', type=str, required=True,
+    parser_metabolic_analysis.add_argument('--comm', '--community_networks', type=str, required=True,
                                            help='path to community networks in SBML')
-    parser_metabolic_analysis.add_argument('-host', '--host_networks', type=str, required=True,
+    parser_metabolic_analysis.add_argument('--host', '--host_networks', type=str, required=True,
                                            help='path to hosts networks in SBML')
     parser_metabolic_analysis.add_argument('-o', '--output', type=str, required=True,
                                            help='path to output directory')
@@ -84,21 +84,21 @@ def args_metabolic_analysis(subparsers):
     parser_metabolic_analysis.add_argument('-m', '--scopes_method', type=str, required=False,
                                            choices=[SOLO_METHOD, COOP_METHOD, FULL_METHOD], default=COOP_METHOD,
                                            help='method of scopes generation')
-    parser_metabolic_analysis.add_argument('-cm', '--clustering_method', type=str, required=False,
+    parser_metabolic_analysis.add_argument('--cm', '--clustering_method', type=str, required=False,
                                            choices=LINKAGE_METHODS, default='ward',
                                            help='method for linkage in clustering')
     parser_metabolic_analysis.add_argument('--max_clust', type=int, required=False, default=10,
                                            help='maximal number of cluster for the dendrogram division')
-    parser_metabolic_analysis.add_argument('-cpu', type=int, required=False, default=1,
+    parser_metabolic_analysis.add_argument('--cpu', type=int, required=False, default=1,
                                            help='number of cpu to use')
 
 
 def args_coevolution_analysis(subparsers):
     parser_coevolution = subparsers.add_parser('coevolution',
                                                help='')
-    parser_coevolution.add_argument('-comm', '--community_networks', type=str, required=True,
+    parser_coevolution.add_argument('--comm', '--community_networks', type=str, required=True,
                                     help='path to community networks in SBML')
-    parser_coevolution.add_argument('-host', '--host_networks', type=str, required=True,
+    parser_coevolution.add_argument('--host', '--host_networks', type=str, required=True,
                                     help='path to hosts networks in SBML')
     parser_coevolution.add_argument('-o', '--output', type=str, required=True,
                                     help='path to output directory')
@@ -108,15 +108,15 @@ def args_coevolution_analysis(subparsers):
                                     help='output files name')
     parser_coevolution.add_argument('-p', '--phylo_tree', type=str, required=False, default=None,
                                     help='path to phylogenetic tree (Newick format)')
-    parser_coevolution.add_argument('-cor', '--correction', type=str, required=False, default=None,
+    parser_coevolution.add_argument('--cor', '--correction', type=str, required=False, default=None,
                                     choices=[None, BONFERRONI, BENJAMINI],
                                     help='correction to apply to p-values')
-    parser_coevolution.add_argument('-cm', '--clustering_method', type=str, required=False,
+    parser_coevolution.add_argument('--cm', '--clustering_method', type=str, required=False,
                                     choices=LINKAGE_METHODS, default='ward',
                                     help='method for linkage in clustering')
     parser_coevolution.add_argument('--max_clust', type=int, required=False, default=10,
                                     help='path to seeds SBML file')
-    parser_coevolution.add_argument('-cpu', type=int, required=False, default=1,
+    parser_coevolution.add_argument('--cpu', type=int, required=False, default=1,
                                     help='number of cpu to use')
 
 

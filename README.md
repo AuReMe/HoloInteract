@@ -48,22 +48,22 @@ Subcommands available through `holointeract`:
 
 #### Arguments :
 
-- `-comm`, `--community_networks` : path to community networks in SBML
-- `-host`, `--host_networks` : path to hosts networks in SBML
+- `--comm`, `--community_networks` : path to community networks in SBML
+- `--host`, `--host_networks` : path to hosts networks in SBML
 - `-o`, `--output` : path to output directory
 - `-s`, `--seeds` : path to seeds SBML file
 - `-n`, `--name` : output files name (default=run)
 - `-m`, `--scopes_method` : method of scopes generation 
 `['solo', 'coop', 'full']` (default=`'coop'`)
-- `-cm`, `--clustering_method` : method for linkage in clustering (default=`'ward'`) 
+- `--cm`, `--clustering_method` : method for linkage in clustering (default=`'ward'`) 
 - `--max_clust` : maximal number of cluster for the dendrogram division (default=`10`)
-- `-cpu` : number of cpu to use (default=`1`)
+- `--cpu` : number of cpu to use (default=`1`)
 
 #### Test example :
 
 ```commandline
-holointeract metabolic_analysis -comm small_example/inputs/community/ 
--host small_example/inputs/hosts/ -o small_example/outputs/ 
+holointeract metabolic_analysis --comm small_example/inputs/community/ 
+--host small_example/inputs/hosts/ -o small_example/outputs/ 
 -s small_example/inputs/seeds/seeds_seawater_artefact.sbml -n test -m coop 
 ```
 
@@ -71,23 +71,23 @@ holointeract metabolic_analysis -comm small_example/inputs/community/
 
 #### Arguments :
 
-- `-comm`, `--community_networks` : path to community networks in SBML
-- `-host`, `--host_networks` : path to hosts networks in SBML
+- `--comm`, `--community_networks` : path to community networks in SBML
+- `--host`, `--host_networks` : path to hosts networks in SBML
 - `-o`, `--output` : path to output directory
 - `-s`, `--seeds` : path to seeds SBML file
 - `-n`, `--name` : output files name (default=run)
-- `-cm`, `--clustering_method` : method for linkage in clustering (default=`'ward'`) 
+- `--cm`, `--clustering_method` : method for linkage in clustering (default=`'ward'`) 
 - `--max_clust` : maximal number of cluster for the dendrogram division (default=`10`)
 - `-p`, `--phylo_tree` : path to phylogenetic tree (Newick format) (default=`None`)
-- `-cor`, `--correction` : correction to apply to p-values 
+- `--cor`, `--correction` : correction to apply to p-values 
 `['bonferroni', 'benjamini', None]` (default=`None`)
-- `-cpu` : number of cpu to use (default=`1`)
+- `--cpu` : number of cpu to use (default=`1`)
 
 #### Test example :
 
 ```commandline
-holointeract coevolution -comm small_example/inputs/community/ 
--host small_example/inputs/hosts/ -o small_example/outputs/ 
+holointeract coevolution --comm small_example/inputs/community/ 
+--host small_example/inputs/hosts/ -o small_example/outputs/ 
 -s small_example/inputs/seeds/seeds_seawater_artefact.sbml -n test 
 -p small_example/inputs/SpeciesTree_rooted.txt 
 ```
