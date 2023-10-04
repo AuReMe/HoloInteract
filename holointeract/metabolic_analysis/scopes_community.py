@@ -43,6 +43,7 @@ def community_scopes(community_sbml_path: str, hosts_sbml_path: str, output_dir:
     cpu: int, optional (default=1)
         Number of cpu for metacom analyse (useful for coop, not for solo and full)
     """
+    are_inputs_ok(community_sbml_path, hosts_sbml_path)
     # Create directories
     temp_path = os.path.join(output_dir, '.temp')
     create_new_dir(temp_path, verbose=False)
