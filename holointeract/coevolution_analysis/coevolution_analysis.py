@@ -19,7 +19,7 @@ from scipy.stats import linregress, spearmanr
 from scipy.stats import f_oneway
 
 from holointeract.utils.utils import (col_normalization, create_new_dir,
-                                      get_host_microorganism_from_name)
+                                      get_host_microorganism_from_name, phylo_tree_names_ok)
 
 
 # CONSTANT STR
@@ -74,7 +74,7 @@ def coevolution(scopes_path: str, output: str, name: str, name_assoc: Dict[str, 
     logging.info(f'Complementarity matrix saved to {out_comp_matrix}\n'
                  f'Complementarity boxplot saved to {out_comp_boxplot}\n')
     # Performs linear regression if phylogenetic tree parameter given
-    if phylo_tree is not None:
+    if phylo_tree is not None and phylo_tree_names_ok(name_assoc, phylo_tree):
         logging.info('Performs linear regression analysis')
         phylo_dist_df = get_phylo_dist_df(phylo_tree, name_assoc)
         out_coevolution_reg = os.path.join(output, f'{name}_coevolution_regression')
