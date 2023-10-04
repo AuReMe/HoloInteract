@@ -10,7 +10,40 @@ SP_CHAR = ['-', '.', ' ']
 
 
 # DIVERSE
-# ======================================================================================================================
+# ==================================================================================================
+def are_inputs_ok(community_sbml_path: str, hosts_sbml_path: str) -> bool:
+    """ Checks if inputs file names coincides between community sbml path and hosts sbml path.
+
+    Parameters
+    ----------
+    community_sbml_path: str
+        Path to the directory containing SBML networks for all community of microorganisms
+        classified in their natural host directory
+    hosts_sbml_path: str
+        Path to the directory containing SBML networks for all hosts
+
+    Returns
+    -------
+    bool
+        True if host species names coincides in the 2 input directories.
+
+    Raises
+    ------
+    ValueError
+        If at least 1 host is not in community directory
+    ValueError
+        If at least 1 host's community is not in hosts directory
+    """
+    hosts_sbml = set([x.split('.')[0] for x in os.listdir(hosts_sbml_path)])
+    community_sbml = set(os.listdir(community_sbml_path))
+    if hosts_sbml == community_sbml:
+        return True
+    elif hosts_sbml.difference(community_sbml) != set():
+        raise ValueError(f'{hosts_sbml.difference(community_sbml)} not in community input path.')
+    elif community_sbml.difference(hosts_sbml) != set():
+        raise ValueError(f'{community_sbml.difference(hosts_sbml)} not in hosts input path.')
+
+
 def create_new_dir(dir_path: str, verbose: bool = True):
     """ Create a directory checking if already existing.
 
