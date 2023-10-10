@@ -1,0 +1,473 @@
+{
+    "unproducible": [],
+    "producible": [
+        "M_CPD__45__12427_c",
+        "M_CPD__45__13714_c",
+        "M_CPD__45__11446_c",
+        "M_CPD__45__15839_c",
+        "M_CPD__45__11463_c",
+        "M_CPD__45__9925_c",
+        "M_FORMYL__45__ISOGLUTAMINE_c",
+        "M_CPD__45__11495_c",
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c",
+        "M_DTDP__45__D__45__GLUCOSE_c",
+        "M_GLYCERATE_c",
+        "M_4__45__MALEYL__45__ACETOACETATE_c",
+        "M_SQUALENE_c",
+        "M_CPD__45__9016_c",
+        "M_CPD0__45__1108_c",
+        "M_D__45__Ribopyranose_c",
+        "M_DELTA__45__TOCOPHEROL_c",
+        "M_CPD0__45__181_c",
+        "M_HOMOGENTISATE_c",
+        "M_CPD__45__10330_c",
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c",
+        "M_CPD__45__25381_c",
+        "M_CPD__45__11447_c",
+        "M_C__45__DI__45__GMP_c",
+        "M_MPBQ_c",
+        "M_CPD__45__12773_c",
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c",
+        "M_CPD__45__15818_c",
+        "M_ISOGLUTAMINE_c",
+        "M_CPD__45__7046_c",
+        "M_8__45__Oxo__45__dGTP_c",
+        "M_HISTIDINAL_c",
+        "M_CPD__45__9646_c",
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c",
+        "M_CPD__45__846_c",
+        "M_DIHYDRONEOPTERIN__45__P_c",
+        "M_CROTONYL__45__COA_c",
+        "M_CPD__45__12626_c",
+        "M_UROCANATE_c",
+        "M_4__45__FUMARYL__45__ACETOACETATE_c",
+        "M_CPD__45__11712_c",
+        "M_4__45__OXOGLUTARAMATE_c",
+        "M_CPD8J2__45__27_c",
+        "M_DTDP__45__RHAMNOSE_c",
+        "M_DEAMIDO__45__NAD_c"
+    ],
+    "indiv_producible": [],
+    "individual_producers": {},
+    "com_only_producers": {},
+    "mincom_producible": [
+        "M_CPD__45__15839_c",
+        "M_DELTA__45__TOCOPHEROL_c",
+        "M_C__45__DI__45__GMP_c",
+        "M_FORMYL__45__ISOGLUTAMINE_c",
+        "M_CPD8J2__45__27_c",
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c",
+        "M_CPD__45__9646_c",
+        "M_4__45__OXOGLUTARAMATE_c",
+        "M_CPD__45__846_c",
+        "M_CPD__45__25381_c",
+        "M_DTDP__45__RHAMNOSE_c",
+        "M_DIHYDRONEOPTERIN__45__P_c",
+        "M_CPD__45__9925_c",
+        "M_8__45__Oxo__45__dGTP_c",
+        "M_CPD0__45__181_c",
+        "M_GLYCERATE_c",
+        "M_CPD__45__9016_c",
+        "M_MPBQ_c",
+        "M_CPD__45__12773_c",
+        "M_CPD__45__15818_c",
+        "M_HISTIDINAL_c",
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c",
+        "M_CPD__45__11495_c",
+        "M_HOMOGENTISATE_c",
+        "M_CPD__45__13714_c",
+        "M_DTDP__45__D__45__GLUCOSE_c",
+        "M_DEAMIDO__45__NAD_c",
+        "M_CPD__45__10330_c",
+        "M_4__45__FUMARYL__45__ACETOACETATE_c",
+        "M_CPD__45__12427_c",
+        "M_CROTONYL__45__COA_c",
+        "M_4__45__MALEYL__45__ACETOACETATE_c",
+        "M_CPD__45__7046_c",
+        "M_CPD__45__11463_c",
+        "M_D__45__Ribopyranose_c",
+        "M_CPD0__45__1108_c",
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c",
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c",
+        "M_CPD__45__12626_c",
+        "M_ISOGLUTAMINE_c",
+        "M_CPD__45__11446_c",
+        "M_UROCANATE_c",
+        "M_SQUALENE_c",
+        "M_CPD__45__11447_c",
+        "M_CPD__45__11712_c"
+    ],
+    "key_species": [
+        "Betaproteobacteria_bacterium_2",
+        "Betaproteobacteria_bacterium_1"
+    ],
+    "mincom_optsol_producers": {
+        "M_CPD__45__12427_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD__45__13714_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD__45__11446_c": [
+            "Betaproteobacteria_bacterium_1",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15839_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__11463_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD__45__9925_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_FORMYL__45__ISOGLUTAMINE_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD__45__11495_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c": [
+            "Betaproteobacteria_bacterium_1",
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__D__45__GLUCOSE_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_GLYCERATE_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "Betaproteobacteria_bacterium_1",
+            "host_metab_mod"
+        ],
+        "M_SQUALENE_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD__45__9016_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD0__45__1108_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_D__45__Ribopyranose_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_DELTA__45__TOCOPHEROL_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__181_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_HOMOGENTISATE_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD__45__10330_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__25381_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD__45__11447_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_C__45__DI__45__GMP_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_MPBQ_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12773_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c": [
+            "Betaproteobacteria_bacterium_1",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15818_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_ISOGLUTAMINE_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD__45__7046_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_8__45__Oxo__45__dGTP_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_HISTIDINAL_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9646_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__846_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_DIHYDRONEOPTERIN__45__P_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CROTONYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12626_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_UROCANATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+            "Betaproteobacteria_bacterium_1",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__11712_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__OXOGLUTARAMATE_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD8J2__45__27_c": [
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_DTDP__45__RHAMNOSE_c": [
+            "Betaproteobacteria_bacterium_1",
+            "host_metab_mod"
+        ],
+        "M_DEAMIDO__45__NAD_c": [
+            "Betaproteobacteria_bacterium_1"
+        ]
+    },
+    "mincom_union_producers": {
+        "M_CPD__45__12427_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_CPD__45__13714_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_CPD__45__11446_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15839_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__11463_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD__45__9925_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_FORMYL__45__ISOGLUTAMINE_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD__45__11495_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c": [
+            "host_metab_mod",
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_DTDP__45__D__45__GLUCOSE_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_GLYCERATE_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "host_metab_mod",
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_SQUALENE_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD__45__9016_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD0__45__1108_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_D__45__Ribopyranose_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_DELTA__45__TOCOPHEROL_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__181_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_HOMOGENTISATE_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_CPD__45__10330_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__25381_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_CPD__45__11447_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_C__45__DI__45__GMP_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_MPBQ_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12773_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15818_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_ISOGLUTAMINE_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_CPD__45__7046_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_8__45__Oxo__45__dGTP_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_HISTIDINAL_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9646_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__846_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_DIHYDRONEOPTERIN__45__P_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_CROTONYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12626_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_UROCANATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+            "Betaproteobacteria_bacterium_1",
+            "host_metab_mod",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_CPD__45__11712_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__OXOGLUTARAMATE_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_CPD8J2__45__27_c": [
+            "Betaproteobacteria_bacterium_2",
+            "Betaproteobacteria_bacterium_1"
+        ],
+        "M_DTDP__45__RHAMNOSE_c": [
+            "Betaproteobacteria_bacterium_1",
+            "host_metab_mod",
+            "Betaproteobacteria_bacterium_2"
+        ],
+        "M_DEAMIDO__45__NAD_c": [
+            "Betaproteobacteria_bacterium_1",
+            "Betaproteobacteria_bacterium_2"
+        ]
+    },
+    "mincom_inter_producers": {
+        "M_CPD__45__11446_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15839_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "host_metab_mod"
+        ],
+        "M_DELTA__45__TOCOPHEROL_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_MPBQ_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_HISTIDINAL_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CROTONYL__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_UROCANATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__11712_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__RHAMNOSE_c": [
+            "host_metab_mod"
+        ]
+    }
+}

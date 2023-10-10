@@ -1,0 +1,478 @@
+{
+ "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_3__45__5__45__ADP_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_ACP_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_ADENINE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_ADENOSINE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_ADENOSYLCOBALAMIN_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_ADP_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_AMMONIA_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_AMMONIUM_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_AMP_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_APS_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_ATP_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Acceptor_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_BA__43__2_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_BORATE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_BR__45___c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CAMP_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CARBAMOYL__45__P_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CARBON__45__DIOXIDE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CA__43__2_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CL__45___c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CO3_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CO__43__2_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CO__45__A_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD0__45__2461_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD0__45__2472_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD0__45__2474_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__10778_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__11281_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__11763_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__12377_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__12427_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__12610_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__13851_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__14133_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__1484_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__15317_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__16459_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__18085_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__19584_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__3_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__578_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__653_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__69_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__7046_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__846_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__8886_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CPD__45__9016_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CU__43__2_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_CU__43___c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Cytochromes__45__C__45__Oxidized_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Cytochromes__45__C__45__Reduced_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_DADP_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_DATP_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_DEPHOSPHO__45__COA_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_D__45__RIBULOSE__45__15__45__P2_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Donor__45__H2_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_FE__43__2_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_FE__43__3_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_FORMATE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_F__45___c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_GLT__45__tRNAs_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_GLUTATHIONE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_H2CO3_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_HCO3_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_HSO3_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_HS_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_HYDROGEN__45__PEROXIDE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_HYPOXANTHINE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_INOSINE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_K__43___c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_LI__43___c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Light_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_MG__43__2_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_MN__43__2_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_MO__43__2_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_NADH_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_NADPH_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_NADP_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_NAD_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_NA__43___c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_NICOTINAMIDE_NUCLEOTIDE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_NICOTINAMIDE_RIBOSE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_NITRATE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_NITRIC__45__OXIDE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_NITRITE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_NMNH_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_OH_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_OXIDIZED__45__GLUTATHIONE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_OXYGEN__45__MOLECULE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Ox__45__Thioredoxin_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Oxidized__45__ferredoxins_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Oxidized__45__flavodoxins_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_PANTETHEINE__45__P_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_PAPS_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_PPI_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_PROTON_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_PROTON_e": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Pi_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_RB__43___c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_RIBOSE__45__1P_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Red__45__Thioredoxin_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Reduced__45__ferredoxins_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Reduced__45__flavodoxins_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_S2O3_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_SO3_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_SULFATE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_SUPER__45__OXIDE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_THF__45__GLU__45__N_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_URATE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_UREA_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Ubiquinols_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_Ubiquinones_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_V__43__5_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_WATER_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_XANTHINE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_XANTHOSINE_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_ZN__43__2_c": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ],
+ "M_ZN__43__2_e": [
+  "Pseudomonas_mandelii_1",
+  "Pseudomonas_mandelii_2"
+ ]
+}
