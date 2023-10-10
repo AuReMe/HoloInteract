@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
+  <model id="metabolites">
+    <listOfSpecies>
+      <species id="M_PHENYL__45__PYRUVATE_c" name="PHENYL-PYRUVATE" compartment="c"/>
+      <species id="M_CPD__45__11446_c" name="CPD-11446" compartment="c"/>
+      <species id="M_DIHYDROXYINDOLE_c" name="DIHYDROXYINDOLE" compartment="c"/>
+      <species id="M_DOPAQUINONE_c" name="DOPAQUINONE" compartment="c"/>
+      <species id="M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c" name="DTDP-DEOH-DEOXY-MANNOSE" compartment="c"/>
+      <species id="M_2__45__KETO__45__GLUTARAMATE_c" name="2-KETO-GLUTARAMATE" compartment="c"/>
+      <species id="M_INDOLE_ACETATE_AUXIN_c" name="INDOLE_ACETATE_AUXIN" compartment="c"/>
+      <species id="M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c" name="2-METHYL-6-SOLANYL-14-BENZOQUINONE" compartment="c"/>
+      <species id="M_CPD__45__25381_c" name="CPD-25381" compartment="c"/>
+      <species id="M_C__45__DI__45__GMP_c" name="C-DI-GMP" compartment="c"/>
+      <species id="M_HISTIDINAL_c" name="HISTIDINAL" compartment="c"/>
+      <species id="M_CPD__45__341_c" name="CPD-341" compartment="c"/>
+      <species id="M_PHENYLACETALDEHYDE_c" name="PHENYLACETALDEHYDE" compartment="c"/>
+      <species id="M_CPD__45__846_c" name="CPD-846" compartment="c"/>
+      <species id="M_CPD__45__21004_c" name="CPD-21004" compartment="c"/>
+      <species id="M_PREPHENATE_c" name="PREPHENATE" compartment="c"/>
+      <species id="M_CPD__45__20261_c" name="CPD-20261" compartment="c"/>
+      <species id="M_P__45__HYDROXY__45__PHENYLPYRUVATE_c" name="P-HYDROXY-PHENYLPYRUVATE" compartment="c"/>
+      <species id="M_L__45__DIHYDROXY__45__PHENYLALANINE_c" name="L-DIHYDROXY-PHENYLALANINE" compartment="c"/>
+      <species id="M_D__45__Glucopyranuronate_c" name="D-Glucopyranuronate" compartment="c"/>
+      <species id="M_DTDP__45__D__45__GLUCOSE_c" name="DTDP-D-GLUCOSE" compartment="c"/>
+      <species id="M_4__45__MALEYL__45__ACETOACETATE_c" name="4-MALEYL-ACETOACETATE" compartment="c"/>
+      <species id="M_CPD__45__7035_c" name="CPD-7035" compartment="c"/>
+      <species id="M_CPD__45__13118_c" name="CPD-13118" compartment="c"/>
+      <species id="M_CPD__45__11447_c" name="CPD-11447" compartment="c"/>
+      <species id="M_DEOXY__45__RIBOSE__45__5P_c" name="DEOXY-RIBOSE-5P" compartment="c"/>
+      <species id="M_CPD__45__8652_c" name="CPD-8652" compartment="c"/>
+      <species id="M_CPD__45__7046_c" name="CPD-7046" compartment="c"/>
+      <species id="M_CPD__45__20262_c" name="CPD-20262" compartment="c"/>
+      <species id="M_TYR_c" name="TYR" compartment="c"/>
+      <species id="M_CPDQT__45__4_c" name="CPDQT-4" compartment="c"/>
+      <species id="M_2__45__DEOXYRIBOSE_c" name="2-DEOXYRIBOSE" compartment="c"/>
+      <species id="M_DTDP__45__RHAMNOSE_c" name="DTDP-RHAMNOSE" compartment="c"/>
+      <species id="M_FRUCTURONATE_c" name="FRUCTURONATE" compartment="c"/>
+      <species id="M_CPD__45__12427_c" name="CPD-12427" compartment="c"/>
+      <species id="M_ISOCHORISMATE_c" name="ISOCHORISMATE" compartment="c"/>
+      <species id="M_CPD__45__13714_c" name="CPD-13714" compartment="c"/>
+      <species id="M_GDP__45__4__45__DEHYDRO__45__6__45__DEOXY__45__D__45__MANNOSE_c" name="GDP-4-DEHYDRO-6-DEOXY-D-MANNOSE" compartment="c"/>
+      <species id="M_CPD__45__15530_c" name="CPD-15530" compartment="c"/>
+      <species id="M_CPD__45__10791_c" name="CPD-10791" compartment="c"/>
+      <species id="M_CPD__45__20264_c" name="CPD-20264" compartment="c"/>
+      <species id="M_CPD__45__11463_c" name="CPD-11463" compartment="c"/>
+      <species id="M_ENOL__45__PHENYLPYRUVATE_c" name="ENOL-PHENYLPYRUVATE" compartment="c"/>
+      <species id="M_CPD__45__14931_c" name="CPD-14931" compartment="c"/>
+      <species id="M_P__45__AMINO__45__BENZOATE_c" name="P-AMINO-BENZOATE" compartment="c"/>
+      <species id="M_CPD__45__9924_c" name="CPD-9924" compartment="c"/>
+      <species id="M_CPD0__45__181_c" name="CPD0-181" compartment="c"/>
+      <species id="M_L__45__Galactopyranose_c" name="L-Galactopyranose" compartment="c"/>
+      <species id="M_CPD__45__12773_c" name="CPD-12773" compartment="c"/>
+      <species id="M_GDP__45__MANNOSE_c" name="GDP-MANNOSE" compartment="c"/>
+      <species id="M_GDP__45__4__45__DEHYDRO__45__6__45__L__45__DEOXYGALACTOSE_c" name="GDP-4-DEHYDRO-6-L-DEOXYGALACTOSE" compartment="c"/>
+      <species id="M_8__45__Oxo__45__dGTP_c" name="8-Oxo-dGTP" compartment="c"/>
+      <species id="M_CPD__45__12626_c" name="CPD-12626" compartment="c"/>
+      <species id="M_CPD__45__18118_c" name="CPD-18118" compartment="c"/>
+      <species id="M_CPD__45__20263_c" name="CPD-20263" compartment="c"/>
+      <species id="M_CPD__45__7078_c" name="CPD-7078" compartment="c"/>
+      <species id="M_CPD__45__20260_c" name="CPD-20260" compartment="c"/>
+      <species id="M_CPD__45__15154_c" name="CPD-15154" compartment="c"/>
+      <species id="M_L__45__DOPACHROME_c" name="L-DOPACHROME" compartment="c"/>
+      <species id="M_PHE_c" name="PHE" compartment="c"/>
+      <species id="M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__6__45__P_c" name="N-ACETYL-D-GLUCOSAMINE-6-P" compartment="c"/>
+      <species id="M_CPD__45__1136_c" name="CPD-1136" compartment="c"/>
+      <species id="M_CPD__45__11495_c" name="CPD-11495" compartment="c"/>
+      <species id="M_SQUALENE_c" name="SQUALENE" compartment="c"/>
+      <species id="M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c" name="10-FORMYL-DIHYDROFOLATE-GLU-N" compartment="c"/>
+      <species id="M_CPD__45__659_c" name="CPD-659" compartment="c"/>
+      <species id="M_CPD__45__9016_c" name="CPD-9016" compartment="c"/>
+      <species id="M_HOMOGENTISATE_c" name="HOMOGENTISATE" compartment="c"/>
+      <species id="M_N__45__FORMYLKYNURENINE_c" name="N-FORMYLKYNURENINE" compartment="c"/>
+      <species id="M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c" name="DTDP-DEOH-DEOXY-GLUCOSE" compartment="c"/>
+      <species id="M_CPD__45__15190_c" name="CPD-15190" compartment="c"/>
+      <species id="M_CPD__45__10819_c" name="CPD-10819" compartment="c"/>
+      <species id="M_KDO__45__8P_c" name="KDO-8P" compartment="c"/>
+      <species id="M_CPD__45__9646_c" name="CPD-9646" compartment="c"/>
+      <species id="M_UROCANATE_c" name="UROCANATE" compartment="c"/>
+      <species id="M_INDOLE_c" name="INDOLE" compartment="c"/>
+      <species id="M_4__45__FUMARYL__45__ACETOACETATE_c" name="4-FUMARYL-ACETOACETATE" compartment="c"/>
+      <species id="M_DIHYDRO__45__DIOH__45__BENZOATE_c" name="DIHYDRO-DIOH-BENZOATE" compartment="c"/>
+      <species id="M_GDP__45__L__45__GALACTOSE_c" name="GDP-L-GALACTOSE" compartment="c"/>
+      <species id="M_CPD8J2__45__27_c" name="CPD8J2-27" compartment="c"/>
+    </listOfSpecies>
+  </model>
+</sbml>

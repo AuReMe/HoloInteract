@@ -1,0 +1,1978 @@
+{
+    "unproducible": [],
+    "producible": [
+        "M_CPD0__45__1456_c",
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c",
+        "M_BISOHMYR__45__GLC_c",
+        "M_CPD0__45__1110_c",
+        "M_CPD__45__1133_c",
+        "M_PHENYL__45__PYRUVATE_c",
+        "M_NONAPRENYL__45__4__45__HYDROXYBENZOATE_c",
+        "M_CPD__45__622_c",
+        "M_DIHYDROXYINDOLE_c",
+        "M_DOPAQUINONE_c",
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c",
+        "M_GLYCERATE_c",
+        "M_TARTRONATE__45__S__45__ALD_c",
+        "M_2__45__KETO__45__GLUTARAMATE_c",
+        "M_CPD__45__12367_c",
+        "M_4__45__PHOSPHONOOXY__45__THREONINE_c",
+        "M_D__45__ALANINE_c",
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__1__45__P_c",
+        "M_HSCN_c",
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c",
+        "M_GLUCOSAMINE__45__1P_c",
+        "M_CPD__45__25381_c",
+        "M_C__45__DI__45__GMP_c",
+        "M_ANTHRANILATE_c",
+        "M_CPD__45__650_c",
+        "M_CPD__45__16606_c",
+        "M_4__45__P__45__PANTOTHENATE_c",
+        "M_UDP__45__OHMYR__45__GLUCOSAMINE_c",
+        "M_CPD__45__10723_c",
+        "M_UDP__45__L__45__ARA4__45__FORMYL__45__N_c",
+        "M_N2__45__SUCCINYLORNITHINE_c",
+        "M_UDP__45__N__45__ACETYL__45__D__45__GLUCOSAMINE_c",
+        "M_SUCC__45__S__45__ALD_c",
+        "M_UDP__45__ACETYL__45__CARBOXYVINYL__45__GLUCOSAMINE_c",
+        "M_CPD__45__21004_c",
+        "M_L__45__DI__45__GMP_c",
+        "M_CPD__45__22405_c",
+        "M_CPD__45__421_c",
+        "M_ALPHA__45__MALTOSE_c",
+        "M_TDP__45__D__45__FUCOSAMINE_c",
+        "M_PREPHENATE_c",
+        "M_ALPHA__45__GLC__45__6__45__P_c",
+        "M_ERYTHRONATE__45__4P_c",
+        "M_HCN_c",
+        "M_D__45__4__45__HYDROXY__45__2__45__KETO__45__GLUTARATE_c",
+        "M_CPD__45__20261_c",
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c",
+        "M_CPD__45__16020_c",
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c",
+        "M_CPD0__45__888_c",
+        "M_DIACETYL_c",
+        "M_UDP__45__4__45__AMINO__45__4__45__DEOXY__45__L__45__ARABINOSE_c",
+        "M_DTDP__45__D__45__GLUCOSE_c",
+        "M_4__45__MALEYL__45__ACETOACETATE_c",
+        "M_CPD__45__13118_c",
+        "M_ACETYL__45__P_c",
+        "M_3OH__45__4P__45__OH__45__ALPHA__45__KETOBUTYRATE_c",
+        "M_3__45__4__45__DIHYDROXYBENZOATE_c",
+        "M_DEOXY__45__RIBOSE__45__5P_c",
+        "M_CPD__45__19695_c",
+        "M_CPD__45__8652_c",
+        "M_CPD__45__9863_c",
+        "M_CPD__45__19512_c",
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c",
+        "M_D__45__GLT_c",
+        "M_CPD__45__20262_c",
+        "M_D__45__ALA__45__D__45__ALA_c",
+        "M_CPD__45__16876_c",
+        "M_N2__45__SUCCINYLGLUTAMATE_c",
+        "M_UDP__45__MANNAC_c",
+        "M_CPD__45__13043_c",
+        "M_CPD__45__24843_c",
+        "M_CPD__45__9862_c",
+        "M_TYR_c",
+        "M_CPD__45__658_c",
+        "M_UDP__45__OHMYR__45__ACETYLGLUCOSAMINE_c",
+        "M_CPDQT__45__4_c",
+        "M_2__45__DEOXYRIBOSE_c",
+        "M_3__45__HEXAPRENYL__45__4__45__HYDROXYBENZOATE_c",
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c",
+        "M_DTDP__45__RHAMNOSE_c",
+        "M_ISOCHORISMATE_c",
+        "M_GDP__45__4__45__DEHYDRO__45__6__45__DEOXY__45__D__45__MANNOSE_c",
+        "M_CPD__45__24335_c",
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c",
+        "M_3__45__UREIDO__45__PROPIONATE_c",
+        "M_CPD__45__22407_c",
+        "M_CPD__45__22402_c",
+        "M_CPD__45__13853_c",
+        "M_METHYL__45__GLYOXAL_c",
+        "M_CPD__45__10791_c",
+        "M_CPD__45__20264_c",
+        "M_UDP__45__AA__45__GLUTAMATE_c",
+        "M_CPD__45__9895_c",
+        "M_CPD__45__22404_c",
+        "M_3__45__KETO__45__ADIPATE_c",
+        "M_CPD__45__9421_c",
+        "M_ENOL__45__PHENYLPYRUVATE_c",
+        "M_CHORISMATE_c",
+        "M_GLC__45__6__45__P_c",
+        "M_CPD__45__14931_c",
+        "M_P__45__AMINO__45__BENZOATE_c",
+        "M_CPD__45__9924_c",
+        "M_CPD0__45__181_c",
+        "M_OH__45__MYRISTOYL_c",
+        "M_3__45__OCTAPRENYL__45__4__45__HYDROXYBENZOATE_c",
+        "M_CPD__45__22406_c",
+        "M_L__45__Galactopyranose_c",
+        "M_CPD__45__12773_c",
+        "M_GDP__45__MANNOSE_c",
+        "M_CPD__45__1091_c",
+        "M_CPD__45__9864_c",
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c",
+        "M_CPD__45__24871_c",
+        "M_DI__45__H__45__URACIL_c",
+        "M_ACETOIN_c",
+        "M_GDP__45__4__45__DEHYDRO__45__6__45__L__45__DEOXYGALACTOSE_c",
+        "M_D__45__ALPHABETA__45__D__45__HEPTOSE__45__7__45__PHOSPHATE_c",
+        "M_8__45__Oxo__45__dGTP_c",
+        "M_CPD__45__7737_c",
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c",
+        "M_CPD__45__827_c",
+        "M_INDOLE_PYRUVATE_c",
+        "M_CPD__45__18118_c",
+        "M_CPD0__45__1699_c",
+        "M_CPD__45__13847_c",
+        "M_CPD__45__822_c",
+        "M_CPD__45__20263_c",
+        "M_CPD__45__7078_c",
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c",
+        "M_CPD__45__20260_c",
+        "M_CPD__45__15154_c",
+        "M_ADP__45__D__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c",
+        "M_CPD__45__14101_c",
+        "M_L__45__DOPACHROME_c",
+        "M_CPD__45__645_c",
+        "M_DIHYDROMONAPTERIN__45__TRIPHOSPHATE_c",
+        "M_CPD__45__551_c",
+        "M_PHE_c",
+        "M_PYRIDOXINE__45__5P_c",
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__6__45__P_c",
+        "M_CPD__45__1136_c",
+        "M_CPD__45__14437_c",
+        "M_LIPID__45__IV__45__A_c",
+        "M_CPD__45__11495_c",
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c",
+        "M_PANTOTHENATE_c",
+        "M_CPD__45__659_c",
+        "M_2__45__OCTAPRENYLPHENOL_c",
+        "M_CPD__45__24844_c",
+        "M_CPD__45__1106_c",
+        "M_ALLANTOATE_c",
+        "M_HOMOGENTISATE_c",
+        "M_N__45__FORMYLKYNURENINE_c",
+        "M_CPD__45__245_c",
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c",
+        "M_3__45__OXOADIPATE__45__ENOL__45__LACTONE_c",
+        "M_5__45__BETA__45__L__45__THREO__45__PENTAPYRANOSYL__45__4__45__ULOSE__45___c",
+        "M_CPD__45__15190_c",
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__17__45__DIPHOSPHATE_c",
+        "M_UDP__45__N__45__ACETYLMURAMATE_c",
+        "M_B__45__ALANINE_c",
+        "M_KDO__45__8P_c",
+        "M_CPD__45__9646_c",
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__1__45__P_c",
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c",
+        "M_INDOLE_c",
+        "M_1__45__AMINO__45__PROPAN__45__2__45__ONE__45__3__45__PHOSPHATE_c",
+        "M_CDP__45__D__45__GLUCOSE_c",
+        "M_CPD__45__15127_c",
+        "M_CPD__45__22403_c",
+        "M_4__45__FUMARYL__45__ACETOACETATE_c",
+        "M_BISOHMYR__45__GLUCOSAMINYL__45__1P_c",
+        "M_2__45__KETO__45__3__45__DEOXY__45__6__45__P__45__GLUCONATE_c",
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c",
+        "M_CPD__45__389_c",
+        "M_GDP__45__L__45__GALACTOSE_c",
+        "M_OH__45__PYR_c",
+        "M_TRP_c",
+        "M_4__45__hydroxybenzoate_c",
+        "M_CPD8J2__45__27_c",
+        "M_CPD__45__24926_c"
+    ],
+    "indiv_producible": [],
+    "individual_producers": {},
+    "com_only_producers": {},
+    "mincom_producible": [
+        "M_3__45__OXOADIPATE__45__ENOL__45__LACTONE_c",
+        "M_CPD__45__13118_c",
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c",
+        "M_KDO__45__8P_c",
+        "M_CPD__45__14931_c",
+        "M_GLC__45__6__45__P_c",
+        "M_CPD__45__24335_c",
+        "M_DTDP__45__RHAMNOSE_c",
+        "M_CPD__45__20262_c",
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__1__45__P_c",
+        "M_INDOLE_PYRUVATE_c",
+        "M_3__45__4__45__DIHYDROXYBENZOATE_c",
+        "M_CPD__45__24844_c",
+        "M_2__45__KETO__45__GLUTARAMATE_c",
+        "M_3OH__45__4P__45__OH__45__ALPHA__45__KETOBUTYRATE_c",
+        "M_BISOHMYR__45__GLC_c",
+        "M_CPD0__45__1456_c",
+        "M_CPD__45__650_c",
+        "M_8__45__Oxo__45__dGTP_c",
+        "M_CPD__45__13853_c",
+        "M_CPD__45__13043_c",
+        "M_CPD__45__11495_c",
+        "M_HOMOGENTISATE_c",
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c",
+        "M_CPD__45__14437_c",
+        "M_CPD__45__9862_c",
+        "M_DTDP__45__D__45__GLUCOSE_c",
+        "M_DIHYDROXYINDOLE_c",
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c",
+        "M_CPD__45__10723_c",
+        "M_CPD__45__8652_c",
+        "M_4__45__PHOSPHONOOXY__45__THREONINE_c",
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c",
+        "M_5__45__BETA__45__L__45__THREO__45__PENTAPYRANOSYL__45__4__45__ULOSE__45___c",
+        "M_BISOHMYR__45__GLUCOSAMINYL__45__1P_c",
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c",
+        "M_CPD__45__9863_c",
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__17__45__DIPHOSPHATE_c",
+        "M_CPD__45__827_c",
+        "M_INDOLE_c",
+        "M_CPD__45__24926_c",
+        "M_PREPHENATE_c",
+        "M_3__45__UREIDO__45__PROPIONATE_c",
+        "M_CPD__45__389_c",
+        "M_ACETYL__45__P_c",
+        "M_CPD__45__13847_c",
+        "M_ANTHRANILATE_c",
+        "M_ADP__45__D__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c",
+        "M_L__45__DOPACHROME_c",
+        "M_CPD__45__22402_c",
+        "M_D__45__ALPHABETA__45__D__45__HEPTOSE__45__7__45__PHOSPHATE_c",
+        "M_N__45__FORMYLKYNURENINE_c",
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c",
+        "M_CPD__45__16876_c",
+        "M_HCN_c",
+        "M_GDP__45__MANNOSE_c",
+        "M_CPD__45__22404_c",
+        "M_CPD__45__1136_c",
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c",
+        "M_TYR_c",
+        "M_CPD0__45__181_c",
+        "M_CPD__45__24843_c",
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c",
+        "M_N2__45__SUCCINYLGLUTAMATE_c",
+        "M_DOPAQUINONE_c",
+        "M_2__45__KETO__45__3__45__DEOXY__45__6__45__P__45__GLUCONATE_c",
+        "M_GDP__45__4__45__DEHYDRO__45__6__45__L__45__DEOXYGALACTOSE_c",
+        "M_3__45__OCTAPRENYL__45__4__45__HYDROXYBENZOATE_c",
+        "M_CPD__45__1106_c",
+        "M_D__45__ALANINE_c",
+        "M_ERYTHRONATE__45__4P_c",
+        "M_CPD__45__15154_c",
+        "M_DIHYDROMONAPTERIN__45__TRIPHOSPHATE_c",
+        "M_UDP__45__ACETYL__45__CARBOXYVINYL__45__GLUCOSAMINE_c",
+        "M_CPD__45__10791_c",
+        "M_4__45__MALEYL__45__ACETOACETATE_c",
+        "M_CPD__45__24871_c",
+        "M_CPD__45__7078_c",
+        "M_CPD__45__21004_c",
+        "M_CPD__45__659_c",
+        "M_CPD__45__19512_c",
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c",
+        "M_PHE_c",
+        "M_DEOXY__45__RIBOSE__45__5P_c",
+        "M_D__45__4__45__HYDROXY__45__2__45__KETO__45__GLUTARATE_c",
+        "M_HSCN_c",
+        "M_ACETOIN_c",
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__1__45__P_c",
+        "M_1__45__AMINO__45__PROPAN__45__2__45__ONE__45__3__45__PHOSPHATE_c",
+        "M_CPD__45__18118_c",
+        "M_ALPHA__45__MALTOSE_c",
+        "M_CPD0__45__1110_c",
+        "M_ISOCHORISMATE_c",
+        "M_CPD__45__645_c",
+        "M_CPD__45__20264_c",
+        "M_UDP__45__MANNAC_c",
+        "M_CPD__45__25381_c",
+        "M_CPD__45__16020_c",
+        "M_2__45__OCTAPRENYLPHENOL_c",
+        "M_GDP__45__L__45__GALACTOSE_c",
+        "M_CPD__45__22403_c",
+        "M_ENOL__45__PHENYLPYRUVATE_c",
+        "M_CPD__45__22406_c",
+        "M_CPD__45__9924_c",
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c",
+        "M_B__45__ALANINE_c",
+        "M_4__45__hydroxybenzoate_c",
+        "M_CPD__45__19695_c",
+        "M_2__45__DEOXYRIBOSE_c",
+        "M_TARTRONATE__45__S__45__ALD_c",
+        "M_CPD__45__20260_c",
+        "M_3__45__HEXAPRENYL__45__4__45__HYDROXYBENZOATE_c",
+        "M_GLUCOSAMINE__45__1P_c",
+        "M_L__45__Galactopyranose_c",
+        "M_4__45__FUMARYL__45__ACETOACETATE_c",
+        "M_CPD__45__20263_c",
+        "M_UDP__45__AA__45__GLUTAMATE_c",
+        "M_CPD__45__12367_c",
+        "M_CPD__45__245_c",
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c",
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c",
+        "M_CPD__45__9864_c",
+        "M_LIPID__45__IV__45__A_c",
+        "M_CPD__45__658_c",
+        "M_UDP__45__OHMYR__45__ACETYLGLUCOSAMINE_c",
+        "M_CPD__45__20261_c",
+        "M_CPD__45__16606_c",
+        "M_4__45__P__45__PANTOTHENATE_c",
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c",
+        "M_CPD__45__22405_c",
+        "M_DI__45__H__45__URACIL_c",
+        "M_UDP__45__4__45__AMINO__45__4__45__DEOXY__45__L__45__ARABINOSE_c",
+        "M_TDP__45__D__45__FUCOSAMINE_c",
+        "M_SUCC__45__S__45__ALD_c",
+        "M_PANTOTHENATE_c",
+        "M_UDP__45__OHMYR__45__GLUCOSAMINE_c",
+        "M_CPD__45__1133_c",
+        "M_CPD__45__9895_c",
+        "M_CPD0__45__888_c",
+        "M_D__45__GLT_c",
+        "M_DIACETYL_c",
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c",
+        "M_3__45__KETO__45__ADIPATE_c",
+        "M_CPD8J2__45__27_c",
+        "M_CPD__45__9646_c",
+        "M_CPD__45__14101_c",
+        "M_PHENYL__45__PYRUVATE_c",
+        "M_CPD__45__15190_c",
+        "M_CPD__45__9421_c",
+        "M_OH__45__PYR_c",
+        "M_UDP__45__N__45__ACETYL__45__D__45__GLUCOSAMINE_c",
+        "M_CPDQT__45__4_c",
+        "M_CPD__45__822_c",
+        "M_UDP__45__L__45__ARA4__45__FORMYL__45__N_c",
+        "M_CPD__45__622_c",
+        "M_CDP__45__D__45__GLUCOSE_c",
+        "M_ALPHA__45__GLC__45__6__45__P_c",
+        "M_GLYCERATE_c",
+        "M_CPD__45__1091_c",
+        "M_NONAPRENYL__45__4__45__HYDROXYBENZOATE_c",
+        "M_CPD__45__12773_c",
+        "M_CPD__45__7737_c",
+        "M_CPD__45__421_c",
+        "M_CPD__45__551_c",
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c",
+        "M_UDP__45__N__45__ACETYLMURAMATE_c",
+        "M_PYRIDOXINE__45__5P_c",
+        "M_CHORISMATE_c",
+        "M_METHYL__45__GLYOXAL_c",
+        "M_N2__45__SUCCINYLORNITHINE_c",
+        "M_OH__45__MYRISTOYL_c",
+        "M_L__45__DI__45__GMP_c",
+        "M_CPD0__45__1699_c",
+        "M_GDP__45__4__45__DEHYDRO__45__6__45__DEOXY__45__D__45__MANNOSE_c",
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__6__45__P_c",
+        "M_TRP_c",
+        "M_ALLANTOATE_c",
+        "M_P__45__AMINO__45__BENZOATE_c",
+        "M_CPD__45__22407_c",
+        "M_CPD__45__15127_c",
+        "M_D__45__ALA__45__D__45__ALA_c",
+        "M_C__45__DI__45__GMP_c"
+    ],
+    "key_species": [
+        "Pseudomonas_mandelii_2",
+        "Pseudomonas_mandelii_1"
+    ],
+    "mincom_optsol_producers": {
+        "M_CPD0__45__1456_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_BISOHMYR__45__GLC_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD0__45__1110_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__1133_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_PHENYL__45__PYRUVATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_NONAPRENYL__45__4__45__HYDROXYBENZOATE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__622_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DIHYDROXYINDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_DOPAQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_GLYCERATE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_TARTRONATE__45__S__45__ALD_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_2__45__KETO__45__GLUTARAMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12367_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__PHOSPHONOOXY__45__THREONINE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_D__45__ALANINE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__1__45__P_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_HSCN_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_GLUCOSAMINE__45__1P_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__25381_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_C__45__DI__45__GMP_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_ANTHRANILATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__650_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__16606_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_4__45__P__45__PANTOTHENATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__OHMYR__45__GLUCOSAMINE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__10723_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__L__45__ARA4__45__FORMYL__45__N_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_N2__45__SUCCINYLORNITHINE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_UDP__45__N__45__ACETYL__45__D__45__GLUCOSAMINE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_SUCC__45__S__45__ALD_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__ACETYL__45__CARBOXYVINYL__45__GLUCOSAMINE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__21004_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DI__45__GMP_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__22405_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__421_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_ALPHA__45__MALTOSE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_TDP__45__D__45__FUCOSAMINE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_PREPHENATE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_ALPHA__45__GLC__45__6__45__P_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_ERYTHRONATE__45__4P_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_HCN_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_D__45__4__45__HYDROXY__45__2__45__KETO__45__GLUTARATE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__20261_c": [
+            "host_metab_mod"
+        ],
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__16020_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__888_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DIACETYL_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__4__45__AMINO__45__4__45__DEOXY__45__L__45__ARABINOSE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DTDP__45__D__45__GLUCOSE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__13118_c": [
+            "host_metab_mod"
+        ],
+        "M_ACETYL__45__P_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_3OH__45__4P__45__OH__45__ALPHA__45__KETOBUTYRATE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_3__45__4__45__DIHYDROXYBENZOATE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DEOXY__45__RIBOSE__45__5P_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__19695_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__8652_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9863_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__19512_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_D__45__GLT_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__20262_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__ALA__45__D__45__ALA_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__16876_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_N2__45__SUCCINYLGLUTAMATE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__MANNAC_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__13043_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__24843_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__9862_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_TYR_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__658_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__OHMYR__45__ACETYLGLUCOSAMINE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPDQT__45__4_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__DEOXYRIBOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__HEXAPRENYL__45__4__45__HYDROXYBENZOATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__RHAMNOSE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_ISOCHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_GDP__45__4__45__DEHYDRO__45__6__45__DEOXY__45__D__45__MANNOSE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__24335_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_3__45__UREIDO__45__PROPIONATE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__22407_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__22402_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__13853_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_METHYL__45__GLYOXAL_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__10791_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20264_c": [
+            "host_metab_mod"
+        ],
+        "M_UDP__45__AA__45__GLUTAMATE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__9895_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__22404_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_3__45__KETO__45__ADIPATE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__9421_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_ENOL__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CHORISMATE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_GLC__45__6__45__P_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14931_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_P__45__AMINO__45__BENZOATE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9924_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__181_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_OH__45__MYRISTOYL_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_3__45__OCTAPRENYL__45__4__45__HYDROXYBENZOATE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__22406_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_L__45__Galactopyranose_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12773_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_GDP__45__MANNOSE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__1091_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9864_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__24871_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DI__45__H__45__URACIL_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_ACETOIN_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_GDP__45__4__45__DEHYDRO__45__6__45__L__45__DEOXYGALACTOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__ALPHABETA__45__D__45__HEPTOSE__45__7__45__PHOSPHATE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_8__45__Oxo__45__dGTP_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__7737_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__827_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_INDOLE_PYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__18118_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD0__45__1699_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__13847_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__822_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20263_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7078_c": [
+            "host_metab_mod"
+        ],
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20260_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15154_c": [
+            "host_metab_mod"
+        ],
+        "M_ADP__45__D__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__14101_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_L__45__DOPACHROME_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__645_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DIHYDROMONAPTERIN__45__TRIPHOSPHATE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__551_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_PHE_c": [
+            "host_metab_mod"
+        ],
+        "M_PYRIDOXINE__45__5P_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__6__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__1136_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__14437_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_LIPID__45__IV__45__A_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__11495_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_PANTOTHENATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__659_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__OCTAPRENYLPHENOL_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__24844_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__1106_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_ALLANTOATE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_HOMOGENTISATE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_N__45__FORMYLKYNURENINE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__245_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_3__45__OXOADIPATE__45__ENOL__45__LACTONE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_5__45__BETA__45__L__45__THREO__45__PENTAPYRANOSYL__45__4__45__ULOSE__45___c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__15190_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__17__45__DIPHOSPHATE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__N__45__ACETYLMURAMATE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_B__45__ALANINE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_KDO__45__8P_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__9646_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__1__45__P_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_INDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_1__45__AMINO__45__PROPAN__45__2__45__ONE__45__3__45__PHOSPHATE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CDP__45__D__45__GLUCOSE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__15127_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__22403_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_BISOHMYR__45__GLUCOSAMINYL__45__1P_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_2__45__KETO__45__3__45__DEOXY__45__6__45__P__45__GLUCONATE_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__389_c": [
+            "host_metab_mod"
+        ],
+        "M_GDP__45__L__45__GALACTOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_OH__45__PYR_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_TRP_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_4__45__hydroxybenzoate_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD8J2__45__27_c": [
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__24926_c": [
+            "Pseudomonas_mandelii_2"
+        ]
+    },
+    "mincom_union_producers": {
+        "M_CPD0__45__1456_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c": [
+            "Pseudomonas_mandelii_1",
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_BISOHMYR__45__GLC_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD0__45__1110_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__1133_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_PHENYL__45__PYRUVATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_NONAPRENYL__45__4__45__HYDROXYBENZOATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__622_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DIHYDROXYINDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_DOPAQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_GLYCERATE_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1",
+            "host_metab_mod"
+        ],
+        "M_TARTRONATE__45__S__45__ALD_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_2__45__KETO__45__GLUTARAMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12367_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__PHOSPHONOOXY__45__THREONINE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_D__45__ALANINE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__1__45__P_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_HSCN_c": [
+            "Pseudomonas_mandelii_1",
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_GLUCOSAMINE__45__1P_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__25381_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_C__45__DI__45__GMP_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_ANTHRANILATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_CPD__45__650_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__16606_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_4__45__P__45__PANTOTHENATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__OHMYR__45__GLUCOSAMINE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__10723_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__L__45__ARA4__45__FORMYL__45__N_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_N2__45__SUCCINYLORNITHINE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_UDP__45__N__45__ACETYL__45__D__45__GLUCOSAMINE_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_SUCC__45__S__45__ALD_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__ACETYL__45__CARBOXYVINYL__45__GLUCOSAMINE_c": [
+            "Pseudomonas_mandelii_1",
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__21004_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DI__45__GMP_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__22405_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__421_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_ALPHA__45__MALTOSE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_TDP__45__D__45__FUCOSAMINE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_PREPHENATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_ALPHA__45__GLC__45__6__45__P_c": [
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_ERYTHRONATE__45__4P_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_HCN_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_D__45__4__45__HYDROXY__45__2__45__KETO__45__GLUTARATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__20261_c": [
+            "host_metab_mod"
+        ],
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__16020_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__888_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DIACETYL_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__4__45__AMINO__45__4__45__DEOXY__45__L__45__ARABINOSE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DTDP__45__D__45__GLUCOSE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_CPD__45__13118_c": [
+            "host_metab_mod"
+        ],
+        "M_ACETYL__45__P_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_3OH__45__4P__45__OH__45__ALPHA__45__KETOBUTYRATE_c": [
+            "Pseudomonas_mandelii_1",
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_3__45__4__45__DIHYDROXYBENZOATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DEOXY__45__RIBOSE__45__5P_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__19695_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__8652_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9863_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__19512_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c": [
+            "Pseudomonas_mandelii_1",
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_D__45__GLT_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20262_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__ALA__45__D__45__ALA_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__16876_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_N2__45__SUCCINYLGLUTAMATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__MANNAC_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_CPD__45__13043_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__24843_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__9862_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_TYR_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__658_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__OHMYR__45__ACETYLGLUCOSAMINE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPDQT__45__4_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__DEOXYRIBOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__HEXAPRENYL__45__4__45__HYDROXYBENZOATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__RHAMNOSE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_ISOCHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_GDP__45__4__45__DEHYDRO__45__6__45__DEOXY__45__D__45__MANNOSE_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__24335_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_3__45__UREIDO__45__PROPIONATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__22407_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__22402_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_CPD__45__13853_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_METHYL__45__GLYOXAL_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__10791_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20264_c": [
+            "host_metab_mod"
+        ],
+        "M_UDP__45__AA__45__GLUTAMATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__9895_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__22404_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_3__45__KETO__45__ADIPATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__9421_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_ENOL__45__PHENYLPYRUVATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CHORISMATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_GLC__45__6__45__P_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14931_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_P__45__AMINO__45__BENZOATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9924_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__181_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_OH__45__MYRISTOYL_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_3__45__OCTAPRENYL__45__4__45__HYDROXYBENZOATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__22406_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_L__45__Galactopyranose_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12773_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_GDP__45__MANNOSE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__1091_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9864_c": [
+            "Pseudomonas_mandelii_1",
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__24871_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DI__45__H__45__URACIL_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_ACETOIN_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_GDP__45__4__45__DEHYDRO__45__6__45__L__45__DEOXYGALACTOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__ALPHABETA__45__D__45__HEPTOSE__45__7__45__PHOSPHATE_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_8__45__Oxo__45__dGTP_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__7737_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__827_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_INDOLE_PYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__18118_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD0__45__1699_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__13847_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_CPD__45__822_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20263_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7078_c": [
+            "host_metab_mod"
+        ],
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20260_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15154_c": [
+            "host_metab_mod"
+        ],
+        "M_ADP__45__D__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__14101_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_L__45__DOPACHROME_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__645_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DIHYDROMONAPTERIN__45__TRIPHOSPHATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__551_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_PHE_c": [
+            "host_metab_mod"
+        ],
+        "M_PYRIDOXINE__45__5P_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__6__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__1136_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__14437_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_LIPID__45__IV__45__A_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__11495_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_PANTOTHENATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__659_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__OCTAPRENYLPHENOL_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_CPD__45__24844_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__1106_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_ALLANTOATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_HOMOGENTISATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_N__45__FORMYLKYNURENINE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__245_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_3__45__OXOADIPATE__45__ENOL__45__LACTONE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_5__45__BETA__45__L__45__THREO__45__PENTAPYRANOSYL__45__4__45__ULOSE__45___c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__15190_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_D__45__BETA__45__D__45__HEPTOSE__45__17__45__DIPHOSPHATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_UDP__45__N__45__ACETYLMURAMATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2",
+            "host_metab_mod"
+        ],
+        "M_B__45__ALANINE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_KDO__45__8P_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__9646_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__1__45__P_c": [
+            "Pseudomonas_mandelii_1",
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_INDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_1__45__AMINO__45__PROPAN__45__2__45__ONE__45__3__45__PHOSPHATE_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_CDP__45__D__45__GLUCOSE_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_CPD__45__15127_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__22403_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+            "host_metab_mod",
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_BISOHMYR__45__GLUCOSAMINYL__45__1P_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_2__45__KETO__45__3__45__DEOXY__45__6__45__P__45__GLUCONATE_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__389_c": [
+            "host_metab_mod"
+        ],
+        "M_GDP__45__L__45__GALACTOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_OH__45__PYR_c": [
+            "Pseudomonas_mandelii_2",
+            "Pseudomonas_mandelii_1"
+        ],
+        "M_TRP_c": [
+            "Pseudomonas_mandelii_1",
+            "host_metab_mod",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_4__45__hydroxybenzoate_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD8J2__45__27_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ],
+        "M_CPD__45__24926_c": [
+            "Pseudomonas_mandelii_1",
+            "Pseudomonas_mandelii_2"
+        ]
+    },
+    "mincom_inter_producers": {
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c": [
+            "host_metab_mod"
+        ],
+        "M_PHENYL__45__PYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_NONAPRENYL__45__4__45__HYDROXYBENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_DIHYDROXYINDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_DOPAQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_GLYCERATE_c": [
+            "host_metab_mod"
+        ],
+        "M_TARTRONATE__45__S__45__ALD_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__KETO__45__GLUTARAMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12367_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__PHOSPHONOOXY__45__THREONINE_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__ALANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_HSCN_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_ANTHRANILATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__P__45__PANTOTHENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_N2__45__SUCCINYLORNITHINE_c": [
+            "host_metab_mod"
+        ],
+        "M_UDP__45__N__45__ACETYL__45__D__45__GLUCOSAMINE_c": [
+            "host_metab_mod"
+        ],
+        "M_UDP__45__ACETYL__45__CARBOXYVINYL__45__GLUCOSAMINE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__21004_c": [
+            "host_metab_mod"
+        ],
+        "M_PREPHENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_ALPHA__45__GLC__45__6__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20261_c": [
+            "host_metab_mod"
+        ],
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__13118_c": [
+            "host_metab_mod"
+        ],
+        "M_3OH__45__4P__45__OH__45__ALPHA__45__KETOBUTYRATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__8652_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__19512_c": [
+            "host_metab_mod"
+        ],
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__GLT_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20262_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__ALA__45__D__45__ALA_c": [
+            "host_metab_mod"
+        ],
+        "M_TYR_c": [
+            "host_metab_mod"
+        ],
+        "M_CPDQT__45__4_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__DEOXYRIBOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__HEXAPRENYL__45__4__45__HYDROXYBENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__RHAMNOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_ISOCHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_GDP__45__4__45__DEHYDRO__45__6__45__DEOXY__45__D__45__MANNOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_METHYL__45__GLYOXAL_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__10791_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20264_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9895_c": [
+            "host_metab_mod"
+        ],
+        "M_ENOL__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_GLC__45__6__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14931_c": [
+            "host_metab_mod"
+        ],
+        "M_P__45__AMINO__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9924_c": [
+            "host_metab_mod"
+        ],
+        "M_3__45__OCTAPRENYL__45__4__45__HYDROXYBENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__Galactopyranose_c": [
+            "host_metab_mod"
+        ],
+        "M_GDP__45__MANNOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__1091_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9864_c": [
+            "host_metab_mod"
+        ],
+        "M_GDP__45__4__45__DEHYDRO__45__6__45__L__45__DEOXYGALACTOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE_PYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__822_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20263_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7078_c": [
+            "host_metab_mod"
+        ],
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20260_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15154_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DOPACHROME_c": [
+            "host_metab_mod"
+        ],
+        "M_PHE_c": [
+            "host_metab_mod"
+        ],
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__6__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__11495_c": [
+            "host_metab_mod"
+        ],
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c": [
+            "host_metab_mod"
+        ],
+        "M_PANTOTHENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__659_c": [
+            "host_metab_mod"
+        ],
+        "M_HOMOGENTISATE_c": [
+            "host_metab_mod"
+        ],
+        "M_N__45__FORMYLKYNURENINE_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_UDP__45__N__45__ACETYLMURAMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__1__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+            "host_metab_mod"
+        ],
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__389_c": [
+            "host_metab_mod"
+        ],
+        "M_GDP__45__L__45__GALACTOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_TRP_c": [
+            "host_metab_mod"
+        ]
+    }
+}
