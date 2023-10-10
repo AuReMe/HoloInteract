@@ -1,0 +1,52 @@
+METABOLIC ANALYSIS
+==================
+
+Creates abbreviation names for species
+Abbreviation names stored in outputs//name_assoc.json
+
+Community scopes :
+------------------
+
+Scopes calculation with full method to outputs/scopes/full directory
+
+outputs/scopes directory already exists
+outputs/scopes/full directory created
+Scopes calculation done
+-----------------------
+
+Clustermap analysis :
+---------------------
+
+outputs/heatmap directory already exists
+outputs/heatmap/full directory created
+Create clustermap to outputs/heatmap/full/test directory
+
+Clustermap analysis done
+------------------------
+
+Metabolic classes information analysis :
+----------------------------------------
+
+Metabolic classes sunburst stored in outputs/heatmap/full/test_classes_cpd_info.html file
+Metabolic classes information stored in outputs/heatmap/full/test_classes_cpd_info.tsv file
+
+Metabolic classes information analysis done
+-------------------------------------------
+
+COEVOLUTION ANALYSIS
+====================
+
+Performing coevolution analysis to outputs/ directory
+
+outputs/coevolution directory created
+Performs complementarity analysis
+Complementarity matrix saved to outputs/coevolution/test_complementarity_matrix.tsv
+Complementarity boxplot saved to outputs/coevolution/test_complementarity_boxplot.png
+
+Performs linear regression analysis
+ANOVA test : F_onewayResult(statistic=8.121345034025469e-32, pvalue=1.0)
+Phylogenetic distance matrix saved to outputs/coevolution/test_phylogenetic_dist_matrix.tsv
+Coevolution linear regression figure saved to outputs/coevolution/test_coevolution_regression.html
+Coevolution linear regression information file saved to outputs/coevolution/test_coevolution_regression.tsv
+
+Coevolution analysis done

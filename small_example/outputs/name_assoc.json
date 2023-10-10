@@ -1,0 +1,14 @@
+{
+    "Emiliana_huxleyi": "EHuxl",
+    "Cladosiphon_okamuranus": "COkam",
+    "Nannochloropsis_gaditana": "NGadi",
+    "Ectocarpus_subulatus": "ESubu",
+    "Nannochloropsis_gaditana_Betaproteobacteria_bacterium": "NGadi_BBact",
+    "Nannochloropsis_gaditana_Pseudomonas_mandelii": "NGadi_PMand",
+    "Cladosiphon_okamuranus_Opitutus_sp_GAS368": "COkam_OSp",
+    "Cladosiphon_okamuranus_Dyadobacter_sp_SG02": "COkam_DSp",
+    "Ectocarpus_subulatus_Allomuricauda_algicola": "ESubu_AAlgi",
+    "Ectocarpus_subulatus_Roseibium_suaedae": "ESubu_RSuae",
+    "Emiliana_huxleyi_Gemmata_massiliana": "EHuxl_GMass",
+    "Emiliana_huxleyi_Maribacter_algarum": "EHuxl_MAlga"
+}
