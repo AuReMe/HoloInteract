@@ -1,0 +1,38 @@
+METABOLIC ANALYSIS
+==================
+
+Creates abbreviation names for species
+Abbreviation names stored in outputs//name_assoc.json
+
+Community scopes :
+------------------
+
+Scopes calculation with coop method to outputs/scopes/coop directory
+
+outputs/scopes directory created
+outputs/scopes/coop directory created
+outputs/scopes/coop/EHuxl directory created
+outputs/scopes/coop/COkam directory created
+outputs/scopes/coop/NGadi directory created
+outputs/scopes/coop/ESubu directory created
+Scopes calculation done
+-----------------------
+
+Clustermap analysis :
+---------------------
+
+outputs/heatmap directory created
+outputs/heatmap/coop directory created
+Create clustermap to outputs/heatmap/coop/test directory
+
+Clustermap analysis done
+------------------------
+
+Metabolic classes information analysis :
+----------------------------------------
+
+Metabolic classes sunburst stored in outputs/heatmap/coop/test_classes_cpd_info.html file
+Metabolic classes information stored in outputs/heatmap/coop/test_classes_cpd_info.tsv file
+
+Metabolic classes information analysis done
+-------------------------------------------
