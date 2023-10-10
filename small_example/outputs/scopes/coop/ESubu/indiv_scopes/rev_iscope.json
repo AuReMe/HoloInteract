@@ -1,0 +1,618 @@
+{
+ "M_2__45__ACETO__45__LACTATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_2__45__C__45__METHYL__45__D__45__ERYTHRITOL__45__4__45__PHOSPHATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_2__45__DEHYDROPANTOATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_2__45__KETO__45__ISOVALERATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_2__45__PG_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_3__45__5__45__ADP_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_3__45__DEHYDRO__45__SHIKIMATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_3__45__DEOXY__45__D__45__ARABINO__45__HEPTULOSONATE__45__7__45__P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_3__45__ENOLPYRUVYL__45__SHIKIMATE__45__5P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_3__45__P__45__HYDROXYPYRUVATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_4__45__OH__45__4__45__ACETYL__45__2__45__OXOGLUTARATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_5__45__10__45__METHENYL__45__THF__45__GLU__45__N_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_ACP_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_ADENINE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_ADENOSINE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_ADENOSYLCOBALAMIN_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_ADP_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_AICAR_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_ALPHA__45__GLC__45__6__45__P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_AMMONIA_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_AMMONIUM_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_AMP_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_APS_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_ATP_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_Acceptor_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_BA__43__2_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_BORATE_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_BR__45___c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CAMP_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CARBAMOYL__45__P_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CARBON__45__DIOXIDE_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CA__43__2_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CHORISMATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CL__45___c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CO3_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CO__43__2_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CO__45__A_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD0__45__2461_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CPD0__45__2472_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD0__45__2474_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__10778_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__11495_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__11855_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__12377_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__12427_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__13357_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__13851_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__14133_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__1484_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__15225_c": [
+  "Allomuricauda_algicola"
+ ],
+ "M_CPD__45__15317_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__15709_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__15979_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__16459_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__18085_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__187_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__19584_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__24871_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__24926_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__3_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__653_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__69_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__8886_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CPD__45__9016_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_CU__43__2_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_CU__43___c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_Cytochromes__45__C__45__Oxidized_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_Cytochromes__45__C__45__Reduced_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_DADP_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_DAMP_c": [
+  "Allomuricauda_algicola"
+ ],
+ "M_DATP_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_DEHYDROQUINATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_DEHYDRO__45__DEOXY__45__GALACTONATE__45__PHOSPHATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_DEOXYXYLULOSE__45__5P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_DEPHOSPHO__45__COA_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_DIACETYL_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_DIHYDROXYACETONE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_DIHYDROXY__45__ACETONE__45__PHOSPHATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_DIHYDROXY__45__BUTANONE__45__P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_DPG_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_D__45__RIBULOSE__45__15__45__P2_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_D__45__SEDOHEPTULOSE__45__1__45__7__45__P2_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_D__45__SEDOHEPTULOSE__45__7__45__P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_Donor__45__H2_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_ENOL__45__PHENYLPYRUVATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_ERYTHROSE__45__4P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_FE__43__2_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_FE__43__3_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_FORMATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_FORMYL__45__THF__45__GLU__45__N_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_FRUCTOSE__45__16__45__DIPHOSPHATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_FRUCTOSE__45__6P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_FUM_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_F__45___c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_G3P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_GAP_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_GLC__45__6__45__P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_GLT__45__tRNAs_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_GLUTATHIONE_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_GLY_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_H2CO3_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_HCO3_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_HSO3_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_HYDROGEN__45__PEROXIDE_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_HYPOXANTHINE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_IMP_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_INOSINE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_K__43___c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_LI__43___c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_Light_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_MAL_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_MANNOSE__45__1P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_METHYLENE__45__THF__45__GLU__45__N_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_METHYL__45__GLYOXAL_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_MG__43__2_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_MN__43__2_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_MO__43__2_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_NADH_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_NADPH_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_NADP_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_NAD_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_NA__43___c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_NA__43___e": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_NICOTINAMIDE_NUCLEOTIDE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_NICOTINAMIDE_RIBOSE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_NITRATE_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_NMNH_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_OH_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_OXALACETIC_ACID_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_OXIDIZED__45__GLUTATHIONE_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_OXYGEN__45__MOLECULE_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_Ox__45__Thioredoxin_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_Oxidized__45__ferredoxins_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_Oxidized__45__flavodoxins_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_PANTETHEINE__45__P_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_PAPS_c": [
+  "Allomuricauda_algicola"
+ ],
+ "M_PHENYL__45__PYRUVATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_PHOSPHORIBOSYL__45__AMP_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_PHOSPHORIBOSYL__45__ATP_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_PHOSPHORIBOSYL__45__FORMAMIDO__45__CARBOXAMIDE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_PHOSPHORIBOSYL__45__FORMIMINO__45__AICAR__45__P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_PHOSPHORIBULOSYL__45__FORMIMINO__45__AICAR__45__P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_PHOSPHO__45__ENOL__45__PYRUVATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_PPI_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_PREPHENATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_PROTON_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_PROTON_e": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_PRPP_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_PYRUVATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_Pi_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_RB__43___c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_RIBOSE__45__1P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_RIBOSE__45__5P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_RIBULOSE__45__5P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_Red__45__Thioredoxin_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_Reduced__45__ferredoxins_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_Reduced__45__flavodoxins_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_SER_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_SHIKIMATE__45__5P_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_SHIKIMATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_SO3_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_SULFATE_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_SUPER__45__OXIDE_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_THF__45__GLU__45__N_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_URATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_UREA_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_Ubiquinols_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_Ubiquinones_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_V__43__5_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_WATER_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_XANTHINE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_XANTHOSINE__45__5__45__PHOSPHATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_XANTHOSINE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_XYLULOSE__45__5__45__PHOSPHATE_c": [
+  "Roseibium_suaedae"
+ ],
+ "M_ZN__43__2_c": [
+  "Allomuricauda_algicola",
+  "Roseibium_suaedae"
+ ],
+ "M_ZN__43__2_e": [
+  "Roseibium_suaedae"
+ ]
+}

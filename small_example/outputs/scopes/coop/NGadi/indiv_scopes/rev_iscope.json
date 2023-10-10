@@ -1,0 +1,1101 @@
+{
+ "M_2C__45__METH__45__D__45__ERYTHRITOL__45__CYCLODIPHOSPHATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_2__45__ACETO__45__LACTATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_2__45__C__45__METHYL__45__D__45__ERYTHRITOL__45__4__45__PHOSPHATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_2__45__D__45__THREO__45__HYDROXY__45__3__45__CARBOXY__45__ISOCAPROATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_2__45__Hexadecenoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_2__45__KETOGLUTARATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_2__45__KETO__45__ISOVALERATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_2__45__Octenoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_2__45__PG_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_2__45__PHOSPHO__45__4__45__CYTIDINE__45__5__45__DIPHOSPHO__45__2__45__C__45__MET_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3S__45__CITRYL__45__COA_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__5__45__ADP_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_3__45__CARBOXY__45__3__45__HYDROXY__45__ISOCAPROATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__DEHYDRO__45__SHIKIMATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__DEOXY__45__D__45__ARABINO__45__HEPTULOSONATE__45__7__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__ENOLPYRUVYL__45__SHIKIMATE__45__5P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__Hydroxy__45__octanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__KETOBUTYRATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__Oxo__45__octanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__P__45__HYDROXYPYRUVATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__P__45__SERINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__oxo__45__decanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__oxo__45__dodecanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__oxo__45__hexanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__oxo__45__myristoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_3__45__oxo__45__palmitoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_4__45__CYTIDINE__45__5__45__DIPHOSPHO__45__2__45__C_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_4__45__OH__45__4__45__ACETYL__45__2__45__OXOGLUTARATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_5__45__AMINO__45__LEVULINATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_5__45__HYDROXY__45__CTP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_5__45__OXOPROLINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_5__45__P__45__BETA__45__D__45__RIBOSYL__45__AMINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ACETOACETYL__45__COA_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ACETYLSERINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ACETYL__45__COA_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ACETYL__45__GLU_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ACETYL__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ACET_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ACP_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_ADENINE_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_ADENOSINE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_ADENOSYLCOBALAMIN_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_ADP__45__D__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ADP__45__L__45__GLYCERO__45__D__45__MANNO__45__HEPTOSE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ADP_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_AICAR_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ALPHA__45__GLC__45__6__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_AMMONIA_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_AMMONIUM_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_AMP_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_ANTHRANILATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_APS_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_ARG_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ASN_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ATP_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_Acceptor_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_Acetoacetyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_BA__43__2_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_BISOHMYR__45__GLC_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_BISOHMYR__45__GLUCOSAMINYL__45__1P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_BORATE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_BR__45___c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_Beta__45__3__45__hydroxybutyryl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Beta__45__hydroxydecanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Butanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CAMP_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CARBAMOYL__45__P_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CARBAMYUL__45__L__45__ASPARTATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CARBON__45__DIOXIDE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CA__43__2_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CDP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CHORISMATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CIT_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CL__45___c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CMP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CO3_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_COPROPORPHYRINOGEN_III_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_COPROPORPHYRINOGEN_I_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CO__43__2_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CO__45__A_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD0__45__1456_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD0__45__2461_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD0__45__2472_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD0__45__2474_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__10778_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__11281_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__11444_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__11763_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__11855_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__12377_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__12427_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__12610_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__13357_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__13469_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__13847_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__13851_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__14133_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__14443_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__1484_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__15317_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__15709_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__15979_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__16459_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__18085_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__187_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__19584_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__22402_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__22403_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__22404_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__22405_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__22406_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__22407_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__24335_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__24843_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__24844_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__24871_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__24926_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__3_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__407_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__4211_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__469_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__578_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__650_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__653_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__67_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CPD__45__69_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__7046_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__846_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__8886_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CPD__45__9016_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_CTP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_CU__43__2_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CU__43___c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_CYTIDINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Charged__45__GLT__45__tRNAs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Crotonyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Cytochromes__45__C__45__Oxidized_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_Cytochromes__45__C__45__Reduced_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_DADP_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_DATP_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_DCDP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DCTP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DEHYDROQUINATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DEHYDRO__45__DEOXY__45__GALACTONATE__45__PHOSPHATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DELTA3__45__ISOPENTENYL__45__PP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DEOXYXYLULOSE__45__5P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DEPHOSPHO__45__COA_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_DIACETYL_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DIHYDROXY__45__ACETONE__45__PHOSPHATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DIHYDROXY__45__BUTANONE__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DI__45__H__45__OROTATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DPG_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DUDP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DUMP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_DUTP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_D__45__4__45__HYDROXY__45__2__45__KETO__45__GLUTARATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_D__45__ALANINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_D__45__ALA__45__D__45__ALA_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_D__45__ALPHABETA__45__D__45__HEPTOSE__45__7__45__PHOSPHATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_D__45__BETA__45__D__45__HEPTOSE__45__17__45__DIPHOSPHATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_D__45__BETA__45__D__45__HEPTOSE__45__1__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_D__45__ERYTHRO__45__IMIDAZOLE__45__GLYCEROL__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_D__45__GLT_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_D__45__GLUCOSAMINE__45__6__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_D__45__LACTATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_D__45__RIBULOSE__45__15__45__P2_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_D__45__SEDOHEPTULOSE__45__1__45__7__45__P2_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_D__45__SEDOHEPTULOSE__45__7__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Decanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Dodec__45__2__45__enoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Dodecanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Donor__45__H2_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_ERYTHROSE__45__4P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_FE__43__2_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_FE__43__3_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_FORMATE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_FRUCTOSE__45__16__45__DIPHOSPHATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_FRUCTOSE__45__6P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_FUM_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_F__45___c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_G3P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_GAP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_GLC__45__6__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_GLN_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_GLT__45__tRNAs_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_GLT_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_GLUCOSAMINE__45__1P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_GLUTAMATE__45__1__45__SEMIALDEHYDE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_GLUTATHIONE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_GLYCOLLATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_GLYOX_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_H2CO3_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_HCO3_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_HISTIDINOL_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_HIS_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_HSO3_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_HS_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_HYDROGEN__45__MOLECULE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_HYDROGEN__45__PEROXIDE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_HYDROXYMETHYLBILANE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_HYDROXY__45__METHYL__45__BUTENYL__45__DIP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_HYPOXANTHINE_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_Hex__45__2__45__enoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Hexanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_IMIDAZOLE__45__ACETOL__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_INDOLE_ACETALDEHYDE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_INDOLE_PYRUVATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_INDOLE__45__3__45__GLYCEROL__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_INOSINE_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_K__43___c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_LIPID__45__IV__45__A_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_LI__43___c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_L__45__ALPHA__45__ALANINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_L__45__ARGININO__45__SUCCINATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_L__45__ASPARTATE__45__SEMIALDEHYDE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_L__45__ASPARTATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_L__45__BETA__45__ASPARTYL__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_L__45__CITRULLINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_L__45__DELTA1__45__PYRROLINE_5__45__CARBOXYLATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_L__45__GLUTAMATE_GAMMA__45__SEMIALDEHYDE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_L__45__GLUTAMATE__45__5__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_L__45__HISTIDINOL__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_L__45__ORNITHINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Light_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_MALONYL__45__ACP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_MALONYL__45__COA_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_MAL_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_MANNOSE__45__1P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_METHYL__45__GLYOXAL_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_METHYL__45__MALONYL__45__COA_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_MG__43__2_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_MN__43__2_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_MO__43__2_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_Myristoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_NADH_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_NADPH_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_NADP_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_NAD_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_NA__43___c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_NA__43___e": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_NICOTINAMIDE_NUCLEOTIDE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_NICOTINAMIDE_RIBOSE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_NITRATE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_NITRIC__45__OXIDE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_NITRITE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_NMNH_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_N__45__ACETYL__45__D__45__GLUCOSAMINE__45__1__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_N__45__ACETYL__45__GLUTAMYL__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_N__45__ALPHA__45__ACETYLORNITHINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_OH__45__MYRISTOYL_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_OH_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_OROTATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_OROTIDINE__45__5__45__PHOSPHATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_OXALACETIC_ACID_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_OXIDIZED__45__GLUTATHIONE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_OXYGEN__45__MOLECULE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_Octanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Ox__45__Thioredoxin_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_Oxidized__45__ferredoxins_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_Oxidized__45__flavodoxins_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_PANTETHEINE__45__P_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_PAPS_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_PHOSPHORIBOSYL__45__AMP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_PHOSPHORIBOSYL__45__ATP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_PHOSPHORIBOSYL__45__FORMIMINO__45__AICAR__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_PHOSPHORIBULOSYL__45__FORMIMINO__45__AICAR__45__P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_PHOSPHO__45__ENOL__45__PYRUVATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_PORPHOBILINOGEN_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_PPI_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_PROTOHEME_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_PROTON_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_PROTON_e": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_PROTOPORPHYRINOGEN_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_PROTOPORPHYRIN_IX_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_PRPP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_PYRUVATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Palmitoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Pi_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_RB__43___c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_RIBOSE__45__1P_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_RIBOSE__45__5P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_RIBULOSE__45__5P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_R__45__3__45__Hydroxypalmitoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_R__45__3__45__hydroxydodecanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_R__45__3__45__hydroxyhexanoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_R__45__3__45__hydroxymyristoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Red__45__Thioredoxin_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_Reduced__45__ferredoxins_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_Reduced__45__flavodoxins_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_S2O3_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_SER_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_SHIKIMATE__45__5P_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_SHIKIMATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_SO3_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_SUC__45__COA_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_SUC_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_SULFATE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_SUPER__45__OXIDE_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_S__45__2__45__INDOL__45__3__45__YLACETYL__45__COA_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_S__45__3__45__HYDROXYBUTANOYL__45__COA_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_S__45__LACTOYL__45__GLUTATHIONE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_THF__45__GLU__45__N_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_THREO__45__DS__45__ISO__45__CITRATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_TRP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Tetradec__45__2__45__enoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Trans__45__D2__45__decenoyl__45__ACPs_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_UDP__45__AA__45__GLUTAMATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_UDP__45__ACETYL__45__CARBOXYVINYL__45__GLUCOSAMINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_UDP__45__MANNAC_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_UDP__45__N__45__ACETYLMURAMATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_UDP__45__N__45__ACETYL__45__D__45__GLUCOSAMINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_UDP__45__OHMYR__45__ACETYLGLUCOSAMINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_UDP__45__OHMYR__45__GLUCOSAMINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_UDP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_UMP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_URATE_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_UREA_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_URIDINE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_UROPORPHYRINOGEN__45__III_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_UTP_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_Ubiquinols_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_Ubiquinones_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_VAL_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_V__43__5_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_WATER_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_XANTHINE_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_XANTHOSINE_c": [
+  "Pseudomonas_mandelii"
+ ],
+ "M_XYLULOSE__45__5__45__PHOSPHATE_c": [
+  "Betaproteobacteria_bacterium"
+ ],
+ "M_ZN__43__2_c": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ],
+ "M_ZN__43__2_e": [
+  "Betaproteobacteria_bacterium",
+  "Pseudomonas_mandelii"
+ ]
+}
