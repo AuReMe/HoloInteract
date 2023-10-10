@@ -1,0 +1,1614 @@
+{
+    "alternative_symbionts": [
+        "Allomuricauda_algicola_1",
+        "Allomuricauda_algicola_2"
+    ],
+    "bacteria": [
+        "Allomuricauda_algicola_2"
+    ],
+    "essential_symbionts": [],
+    "exchanged": [],
+    "inter_bacteria": [],
+    "inter_exchanged": [],
+    "inter_targetsproducers": {
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__KETO__45__GLUTARAMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__P__45__PANTOTHENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_ALPHA__45__GLC__45__6__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_ANTHRANILATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_CHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__11495_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__12367_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14931_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15154_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20260_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20261_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20262_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20263_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20264_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__21004_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__659_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__8652_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9924_c": [
+            "host_metab_mod"
+        ],
+        "M_DIHYDROXYINDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_DOPAQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__RHAMNOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__ALANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__ALA__45__D__45__ALA_c": [
+            "host_metab_mod"
+        ],
+        "M_D__45__GLT_c": [
+            "host_metab_mod"
+        ],
+        "M_ENOL__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_GLC__45__6__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_HISTIDINAL_c": [
+            "host_metab_mod"
+        ],
+        "M_HISTIDINOL_c": [
+            "host_metab_mod"
+        ],
+        "M_HIS_c": [
+            "host_metab_mod"
+        ],
+        "M_HOMOGENTISATE_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE_PYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_ISOCHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DOPACHROME_c": [
+            "host_metab_mod"
+        ],
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c": [
+            "host_metab_mod"
+        ],
+        "M_N__45__FORMYLKYNURENINE_c": [
+            "host_metab_mod"
+        ],
+        "M_PANTOTHENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_PHENYL__45__PYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_PHE_c": [
+            "host_metab_mod"
+        ],
+        "M_PREPHENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_P__45__AMINO__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c": [
+            "host_metab_mod"
+        ],
+        "M_TRP_c": [
+            "host_metab_mod"
+        ],
+        "M_TYR_c": [
+            "host_metab_mod"
+        ],
+        "M_UROCANATE_c": [
+            "host_metab_mod"
+        ]
+    },
+    "key_species": [
+        "Allomuricauda_algicola_2",
+        "Allomuricauda_algicola_1"
+    ],
+    "newly_prod": [
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c",
+        "M_HISTIDINOL_c",
+        "M_CPD__45__11555_c",
+        "M_ISOCHORISMATE_c",
+        "M_CPD__45__14931_c",
+        "M_CPD__45__7224_c",
+        "M_CPD__45__20264_c",
+        "M_GLC__45__6__45__P_c",
+        "M_CPD__45__24335_c",
+        "M_HIS_c",
+        "M_CPD__45__20262_c",
+        "M_DTDP__45__RHAMNOSE_c",
+        "M_4__45__OXOGLUTARAMATE_c",
+        "M_CPD__45__25381_c",
+        "M_CPD__45__16020_c",
+        "M_INDOLE_PYRUVATE_c",
+        "M_ENOL__45__PHENYLPYRUVATE_c",
+        "M_CPD__45__24844_c",
+        "M_2__45__KETO__45__GLUTARAMATE_c",
+        "M_CPD__45__9924_c",
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c",
+        "M_B__45__ALANINE_c",
+        "M_8__45__Oxo__45__dGTP_c",
+        "M_CPD__45__13853_c",
+        "M_CPD__45__13043_c",
+        "M_HISTIDINAL_c",
+        "M_CPD__45__11495_c",
+        "M_HOMOGENTISATE_c",
+        "M_CPD__45__20260_c",
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c",
+        "M_DTDP__45__D__45__GLUCOSE_c",
+        "M_DIHYDROXYINDOLE_c",
+        "M_GLUCOSAMINE__45__1P_c",
+        "M_CPD__45__10723_c",
+        "M_CPD__45__8652_c",
+        "M_4__45__FUMARYL__45__ACETOACETATE_c",
+        "M_CPD__45__20263_c",
+        "M_CPD__45__7046_c",
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c",
+        "M_CPD__45__12367_c",
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c",
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c",
+        "M_ISOGLUTAMINE_c",
+        "M_CPD__45__24926_c",
+        "M_INDOLE_c",
+        "M_PREPHENATE_c",
+        "M_DIHYDROXYACETONE_c",
+        "M_CPD__45__20261_c",
+        "M_UROCANATE_c",
+        "M_4__45__P__45__PANTOTHENATE_c",
+        "M_MALONATE__45__S__45__ALD_c",
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c",
+        "M_ANTHRANILATE_c",
+        "M_PANTOTHENATE_c",
+        "M_L__45__DOPACHROME_c",
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c",
+        "M_FORMYL__45__ISOGLUTAMINE_c",
+        "M_N__45__FORMYLKYNURENINE_c",
+        "M_D__45__GLT_c",
+        "M_DIACETYL_c",
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c",
+        "M_CPD8J2__45__27_c",
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c",
+        "M_CPD__45__9646_c",
+        "M_CPD__45__14101_c",
+        "M_PHENYL__45__PYRUVATE_c",
+        "M_CPD__45__846_c",
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c",
+        "M_MEVALONATE_c",
+        "M_TYR_c",
+        "M_FORMAMIDE_c",
+        "M_CPD0__45__181_c",
+        "M_ALPHA__45__GLC__45__6__45__P_c",
+        "M_CPD__45__24843_c",
+        "M_DOPAQUINONE_c",
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c",
+        "M_D__45__ALANINE_c",
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c",
+        "M_CPD__45__15154_c",
+        "M_CPD__45__448_c",
+        "M_4__45__MALEYL__45__ACETOACETATE_c",
+        "M_CPD__45__24871_c",
+        "M_CPD__45__499_c",
+        "M_CPD__45__21004_c",
+        "M_CPD__45__659_c",
+        "M_CHORISMATE_c",
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c",
+        "M_PHE_c",
+        "M_CPD0__45__1699_c",
+        "M_TRP_c",
+        "M_L__45__RIBULOSE__45__5__45__P_c",
+        "M_D__45__4__45__HYDROXY__45__2__45__KETO__45__GLUTARATE_c",
+        "M_P__45__AMINO__45__BENZOATE_c",
+        "M_CPD__45__1825_c",
+        "M_D__45__ALA__45__D__45__ALA_c"
+    ],
+    "one_model": {
+        "chosen_bacteria": [
+            "Allomuricauda_algicola_2"
+        ],
+        "newly_producible_target": [
+            "M_L__45__DIHYDROXY__45__PHENYLALANINE_c",
+            "M_HISTIDINOL_c",
+            "M_CPD__45__11555_c",
+            "M_ISOCHORISMATE_c",
+            "M_CPD__45__14931_c",
+            "M_CPD__45__7224_c",
+            "M_CPD__45__20264_c",
+            "M_GLC__45__6__45__P_c",
+            "M_CPD__45__24335_c",
+            "M_HIS_c",
+            "M_CPD__45__20262_c",
+            "M_DTDP__45__RHAMNOSE_c",
+            "M_4__45__OXOGLUTARAMATE_c",
+            "M_CPD__45__25381_c",
+            "M_CPD__45__16020_c",
+            "M_INDOLE_PYRUVATE_c",
+            "M_ENOL__45__PHENYLPYRUVATE_c",
+            "M_CPD__45__24844_c",
+            "M_2__45__KETO__45__GLUTARAMATE_c",
+            "M_CPD__45__9924_c",
+            "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c",
+            "M_B__45__ALANINE_c",
+            "M_8__45__Oxo__45__dGTP_c",
+            "M_CPD__45__13853_c",
+            "M_CPD__45__13043_c",
+            "M_HISTIDINAL_c",
+            "M_CPD__45__11495_c",
+            "M_HOMOGENTISATE_c",
+            "M_CPD__45__20260_c",
+            "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c",
+            "M_DTDP__45__D__45__GLUCOSE_c",
+            "M_DIHYDROXYINDOLE_c",
+            "M_GLUCOSAMINE__45__1P_c",
+            "M_CPD__45__10723_c",
+            "M_CPD__45__8652_c",
+            "M_4__45__FUMARYL__45__ACETOACETATE_c",
+            "M_CPD__45__20263_c",
+            "M_CPD__45__7046_c",
+            "M_DIHYDRO__45__DIOH__45__BENZOATE_c",
+            "M_CPD__45__12367_c",
+            "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c",
+            "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c",
+            "M_ISOGLUTAMINE_c",
+            "M_CPD__45__24926_c",
+            "M_INDOLE_c",
+            "M_PREPHENATE_c",
+            "M_DIHYDROXYACETONE_c",
+            "M_CPD__45__20261_c",
+            "M_UROCANATE_c",
+            "M_4__45__P__45__PANTOTHENATE_c",
+            "M_MALONATE__45__S__45__ALD_c",
+            "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c",
+            "M_ANTHRANILATE_c",
+            "M_PANTOTHENATE_c",
+            "M_L__45__DOPACHROME_c",
+            "M_INDOLE__45__3__45__GLYCEROL__45__P_c",
+            "M_FORMYL__45__ISOGLUTAMINE_c",
+            "M_N__45__FORMYLKYNURENINE_c",
+            "M_D__45__GLT_c",
+            "M_DIACETYL_c",
+            "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c",
+            "M_CPD8J2__45__27_c",
+            "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c",
+            "M_CPD__45__9646_c",
+            "M_CPD__45__14101_c",
+            "M_PHENYL__45__PYRUVATE_c",
+            "M_CPD__45__846_c",
+            "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c",
+            "M_MEVALONATE_c",
+            "M_TYR_c",
+            "M_FORMAMIDE_c",
+            "M_CPD0__45__181_c",
+            "M_ALPHA__45__GLC__45__6__45__P_c",
+            "M_CPD__45__24843_c",
+            "M_DOPAQUINONE_c",
+            "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c",
+            "M_D__45__ALANINE_c",
+            "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c",
+            "M_CPD__45__15154_c",
+            "M_CPD__45__448_c",
+            "M_4__45__MALEYL__45__ACETOACETATE_c",
+            "M_CPD__45__24871_c",
+            "M_CPD__45__499_c",
+            "M_CPD__45__21004_c",
+            "M_CPD__45__659_c",
+            "M_CHORISMATE_c",
+            "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c",
+            "M_PHE_c",
+            "M_CPD0__45__1699_c",
+            "M_TRP_c",
+            "M_L__45__RIBULOSE__45__5__45__P_c",
+            "M_D__45__4__45__HYDROXY__45__2__45__KETO__45__GLUTARATE_c",
+            "M_P__45__AMINO__45__BENZOATE_c",
+            "M_CPD__45__1825_c",
+            "M_D__45__ALA__45__D__45__ALA_c"
+        ],
+        "producible_target": [
+            "M_L__45__DIHYDROXY__45__PHENYLALANINE_c",
+            "M_HISTIDINOL_c",
+            "M_CPD__45__11555_c",
+            "M_ISOCHORISMATE_c",
+            "M_CPD__45__14931_c",
+            "M_CPD__45__7224_c",
+            "M_CPD__45__20264_c",
+            "M_GLC__45__6__45__P_c",
+            "M_HIS_c",
+            "M_DTDP__45__RHAMNOSE_c",
+            "M_CPD__45__24335_c",
+            "M_CPD__45__20262_c",
+            "M_4__45__OXOGLUTARAMATE_c",
+            "M_CPD__45__25381_c",
+            "M_CPD__45__16020_c",
+            "M_INDOLE_PYRUVATE_c",
+            "M_ENOL__45__PHENYLPYRUVATE_c",
+            "M_CPD__45__24844_c",
+            "M_2__45__KETO__45__GLUTARAMATE_c",
+            "M_CPD__45__9924_c",
+            "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c",
+            "M_B__45__ALANINE_c",
+            "M_8__45__Oxo__45__dGTP_c",
+            "M_CPD__45__13853_c",
+            "M_CPD__45__13043_c",
+            "M_HISTIDINAL_c",
+            "M_CPD__45__11495_c",
+            "M_HOMOGENTISATE_c",
+            "M_CPD__45__20260_c",
+            "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c",
+            "M_DTDP__45__D__45__GLUCOSE_c",
+            "M_DIHYDROXYINDOLE_c",
+            "M_GLUCOSAMINE__45__1P_c",
+            "M_CPD__45__10723_c",
+            "M_CPD__45__8652_c",
+            "M_4__45__FUMARYL__45__ACETOACETATE_c",
+            "M_CPD__45__20263_c",
+            "M_CPD__45__7046_c",
+            "M_DIHYDRO__45__DIOH__45__BENZOATE_c",
+            "M_CPD__45__12367_c",
+            "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c",
+            "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c",
+            "M_ISOGLUTAMINE_c",
+            "M_CPD__45__24926_c",
+            "M_INDOLE_c",
+            "M_PREPHENATE_c",
+            "M_DIHYDROXYACETONE_c",
+            "M_CPD__45__20261_c",
+            "M_UROCANATE_c",
+            "M_4__45__P__45__PANTOTHENATE_c",
+            "M_MALONATE__45__S__45__ALD_c",
+            "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c",
+            "M_ANTHRANILATE_c",
+            "M_PANTOTHENATE_c",
+            "M_L__45__DOPACHROME_c",
+            "M_D__45__GLT_c",
+            "M_FORMYL__45__ISOGLUTAMINE_c",
+            "M_N__45__FORMYLKYNURENINE_c",
+            "M_DIACETYL_c",
+            "M_INDOLE__45__3__45__GLYCEROL__45__P_c",
+            "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c",
+            "M_CPD8J2__45__27_c",
+            "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c",
+            "M_CPD__45__9646_c",
+            "M_CPD__45__14101_c",
+            "M_PHENYL__45__PYRUVATE_c",
+            "M_CPD__45__846_c",
+            "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c",
+            "M_MEVALONATE_c",
+            "M_TYR_c",
+            "M_FORMAMIDE_c",
+            "M_CPD0__45__181_c",
+            "M_ALPHA__45__GLC__45__6__45__P_c",
+            "M_CPD__45__24843_c",
+            "M_DOPAQUINONE_c",
+            "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c",
+            "M_D__45__ALANINE_c",
+            "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c",
+            "M_CPD__45__15154_c",
+            "M_CPD__45__448_c",
+            "M_4__45__MALEYL__45__ACETOACETATE_c",
+            "M_CPD__45__24871_c",
+            "M_CPD__45__499_c",
+            "M_CPD__45__21004_c",
+            "M_CPD__45__659_c",
+            "M_CHORISMATE_c",
+            "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c",
+            "M_PHE_c",
+            "M_CPD0__45__1699_c",
+            "M_TRP_c",
+            "M_L__45__RIBULOSE__45__5__45__P_c",
+            "M_D__45__4__45__HYDROXY__45__2__45__KETO__45__GLUTARATE_c",
+            "M_P__45__AMINO__45__BENZOATE_c",
+            "M_CPD__45__1825_c",
+            "M_D__45__ALA__45__D__45__ALA_c"
+        ],
+        "target_producer_coop_selectedcom": {
+            "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_2__45__KETO__45__GLUTARAMATE_c": [
+                "host_metab_mod"
+            ],
+            "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+                "host_metab_mod"
+            ],
+            "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+                "host_metab_mod"
+            ],
+            "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_4__45__MALEYL__45__ACETOACETATE_c": [
+                "host_metab_mod",
+                "Allomuricauda_algicola_2"
+            ],
+            "M_4__45__OXOGLUTARAMATE_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_4__45__P__45__PANTOTHENATE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_8__45__Oxo__45__dGTP_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_ALPHA__45__GLC__45__6__45__P_c": [
+                "host_metab_mod",
+                "Allomuricauda_algicola_2"
+            ],
+            "M_ANTHRANILATE_c": [
+                "host_metab_mod",
+                "Allomuricauda_algicola_2"
+            ],
+            "M_B__45__ALANINE_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_CHORISMATE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_CPD0__45__1699_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD0__45__181_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD8J2__45__27_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__10723_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__11495_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_CPD__45__11555_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__12367_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__13043_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__13853_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__14101_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__14931_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__15154_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__16020_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__1825_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__20260_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__20261_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__20262_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__20263_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__20264_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__21004_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__24335_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__24843_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__24844_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__24871_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__24926_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__25381_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__448_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__499_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__659_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__7046_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__7224_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__846_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__8652_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__9646_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_CPD__45__9924_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_DIACETYL_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_DIHYDROXYACETONE_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_DIHYDROXYINDOLE_c": [
+                "host_metab_mod"
+            ],
+            "M_DIHYDRO__45__DIOH__45__BENZOATE_c": [
+                "host_metab_mod"
+            ],
+            "M_DOPAQUINONE_c": [
+                "host_metab_mod"
+            ],
+            "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c": [
+                "host_metab_mod",
+                "Allomuricauda_algicola_2"
+            ],
+            "M_DTDP__45__D__45__GLUCOSE_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_DTDP__45__RHAMNOSE_c": [
+                "host_metab_mod",
+                "Allomuricauda_algicola_2"
+            ],
+            "M_D__45__4__45__HYDROXY__45__2__45__KETO__45__GLUTARATE_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_D__45__ALANINE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_D__45__ALA__45__D__45__ALA_c": [
+                "host_metab_mod",
+                "Allomuricauda_algicola_2"
+            ],
+            "M_D__45__GLT_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_ENOL__45__PHENYLPYRUVATE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_FORMAMIDE_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_FORMYL__45__ISOGLUTAMINE_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_GLC__45__6__45__P_c": [
+                "host_metab_mod",
+                "Allomuricauda_algicola_2"
+            ],
+            "M_GLUCOSAMINE__45__1P_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_HISTIDINAL_c": [
+                "host_metab_mod"
+            ],
+            "M_HISTIDINOL_c": [
+                "host_metab_mod",
+                "Allomuricauda_algicola_2"
+            ],
+            "M_HIS_c": [
+                "host_metab_mod",
+                "Allomuricauda_algicola_2"
+            ],
+            "M_HOMOGENTISATE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_INDOLE_PYRUVATE_c": [
+                "host_metab_mod"
+            ],
+            "M_INDOLE__45__3__45__GLYCEROL__45__P_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_INDOLE_c": [
+                "host_metab_mod"
+            ],
+            "M_ISOCHORISMATE_c": [
+                "host_metab_mod"
+            ],
+            "M_ISOGLUTAMINE_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_L__45__DIHYDROXY__45__PHENYLALANINE_c": [
+                "host_metab_mod"
+            ],
+            "M_L__45__DOPACHROME_c": [
+                "host_metab_mod"
+            ],
+            "M_L__45__RIBULOSE__45__5__45__P_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_MALONATE__45__S__45__ALD_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_MEVALONATE_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c": [
+                "Allomuricauda_algicola_2"
+            ],
+            "M_N__45__FORMYLKYNURENINE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_PANTOTHENATE_c": [
+                "host_metab_mod",
+                "Allomuricauda_algicola_2"
+            ],
+            "M_PHENYL__45__PYRUVATE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_PHE_c": [
+                "host_metab_mod"
+            ],
+            "M_PREPHENATE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_P__45__AMINO__45__BENZOATE_c": [
+                "host_metab_mod"
+            ],
+            "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c": [
+                "host_metab_mod",
+                "Allomuricauda_algicola_2"
+            ],
+            "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_TRP_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ],
+            "M_TYR_c": [
+                "host_metab_mod"
+            ],
+            "M_UROCANATE_c": [
+                "Allomuricauda_algicola_2",
+                "host_metab_mod"
+            ]
+        }
+    },
+    "one_model_targetsproducers": {
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_2__45__KETO__45__GLUTARAMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_4__45__OXOGLUTARAMATE_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_4__45__P__45__PANTOTHENATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_8__45__Oxo__45__dGTP_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_ALPHA__45__GLC__45__6__45__P_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_ANTHRANILATE_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_B__45__ALANINE_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_CHORISMATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_CPD0__45__1699_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD0__45__181_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD8J2__45__27_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__10723_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__11495_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_CPD__45__11555_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__12367_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__13043_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__13853_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__14101_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__14931_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15154_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__16020_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__1825_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__20260_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20261_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20262_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20263_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20264_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__21004_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__24335_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__24843_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__24844_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__24871_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__24926_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__25381_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__448_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__499_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__659_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7046_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__7224_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__846_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__8652_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9646_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__9924_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_DIACETYL_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_DIHYDROXYACETONE_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_DIHYDROXYINDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_DOPAQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_DTDP__45__D__45__GLUCOSE_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_DTDP__45__RHAMNOSE_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_D__45__4__45__HYDROXY__45__2__45__KETO__45__GLUTARATE_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_D__45__ALANINE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_D__45__ALA__45__D__45__ALA_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_D__45__GLT_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_ENOL__45__PHENYLPYRUVATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_FORMAMIDE_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_FORMYL__45__ISOGLUTAMINE_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_GLC__45__6__45__P_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_GLUCOSAMINE__45__1P_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_HISTIDINAL_c": [
+            "host_metab_mod"
+        ],
+        "M_HISTIDINOL_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_HIS_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_HOMOGENTISATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_INDOLE_PYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_INDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_ISOCHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_ISOGLUTAMINE_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DOPACHROME_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__RIBULOSE__45__5__45__P_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_MALONATE__45__S__45__ALD_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_MEVALONATE_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c": [
+            "Allomuricauda_algicola_2"
+        ],
+        "M_N__45__FORMYLKYNURENINE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_PANTOTHENATE_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_PHENYL__45__PYRUVATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_PHE_c": [
+            "host_metab_mod"
+        ],
+        "M_PREPHENATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_P__45__AMINO__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_TRP_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_TYR_c": [
+            "host_metab_mod"
+        ],
+        "M_UROCANATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ]
+    },
+    "producible": [
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c",
+        "M_HISTIDINOL_c",
+        "M_CPD__45__11555_c",
+        "M_ISOCHORISMATE_c",
+        "M_CPD__45__14931_c",
+        "M_CPD__45__7224_c",
+        "M_CPD__45__20264_c",
+        "M_GLC__45__6__45__P_c",
+        "M_HIS_c",
+        "M_DTDP__45__RHAMNOSE_c",
+        "M_CPD__45__24335_c",
+        "M_CPD__45__20262_c",
+        "M_4__45__OXOGLUTARAMATE_c",
+        "M_CPD__45__25381_c",
+        "M_CPD__45__16020_c",
+        "M_INDOLE_PYRUVATE_c",
+        "M_ENOL__45__PHENYLPYRUVATE_c",
+        "M_CPD__45__24844_c",
+        "M_2__45__KETO__45__GLUTARAMATE_c",
+        "M_CPD__45__9924_c",
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c",
+        "M_B__45__ALANINE_c",
+        "M_8__45__Oxo__45__dGTP_c",
+        "M_CPD__45__13853_c",
+        "M_CPD__45__13043_c",
+        "M_HISTIDINAL_c",
+        "M_CPD__45__11495_c",
+        "M_HOMOGENTISATE_c",
+        "M_CPD__45__20260_c",
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c",
+        "M_DTDP__45__D__45__GLUCOSE_c",
+        "M_DIHYDROXYINDOLE_c",
+        "M_GLUCOSAMINE__45__1P_c",
+        "M_CPD__45__10723_c",
+        "M_CPD__45__8652_c",
+        "M_4__45__FUMARYL__45__ACETOACETATE_c",
+        "M_CPD__45__20263_c",
+        "M_CPD__45__7046_c",
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c",
+        "M_CPD__45__12367_c",
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c",
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c",
+        "M_ISOGLUTAMINE_c",
+        "M_CPD__45__24926_c",
+        "M_INDOLE_c",
+        "M_PREPHENATE_c",
+        "M_DIHYDROXYACETONE_c",
+        "M_CPD__45__20261_c",
+        "M_UROCANATE_c",
+        "M_4__45__P__45__PANTOTHENATE_c",
+        "M_MALONATE__45__S__45__ALD_c",
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c",
+        "M_ANTHRANILATE_c",
+        "M_PANTOTHENATE_c",
+        "M_L__45__DOPACHROME_c",
+        "M_D__45__GLT_c",
+        "M_FORMYL__45__ISOGLUTAMINE_c",
+        "M_N__45__FORMYLKYNURENINE_c",
+        "M_DIACETYL_c",
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c",
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c",
+        "M_CPD8J2__45__27_c",
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c",
+        "M_CPD__45__9646_c",
+        "M_CPD__45__14101_c",
+        "M_PHENYL__45__PYRUVATE_c",
+        "M_CPD__45__846_c",
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c",
+        "M_MEVALONATE_c",
+        "M_TYR_c",
+        "M_FORMAMIDE_c",
+        "M_CPD0__45__181_c",
+        "M_ALPHA__45__GLC__45__6__45__P_c",
+        "M_CPD__45__24843_c",
+        "M_DOPAQUINONE_c",
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c",
+        "M_D__45__ALANINE_c",
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c",
+        "M_CPD__45__15154_c",
+        "M_CPD__45__448_c",
+        "M_4__45__MALEYL__45__ACETOACETATE_c",
+        "M_CPD__45__24871_c",
+        "M_CPD__45__499_c",
+        "M_CPD__45__21004_c",
+        "M_CPD__45__659_c",
+        "M_CHORISMATE_c",
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c",
+        "M_PHE_c",
+        "M_CPD0__45__1699_c",
+        "M_TRP_c",
+        "M_L__45__RIBULOSE__45__5__45__P_c",
+        "M_D__45__4__45__HYDROXY__45__2__45__KETO__45__GLUTARATE_c",
+        "M_P__45__AMINO__45__BENZOATE_c",
+        "M_CPD__45__1825_c",
+        "M_D__45__ALA__45__D__45__ALA_c"
+    ],
+    "score_optimum_inter": "1",
+    "score_optimum_union": "1",
+    "still_unprod": [],
+    "union_bacteria": [
+        "Allomuricauda_algicola_2",
+        "Allomuricauda_algicola_1"
+    ],
+    "union_exchanged": [],
+    "union_targetsproducers": {
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_2__45__KETO__45__GLUTARAMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_4__45__OXOGLUTARAMATE_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_4__45__P__45__PANTOTHENATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_8__45__Oxo__45__dGTP_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_ALPHA__45__GLC__45__6__45__P_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_ANTHRANILATE_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_B__45__ALANINE_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CHORISMATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD0__45__1699_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD0__45__181_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD8J2__45__27_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD__45__10723_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD__45__11495_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD__45__11555_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__12367_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__13043_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD__45__13853_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD__45__14101_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD__45__14931_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15154_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__16020_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__1825_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__20260_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20261_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20262_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20263_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20264_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__21004_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__24335_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD__45__24843_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__24844_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD__45__24871_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__24926_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__25381_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__448_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD__45__499_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__659_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7046_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD__45__7224_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD__45__846_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_CPD__45__8652_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9646_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_CPD__45__9924_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_DIACETYL_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_DIHYDROXYACETONE_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_DIHYDROXYINDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_DOPAQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__GLUCOSE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_DTDP__45__DEOH__45__DEOXY__45__MANNOSE_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_DTDP__45__D__45__GLUCOSE_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_DTDP__45__RHAMNOSE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_D__45__4__45__HYDROXY__45__2__45__KETO__45__GLUTARATE_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_D__45__ALANINE_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_D__45__ALA__45__D__45__ALA_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_D__45__GLT_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_ENOL__45__PHENYLPYRUVATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_FORMAMIDE_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_FORMYL__45__ISOGLUTAMINE_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_GLC__45__6__45__P_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_GLUCOSAMINE__45__1P_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_HISTIDINAL_c": [
+            "host_metab_mod"
+        ],
+        "M_HISTIDINOL_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_HIS_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_HOMOGENTISATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_INDOLE_PYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_INDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_ISOCHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_ISOGLUTAMINE_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DOPACHROME_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__RIBULOSE__45__5__45__P_c": [
+            "Allomuricauda_algicola_2",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_MALONATE__45__S__45__ALD_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_MEVALONATE_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_N__45__FORMYLKYNURENINE_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_PANTOTHENATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_PHENYL__45__PYRUVATE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_PHE_c": [
+            "host_metab_mod"
+        ],
+        "M_PREPHENATE_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ],
+        "M_P__45__AMINO__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod",
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2"
+        ],
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_TRP_c": [
+            "Allomuricauda_algicola_2",
+            "host_metab_mod",
+            "Allomuricauda_algicola_1"
+        ],
+        "M_TYR_c": [
+            "host_metab_mod"
+        ],
+        "M_UROCANATE_c": [
+            "Allomuricauda_algicola_1",
+            "Allomuricauda_algicola_2",
+            "host_metab_mod"
+        ]
+    }
+}

@@ -1,0 +1,1694 @@
+{
+    "alternative_symbionts": [
+        "Gemmata_massiliana_1",
+        "Gemmata_massiliana_2"
+    ],
+    "bacteria": [
+        "Gemmata_massiliana_2"
+    ],
+    "essential_symbionts": [],
+    "exchanged": [],
+    "inter_bacteria": [],
+    "inter_exchanged": [],
+    "inter_targetsproducers": {
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__DEOXYRIBOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__KETO__45__GLUTARAMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYLMALEATE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__P__45__PANTOTHENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_ALPHA__45__GLC__45__6__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_ANTHRANILATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_CHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__10791_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__11495_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__14931_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15154_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20260_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20261_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20262_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20263_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20264_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__21004_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__31_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__659_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7066_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__8652_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9924_c": [
+            "host_metab_mod"
+        ],
+        "M_DEPHOSPHO__45__COA_c": [
+            "host_metab_mod"
+        ],
+        "M_DIHYDROXYINDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_DOPAQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_ENOL__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_GLC__45__6__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_HISTIDINAL_c": [
+            "host_metab_mod"
+        ],
+        "M_HISTIDINOL_c": [
+            "host_metab_mod"
+        ],
+        "M_HIS_c": [
+            "host_metab_mod"
+        ],
+        "M_HOMOGENTISATE_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE_PYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_ISOCHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DOPACHROME_c": [
+            "host_metab_mod"
+        ],
+        "M_METHYL__45__GLYOXAL_c": [
+            "host_metab_mod"
+        ],
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c": [
+            "host_metab_mod"
+        ],
+        "M_N__45__FORMYLKYNURENINE_c": [
+            "host_metab_mod"
+        ],
+        "M_PANTETHEINE__45__P_c": [
+            "host_metab_mod"
+        ],
+        "M_PANTOTHENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_PHENYL__45__PYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_PHE_c": [
+            "host_metab_mod"
+        ],
+        "M_PREPHENATE_c": [
+            "host_metab_mod"
+        ],
+        "M_P__45__AMINO__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c": [
+            "host_metab_mod"
+        ],
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c": [
+            "host_metab_mod"
+        ],
+        "M_TRP_c": [
+            "host_metab_mod"
+        ],
+        "M_TYR_c": [
+            "host_metab_mod"
+        ],
+        "M_UROCANATE_c": [
+            "host_metab_mod"
+        ]
+    },
+    "key_species": [
+        "Gemmata_massiliana_1",
+        "Gemmata_massiliana_2"
+    ],
+    "newly_prod": [
+        "M_CPD__45__18118_c",
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c",
+        "M_HISTIDINOL_c",
+        "M_CPD__45__11555_c",
+        "M_ISOCHORISMATE_c",
+        "M_KDO__45__8P_c",
+        "M_CPD__45__14931_c",
+        "M_CPD__45__20264_c",
+        "M_GLC__45__6__45__P_c",
+        "M_CPD__45__24335_c",
+        "M_HIS_c",
+        "M_CPD__45__20262_c",
+        "M_4__45__OXOGLUTARAMATE_c",
+        "M_CPD__45__25381_c",
+        "M_CPD__45__16020_c",
+        "M_INDOLE_PYRUVATE_c",
+        "M_ENOL__45__PHENYLPYRUVATE_c",
+        "M_CPD__45__24844_c",
+        "M_2__45__KETO__45__GLUTARAMATE_c",
+        "M_CPD__45__9924_c",
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c",
+        "M_B__45__ALANINE_c",
+        "M_8__45__Oxo__45__dGTP_c",
+        "M_2__45__DEOXYRIBOSE_c",
+        "M_CPD__45__13043_c",
+        "M_HISTIDINAL_c",
+        "M_HOP__45__2229__45__ENE_c",
+        "M_CPD__45__11495_c",
+        "M_HOMOGENTISATE_c",
+        "M_CPD__45__20260_c",
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c",
+        "M_DIHYDROXYINDOLE_c",
+        "M_GLUCOSAMINE__45__1P_c",
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c",
+        "M_CPD__45__10723_c",
+        "M_CPD__45__8652_c",
+        "M_4__45__FUMARYL__45__ACETOACETATE_c",
+        "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c",
+        "M_CPD__45__20263_c",
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c",
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c",
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c",
+        "M_ISOGLUTAMINE_c",
+        "M_CPD__45__24926_c",
+        "M_INDOLE_c",
+        "M_PREPHENATE_c",
+        "M_CPD__45__20261_c",
+        "M_UROCANATE_c",
+        "M_4__45__P__45__PANTOTHENATE_c",
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c",
+        "M_ACETYL__45__P_c",
+        "M_PANTETHEINE__45__P_c",
+        "M_ANTHRANILATE_c",
+        "M_PANTOTHENATE_c",
+        "M_L__45__DOPACHROME_c",
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c",
+        "M_FORMYL__45__ISOGLUTAMINE_c",
+        "M_N__45__FORMYLKYNURENINE_c",
+        "M_DIACETYL_c",
+        "M_CPD8J2__45__27_c",
+        "M_CPD__45__9646_c",
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c",
+        "M_PHENYL__45__PYRUVATE_c",
+        "M_CPD__45__15190_c",
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c",
+        "M_TYR_c",
+        "M_FORMAMIDE_c",
+        "M_CDP__45__D__45__GLUCOSE_c",
+        "M_CPD0__45__181_c",
+        "M_ALPHA__45__GLC__45__6__45__P_c",
+        "M_CPD__45__24843_c",
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c",
+        "M_CPD__45__12773_c",
+        "M_DOPAQUINONE_c",
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c",
+        "M_CPD__45__551_c",
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c",
+        "M_S__45__CITRAMALATE_c",
+        "M_CPD__45__15154_c",
+        "M_CPD__45__10791_c",
+        "M_4__45__MALEYL__45__ACETOACETATE_c",
+        "M_CPD__45__24871_c",
+        "M_CPD__45__21004_c",
+        "M_CPD__45__13534_c",
+        "M_CPD__45__659_c",
+        "M_CHORISMATE_c",
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c",
+        "M_METHYL__45__GLYOXAL_c",
+        "M_PHE_c",
+        "M_CPD0__45__1699_c",
+        "M_L__45__LACTATE_c",
+        "M_DEOXY__45__RIBOSE__45__5P_c",
+        "M_CPD__45__7066_c",
+        "M_TRP_c",
+        "M_2__45__METHYLMALEATE_c",
+        "M_P__45__AMINO__45__BENZOATE_c",
+        "M_CPD__45__1825_c",
+        "M_SQUALENE_c",
+        "M_CPD__45__31_c",
+        "M_DEPHOSPHO__45__COA_c",
+        "M_C__45__DI__45__GMP_c"
+    ],
+    "one_model": {
+        "chosen_bacteria": [
+            "Gemmata_massiliana_2"
+        ],
+        "newly_producible_target": [
+            "M_CPD__45__18118_c",
+            "M_L__45__DIHYDROXY__45__PHENYLALANINE_c",
+            "M_HISTIDINOL_c",
+            "M_CPD__45__11555_c",
+            "M_ISOCHORISMATE_c",
+            "M_KDO__45__8P_c",
+            "M_CPD__45__14931_c",
+            "M_CPD__45__20264_c",
+            "M_GLC__45__6__45__P_c",
+            "M_CPD__45__24335_c",
+            "M_HIS_c",
+            "M_CPD__45__20262_c",
+            "M_4__45__OXOGLUTARAMATE_c",
+            "M_CPD__45__25381_c",
+            "M_CPD__45__16020_c",
+            "M_INDOLE_PYRUVATE_c",
+            "M_ENOL__45__PHENYLPYRUVATE_c",
+            "M_CPD__45__24844_c",
+            "M_2__45__KETO__45__GLUTARAMATE_c",
+            "M_CPD__45__9924_c",
+            "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c",
+            "M_B__45__ALANINE_c",
+            "M_8__45__Oxo__45__dGTP_c",
+            "M_2__45__DEOXYRIBOSE_c",
+            "M_CPD__45__13043_c",
+            "M_HISTIDINAL_c",
+            "M_HOP__45__2229__45__ENE_c",
+            "M_CPD__45__11495_c",
+            "M_HOMOGENTISATE_c",
+            "M_CPD__45__20260_c",
+            "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c",
+            "M_DIHYDROXYINDOLE_c",
+            "M_GLUCOSAMINE__45__1P_c",
+            "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c",
+            "M_CPD__45__10723_c",
+            "M_CPD__45__8652_c",
+            "M_4__45__FUMARYL__45__ACETOACETATE_c",
+            "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c",
+            "M_CPD__45__20263_c",
+            "M_DIHYDRO__45__DIOH__45__BENZOATE_c",
+            "M_S__45__LACTOYL__45__GLUTATHIONE_c",
+            "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c",
+            "M_ISOGLUTAMINE_c",
+            "M_CPD__45__24926_c",
+            "M_INDOLE_c",
+            "M_PREPHENATE_c",
+            "M_CPD__45__20261_c",
+            "M_UROCANATE_c",
+            "M_4__45__P__45__PANTOTHENATE_c",
+            "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c",
+            "M_ACETYL__45__P_c",
+            "M_PANTETHEINE__45__P_c",
+            "M_ANTHRANILATE_c",
+            "M_PANTOTHENATE_c",
+            "M_L__45__DOPACHROME_c",
+            "M_INDOLE__45__3__45__GLYCEROL__45__P_c",
+            "M_FORMYL__45__ISOGLUTAMINE_c",
+            "M_N__45__FORMYLKYNURENINE_c",
+            "M_DIACETYL_c",
+            "M_CPD8J2__45__27_c",
+            "M_CPD__45__9646_c",
+            "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c",
+            "M_PHENYL__45__PYRUVATE_c",
+            "M_CPD__45__15190_c",
+            "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c",
+            "M_TYR_c",
+            "M_FORMAMIDE_c",
+            "M_CDP__45__D__45__GLUCOSE_c",
+            "M_CPD0__45__181_c",
+            "M_ALPHA__45__GLC__45__6__45__P_c",
+            "M_CPD__45__24843_c",
+            "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c",
+            "M_CPD__45__12773_c",
+            "M_DOPAQUINONE_c",
+            "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c",
+            "M_CPD__45__551_c",
+            "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c",
+            "M_S__45__CITRAMALATE_c",
+            "M_CPD__45__15154_c",
+            "M_CPD__45__10791_c",
+            "M_4__45__MALEYL__45__ACETOACETATE_c",
+            "M_CPD__45__24871_c",
+            "M_CPD__45__21004_c",
+            "M_CPD__45__13534_c",
+            "M_CPD__45__659_c",
+            "M_CHORISMATE_c",
+            "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c",
+            "M_METHYL__45__GLYOXAL_c",
+            "M_PHE_c",
+            "M_CPD0__45__1699_c",
+            "M_L__45__LACTATE_c",
+            "M_DEOXY__45__RIBOSE__45__5P_c",
+            "M_CPD__45__7066_c",
+            "M_TRP_c",
+            "M_2__45__METHYLMALEATE_c",
+            "M_P__45__AMINO__45__BENZOATE_c",
+            "M_CPD__45__1825_c",
+            "M_SQUALENE_c",
+            "M_CPD__45__31_c",
+            "M_DEPHOSPHO__45__COA_c",
+            "M_C__45__DI__45__GMP_c"
+        ],
+        "producible_target": [
+            "M_CPD__45__18118_c",
+            "M_L__45__DIHYDROXY__45__PHENYLALANINE_c",
+            "M_HISTIDINOL_c",
+            "M_CPD__45__11555_c",
+            "M_ISOCHORISMATE_c",
+            "M_KDO__45__8P_c",
+            "M_CPD__45__14931_c",
+            "M_CPD__45__20264_c",
+            "M_GLC__45__6__45__P_c",
+            "M_HIS_c",
+            "M_CPD__45__24335_c",
+            "M_CPD__45__20262_c",
+            "M_4__45__OXOGLUTARAMATE_c",
+            "M_CPD__45__25381_c",
+            "M_CPD__45__16020_c",
+            "M_INDOLE_PYRUVATE_c",
+            "M_ENOL__45__PHENYLPYRUVATE_c",
+            "M_CPD__45__24844_c",
+            "M_2__45__KETO__45__GLUTARAMATE_c",
+            "M_CPD__45__9924_c",
+            "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c",
+            "M_B__45__ALANINE_c",
+            "M_8__45__Oxo__45__dGTP_c",
+            "M_2__45__DEOXYRIBOSE_c",
+            "M_CPD__45__13043_c",
+            "M_HISTIDINAL_c",
+            "M_HOP__45__2229__45__ENE_c",
+            "M_CPD__45__11495_c",
+            "M_HOMOGENTISATE_c",
+            "M_CPD__45__20260_c",
+            "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c",
+            "M_DIHYDROXYINDOLE_c",
+            "M_GLUCOSAMINE__45__1P_c",
+            "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c",
+            "M_CPD__45__10723_c",
+            "M_CPD__45__8652_c",
+            "M_4__45__FUMARYL__45__ACETOACETATE_c",
+            "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c",
+            "M_CPD__45__20263_c",
+            "M_DIHYDRO__45__DIOH__45__BENZOATE_c",
+            "M_S__45__LACTOYL__45__GLUTATHIONE_c",
+            "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c",
+            "M_ISOGLUTAMINE_c",
+            "M_CPD__45__24926_c",
+            "M_INDOLE_c",
+            "M_PREPHENATE_c",
+            "M_CPD__45__20261_c",
+            "M_UROCANATE_c",
+            "M_4__45__P__45__PANTOTHENATE_c",
+            "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c",
+            "M_ACETYL__45__P_c",
+            "M_PANTETHEINE__45__P_c",
+            "M_ANTHRANILATE_c",
+            "M_PANTOTHENATE_c",
+            "M_L__45__DOPACHROME_c",
+            "M_DIACETYL_c",
+            "M_FORMYL__45__ISOGLUTAMINE_c",
+            "M_N__45__FORMYLKYNURENINE_c",
+            "M_INDOLE__45__3__45__GLYCEROL__45__P_c",
+            "M_CPD8J2__45__27_c",
+            "M_CPD__45__9646_c",
+            "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c",
+            "M_PHENYL__45__PYRUVATE_c",
+            "M_CPD__45__15190_c",
+            "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c",
+            "M_TYR_c",
+            "M_FORMAMIDE_c",
+            "M_CDP__45__D__45__GLUCOSE_c",
+            "M_CPD0__45__181_c",
+            "M_ALPHA__45__GLC__45__6__45__P_c",
+            "M_CPD__45__24843_c",
+            "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c",
+            "M_CPD__45__12773_c",
+            "M_DOPAQUINONE_c",
+            "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c",
+            "M_CPD__45__551_c",
+            "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c",
+            "M_S__45__CITRAMALATE_c",
+            "M_CPD__45__15154_c",
+            "M_CPD__45__10791_c",
+            "M_4__45__MALEYL__45__ACETOACETATE_c",
+            "M_CPD__45__24871_c",
+            "M_CPD__45__21004_c",
+            "M_CPD__45__13534_c",
+            "M_CPD__45__659_c",
+            "M_CHORISMATE_c",
+            "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c",
+            "M_METHYL__45__GLYOXAL_c",
+            "M_PHE_c",
+            "M_CPD0__45__1699_c",
+            "M_L__45__LACTATE_c",
+            "M_DEOXY__45__RIBOSE__45__5P_c",
+            "M_DEPHOSPHO__45__COA_c",
+            "M_TRP_c",
+            "M_2__45__METHYLMALEATE_c",
+            "M_P__45__AMINO__45__BENZOATE_c",
+            "M_CPD__45__1825_c",
+            "M_SQUALENE_c",
+            "M_CPD__45__31_c",
+            "M_CPD__45__7066_c",
+            "M_C__45__DI__45__GMP_c"
+        ],
+        "target_producer_coop_selectedcom": {
+            "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_2__45__DEOXYRIBOSE_c": [
+                "host_metab_mod"
+            ],
+            "M_2__45__KETO__45__GLUTARAMATE_c": [
+                "host_metab_mod"
+            ],
+            "M_2__45__METHYLMALEATE_c": [
+                "host_metab_mod"
+            ],
+            "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+                "host_metab_mod"
+            ],
+            "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+                "host_metab_mod"
+            ],
+            "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_4__45__MALEYL__45__ACETOACETATE_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_4__45__OXOGLUTARAMATE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_4__45__P__45__PANTOTHENATE_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_8__45__Oxo__45__dGTP_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_ACETYL__45__P_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_ALPHA__45__GLC__45__6__45__P_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_ANTHRANILATE_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_B__45__ALANINE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_CDP__45__D__45__GLUCOSE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CHORISMATE_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD0__45__1699_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD0__45__181_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD8J2__45__27_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__10723_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__10791_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__11495_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__11555_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__12773_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__13043_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__13534_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__14931_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__15154_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__15190_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__16020_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__18118_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__1825_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__20260_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__20261_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__20262_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__20263_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__20264_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__21004_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__24335_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__24843_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__24844_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__24871_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__24926_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__25381_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__31_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__551_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__659_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__7066_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__8652_c": [
+                "host_metab_mod"
+            ],
+            "M_CPD__45__9646_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_CPD__45__9924_c": [
+                "host_metab_mod"
+            ],
+            "M_C__45__DI__45__GMP_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_DEOXY__45__RIBOSE__45__5P_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_DEPHOSPHO__45__COA_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_DIACETYL_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_DIHYDROXYINDOLE_c": [
+                "host_metab_mod"
+            ],
+            "M_DIHYDRO__45__DIOH__45__BENZOATE_c": [
+                "host_metab_mod"
+            ],
+            "M_DOPAQUINONE_c": [
+                "host_metab_mod"
+            ],
+            "M_ENOL__45__PHENYLPYRUVATE_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_FORMAMIDE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_FORMYL__45__ISOGLUTAMINE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_GLC__45__6__45__P_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_GLUCOSAMINE__45__1P_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_HISTIDINAL_c": [
+                "host_metab_mod"
+            ],
+            "M_HISTIDINOL_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_HIS_c": [
+                "Gemmata_massiliana_2",
+                "host_metab_mod"
+            ],
+            "M_HOMOGENTISATE_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_HOP__45__2229__45__ENE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_INDOLE_PYRUVATE_c": [
+                "host_metab_mod"
+            ],
+            "M_INDOLE__45__3__45__GLYCEROL__45__P_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_INDOLE_c": [
+                "host_metab_mod"
+            ],
+            "M_ISOCHORISMATE_c": [
+                "host_metab_mod"
+            ],
+            "M_ISOGLUTAMINE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_KDO__45__8P_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_L__45__DIHYDROXY__45__PHENYLALANINE_c": [
+                "host_metab_mod"
+            ],
+            "M_L__45__DOPACHROME_c": [
+                "host_metab_mod"
+            ],
+            "M_L__45__LACTATE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_METHYL__45__GLYOXAL_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_N__45__FORMYLKYNURENINE_c": [
+                "Gemmata_massiliana_2",
+                "host_metab_mod"
+            ],
+            "M_PANTETHEINE__45__P_c": [
+                "Gemmata_massiliana_2",
+                "host_metab_mod"
+            ],
+            "M_PANTOTHENATE_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_PHENYL__45__PYRUVATE_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_PHE_c": [
+                "host_metab_mod"
+            ],
+            "M_PREPHENATE_c": [
+                "Gemmata_massiliana_2",
+                "host_metab_mod"
+            ],
+            "M_P__45__AMINO__45__BENZOATE_c": [
+                "host_metab_mod"
+            ],
+            "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c": [
+                "host_metab_mod"
+            ],
+            "M_SQUALENE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_S__45__CITRAMALATE_c": [
+                "Gemmata_massiliana_2"
+            ],
+            "M_S__45__LACTOYL__45__GLUTATHIONE_c": [
+                "host_metab_mod"
+            ],
+            "M_TRP_c": [
+                "host_metab_mod",
+                "Gemmata_massiliana_2"
+            ],
+            "M_TYR_c": [
+                "Gemmata_massiliana_2",
+                "host_metab_mod"
+            ],
+            "M_UROCANATE_c": [
+                "Gemmata_massiliana_2",
+                "host_metab_mod"
+            ]
+        }
+    },
+    "one_model_targetsproducers": {
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_2__45__DEOXYRIBOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__KETO__45__GLUTARAMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYLMALEATE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_4__45__OXOGLUTARAMATE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_4__45__P__45__PANTOTHENATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_8__45__Oxo__45__dGTP_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_ACETYL__45__P_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_ALPHA__45__GLC__45__6__45__P_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_ANTHRANILATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_B__45__ALANINE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CDP__45__D__45__GLUCOSE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CHORISMATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD0__45__1699_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD0__45__181_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD8J2__45__27_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__10723_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__10791_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__11495_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__11555_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__12773_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__13043_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__13534_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__14931_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__15154_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15190_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__16020_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__18118_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__1825_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__20260_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20261_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20262_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20263_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20264_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__21004_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__24335_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__24843_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__24844_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__24871_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__24926_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__25381_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__31_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__551_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__659_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7066_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__8652_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9646_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__9924_c": [
+            "host_metab_mod"
+        ],
+        "M_C__45__DI__45__GMP_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_DEOXY__45__RIBOSE__45__5P_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_DEPHOSPHO__45__COA_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_DIACETYL_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_DIHYDROXYINDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_DOPAQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_ENOL__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_FORMAMIDE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_FORMYL__45__ISOGLUTAMINE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_GLC__45__6__45__P_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_GLUCOSAMINE__45__1P_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_HISTIDINAL_c": [
+            "host_metab_mod"
+        ],
+        "M_HISTIDINOL_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_HIS_c": [
+            "Gemmata_massiliana_2",
+            "host_metab_mod"
+        ],
+        "M_HOMOGENTISATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_HOP__45__2229__45__ENE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_INDOLE_PYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_INDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_ISOCHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_ISOGLUTAMINE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_KDO__45__8P_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DOPACHROME_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__LACTATE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_METHYL__45__GLYOXAL_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_N__45__FORMYLKYNURENINE_c": [
+            "Gemmata_massiliana_2",
+            "host_metab_mod"
+        ],
+        "M_PANTETHEINE__45__P_c": [
+            "Gemmata_massiliana_2",
+            "host_metab_mod"
+        ],
+        "M_PANTOTHENATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_PHENYL__45__PYRUVATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_PHE_c": [
+            "host_metab_mod"
+        ],
+        "M_PREPHENATE_c": [
+            "Gemmata_massiliana_2",
+            "host_metab_mod"
+        ],
+        "M_P__45__AMINO__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c": [
+            "host_metab_mod"
+        ],
+        "M_SQUALENE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_S__45__CITRAMALATE_c": [
+            "Gemmata_massiliana_2"
+        ],
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c": [
+            "host_metab_mod"
+        ],
+        "M_TRP_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_TYR_c": [
+            "Gemmata_massiliana_2",
+            "host_metab_mod"
+        ],
+        "M_UROCANATE_c": [
+            "Gemmata_massiliana_2",
+            "host_metab_mod"
+        ]
+    },
+    "producible": [
+        "M_CPD__45__18118_c",
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c",
+        "M_HISTIDINOL_c",
+        "M_CPD__45__11555_c",
+        "M_ISOCHORISMATE_c",
+        "M_KDO__45__8P_c",
+        "M_CPD__45__14931_c",
+        "M_CPD__45__20264_c",
+        "M_GLC__45__6__45__P_c",
+        "M_HIS_c",
+        "M_CPD__45__24335_c",
+        "M_CPD__45__20262_c",
+        "M_4__45__OXOGLUTARAMATE_c",
+        "M_CPD__45__25381_c",
+        "M_CPD__45__16020_c",
+        "M_INDOLE_PYRUVATE_c",
+        "M_ENOL__45__PHENYLPYRUVATE_c",
+        "M_CPD__45__24844_c",
+        "M_2__45__KETO__45__GLUTARAMATE_c",
+        "M_CPD__45__9924_c",
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c",
+        "M_B__45__ALANINE_c",
+        "M_8__45__Oxo__45__dGTP_c",
+        "M_2__45__DEOXYRIBOSE_c",
+        "M_CPD__45__13043_c",
+        "M_HISTIDINAL_c",
+        "M_HOP__45__2229__45__ENE_c",
+        "M_CPD__45__11495_c",
+        "M_HOMOGENTISATE_c",
+        "M_CPD__45__20260_c",
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c",
+        "M_DIHYDROXYINDOLE_c",
+        "M_GLUCOSAMINE__45__1P_c",
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c",
+        "M_CPD__45__10723_c",
+        "M_CPD__45__8652_c",
+        "M_4__45__FUMARYL__45__ACETOACETATE_c",
+        "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c",
+        "M_CPD__45__20263_c",
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c",
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c",
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c",
+        "M_ISOGLUTAMINE_c",
+        "M_CPD__45__24926_c",
+        "M_INDOLE_c",
+        "M_PREPHENATE_c",
+        "M_CPD__45__20261_c",
+        "M_UROCANATE_c",
+        "M_4__45__P__45__PANTOTHENATE_c",
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c",
+        "M_ACETYL__45__P_c",
+        "M_PANTETHEINE__45__P_c",
+        "M_ANTHRANILATE_c",
+        "M_PANTOTHENATE_c",
+        "M_L__45__DOPACHROME_c",
+        "M_DIACETYL_c",
+        "M_FORMYL__45__ISOGLUTAMINE_c",
+        "M_N__45__FORMYLKYNURENINE_c",
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c",
+        "M_CPD8J2__45__27_c",
+        "M_CPD__45__9646_c",
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c",
+        "M_PHENYL__45__PYRUVATE_c",
+        "M_CPD__45__15190_c",
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c",
+        "M_TYR_c",
+        "M_FORMAMIDE_c",
+        "M_CDP__45__D__45__GLUCOSE_c",
+        "M_CPD0__45__181_c",
+        "M_ALPHA__45__GLC__45__6__45__P_c",
+        "M_CPD__45__24843_c",
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c",
+        "M_CPD__45__12773_c",
+        "M_DOPAQUINONE_c",
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c",
+        "M_CPD__45__551_c",
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c",
+        "M_S__45__CITRAMALATE_c",
+        "M_CPD__45__15154_c",
+        "M_CPD__45__10791_c",
+        "M_4__45__MALEYL__45__ACETOACETATE_c",
+        "M_CPD__45__24871_c",
+        "M_CPD__45__21004_c",
+        "M_CPD__45__13534_c",
+        "M_CPD__45__659_c",
+        "M_CHORISMATE_c",
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c",
+        "M_METHYL__45__GLYOXAL_c",
+        "M_PHE_c",
+        "M_CPD0__45__1699_c",
+        "M_L__45__LACTATE_c",
+        "M_DEOXY__45__RIBOSE__45__5P_c",
+        "M_DEPHOSPHO__45__COA_c",
+        "M_TRP_c",
+        "M_2__45__METHYLMALEATE_c",
+        "M_P__45__AMINO__45__BENZOATE_c",
+        "M_CPD__45__1825_c",
+        "M_SQUALENE_c",
+        "M_CPD__45__31_c",
+        "M_CPD__45__7066_c",
+        "M_C__45__DI__45__GMP_c"
+    ],
+    "score_optimum_inter": "1",
+    "score_optimum_union": "1",
+    "still_unprod": [],
+    "union_bacteria": [
+        "Gemmata_massiliana_1",
+        "Gemmata_massiliana_2"
+    ],
+    "union_exchanged": [],
+    "union_targetsproducers": {
+        "M_10__45__FORMYL__45__DIHYDROFOLATE__45__GLU__45__N_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_2__45__5__45__TRIPHOSPHORIBOSYL__45__3__45__DEPHOSPHO__45___c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_2__45__DEOXYRIBOSE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__KETO__45__GLUTARAMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYLMALEATE_c": [
+            "host_metab_mod"
+        ],
+        "M_2__45__METHYL__45__6__45__SOLANYL__45__14__45__BENZOQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__AMINO__45__4__45__DEOXYCHORISMATE_c": [
+            "Gemmata_massiliana_1",
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_4__45__FUMARYL__45__ACETOACETATE_c": [
+            "host_metab_mod"
+        ],
+        "M_4__45__IMIDAZOLONE__45__5__45__PROPIONATE_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_4__45__MALEYL__45__ACETOACETATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_4__45__OXOGLUTARAMATE_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_4__45__P__45__PANTOTHENATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_7__45__AMINOMETHYL__45__7__45__DEAZAGUANINE_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_7__45__CYANO__45__7__45__DEAZAGUANINE_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_8__45__Oxo__45__dGTP_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_ACETYL__45__P_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_ALPHA__45__GLC__45__6__45__P_c": [
+            "Gemmata_massiliana_1",
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_ANTHRANILATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_B__45__ALANINE_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CARBOXYPHENYLAMINO__45__DEOXYRIBULOSE__45__P_c": [
+            "Gemmata_massiliana_1",
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CDP__45__D__45__GLUCOSE_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CHORISMATE_c": [
+            "Gemmata_massiliana_1",
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD0__45__1699_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD0__45__181_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD8J2__45__27_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__10723_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__10791_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__11495_c": [
+            "Gemmata_massiliana_1",
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__11555_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__12773_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__13043_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__13534_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__14931_c": [
+            "Gemmata_massiliana_1",
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__15154_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__15190_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__16020_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__18118_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__1825_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__20260_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20261_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20262_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20263_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__20264_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__21004_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__24335_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__24843_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__24844_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__24871_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__24926_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__25381_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__31_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__551_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_CPD__45__659_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__7066_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__8652_c": [
+            "host_metab_mod"
+        ],
+        "M_CPD__45__9646_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_CPD__45__9924_c": [
+            "host_metab_mod"
+        ],
+        "M_C__45__DI__45__GMP_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_DEOXY__45__RIBOSE__45__5P_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_DEPHOSPHO__45__COA_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_DIACETYL_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_DIHYDROXYINDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_DIHYDRO__45__DIOH__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_DOPAQUINONE_c": [
+            "host_metab_mod"
+        ],
+        "M_ENOL__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_FORMAMIDE_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_FORMYL__45__ISOGLUTAMINE_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_GLC__45__6__45__P_c": [
+            "Gemmata_massiliana_1",
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_GLUCOSAMINE__45__1P_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_HISTIDINAL_c": [
+            "host_metab_mod"
+        ],
+        "M_HISTIDINOL_c": [
+            "Gemmata_massiliana_1",
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_HIS_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1",
+            "host_metab_mod"
+        ],
+        "M_HOMOGENTISATE_c": [
+            "Gemmata_massiliana_1",
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_HOP__45__2229__45__ENE_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_INDOLE_PYRUVATE_c": [
+            "host_metab_mod"
+        ],
+        "M_INDOLE__45__3__45__GLYCEROL__45__P_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_INDOLE_c": [
+            "host_metab_mod"
+        ],
+        "M_ISOCHORISMATE_c": [
+            "host_metab_mod"
+        ],
+        "M_ISOGLUTAMINE_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_KDO__45__8P_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_L__45__DIHYDROXY__45__PHENYLALANINE_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__DOPACHROME_c": [
+            "host_metab_mod"
+        ],
+        "M_L__45__LACTATE_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_METHYL__45__GLYOXAL_c": [
+            "Gemmata_massiliana_1",
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_N__45__5__45__PHOSPHORIBOSYL__45__ANTHRANILATE_c": [
+            "Gemmata_massiliana_1",
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_N__45__FORMIMINO__45__L__45__GLUTAMATE_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_N__45__FORMYLKYNURENINE_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1",
+            "host_metab_mod"
+        ],
+        "M_PANTETHEINE__45__P_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1",
+            "host_metab_mod"
+        ],
+        "M_PANTOTHENATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_PHENYL__45__PYRUVATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_PHE_c": [
+            "host_metab_mod"
+        ],
+        "M_PREPHENATE_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1",
+            "host_metab_mod"
+        ],
+        "M_P__45__AMINO__45__BENZOATE_c": [
+            "host_metab_mod"
+        ],
+        "M_P__45__HYDROXY__45__PHENYLPYRUVATE_c": [
+            "host_metab_mod",
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_R__45__4__45__PHOSPHOPANTOTHENOYL__45__L__45__CYSTEINE_c": [
+            "host_metab_mod"
+        ],
+        "M_SQUALENE_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1"
+        ],
+        "M_S__45__CITRAMALATE_c": [
+            "Gemmata_massiliana_1",
+            "Gemmata_massiliana_2"
+        ],
+        "M_S__45__LACTOYL__45__GLUTATHIONE_c": [
+            "host_metab_mod"
+        ],
+        "M_TRP_c": [
+            "Gemmata_massiliana_1",
+            "host_metab_mod",
+            "Gemmata_massiliana_2"
+        ],
+        "M_TYR_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1",
+            "host_metab_mod"
+        ],
+        "M_UROCANATE_c": [
+            "Gemmata_massiliana_2",
+            "Gemmata_massiliana_1",
+            "host_metab_mod"
+        ]
+    }
+}
