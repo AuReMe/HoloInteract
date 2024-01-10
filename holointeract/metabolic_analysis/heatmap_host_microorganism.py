@@ -187,8 +187,8 @@ def heatmap(df: pandas.DataFrame, output_heatmap: str, output_clusters: str,  me
     plt.setp(plot.ax_heatmap.yaxis.get_majorticklabels(), rotation=0)
     labels = sorted(assoc_clust_color.keys())
     handles = [Patch(facecolor=assoc_clust_color[c]) for c in labels]
-    plt.legend(handles, labels, title='Cluster', bbox_to_anchor=(1, 1), bbox_transform=plt.gcf().transFigure,
-               loc='upper right')
+    plt.legend(handles, labels, title='Cluster', bbox_to_anchor=(1, 1.05), bbox_transform=plt.gcf().transFigure,
+               loc='upper right', ncol=max_clust)
 
     plot.savefig(output_heatmap)
 

@@ -126,6 +126,7 @@ def create_abbreviation_names_dict(community_sbml_path: str, hosts_sbml_path: st
     Dict[str, str]
         Dictionary associating for each host and each microorganism name, its abbreviated name
     """
+    are_inputs_ok(community_sbml_path, hosts_sbml_path)
     name_assoc = dict()
     host_list = [x.split('.')[0] for x in os.listdir(hosts_sbml_path)]
     for host in host_list:
