@@ -8,7 +8,7 @@ import logging
 import sys
 from argparse import ArgumentParser
 from rich.traceback import install
-from ontosunburst.class_metabolites import proportion_workflow
+from ontosunburst.ontosunburst import ontosunburst, METACYC
 
 from holointeract.metabolic_analysis.scopes_community import (community_scopes, SCOPES_STR,
                                                               SOLO_METHOD, COOP_METHOD, FULL_METHOD)
@@ -197,7 +197,7 @@ def metabolic_analysis(community_networks_path: str, host_networks_path: str, ou
     logging.info('Metabolic classes information analysis :\n'
                  '----------------------------------------\n')
     output_info = output_heatmap + '_classes_cpd_info'
-    proportion_workflow(set(all_metabolites), output=output_info)
+    ontosunburst(ontology=METACYC, metabolic_objects=set(all_metabolites), output=output_info)
     merge_outputs(f'{output_heatmap}_clusters.tsv', f'{output_info}.tsv')
     logging.info(f'Metabolic classes sunburst stored in {output_info}.html file\n'
                  f'Metabolic classes information stored in {output_info}.tsv file\n')
