@@ -90,13 +90,13 @@ def get_abbr_name(name: str, name_assoc: Dict[str, str], prefix: str = None) -> 
         if e == decomposition[0]:
             new_name += e[0].upper()
         elif e == decomposition[1]:
-            if len(e) > 4:
-                new_name += e[0].upper() + e[1:4].lower()
+            if len(e) > 10:
+                new_name += e[0].upper() + e[1:10].lower()
             else:
                 new_name += e[0].upper() + e[1:].lower()
         elif new_name in name_assoc.values():
-            if len(e) > 4:
-                new_name += e[0].upper() + e[1:4].lower()
+            if len(e) > 10:
+                new_name += e[0].upper() + e[1:10].lower()
             else:
                 new_name += e[0].upper() + e[1:].lower()
     j = 0
