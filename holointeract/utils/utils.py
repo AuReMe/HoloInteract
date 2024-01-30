@@ -87,17 +87,13 @@ def get_abbr_name(name: str, name_assoc: Dict[str, str], prefix: str = None) -> 
         name = name.replace(c, '_')
     decomposition = name.split('_')
     for e in decomposition:
-        if e == decomposition[0]:
-            new_name += e[0].upper()
+        if e == decomposition[0]: new_name += e[0].upper()
         elif e == decomposition[1]:
-            if len(e) > 4:
-                new_name += e[0].upper() + e[1:4].lower()
-            else:
-                new_name += e[0].upper() + e[1:].lower()
+            if len(e) > 4: new_name += e[0].upper() + e[1:4].lower()
+            else: new_name += e[0].upper() + e[1:].lower()
         elif new_name in name_assoc.values():
-                new_name += e[0].upper() + e[1:4].lower()
-            else:
-                new_name += e[0].upper() + e[1:].lower()
+            if len(e) > 4: new_name += e[0].upper() + e[1:4].lower()
+            else: new_name += e[0].upper() + e[1:].lower()
     j = 0
     while new_name in name_assoc.values():
         j += 1
