@@ -143,9 +143,10 @@ def solo_method_scopes(h_comm_path: str, output_dir: str, host_name: str, temp_p
         c_name = c_sbml.split('.')[0]
         c_sbml_path = os.path.join(h_comm_path, c_sbml)
         h_c_output = os.path.join(output_dir, name_assoc[f'{host_name}_{c_name}'])
-        tmp_com_path = duplicate_networks_temp(c_sbml_path, temp_path, c_name)
-        metacom_analysis(tmp_com_path, h_c_output, seeds, h_sbml_path, None, cpu)
-        shutil.rmtree(tmp_com_path)
+        if not os.path.exists(h_c_output):
+          tmp_com_path = duplicate_networks_temp(c_sbml_path, temp_path, c_name)
+          metacom_analysis(tmp_com_path, h_c_output, seeds, h_sbml_path, None, cpu)
+          shutil.rmtree(tmp_com_path)
 
 
 def full_method_scopes(h_comm_path: str, output_dir: str, host_name: str, temp_path: str, seeds: str, h_sbml_path: str,
@@ -179,9 +180,9 @@ def full_method_scopes(h_comm_path: str, output_dir: str, host_name: str, temp_p
         c_name = c_sbml.split('.')[0]
         c_sbml_path = os.path.join(h_comm_path, c_sbml)
         h_c_output = os.path.join(output_dir, name_assoc[host_name] + '_' + name_assoc[f'{comm_host}_{c_name}'])
-        tmp_com_path = duplicate_networks_temp(c_sbml_path, temp_path, c_name)
-        metacom_analysis(tmp_com_path, h_c_output, seeds, h_sbml_path, None, cpu)
-        shutil.rmtree(tmp_com_path)
+        if not os.path.exists(h_c_output):  
+          tmp_com_path = duplicate_networks_temp(c_sbml_path, temp_path, c_name)
+          metacom_analysis(tmp_com_path, h_c_output, seeds, h_sbml_path, None, cpu)
 
 
 def duplicate_networks_temp(microorganism_sbml_path: str, temp_path: str, microorganism_name: str) -> str:
