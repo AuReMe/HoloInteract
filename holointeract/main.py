@@ -8,6 +8,7 @@ import logging
 import sys
 from argparse import ArgumentParser
 from rich.traceback import install
+from pathlib import Path
 from ontosunburst.ontosunburst import ontosunburst, METACYC
 
 from holointeract.metabolic_analysis.scopes_community import (community_scopes, SCOPES_STR,
@@ -165,12 +166,17 @@ def metabolic_analysis(community_networks_path: str, host_networks_path: str, ou
     name_assoc = create_abbreviation_names_dict(community_networks_path, host_networks_path,
                                                 output_path)
     logging.info(f'Abbreviation names stored in {output_path}/name_assoc.json\n')
+                         
+    scopes_path = os.path.join(output_path, SCOPES_STR, scopes_method)
+    # CALCULATION OF PARAMETERS TO CHECK IF THE SCOPE CALCULATION IS OVER
+    comm_num = len([f for f in Path(community_networks_path).rglob('*.sbml') if f.is_file()])
+    host_num = len([f for f in Path(host_networks_path).rglob('*.sbml') if f.is_file()])
+    output_dir_num = len([f for f in Path(scopes_path).rglob('*targets.json') if f.is_file()])
 
     # SCOPES CALCULATION
     logging.info('Community scopes :\n'
                  '------------------\n')
-    scopes_path = os.path.join(output_path, SCOPES_STR, scopes_method)
-    if not os.path.exists(scopes_path):
+    if not os.path.exists(scopes_path) or (scopes_method == SOLO_METHOD and output_dir_num < comm_num) or (scopes_method == COOP_METHOD and output_dir_num < host_num) or (scopes_method == FULL_METHOD and output_dir_num < comm_num * host_num):
         logging.info(f'Scopes calculation with {scopes_method} method to {scopes_path} directory\n')
         community_scopes(community_sbml_path=community_networks_path,
                          hosts_sbml_path=host_networks_path, output_dir=output_path, seeds=seeds,
