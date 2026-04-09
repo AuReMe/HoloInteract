@@ -7,7 +7,7 @@ from typing import Dict, Tuple
 
 
 SP_CHAR = ['__', '-', '.', ' ']
-
+MAXINMAL_LENGTH = 4
 
 # DIVERSE
 # ==================================================================================================
@@ -80,6 +80,11 @@ def get_abbr_name(name: str, name_assoc: Dict[str, str], prefix: str = None) -> 
     str
         Abbreviated name of the species
     """
+    if len(name) <= MAXINMAL_LENGTH+1:
+        if prefix is not None:
+            return prefix + '_' + name
+        return name
+            
     new_name = ''
     if prefix is not None:
         new_name += prefix + '_'
@@ -89,10 +94,10 @@ def get_abbr_name(name: str, name_assoc: Dict[str, str], prefix: str = None) -> 
     for e in decomposition:
         if e == decomposition[0]: new_name += e[0].upper()
         elif e == decomposition[1]:
-            if len(e) > 4: new_name += e[0].upper() + e[1:4].lower()
+            if len(e) > MAXINMAL_LENGTH: new_name += e[0].upper() + e[1:MAXINMAL_LENGTH].lower()
             else: new_name += e[0].upper() + e[1:].lower()
         elif new_name in name_assoc.values():
-            if len(e) > 4: new_name += e[0].upper() + e[1:4].lower()
+            if len(e) > MAXINMAL_LENGTH: new_name += e[0].upper() + e[1:MAXINMAL_LENGTH].lower()
             else: new_name += e[0].upper() + e[1:].lower()
     j = 0
     while new_name in name_assoc.values():
