@@ -1,6 +1,7 @@
 import json
 import logging
 import os.path
+import csv
 import pandas as pd
 from ete3 import Tree
 from typing import Dict, Tuple
@@ -163,6 +164,43 @@ def load_name_assoc_file(name_assoc_directory_path: str) -> Dict[str, str]:
     with open(name_assoc_file_path, 'r') as f:
         name_assoc_dict = json.load(f)
     return name_assoc_dict
+
+
+def dict_to_csv(data, head, output_file, is_list: bool = True, is_precursors: bool = False):
+     """The input dictionary is written into a CSV file.
+     There is a special case for output_reactions_precursors.tsv files. In
+     these files, sets of precursor metabolites inside reversible reactions
+     must be distinguished because to reach a metabolite, it must reach either
+     set A or set B (but not both sets).
+
+    Parameters
+    ----------
+    data: Dict[str, set(str)] or Dict[str, list(str)] or Dict[str, int]
+      Data to print in a CSV file.
+    head: List(str)
+      Headers for data to be printed.
+    output_file: str
+      Filename of data to be printed
+    is_list: bool
+      True if the values of data are a list, and False otherwise.
+    is_precursors: bool
+      True if the specified data is a reactions_precurs dictionary, and False
+    otherwise.
+    """
+     with open(output_file, 'w') as f:
+         writer = csv.writer(f, delimiter='\t')
+         writer.writerow(head)
+         for key in sorted(data.keys()):
+             if is_precursors:
+                 if len(data[key]) == 1:
+                     writer.writerow([key, ','.join(list(data[key][0]))])
+                 elif len(data[key]) == 2:
+                     writer.writerow([key, '('+') OR ('.join([','.join(list(data[key][0])), ','.join(list(data[key][1]))])+')'])
+             # In this case, it is a list.
+             elif is_list and not is_precursors:
+                 writer.writerow([key, ", ".join(list(data[key]))])
+             elif not is_list:
+                 writer.writerow([key, data[key]])
 
 
 # METABOLIC ANALYSIS
