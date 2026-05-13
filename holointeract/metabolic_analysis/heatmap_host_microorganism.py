@@ -144,11 +144,11 @@ def rename_metabolites(metabolites: Set[str]) -> Set[str]:
 
 def heatmap(df: pandas.DataFrame, output_heatmap: str, output_clusters: str,  method: str, max_clust: int):
     """Generate a heatmap from the DataFrame indicating how each metabolite is produced for each host
-    0 = Not produced (grey : #adb8be)
-    1 = Only Holobiont (green : #4c5923)
-    2 = Only Host (blue : #162e4e)
-    3 = Only Bact (red : #4b0e0e)
-    4 = Host AND Bact (purple : #673c84)
+    0 = Not produced (grey: #a6acaf)
+    1 = Only Holobiont (blue: #5693b3)
+    2 = Only Host (green: #8dc28a)
+    3 = Only Bact (brown: #842411)
+    4 = Host AND Bact (purple: #6e3aa1)
 
     Parameters
     ----------
@@ -175,8 +175,8 @@ def heatmap(df: pandas.DataFrame, output_heatmap: str, output_clusters: str,  me
         colors.append(rgb_color)
         assoc_clust_color[c] = rgb_color
     clusters_color = pandas.Series(colors, index=df.index)
-    #        grey       green      blue       red        purple
-    cmap = ['#adb8be', '#4c5923', '#162e4e', '#4b0e0e', '#673c84']
+    #        grey       blue        green      brown      purple
+    cmap = ['#a6acaf', '#5693b3', '#8dc28a', '#842411', '#6e3aa1']
     ticks_labels = ['0 Not produced', '1 Holobiont only', '2 Host only', '3 Bacteria only', '4 Host AND Bacteria']
     df = df.T
     plot = seaborn.clustermap(df, cmap=cmap, cbar_pos=(0.01, 0.885, 0.01, 0.1), figsize=(30, 15), method=method,
