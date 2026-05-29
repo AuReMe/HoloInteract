@@ -183,6 +183,7 @@ def full_method_scopes(h_comm_path: str, output_dir: str, host_name: str, temp_p
         if not os.path.exists(h_c_output):  
           tmp_com_path = duplicate_networks_temp(c_sbml_path, temp_path, c_name)
           metacom_analysis(tmp_com_path, h_c_output, seeds, h_sbml_path, None, cpu)
+          shutil.rmtree(tmp_com_path)
 
 
 def duplicate_networks_temp(microorganism_sbml_path: str, temp_path: str, microorganism_name: str) -> str:
