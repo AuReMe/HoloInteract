@@ -204,7 +204,7 @@ def metabolic_analysis(community_networks_path: str, host_networks_path: str, ou
                  '----------------------------------------\n')
     output_info = output_heatmap + '_classes_cpd_info'
     ontosunburst(ontology=METACYC, interest_set=all_metabolites, output=output_info, show_leaves=True)
-    merge_outputs(f'{output_heatmap}_clusters.tsv', f'{output_info}.tsv')
+    #merge_outputs(f'{output_heatmap}_clusters.tsv', f'{output_info}.tsv')
     logging.info(f'Metabolic classes sunburst stored in {output_info}.html file\n'
                  f'Metabolic classes information stored in {output_info}.tsv file\n')
     logging.info('Metabolic classes information analysis done\n'
