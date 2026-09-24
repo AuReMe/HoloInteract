@@ -220,7 +220,7 @@ def merge_outputs(file_cluster: str, file_info: str):
         Path to <output_info>.tsv from proportion_workflow function
     """
     df_clust = pd.read_csv(file_cluster, delimiter='\t', index_col='Compound')
-    df_info = pd.read_csv(file_info, delimiter='\t', index_col='Compound')
+    df_info = pd.read_csv(file_info, delimiter='\t', index_col='Onto ID')
     merge_df = df_clust.join(df_info)
     os.remove(file_cluster)
     os.remove(file_info)
